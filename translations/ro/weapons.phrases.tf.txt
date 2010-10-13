@@ -1,0 +1,295 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"ro"	"Bâtă"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"ro"	"Sticlă"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"ro"	"Topor"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"ro"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"ro"	"Cuţit"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"ro"	"Pumni"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"ro"	"Lopată"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"ro"	"Cheie Franceză"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"ro"	"Fierăstrău"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"ro"	"Puşcă"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"ro"	"Puşcă cu Alice"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"ro"	"Puşcă cu Luneta"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"ro"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"ro"	"Pistol Mitralieră"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"ro"	"Armă cu Seringi"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"ro"	"Lansator Rachete"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"ro"	"Aruncător Grenade"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"ro"	"Lansator Bombe Lipicioase"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"ro"	"Aruncător de Flăcări"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"ro"	"Pistol"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"ro"	"Revolver"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"ro"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"ro"	"Vindecător"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"ro"	"Ceas Invizibilitate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"ro"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"ro"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"ro"	"Über Fierăstrău"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"ro"	"Extinctopor"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"ro"	"Pistol de Semnalizare"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"ro"	"Arzător de Spate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"ro"	"Nataşa"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"ro"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"ro"	"Manuşile Mortale de Box (KGB)"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"ro"	"Moş Ene"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"ro"	"Forţ-A-Naturii"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"ro"	"Bonk! Energizant Atomic"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"ro"	"Vânător de Oameni"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"ro"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"ro"	"Şuşu"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"ro"	"Ceasul Morţii"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"ro"	"Pelerină şi Pumnal"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"ro"	"Ambasador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"ro"	"Lovitură Directă"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"ro"	"Egalizator"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"ro"	"Steguleţ"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"ro"	"Rezistenţă Scoţiană"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"ro"	"Scut Şarjator"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"ro"	"Ochiolander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"ro"	"Cizme Blindate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"ro"	"Controlor"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"ro"	"Justiţiar a Frontierei"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"ro"	"Pistolar"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"ro"	"Homewrecker"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"ro"	"Trenul Durerii"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"ro"	"Ospitalitate din Sud"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"ro"	"Ciocolată Dalokohs"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"ro"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"ro"	"Cuţitul Nativului"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"ro"	"Călăul Scoţianului"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"ro"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"ro"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"ro"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"ro"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"ro"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"ro"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"ro"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"ro"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"ro"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"ro"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"ro"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"ro"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"ro"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"ro"	"Rocket Jumper"
+	}
+}

@@ -1,0 +1,299 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"ru"	"Бита"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"ru"	"Бутылка"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"ru"	"Пожарный топорик"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"ru"	"Кукри"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"ru"	"Нож"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"ru"	"Кулаки"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"ru"	"Лопата"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"ru"	"Гаечный ключ"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"ru"	"Медицинская пила"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"ru"	"Дробовик"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"ru"	"Обрез"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"ru"	"Снайперская винтовка"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"ru"	"Пулемет"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"ru"	"ППМ"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"ru"	"Шприцемет"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"ru"	"Ракетомет"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"ru"	"Гранатомет"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"ru"	"Липучкомет"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"ru"	"Огнемет"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"ru"	"Пистолет"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"ru"	"Револьвер"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"ru"	"КПК"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"ru"	"Лечебная пушка"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"ru"	"Часы невидимости"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"ru"	"Крицкриг"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"ru"	"Кровосос"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"ru"	"Убер-пила"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"ru"	"Огнетопор"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"ru"	"Ракетница"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"ru"	"Дожигатель"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"ru"	"Наташа"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"ru"	"Бутерброд"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"ru"	"Феноменальная Сила Боксера"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"ru"	"Дрёма"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"ru"	"Неумолимая сила"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"ru"	"Бонк! Атомный залп"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"ru"	"Охотник"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"ru"	"Бронепанцирь"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"ru"	"Банкате"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"ru"	"Звон смерти"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"ru"	"Невидимый кинжал"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"ru"	"Амбассадор"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"ru"	"Прямое попадание"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"ru"	"Уравнитель"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"ru"	"Вдохновляющее знамя"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"ru"	"Шотландское сопротивление"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"ru"	"Штурмовой щит"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"ru"	"Одноглазый горец"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"ru"	"Штурмботинки"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"ru"	"Поводырь"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"ru"	"Самосуд"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"ru"	"Оружейник"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"ru"	"Крушитель"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"ru"	"Дубина с гвоздем"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"ru"	"Южное гостеприимство"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"ru"	"Плитка Далокош"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"ru"	"Крито-кола"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"ru"	"Заточка дикаря"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"ru"	"Шотландский головорез"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"ru"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"ru"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"ru"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"ru"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"ru"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"ru"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"ru"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"ru"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"ru"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"ru"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"ru"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"ru"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"ru"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"ru"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"ru"	"Перчатки срочной спешки"
+	}
+}

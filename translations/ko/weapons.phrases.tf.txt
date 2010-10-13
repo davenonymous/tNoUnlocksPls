@@ -1,0 +1,275 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"ko"	"야구방망이"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"ko"	"병"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"ko"	"불도끼"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"ko"	"쿠크리"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"ko"	"칼"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"ko"	"주먹"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"ko"	"삽"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"ko"	"렌치"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"ko"	"본쏘우"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"ko"	"샷건"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"ko"	"스캐터건"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"ko"	"저격총"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"ko"	"미니건"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"ko"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"ko"	"주사기 건"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"ko"	"로켓 발사기"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"ko"	"수류탄 발사기"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"ko"	"점착 폭탄 발사기"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"ko"	"화염 방사기"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"ko"	"권총"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"ko"	"권총"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"ko"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"ko"	"메디 건"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"ko"	"투명 시계"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"ko"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"ko"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"ko"	"Ubersaw"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"ko"	"Axtinguisher"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"ko"	"Flare Gun"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"ko"	"Backburner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"ko"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"ko"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"ko"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"ko"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"ko"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"ko"	"Bonk! Atomic Punch"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"ko"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"ko"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"ko"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"ko"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"ko"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"ko"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"ko"	"Direct Hit"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"ko"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"ko"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"ko"	"Scottish Resistance"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"ko"	"Chargin\' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"ko"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"ko"	"Gunboats"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"ko"	"Homewrecker"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"ko"	"Pain Train"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"ko"	"Dalokohs Bar"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"ko"	"부족민의 칼"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"ko"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"ko"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"ko"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"ko"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"ko"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"ko"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"ko"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"ko"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"ko"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"ko"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"ko"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"ko"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"ko"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"ko"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"ko"	"긴급 질주 글러브"
+	}
+}

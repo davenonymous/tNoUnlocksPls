@@ -1,0 +1,299 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"de"	"Keule"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"de"	"Flasche"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"de"	"Feueraxt"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"de"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"de"	"Messer"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"de"	"Fäuste"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"de"	"Schaufel"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"de"	"Schraubenschlüssel"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"de"	"Knochensäge"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"de"	"Schrotflinte"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"de"	"Schrotflinte"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"de"	"Sniper-Gewehr"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"de"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"de"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"de"	"Spritzen-MG"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"de"	"Raketenwerfer"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"de"	"Granatenwerfer"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"de"	"Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"de"	"Flammenwerfer"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"de"	"Pistole"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"de"	"Revolver"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"de"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"de"	"Medigun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"de"	"Unsichtbarkeitsuhr"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"de"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"de"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"de"	"Übersäge"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"de"	"Axtinator"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"de"	"Leuchtpistole"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"de"	"Rückenschmorer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"de"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"de"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"de"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"de"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"de"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"de"	"Bonk! Energy Drink"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"de"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"de"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"de"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"de"	"Scheintoduhr"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"de"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"de"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"de"	"Direkter Treffer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"de"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"de"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"de"	"Schottischer Widerstand"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"de"	"Chargin\' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"de"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"de"	"Raketenstiefel"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"de"	"Der Sentry-Flüsterer"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"de"	"Selbstjustiz"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"de"	"Gunslinger"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"de"	"Homewrecker"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"de"	"Pain Train"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"de"	"Texanische Gastfreundschaft"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"de"	"Dalokohs Bar"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"de"	"Krit-\'n-Cola"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"de"	"Stammesklinge"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"de"	"Schottischer Schädelspalter"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"de"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"de"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"de"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"de"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"de"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"de"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"de"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"de"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"de"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"de"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"de"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"de"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"de"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"de"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"de"	"Handschuhe der schnellen Flucht"
+	}
+}

@@ -1,0 +1,271 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"no"	"Balltre"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"no"	"Flaske"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"no"	"Brannøks"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"no"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"no"	"Kniv"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"no"	"Knyttnever"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"no"	"Spade"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"no"	"Skiftenøkkel"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"no"	"Sag"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"no"	"Hagle"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"no"	"Avsagd hagle"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"no"	"Snikskytterrifle"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"no"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"no"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"no"	"Sprøytepistol"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"no"	"Rakettutskyter"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"no"	"Granatkaster"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"no"	"Klisterbombekaster"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"no"	"Flammekaster"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"no"	"Pistol"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"no"	"Revolver"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"no"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"no"	"Førstehjelpspistol"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"no"	"Usynlig klokke"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"no"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"no"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"no"	"Ubersaw"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"no"	"Axtinguisher"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"no"	"Flare Gun"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"no"	"Backburner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"no"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"no"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"no"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"no"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"no"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"no"	"Bonk! Atomic Punch"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"no"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"no"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"no"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"no"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"no"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"no"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"no"	"Direct Hit"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"no"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"no"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"no"	"Scottish Resistance"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"no"	"Chargin\' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"no"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"no"	"Gunboats"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"no"	"Homewrecker"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"no"	"Pain Train"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"no"	"Dalokohs Bar"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"no"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"no"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"no"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"no"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"no"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"no"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"no"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"no"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"no"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"no"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"no"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"no"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"no"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"no"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"no"	"Gloves of Running Urgently"
+	}
+}

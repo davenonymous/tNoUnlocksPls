@@ -1,0 +1,283 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"chi"	"短棍"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"chi"	"瓶子"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"chi"	"消防斧"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"chi"	"反曲刀"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"chi"	"刀子"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"chi"	"拳头"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"chi"	"铁锹"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"chi"	"扳手"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"chi"	"骨锯"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"chi"	"霰弹枪"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"chi"	"散弹枪"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"chi"	"狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"chi"	"转轮机枪"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"chi"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"chi"	"注射枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"chi"	"火箭发射器"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"chi"	"榴弹发射器"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"chi"	"粘性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"chi"	"火焰喷射器"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"chi"	"手枪"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"chi"	"左轮手枪"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"chi"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"chi"	"医疗枪"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"chi"	"隐形手表"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"chi"	"闪电战医疗枪"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"chi"	"吸血鬼针筒枪"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"chi"	"过载充能锯"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"chi"	"灭火器斧"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"chi"	"信号枪"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"chi"	"偷袭烈焰喷射器"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"chi"	"娜塔莎转轮机枪"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"chi"	"三维治"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"chi"	"克格勃杀戮拳击手套"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"chi"	""
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"chi"	""
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"chi"	"原子能饮料"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"chi"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"chi"	"电击背脊盾"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"chi"	"瓶手道尿瓶"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"chi"	"死亡顶替者怀表"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"chi"	"隐秘刺杀者运动表"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"chi"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"chi"	""
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"chi"	"十字镐"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"chi"	"战旗"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"chi"	""
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"chi"	"冲锋盾"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"chi"	"苏格兰长剑"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"chi"	""
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"chi"	""
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"chi"	"钉棍"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"chi"	"巧克力块"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"chi"	"暴击可乐"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"chi"	"部落者刮刀"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"chi"	"苏格兰颅骨切割者"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"chi"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"chi"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"chi"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"chi"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"chi"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"chi"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"chi"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"chi"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"chi"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"chi"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"chi"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"chi"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"chi"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"chi"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"chi"	"紧急逃跑手套"
+	}
+}

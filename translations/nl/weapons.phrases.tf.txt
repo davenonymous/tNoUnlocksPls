@@ -1,0 +1,299 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"nl"	"Knuppel"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"nl"	"Fles"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"nl"	"Vuurbijl"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"nl"	"Kukri-mes"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"nl"	"Mes"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"nl"	"Vuisten"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"nl"	"Spade"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"nl"	"Moersleutel"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"nl"	"Bottenzaag"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"nl"	"Shotgun"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"nl"	"Scattergun"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"nl"	"Snipergeweer"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"nl"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"nl"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"nl"	"Injectiepistool"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"nl"	"Raketwerper"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"nl"	"Granaatwerper"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"nl"	"Kleefbommenwerper"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"nl"	"Vlammenwerper"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"nl"	"Pistool"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"nl"	"Revolver"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"nl"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"nl"	"Medigun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"nl"	"Onzichtbaarheidshorloge"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"nl"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"nl"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"nl"	"Ubersaw"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"nl"	"Axtinguisher"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"nl"	"Flare Gun"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"nl"	"Backburner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"nl"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"nl"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"nl"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"nl"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"nl"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"nl"	"Bonk! Atomic Punch"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"nl"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"nl"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"nl"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"nl"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"nl"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"nl"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"nl"	"Direct Hit"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"nl"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"nl"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"nl"	"Scottish Resistance"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"nl"	"Chargin\' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"nl"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"nl"	"Gunboats"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"nl"	"Wrangler"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"nl"	"Frontier Justice"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"nl"	"Gunslinger"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"nl"	"Homewrecker"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"nl"	"Pain Train"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"nl"	"Southern Hospitality"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"nl"	"Dalokohs Bar"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"nl"	"Crit-de-Cola"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"nl"	"Stammenman zijn Shiv"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"nl"	"Schotsman zijn Schedelbreker"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"nl"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"nl"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"nl"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"nl"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"nl"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"nl"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"nl"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"nl"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"nl"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"nl"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"nl"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"nl"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"nl"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"nl"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"nl"	"De Haastige Handschoenen"
+	}
+}

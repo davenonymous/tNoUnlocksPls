@@ -1,0 +1,287 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"es"	"Bate"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"es"	"Botella"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"es"	"Hacha de bombero"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"es"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"es"	"Mariposa"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"es"	"Puños"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"es"	"Pala"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"es"	"Llave inglesa"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"es"	"Serrucho"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"es"	"Escopeta"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"es"	"Escopeta"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"es"	"Rifle de francotirador"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"es"	"Ametralladora"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"es"	"Metralleta"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"es"	"Pistola de jeringas"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"es"	"Lanzacohetes"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"es"	"Lanzagranadas"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"es"	"Lanzabombas lapa"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"es"	"Lanzallamas"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"es"	"Pistola"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"es"	"Revólver"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"es"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"es"	"Pistola médica"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"es"	"Reloj de invisibilidad"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"es"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"es"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"es"	"Ubersaw"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"es"	"Axtinguisher"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"es"	"Flare Gun"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"es"	"Backburner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"es"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"es"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"es"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"es"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"es"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"es"	"Bonk! Atomic Punch"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"es"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"es"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"es"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"es"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"es"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"es"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"es"	"Direct Hit"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"es"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"es"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"es"	"Scottish Resistance"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"es"	"Chargin\' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"es"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"es"	"Gunboats"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"es"	"El Demoledor"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"es"	"Pain Train"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"es"	"La Hospitalidad Sureña"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"es"	"Chocolatina Dalokohs"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"es"	"Criticola"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"es"	"Cuchilla Tribal"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"es"	"El  Corta-Cráneos Escocés"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"es"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"es"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"es"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"es"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"es"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"es"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"es"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"es"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"es"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"es"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"es"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"es"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"es"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"es"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"es"	"Guantes de Rapidez Ultraterrena"
+	}
+}

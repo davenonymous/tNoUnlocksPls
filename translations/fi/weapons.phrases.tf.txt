@@ -1,0 +1,299 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"fi"	"Maila"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"fi"	"Pullo"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"fi"	"Palokirves"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"fi"	"Kukri-veitsi"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"fi"	"Veitsi"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"fi"	"Nyrkit"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"fi"	"Lapio"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"fi"	"Jakoavain"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"fi"	"Luusaha"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"fi"	"Haulikko"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"fi"	"Haulikko"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"fi"	"Tarkkuuskivääri"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"fi"	"Konekivääri"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"fi"	"Konepistooli"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"fi"	"Ruiskuase"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"fi"	"Raketinheitin"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"fi"	"Kranaatinheitin"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"fi"	"Tahmapommin laukaisin"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"fi"	"Liekinheitin"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"fi"	"Pistooli"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"fi"	"Revolveri"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"fi"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"fi"	"Lääkintäase"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"fi"	"Näkymättömyyskello"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"fi"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"fi"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"fi"	"Ubersaw"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"fi"	"Axtinguisher"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"fi"	"Flare Gun"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"fi"	"Selänpoltin"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"fi"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"fi"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"fi"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"fi"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"fi"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"fi"	"Bonk! Atomic Punch"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"fi"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"fi"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"fi"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"fi"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"fi"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"fi"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"fi"	"Direct Hit"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"fi"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"fi"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"fi"	"Scottish Resistance"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"fi"	"Chargin\' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"fi"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"fi"	"Gunboats"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"fi"	"Kaukopaimen"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"fi"	"Rintamaoikeus"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"fi"	"Karjakoura"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"fi"	"Kodinrikkoja"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"fi"	"Pain Train"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"fi"	"Etelän vieraanvaraisuus"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"fi"	"Dalokohs Bar"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"fi"	"Krittikola"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"fi"	"Tribalman\'s Shiv"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"fi"	"Skotlantilainen saksenterä"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"fi"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"fi"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"fi"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"fi"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"fi"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"fi"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"fi"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"fi"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"fi"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"fi"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"fi"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"fi"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"fi"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"fi"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"fi"	"Pikajuoksuhanskat"
+	}
+}

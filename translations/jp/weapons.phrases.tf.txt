@@ -1,0 +1,271 @@
+﻿"Phrases"
+{
+	"TF_WEAPON_BAT"
+	{
+		"jp"	"バット"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"jp"	"ボトル"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"jp"	"消防斧"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"jp"	"ククリ刀"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"jp"	"ナイフ"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"jp"	"拳"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"jp"	"シャベル"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"jp"	"スパナ"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"jp"	"骨用電ノコ"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"jp"	"ショットガン"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"jp"	"散弾銃"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"jp"	"スナイパーライフル"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"jp"	"ミニガン"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"jp"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"jp"	"注射銃"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"jp"	"ロケットランチャー"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"jp"	"グレネードランチャー"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"jp"	"粘着爆弾ランチャー"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"jp"	"火炎放射器"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"jp"	"ピストル"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"jp"	"リボルバー"
+	}
+	"TF_WEAPON_PDA_ENGINEER"
+	{
+		"jp"	"PDA"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"jp"	"メディガン"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"jp"	"透明ウォッチ"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"jp"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"jp"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"jp"	"Ubersaw"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"jp"	"Axtinguisher"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"jp"	"Flare Gun"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"jp"	"Backburner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"jp"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"jp"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"jp"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"jp"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"jp"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"jp"	"Bonk! Atomic Punch"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"jp"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"jp"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"jp"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"jp"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"jp"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"jp"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"jp"	"Direct Hit"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"jp"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"jp"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"jp"	"Scottish Resistance"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"jp"	"Chargin\' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"jp"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"jp"	"Gunboats"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"jp"	"Homewrecker"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"jp"	"Pain Train"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"jp"	"Dalokohs Bar"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"jp"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"jp"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"jp"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"jp"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"jp"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"jp"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"jp"	"L\'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"jp"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"jp"	"Battalion\'s Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"jp"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"jp"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"jp"	"Darwin\'s Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"jp"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"jp"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"jp"	"Gloves of Running Urgently"
+	}
+}
