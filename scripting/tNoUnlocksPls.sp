@@ -4,7 +4,7 @@
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.0.2"
+#define VERSION	"0.0.3"
 #define MAXITEMS	128
 
 
@@ -349,7 +349,7 @@ stock IsStripable(iIDI) {
 			iIDI == 41	||	//Natascha
 			iIDI == 43	||	//Killing Gloves of Boxing
 			iIDI == 44	||	//Sandman
-			iIDI == 45	||	//Force-A-Nature
+			//iIDI == 45	||	//Force-A-Nature
 			iIDI == 59	||	//Dead Ringer
 			iIDI == 60	||	//Cloak and Dagger
 			iIDI == 61	||	//Ambassador
