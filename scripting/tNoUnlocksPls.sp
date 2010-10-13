@@ -99,7 +99,7 @@ public OnAdminMenuReady(Handle:topmenu)
 	g_hTopMenu = topmenu;
 
 	new TopMenuObject:topMenuServerCommands = FindTopMenuCategory(g_hTopMenu, ADMINMENU_SERVERCOMMANDS);
-	AddToTopMenu(g_hTopMenu, "sm_invite", TopMenuObject_Item, AdminMenu_Unlocks, topMenuServerCommands);
+	AddToTopMenu(g_hTopMenu, "sm_toggleunlock", TopMenuObject_Item, AdminMenu_Unlocks, topMenuServerCommands, "", ADMFLAG_ROOT);
 }
 
 public AdminMenu_Unlocks(Handle:topmenu, TopMenuAction:action, TopMenuObject:object_id, param, String:buffer[], maxlength) {
