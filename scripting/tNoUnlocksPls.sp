@@ -172,10 +172,10 @@ public PopulateItemsArray() {
 	new String:path[255];
 	BuildPath(Path_SM, path, sizeof(path), "configs/weapons.cfg");
 	new Handle:hKvWeaponT = CreateKeyValues("WeaponNames");
-	PrintToServer("loading");
+
 	FileToKeyValues(hKvWeaponT, path);
 	KvGotoFirstSubKey(hKvWeaponT, true);
-	PrintToServer("populating");
+
 	g_iWeaponCount = 0;
 	do
 	{
@@ -196,13 +196,15 @@ public PopulateItemsArray() {
 			g_xItems[g_iWeaponCount][toggled] = iState;
 			strcopy(g_xItems[g_iWeaponCount][trans], 255, sTrans);
 
-			PrintToServer("Found item %T (%i) (%i)", g_xItems[g_iWeaponCount][trans], 0, g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
+			//PrintToServer("Found item %T (%i) (%i)", g_xItems[g_iWeaponCount][trans], 0, g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
 			//PrintToServer("Found item %s (%i) (%i)", g_xItems[g_iWeaponCount][trans], g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
 
 			g_iWeaponCount++;
 		}
 
 	} while (KvGotoNextKey(kv, false));
+
+	LogMessage("Found %i items in your config.", g_iWeaponCount);
 
 	CloseHandle(hKvWeaponT);
 	CloseHandle(kv);
