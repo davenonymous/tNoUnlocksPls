@@ -10,15 +10,18 @@
 
 new bool:g_bEnabled;
 new bool:g_bDefault;		//true == replace weapons by default, unless told so with sm_toggleunlock <iIDI>
+new bool:g_bAlwaysReplace;	//true == dont strip, always replace weapons
 new String:g_sCfgFile[255];
 
 new Handle:g_hCvarDefault;
 new Handle:g_hCvarEnabled;
+new Handle:g_hCvarAlwaysReplace;
 new Handle:g_hCvarFile;
 
 new Handle:g_hTopMenu = INVALID_HANDLE;
 
 new bool:g_bSomethingChanged = false;
+
 
 public Plugin:myinfo = {
 	name        = "tNoUnlocksPls",
@@ -42,8 +45,10 @@ public OnPluginStart() {
 
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == replace weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+	g_hCvarAlwaysReplace = CreateConVar("sm_tnounlockspls_alwaysreplace", "0", "If set to 1 strippable weapons will be replaced nonetheless", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
 
+	HookConVarChange(g_hCvarAlwaysReplace, Cvar_Changed);
 	HookConVarChange(g_hCvarDefault, Cvar_Changed);
 	HookConVarChange(g_hCvarEnabled, Cvar_Changed);
 	HookConVarChange(g_hCvarFile, Cvar_Changed);
@@ -75,12 +80,14 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 	} else {
 		g_bDefault = GetConVarBool(g_hCvarDefault);
 		g_bEnabled = GetConVarBool(g_hCvarEnabled);
+		g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
 	}
 }
 
 public OnConfigsExecuted() {
 	g_bDefault = GetConVarBool(g_hCvarDefault);
 	g_bEnabled = GetConVarBool(g_hCvarEnabled);
+	g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
 
 	GetConVarString(g_hCvarFile, g_sCfgFile, sizeof(g_sCfgFile));
 	BuildPath(Path_SM, g_sCfgFile, sizeof(g_sCfgFile), "configs/%s", g_sCfgFile);
@@ -295,7 +302,7 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 
 	//PrintToChat(iClient, "treating item %i", iItemDefinitionIndex);
 
-	if (IsStripable(iItemDefinitionIndex)) {
+	if (IsStripable(iItemDefinitionIndex) && !g_bAlwaysReplace) {
 		new id = FindItemWithID(iItemDefinitionIndex);
 		if(id != -1) {
 			new Handle:hTest = TF2Items_CreateItem(OVERRIDE_ATTRIBUTES);
@@ -310,7 +317,7 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 	new String:sClass[64];
 	new idToBe;
 	//PrintToChat(iClient, "replacing item %i", iItemDefinitionIndex);
-	if (NeedsReplacement(iItemDefinitionIndex, sClass, sizeof(sClass), idToBe)) {
+	if (GetReplacement(iItemDefinitionIndex, sClass, sizeof(sClass), idToBe)) {
 
 		new Handle:hTest = TF2Items_CreateItem(OVERRIDE_CLASSNAME | OVERRIDE_ITEM_DEF | OVERRIDE_ITEM_LEVEL | OVERRIDE_ITEM_QUALITY | OVERRIDE_ATTRIBUTES);
 		TF2Items_SetClassname(hTest, sClass);
@@ -349,7 +356,6 @@ stock IsStripable(iIDI) {
 			iIDI == 127	||	//Direct Hit
 			iIDI == 128	||	//Equalizer
 			iIDI == 130	||	//Scottish Resistance
-			//iIDI == 132	||	//Eyelander
 			iIDI == 141	||	//Frontier Justice
 			iIDI == 153	||	//Homewrecker
 			iIDI == 154	||	//Pain Train
@@ -373,29 +379,29 @@ stock IsStripable(iIDI) {
 }
 
 
-stock bool:NeedsReplacement(iIDI, String:class[], size, &replacement) {
+stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	//Replace with Bottle
-	if(iIDI == 132) {	//Eyelander
+	if(iIDI == 132 || iIDI == 172) {	//Eyelander && Scotsman\'s Skullcutter
 		strcopy(class, size, "tf_weapon_bottle");
 		replacement = 1;
 		return true;
 	}
 
-	//Replace with Shotgun
+	//Replace with Pyro-Shotgun
 	if(iIDI == 39) {	//Flaregun
 		strcopy(class, size, "tf_weapon_shotgun_pyro");
 		replacement = 12;
 		return true;
 	}
 
-	//Replace with Shotgun
+	//Replace with HWG-Shotgun
 	if(iIDI == 42 || iIDI == 159) {	//Sandvich & Dalokohs Bar
 		strcopy(class, size, "tf_weapon_shotgun_hwg");
 		replacement = 11;
 		return true;
 	}
 
-	//Replace with Pistol
+	//Replace with Scout-Pistol
 	if(iIDI == 46 || iIDI == 163 || iIDI == 222) {	//Bonk! Atomic Punch & Crit-a-Cola & TF_MadMilk
 		//strcopy(class, size, "tf_weapon_pistol_scout");
 		//replacement = 23;
@@ -404,7 +410,7 @@ stock bool:NeedsReplacement(iIDI, String:class[], size, &replacement) {
 		return true;
 	}
 
-	//Replace with Pistol
+	//Replace with Engineer-Pistol
 	if(iIDI == 140) {	//Wrangler
 		strcopy(class, size, "tf_weapon_pistol");
 		replacement = 22;
@@ -426,14 +432,14 @@ stock bool:NeedsReplacement(iIDI, String:class[], size, &replacement) {
 	}
 
 	//Replace with Stickybomb Launcher
-	if(iIDI == 131) {	//CharginTarge
+	if(iIDI == 131 || iIDI == 130) {	//CharginTarge && Scottish Resistance
 		strcopy(class, size, "tf_weapon_pipebomblauncher");
 		replacement = 20;
 		return true;
 	}
 
 	//Replace with Sniper Rifle
-	if(iIDI == 56) {	//Huntsman
+	if(iIDI == 56 || iIDI == 230) {	//Huntsman && TF_SydneySleeper
 		strcopy(class, size, "tf_weapon_sniperrifle");
 		replacement = 14;
 		return true;
@@ -447,9 +453,121 @@ stock bool:NeedsReplacement(iIDI, String:class[], size, &replacement) {
 	}
 
 	//Replace with Scattergun
-	if(iIDI == 220) {	//ShortStop
+	if(iIDI == 220 || iIDI == 45) {	//ShortStop && FAN
 		strcopy(class, size, "tf_weapon_scattergun");
 		replacement = 13;
+		return true;
+	}
+
+	//Replace with Medigun
+	if(iIDI == 35) {	//Kritzkrieg
+		strcopy(class, size, "tf_weapon_medigun");
+		replacement = 29;
+		return true;
+	}
+
+	//Replace with Syringegun
+	if(iIDI == 36) {	//Blutsauger
+		strcopy(class, size, "tf_weapon_syringegun_medic");
+		replacement = 33;
+		return true;
+	}
+
+	//Replace with Bonesaw
+	if(iIDI == 37 || iIDI == 173) { //Ubersaw + Vitasaw
+		strcopy(class, size, "tf_weapon_bonesaw");
+		replacement = 32;
+		return true;
+	}
+
+	//Replace with Fireaxe
+	if(iIDI == 38 || iIDI == 214 || iIDI == 153) {	// Axtinguisher && TF_ThePowerjack && Homewrecker
+		strcopy(class, size, "tf_weapon_fireaxe");
+		replacement = 2;
+		return true;
+	}
+
+	//Replace with Flamethrower
+	if(iIDI == 40 || iIDI == 215) {	//Backburner && Degreaser
+		strcopy(class, size, "tf_weapon_flamethrower");
+		replacement = 21;
+		return true;
+	}
+
+	//Replace with Minigun
+	if(iIDI == 41) {	// Natascha
+		strcopy(class, size, "tf_weapon_minigun");
+		replacement = 15;
+		return true;
+	}
+
+	//Replace with Fists
+	if(iIDI == 43 || iIDI == 239) {	//Killing Gloves of Boxing && TF_Unique_Gloves_of_Running_Urgently
+		strcopy(class, size, "tf_weapon_fists");
+		replacement = 5;
+		return true;
+	}
+
+	//Replace with Bat
+	if(iIDI == 44 || iIDI == 221) {		//The Sandman & TF_TheHolyMackerel
+		strcopy(class, size, "tf_weapon_bat");
+		replacement = 0;
+		return true;
+	}
+
+	//Replace with Spy watch
+	if(iIDI == 59 || iIDI == 60) {		//Dead Ringer && Cloak and Dagger
+		strcopy(class, size, "tf_weapon_invis");
+		replacement = 30;
+		return true;
+	}
+
+	//Replace with Revolver
+	if(iIDI == 61 || iIDI == 224) {			//Ambassador && TF_LEtranger
+		strcopy(class, size, "tf_weapon_revolver");
+		replacement = 24;
+		return true;
+	}
+
+	//Replace with Shovel
+	if(iIDI == 128) { // The equalizer
+		strcopy(class, size, "tf_weapon_shovel");
+		replacement = 6;
+		return true;
+	}
+
+	//Replace with Engineer Shotgun
+	if(iIDI == 141) { // Frontier Justice
+		strcopy(class, size, "tf_weapon_shotgun_primary");
+		replacement = 6;
+		return true;
+	}
+
+	//Replace with Frying Pan
+	if(iIDI == 154) { // Pain Train
+		strcopy(class, size, "tf_weapon_shovel");
+		replacement = 264;
+		return true;
+	}
+
+	//Replace with Machete
+	if(iIDI == 232 || iIDI == 171) { // TF_TheBushwacka && Tribalman\'s Shiv
+		strcopy(class, size, "tf_weapon_club");
+		replacement = 3;
+		return true;
+	}
+
+	//Replace with Spy Knife
+	if(iIDI == 225) { // TF_EternalReward
+		strcopy(class, size, "tf_weapon_knife");
+		replacement = 4;
+		return true;
+	}
+
+	//Replace with Rocketlauncher
+	if(iIDI == 127 || iIDI == 228 || iIDI == 237) { // Direct Hit && TF_TheBlackBox && TF_Weapon_RocketLauncher_Jump
+		strcopy(class, size, "tf_weapon_rocketlauncher");
+		replacement = 18;
 		return true;
 	}
 
