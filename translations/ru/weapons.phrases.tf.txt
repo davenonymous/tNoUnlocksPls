@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"ru"	"Бита"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"ru"	"Бутылка"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"ru"	"Пожарный топорик"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"ru"	"Кукри"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"ru"	"Нож"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"ru"	"Кулаки"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"ru"	"Лопата"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"ru"	"Гаечный ключ"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"ru"	"Медицинская пила"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"ru"	"Дробовик"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"ru"	"Обрез"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"ru"	"Снайперская винтовка"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"ru"	"Пулемет"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"ru"	"ППМ"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"ru"	"Шприцемет"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"ru"	"Ракетомет"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"ru"	"Гранатомет"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"ru"	"Липучкомет"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"ru"	"Огнемет"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"ru"	"Пистолет"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"ru"	"Револьвер"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"ru"	"КПК"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"ru"	"Лечебная пушка"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"ru"	"Часы невидимости"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"ru"	"Крицкриг"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"ru"	"Банкате"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"ru"	"Звон смерти"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"ru"	"Невидимый кинжал"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"ru"	"Плитка Далокош"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"ru"	"Пистолет Макса"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"ru"	"Револьвер Сэма"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"ru"	"Крито-кола"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"ru"	"Золотой гаечный ключ"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,6 +203,10 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"ru"	"Кулаки Грозного Бегуна"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"ru"	"Сковорода"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{

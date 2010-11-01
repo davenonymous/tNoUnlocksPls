@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"zho"	"球棒"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"zho"	"瓶子"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"zho"	"消防斧"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"zho"	"喀爾克大彎刀"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"zho"	"刀子"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"zho"	"拳頭"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"zho"	"鐵鍬"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"zho"	"扳手"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"zho"	"鋸子"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"zho"	"散彈槍"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"zho"	"雙管霰彈槍"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"zho"	"狙擊槍"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"zho"	"格林機槍"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"zho"	"衝鋒槍"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"zho"	"注射槍"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"zho"	"火箭發射器"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"zho"	"榴彈發射器"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"zho"	"黏性炸彈發射器"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"zho"	"火焰噴射器"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"zho"	"手槍"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"zho"	"左輪手槍"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"zho"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"zho"	"醫療槍"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"zho"	"隱形手錶"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"zho"	"Kritzkrieg"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"zho"	"Jarate"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"zho"	"Dead Ringer"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"zho"	"Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"zho"	"Dalokohs Bar"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"zho"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"zho"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"zho"	"暴擊可樂"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"zho"	"黃金扳手"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,5 +203,9 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"zho"	"狂奔手套"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"zho"	"油炸平底鍋"
 	}
 }

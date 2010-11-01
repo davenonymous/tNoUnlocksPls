@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"no"	"Balltre"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"no"	"Flaske"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"no"	"Brannøks"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"no"	"Kukri"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"no"	"Kniv"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"no"	"Knyttnever"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"no"	"Spade"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"no"	"Skiftenøkkel"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"no"	"Sag"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"no"	"Hagle"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"no"	"Avsagd hagle"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"no"	"Snikskytterrifle"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"no"	"Minigun"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"no"	"SMG"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"no"	"Sprøytepistol"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"no"	"Rakettutskyter"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"no"	"Granatkaster"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"no"	"Klisterbombekaster"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"no"	"Flammekaster"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"no"	"Pistol"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"no"	"Revolver"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"no"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"no"	"Førstehjelpspistol"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"no"	"Usynlig klokke"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"no"	"Kritzkrieg"
@@ -156,14 +60,6 @@
 	{
 		"no"	"Jarate"
 	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"no"	"Dead Ringer"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"no"	"Cloak and Dagger"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"no"	"Ambassador"
@@ -207,6 +103,14 @@
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
 		"no"	"Dalokohs Bar"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"no"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"no"	"Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -275,5 +179,9 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"no"	"Gloves of Running Urgently"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"no"	"Stekepanne"
 	}
 }

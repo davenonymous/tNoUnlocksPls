@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"sv"	"Slagträ"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"sv"	"Flaska"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"sv"	"Brandyxa"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"sv"	"Kukri"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"sv"	"Kniv"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"sv"	"Knytnävar"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"sv"	"Skyffel"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"sv"	"Skiftnyckel"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"sv"	"Bensåg"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"sv"	"Hagelgevär"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"sv"	"Hagelbössa"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"sv"	"Krypskyttegevär"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"sv"	"Minigun"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"sv"	"Kpist"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"sv"	"Sprutgevär"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"sv"	"Raketgevär"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"sv"	"Granatkastare"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"sv"	"Klisterbombskastare"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"sv"	"Eldkastare"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"sv"	"Pistol"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"sv"	"Revolver"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"sv"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"sv"	"Hälsovapen"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"sv"	"Osynlighetsklocka"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"sv"	"Kritzkrieg"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"sv"	"Jarate"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"sv"	"Dödsringare"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"sv"	"Dolk Och Mantel"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"sv"	"Dalokohs-Kaka"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"sv"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"sv"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"sv"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"sv"	"Gyllene Skiftnyckel"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,5 +203,9 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"sv"	"Handskar Av Brådskande Löpning"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"sv"	"Stekpanna"
 	}
 }

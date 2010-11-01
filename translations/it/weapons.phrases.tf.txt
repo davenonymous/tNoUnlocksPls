@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"it"	"Mazza"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"it"	"Bottiglia"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"it"	"Accetta"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"it"	"Machete"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"it"	"Coltello"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"it"	"Pugni"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"it"	"Pala"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"it"	"Chiave inglese"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"it"	"Segaossa"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"it"	"Fucile"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"it"	"Fucile a corto raggio"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"it"	"Fucile da cecchino"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"it"	"Mitragliatrice pesante"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"it"	"SMG"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"it"	"Pistola siringa"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"it"	"Lanciarazzi"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"it"	"Lanciagranate"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"it"	"Mortaio bombe adesive"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"it"	"Lanciafiamme"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"it"	"Pistola"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"it"	"Revolver"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"it"	"Computer palmare"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"it"	"Pistola medica"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"it"	"Orologio dell\'invisibilità"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"it"	"Kritzkrieg"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"it"	"Jarate"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"it"	"Dead Ringer"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"it"	"Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"it"	"Dalokohs Bar"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"it"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"it"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"it"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"it"	"Golden Wrench"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,5 +203,9 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"it"	"Guanti della Radicale Urgenza"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"it"	"Padella"
 	}
 }

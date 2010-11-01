@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"ko"	"야구방망이"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"ko"	"술병"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"ko"	"불도끼"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"ko"	"쿠크리"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"ko"	"칼"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"ko"	"주먹"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"ko"	"야전삽"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"ko"	"렌치"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"ko"	"의료용 톱"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"ko"	"산탄총"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"ko"	"스캐터건"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"ko"	"저격총"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"ko"	"미니건"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"ko"	"기관단총"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"ko"	"주사기 건"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"ko"	"로켓 발사기"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"ko"	"유탄 발사기"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"ko"	"점착 폭탄 발사기"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"ko"	"화염 방사기"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"ko"	"권총"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"ko"	"리볼버"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"ko"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"ko"	"메디 건"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"ko"	"투명 시계"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"ko"	"Kritzkrieg"
@@ -156,14 +60,6 @@
 	{
 		"ko"	"Jarate"
 	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"ko"	"Dead Ringer"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"ko"	"Cloak and Dagger"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"ko"	"앰버서더"
@@ -212,9 +108,21 @@
 	{
 		"ko"	"Dalokohs Bar"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"ko"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"ko"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"ko"	"크릿-어-콜라"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"ko"	"황금 렌치"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -283,6 +191,10 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"ko"	"긴급 질주 글러브"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"ko"	"프라이팬"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{

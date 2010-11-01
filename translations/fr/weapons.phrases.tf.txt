@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"fr"	"Matraque"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"fr"	"Bouteille"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"fr"	"Hache"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"fr"	"Kukri"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"fr"	"Couteau"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"fr"	"Poings"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"fr"	"Pelle"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"fr"	"Clé"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"fr"	"Scie à amputation"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"fr"	"Fusil à pompe"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"fr"	"Fusil à dispersion"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"fr"	"Fusil de sniper"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"fr"	"Minigun"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"fr"	"Mitrailleuse"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"fr"	"Pistolet à seringues"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"fr"	"Lance-roquettes"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"fr"	"Lance-grenades"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"fr"	"Lanceur de bombes collantes"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"fr"	"Lance-flammes"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"fr"	"Pistolet"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"fr"	"Revolver"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"fr"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"fr"	"Medigun"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"fr"	"Montre d\'invisibilité"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"fr"	"Kritzkrieg"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"fr"	"Jaraté"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"fr"	"Dead Ringer"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"fr"	"Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"fr"	"Barre de Dalokohs"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"fr"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"fr"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"fr"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"fr"	"Clé Dorée"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,6 +203,10 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"fr"	"Gants de détalage d\'urgence"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"fr"	"La Poêle à Frire"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{

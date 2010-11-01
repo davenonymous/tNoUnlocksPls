@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"fi"	"Maila"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"fi"	"Pullo"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"fi"	"Palokirves"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"fi"	"Kukri-veitsi"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"fi"	"Veitsi"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"fi"	"Nyrkit"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"fi"	"Lapio"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"fi"	"Jakoavain"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"fi"	"Luusaha"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"fi"	"Haulikko"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"fi"	"Haulikko"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"fi"	"Tarkkuuskivääri"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"fi"	"Konekivääri"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"fi"	"Konepistooli"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"fi"	"Ruiskuase"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"fi"	"Raketinheitin"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"fi"	"Kranaatinheitin"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"fi"	"Tahmapommin laukaisin"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"fi"	"Liekinheitin"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"fi"	"Pistooli"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"fi"	"Revolveri"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"fi"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"fi"	"Lääkintäase"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"fi"	"Näkymättömyyskello"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"fi"	"Kritzkrieg"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"fi"	"Jarate"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"fi"	"Dead Ringer"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"fi"	"Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"fi"	"Dalokohs Bar"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"fi"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"fi"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"fi"	"Krittikola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"fi"	"Kultainen jakoavain"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,5 +203,9 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"fi"	"Pikajuoksuhanskat"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"fi"	"Paistinpannu"
 	}
 }

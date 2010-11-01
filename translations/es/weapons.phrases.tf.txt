@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"es"	"Bate"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"es"	"Botella"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"es"	"Hacha de bombero"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"es"	"Kukri"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"es"	"Mariposa"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"es"	"Puños"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"es"	"Pala"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"es"	"Llave inglesa"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"es"	"Serrucho"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"es"	"Escopeta"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"es"	"Escopeta"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"es"	"Rifle de francotirador"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"es"	"Ametralladora"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"es"	"Metralleta"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"es"	"Pistola de jeringas"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"es"	"Lanzacohetes"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"es"	"Lanzagranadas"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"es"	"Lanzabombas lapa"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"es"	"Lanzallamas"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"es"	"Pistola"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"es"	"Revólver"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"es"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"es"	"Pistola médica"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"es"	"Reloj de invisibilidad"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"es"	"Kritzkrieg"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"es"	"Jarate"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"es"	"Dead Ringer"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"es"	"Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"es"	"Dalokohs Bar"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"es"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"es"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"es"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"es"	"Golden Wrench"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,6 +203,10 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"es"	"Guantes de Rapidez Ultraterrena"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"es"	"Frying Pan"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{

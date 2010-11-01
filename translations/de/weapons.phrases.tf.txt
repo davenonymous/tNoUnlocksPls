@@ -1,101 +1,5 @@
 ﻿"Phrases"
 {
-	"TF_WEAPON_BAT"
-	{
-		"de"	"Schläger"
-	}
-	"TF_WEAPON_BOTTLE"
-	{
-		"de"	"Flasche"
-	}
-	"TF_WEAPON_FIREAXE"
-	{
-		"de"	"Feueraxt"
-	}
-	"TF_WEAPON_CLUB"
-	{
-		"de"	"Kukri"
-	}
-	"TF_WEAPON_KNIFE"
-	{
-		"de"	"Messer"
-	}
-	"TF_WEAPON_FISTS"
-	{
-		"de"	"Fäuste"
-	}
-	"TF_WEAPON_SHOVEL"
-	{
-		"de"	"Schaufel"
-	}
-	"TF_WEAPON_WRENCH"
-	{
-		"de"	"Schraubenschlüssel"
-	}
-	"TF_WEAPON_BONESAW"
-	{
-		"de"	"Knochensäge"
-	}
-	"TF_WEAPON_SHOTGUN"
-	{
-		"de"	"Schrotflinte"
-	}
-	"TF_WEAPON_SCATTERGUN"
-	{
-		"de"	"Scattergun"
-	}
-	"TF_WEAPON_SNIPERRIFLE"
-	{
-		"de"	"Scharfschützengewehr"
-	}
-	"TF_WEAPON_MINIGUN"
-	{
-		"de"	"Minigun"
-	}
-	"TF_WEAPON_SMG"
-	{
-		"de"	"SMG"
-	}
-	"TF_WEAPON_SYRINGEGUN"
-	{
-		"de"	"Spritzen-MG"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER"
-	{
-		"de"	"Raketenwerfer"
-	}
-	"TF_WEAPON_GRENADELAUNCHER"
-	{
-		"de"	"Granatenwerfer"
-	}
-	"TF_WEAPON_PIPEBOMBLAUNCHER"
-	{
-		"de"	"Haftbombenwerfer"
-	}
-	"TF_WEAPON_FLAMETHROWER"
-	{
-		"de"	"Flammenwerfer"
-	}
-	"TF_WEAPON_PISTOL"
-	{
-		"de"	"Pistole"
-	}
-	"TF_WEAPON_REVOLVER"
-	{
-		"de"	"Revolver"
-	}
-	"TF_WEAPON_PDA_ENGINEER"
-	{
-		"de"	"PDA"
-	}
-	"TF_WEAPON_MEDIGUN"
-	{
-		"de"	"Medigun"
-	}
-	"TF_WEAPON_WATCH"
-	{
-		"de"	"Unsichtbarkeitsuhr"
-	}
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
 		"de"	"Kritzkrieg"
@@ -155,14 +59,6 @@
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
 		"de"	"Jarate"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
-	{
-		"de"	"Scheintoduhr"
-	}
-	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
-	{
-		"de"	"Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -224,9 +120,21 @@
 	{
 		"de"	"Dalokohs Bar"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"de"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"de"	"Big Kill"
+	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"de"	"Krit-\'n-Cola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"de"	"Goldener Schraubenschlüssel"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -295,6 +203,10 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"de"	"Handschuhe der schnellen Flucht"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"de"	"Bratpfanne"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
