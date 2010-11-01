@@ -43,7 +43,7 @@ new g_iWeaponCount = 0;
 public OnPluginStart() {
 	CreateConVar("sm_tnounlockspls_version", VERSION, "[TF2] tNoUnlocksPls", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
-	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == replace weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarAlwaysReplace = CreateConVar("sm_tnounlockspls_alwaysreplace", "0", "If set to 1 strippable weapons will be replaced nonetheless", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
@@ -172,46 +172,40 @@ public ChooserMenu_Handler(Handle:menu, MenuAction:action, param1, param2) {
 }
 
 public PopulateItemsArray() {
-	new Handle:kv = CreateKeyValues("WeaponToggles");
-	FileToKeyValues(kv, g_sCfgFile);
-	KvGotoFirstSubKey(kv, false);
-
 	new String:path[255];
 	BuildPath(Path_SM, path, sizeof(path), "configs/weapons.cfg");
 	new Handle:hKvWeaponT = CreateKeyValues("WeaponNames");
-
 	FileToKeyValues(hKvWeaponT, path);
-	KvGotoFirstSubKey(hKvWeaponT, true);
+	KvGotoFirstSubKey(hKvWeaponT, false);
+
+	new Handle:kv = CreateKeyValues("WeaponToggles");
+	FileToKeyValues(kv, g_sCfgFile);
+	KvGotoFirstSubKey(kv, true);
 
 	g_iWeaponCount = 0;
-	do
-	{
-		new String:sSection[255];
-		KvGetSectionName(kv, sSection, sizeof(sSection));
+	new iToggledCount = 0;
+	do {
+		new String:sIDI[255];
+		KvGetSectionName(hKvWeaponT, sIDI, sizeof(sIDI));
+		new iIDI = StringToInt(sIDI);
+		g_xItems[g_iWeaponCount][iIDX] = iIDI;
 
-		new String:sValue[255];
-		KvGetString(kv, "", sValue, sizeof(sValue));
-		if(!StrEqual(sValue, "")) {
-			//We have a value, so this is a pair
-			new iIDI = StringToInt(sSection);
-			new iState = StringToInt(sValue);
 
-			new String:sTrans[255];
-			KvGetString(hKvWeaponT, sSection, sTrans, sizeof(sTrans));
+		new String:sTrans[255];
+		KvGetString(hKvWeaponT, "", sTrans, sizeof(sTrans));
+		strcopy(g_xItems[g_iWeaponCount][trans], 255, sTrans);
 
-			g_xItems[g_iWeaponCount][iIDX] = iIDI;
-			g_xItems[g_iWeaponCount][toggled] = iState;
-			strcopy(g_xItems[g_iWeaponCount][trans], 255, sTrans);
+		new iState = KvGetNum(kv, sIDI, 0);
+		g_xItems[g_iWeaponCount][toggled] = iState;
 
-			//PrintToServer("Found item %T (%i) (%i)", g_xItems[g_iWeaponCount][trans], 0, g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
-			//PrintToServer("Found item %s (%i) (%i)", g_xItems[g_iWeaponCount][trans], g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
+		//PrintToServer("Found item %T (%i) (%i)", g_xItems[g_iWeaponCount][trans], 0, g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
+		//PrintToServer("Found item %s (%i) (%i)", g_xItems[g_iWeaponCount][trans], g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
+		if(iState != 0)iToggledCount++;
+		g_iWeaponCount++;
+	} while (KvGotoNextKey(hKvWeaponT, false));
 
-			g_iWeaponCount++;
-		}
-
-	} while (KvGotoNextKey(kv, false));
-
-	LogMessage("Found %i items in your config.", g_iWeaponCount);
+	LogMessage("By default all items are %s", g_bDefault ? "blocked" : "allowed");
+	LogMessage("Found %i items in your config. %i of them are %s.", g_iWeaponCount, iToggledCount, g_bDefault ? "allowed" : "blocked");
 
 	CloseHandle(hKvWeaponT);
 	CloseHandle(kv);
@@ -361,6 +355,7 @@ stock IsStripable(iIDI) {
 			iIDI == 154	||	//Pain Train
 			iIDI == 171	||	//Tribalman\'s Shiv
 			iIDI == 172	||	//Scotsman\'s Skullcutter
+			iIDI == 173	||	//TF_Unique_BattleSaw
 			iIDI == 214	||	//TF_ThePowerjack
 			iIDI == 215	||	//TF_TheDegreaser
 			iIDI == 221	||	//TF_TheHolyMackerel
@@ -371,7 +366,9 @@ stock IsStripable(iIDI) {
 			iIDI == 232	||	//TF_TheBushwacka
 			iIDI == 237	||	//TF_Weapon_RocketLauncher_Jump
 			iIDI == 239	||	//TF_Unique_Gloves_of_Running_Urgently
-			iIDI == 173		//TF_Unique_BattleSaw
+			iIDI == 264	||	//TF_UNIQUE_FRYINGPAN
+			iIDI == 265	||	//TF_WEAPON_STICKYBOMB_JUMP
+			iIDI == 266		//TF_HALLOWEENBOSS_AXE
 
 							)
 								return true;
