@@ -114,7 +114,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"it"	"Flare Gun"
+		"it"	"Pistola Lanciarazzi"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
@@ -196,13 +196,17 @@
 	{
 		"it"	"Gunboats"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"it"	"Attaccabrighe"
+	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
 		"it"	"Giustizia di Frontiera"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"it"	"Pugno di Ferro"
+		"it"	"Pistolero"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
@@ -242,7 +246,7 @@
 	}
 	"TF_THEDEGREASER"
 	{
-		"it"	"Degreaser"
+		"it"	"Sgrassatore"
 	}
 	"TF_THESHORTSTOP"
 	{
@@ -250,11 +254,11 @@
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"it"	"Holy Mackerel"
+		"it"	"Porca Trota"
 	}
 	"TF_MADMILK"
 	{
-		"it"	"Mad Milk"
+		"it"	"Latte Pazzo"
 	}
 	"TF_LETRANGER"
 	{
@@ -262,23 +266,23 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"it"	"Your Eternal Reward"
+		"it"	"La Ricompensa Eterna"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"it"	"Battalion\'s Backup"
+		"it"	"Il Supporto del Battaglione"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"it"	"Black Box"
+		"it"	"Scatola Nera"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"it"	"Sydney Sleeper"
+		"it"	"La Spia di Sydney"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"it"	"Darwin\'s Danger Shield"
+		"it"	"Lo Scudo d\'Emergenza di Darwin"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -286,10 +290,10 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"it"	"Rocket Jumper"
+		"it"	"Saltatore-Razzo"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"it"	"Guanti dell\'urgenza"
+		"it"	"Guanti della Radicale Urgenza"
 	}
 }

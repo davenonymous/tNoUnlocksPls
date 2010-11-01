@@ -130,7 +130,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"sv"	"Mördar-Handskar Av Boxning"
+		"sv"	"Kalinins Grymma Boxningshandskar"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
@@ -238,15 +238,15 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"sv"	"Vita-Saw"
+		"sv"	"Vita-Såg"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"sv"	"Powerjack"
+		"sv"	"Eldomkraft"
 	}
 	"TF_THEDEGREASER"
 	{
-		"sv"	"Degreaser"
+		"sv"	"Avfettare"
 	}
 	"TF_THESHORTSTOP"
 	{
@@ -254,11 +254,11 @@
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"sv"	"Holy Mackerel"
+		"sv"	"Fin Fisk"
 	}
 	"TF_MADMILK"
 	{
-		"sv"	"Mad Milk"
+		"sv"	"Manisk Mjölk"
 	}
 	"TF_LETRANGER"
 	{
@@ -266,23 +266,23 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"sv"	"Your Eternal Reward"
+		"sv"	"Din Eviga Belöning"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"sv"	"Battalion\'s Backup"
+		"sv"	"Bataljonens Förstärkning"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"sv"	"Black Box"
+		"sv"	"Svart Låda"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"sv"	"Sydney Sleeper"
+		"sv"	"Sydney-Sövare"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"sv"	"Darwin\'s Danger Shield"
+		"sv"	"Darwins Farosköld"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -290,10 +290,10 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"sv"	"Rocket Jumper"
+		"sv"	"Rakethoppare"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"sv"	"Snabbsprångshandskar"
+		"sv"	"Handskar Av Brådskande Löpning"
 	}
 }

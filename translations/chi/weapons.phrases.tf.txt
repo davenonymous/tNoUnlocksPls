@@ -126,7 +126,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"chi"	"三维治"
+		"chi"	"三明治"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
@@ -196,6 +196,18 @@
 	{
 		"chi"	""
 	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"chi"	"遥控手柄"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"chi"	"边境裁决者"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"chi"	"枪炮工之臂"
+	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
 		"chi"	""
@@ -203,6 +215,10 @@
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
 		"chi"	"钉棍"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"chi"	"南部的款待"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{

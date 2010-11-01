@@ -102,55 +102,55 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"nl"	"Blutsauger"
+		"nl"	"Bloedzuiger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"nl"	"Ubersaw"
+		"nl"	"Überzaag"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"nl"	"Axtinguisher"
+		"nl"	"Bijlblusser"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"nl"	"Flare Gun"
+		"nl"	"Lichtpistool"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"nl"	"Backburner"
+		"nl"	"Rugbrander"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"nl"	"Natascha"
+		"nl"	"Natasja"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"nl"	"Sandvich"
+		"nl"	"Sandwich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"nl"	"Killing Gloves of Boxing"
+		"nl"	"Moordende Handschoenen van het Boksen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"nl"	"Sandman"
+		"nl"	"Zandman"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"nl"	"Force-A-Nature"
+		"nl"	"Kracht-van-de-Natuur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"nl"	"Bonk! Atomic Punch"
+		"nl"	"Bonk! Atomische Vuist"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"nl"	"Huntsman"
+		"nl"	"Jaagman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"nl"	"Razorback"
+		"nl"	"Scheermesrug"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -158,35 +158,35 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"nl"	"Dead Ringer"
+		"nl"	"Doodse Gelijkenis"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"nl"	"Cloak and Dagger"
+		"nl"	"Verhul en Dolk"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"nl"	"Ambassador"
+		"nl"	"Ambassadeur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"nl"	"Direct Hit"
+		"nl"	"Directe Inslag"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"nl"	"Equalizer"
+		"nl"	"Gelijkmaker"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"nl"	"Buff Banner"
+		"nl"	"Versterkende Vaandel"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"nl"	"Scottish Resistance"
+		"nl"	"De Schotse Weerstand"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"nl"	"Chargin\' Targe"
+		"nl"	"Stormende Schild"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
@@ -194,7 +194,7 @@
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"nl"	"Gunboats"
+		"nl"	"Kanonneerboten"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
@@ -214,7 +214,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"nl"	"Pain Train"
+		"nl"	"Pijn Trein"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -230,11 +230,11 @@
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"nl"	"Stammenman zijn Shiv"
+		"nl"	"Stammenmans Shiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"nl"	"Schotsman zijn Schedelbreker"
+		"nl"	"Schotse Schedelhouwer"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{

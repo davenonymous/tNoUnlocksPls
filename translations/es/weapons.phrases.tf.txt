@@ -196,9 +196,21 @@
 	{
 		"es"	"Gunboats"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"es"	"Wrangler"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"es"	"Frontier Justice"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"es"	"Gunslinger"
+	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"es"	"El Demoledor"
+		"es"	"Homewrecker"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
@@ -206,23 +218,23 @@
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"es"	"La Hospitalidad Sureña"
+		"es"	"Hospitalidad Sureña"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"es"	"Chocolatina Dalokohs"
+		"es"	"Dalokohs Bar"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"es"	"Criticola"
+		"es"	"Crit-a-Cola"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"es"	"Cuchilla Tribal"
+		"es"	"Tribalman\'s Shiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"es"	"El  Corta-Cráneos Escocés"
+		"es"	"Cortacráneos Escocés"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -283,5 +295,13 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"es"	"Guantes de Rapidez Ultraterrena"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"es"	"El Saltagranadas"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"es"	"El Decapitador del Jinete Decapitado Sin Montura"
 	}
 }

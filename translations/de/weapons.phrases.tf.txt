@@ -2,7 +2,7 @@
 {
 	"TF_WEAPON_BAT"
 	{
-		"de"	"Keule"
+		"de"	"Schläger"
 	}
 	"TF_WEAPON_BOTTLE"
 	{
@@ -42,11 +42,11 @@
 	}
 	"TF_WEAPON_SCATTERGUN"
 	{
-		"de"	"Schrotflinte"
+		"de"	"Scattergun"
 	}
 	"TF_WEAPON_SNIPERRIFLE"
 	{
-		"de"	"Sniper-Gewehr"
+		"de"	"Scharfschützengewehr"
 	}
 	"TF_WEAPON_MINIGUN"
 	{
@@ -242,11 +242,11 @@
 	}
 	"TF_THEPOWERJACK"
 	{
-		"de"	"Powerjack"
+		"de"	"Wagenheber"
 	}
 	"TF_THEDEGREASER"
 	{
-		"de"	"Degreaser"
+		"de"	"Herdflamme"
 	}
 	"TF_THESHORTSTOP"
 	{
@@ -270,7 +270,7 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"de"	"Battalion\'s Backup"
+		"de"	"Der Bataillonsbeistand"
 	}
 	"TF_THEBLACKBOX"
 	{
@@ -286,14 +286,22 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"de"	"Bushwacka"
+		"de"	"Buschwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"de"	"Rocket Jumper"
+		"de"	"Raketen-Springer"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"de"	"Handschuhe der schnellen Flucht"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"de"	"Der Haftbombenspringer"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"de"	"Der Kopfabreißer des Pferdlosen Kopflosen Reiters"
 	}
 }

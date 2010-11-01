@@ -238,59 +238,59 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"zho"	"Vita-Saw"
+		"zho"	"還魂鋸"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"zho"	"Powerjack"
+		"zho"	"強力千斤頂"
 	}
 	"TF_THEDEGREASER"
 	{
-		"zho"	"Degreaser"
+		"zho"	"除油者"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"zho"	"Shortstop"
+		"zho"	"游擊手"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"zho"	"Holy Mackerel"
+		"zho"	"尚方寶鯖"
 	}
 	"TF_MADMILK"
 	{
-		"zho"	"Mad Milk"
+		"zho"	"瘋狂牛奶"
 	}
 	"TF_LETRANGER"
 	{
-		"zho"	"L\'Etranger"
+		"zho"	"局外人左輪"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"zho"	"Your Eternal Reward"
+		"zho"	"永恆報償"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"zho"	"Battalion\'s Backup"
+		"zho"	"營隊後援"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"zho"	"Black Box"
+		"zho"	"黑盒子"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"zho"	"Sydney Sleeper"
+		"zho"	"雪梨沉睡者"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"zho"	"Darwin\'s Danger Shield"
+		"zho"	"達爾文市的危險護盾"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"zho"	"Bushwacka"
+		"zho"	"布伊刀"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"zho"	"Rocket Jumper"
+		"zho"	"火箭跳躍者"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{

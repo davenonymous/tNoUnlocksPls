@@ -6,7 +6,7 @@
 	}
 	"TF_WEAPON_BOTTLE"
 	{
-		"ko"	"병"
+		"ko"	"술병"
 	}
 	"TF_WEAPON_FIREAXE"
 	{
@@ -26,7 +26,7 @@
 	}
 	"TF_WEAPON_SHOVEL"
 	{
-		"ko"	"삽"
+		"ko"	"야전삽"
 	}
 	"TF_WEAPON_WRENCH"
 	{
@@ -34,11 +34,11 @@
 	}
 	"TF_WEAPON_BONESAW"
 	{
-		"ko"	"본쏘우"
+		"ko"	"의료용 톱"
 	}
 	"TF_WEAPON_SHOTGUN"
 	{
-		"ko"	"샷건"
+		"ko"	"산탄총"
 	}
 	"TF_WEAPON_SCATTERGUN"
 	{
@@ -54,7 +54,7 @@
 	}
 	"TF_WEAPON_SMG"
 	{
-		"ko"	"SMG"
+		"ko"	"기관단총"
 	}
 	"TF_WEAPON_SYRINGEGUN"
 	{
@@ -66,7 +66,7 @@
 	}
 	"TF_WEAPON_GRENADELAUNCHER"
 	{
-		"ko"	"수류탄 발사기"
+		"ko"	"유탄 발사기"
 	}
 	"TF_WEAPON_PIPEBOMBLAUNCHER"
 	{
@@ -82,7 +82,7 @@
 	}
 	"TF_WEAPON_REVOLVER"
 	{
-		"ko"	"권총"
+		"ko"	"리볼버"
 	}
 	"TF_WEAPON_PDA_ENGINEER"
 	{
@@ -166,7 +166,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"ko"	"Ambassador"
+		"ko"	"앰버서더"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
@@ -204,13 +204,25 @@
 	{
 		"ko"	"Pain Train"
 	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"ko"	"남부식 환대"
+	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
 		"ko"	"Dalokohs Bar"
 	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"ko"	"크릿-어-콜라"
+	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
 		"ko"	"부족민의 칼"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"ko"	"스코틀랜드인의 스컬커터"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -271,5 +283,9 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"ko"	"긴급 질주 글러브"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"ko"	"점착 점퍼"
 	}
 }

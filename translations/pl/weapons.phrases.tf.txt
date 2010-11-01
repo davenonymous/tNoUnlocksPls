@@ -294,6 +294,14 @@
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"pl"	"Gloves of Running Urgently"
+		"pl"	"Gorące Rękawice Uciekiniera"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"pl"	"Bombowy Skoczek"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"pl"	"Horseless Headless Horsemann\'s Headtaker"
 	}
 }

@@ -54,7 +54,7 @@
 	}
 	"TF_WEAPON_SMG"
 	{
-		"fr"	"Mitrailleuse."
+		"fr"	"Mitrailleuse"
 	}
 	"TF_WEAPON_SYRINGEGUN"
 	{
@@ -166,7 +166,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"fr"	"Ambassadeur"
+		"fr"	"Ambassador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
@@ -295,5 +295,13 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"fr"	"Gants de détalage d\'urgence"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"fr"	"Le Sticky Jumper"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"fr"	"Le décapiteur du Chevalier sans Cheval sans Tête."
 	}
 }

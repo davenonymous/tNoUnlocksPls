@@ -102,7 +102,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"ru"	"Кровосос"
+		"ru"	"Кровопийца"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
@@ -238,62 +238,70 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"ru"	"Vita-Saw"
+		"ru"	"Спаситель"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"ru"	"Powerjack"
+		"ru"	"Разъединитель"
 	}
 	"TF_THEDEGREASER"
 	{
-		"ru"	"Degreaser"
+		"ru"	"Чистильщик"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"ru"	"Shortstop"
+		"ru"	"Прерыватель"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"ru"	"Holy Mackerel"
+		"ru"	"Поддай леща"
 	}
 	"TF_MADMILK"
 	{
-		"ru"	"Mad Milk"
+		"ru"	"Зломолоко"
 	}
 	"TF_LETRANGER"
 	{
-		"ru"	"L\'Etranger"
+		"ru"	"Незнакомец"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"ru"	"Your Eternal Reward"
+		"ru"	"Вечный покой"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"ru"	"Battalion\'s Backup"
+		"ru"	"Поддержка батальона"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"ru"	"Black Box"
+		"ru"	"Черный ящик"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"ru"	"Sydney Sleeper"
+		"ru"	"Сиднейский соня"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"ru"	"Darwin\'s Danger Shield"
+		"ru"	"Естественный отбор"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"ru"	"Bushwacka"
+		"ru"	"Кусторез"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"ru"	"Rocket Jumper"
+		"ru"	"Тренировочный ракетомет"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"ru"	"Перчатки срочной спешки"
+		"ru"	"Кулаки Грозного Бегуна"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"ru"	"Тренировочный липучкомет"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"ru"	"Секира Пешего всадника без головы"
 	}
 }

@@ -208,6 +208,14 @@
 	{
 		"no"	"Dalokohs Bar"
 	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"no"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"no"	"Skottens Skallekutter"
+	}
 	"TF_UNIQUE_BATTLESAW"
 	{
 		"no"	"Vita-Saw"

@@ -10,7 +10,7 @@
 	}
 	"TF_WEAPON_FIREAXE"
 	{
-		"da"	"Økse"
+		"da"	"Brandøkse"
 	}
 	"TF_WEAPON_CLUB"
 	{
@@ -30,7 +30,7 @@
 	}
 	"TF_WEAPON_WRENCH"
 	{
-		"da"	"Svensknøgle"
+		"da"	"Skruenøgle"
 	}
 	"TF_WEAPON_BONESAW"
 	{
@@ -42,7 +42,7 @@
 	}
 	"TF_WEAPON_SCATTERGUN"
 	{
-		"da"	"Scattergevær"
+		"da"	"Haglspreder"
 	}
 	"TF_WEAPON_SNIPERRIFLE"
 	{
@@ -50,7 +50,7 @@
 	}
 	"TF_WEAPON_MINIGUN"
 	{
-		"da"	"Minikanon"
+		"da"	"Rullegevær"
 	}
 	"TF_WEAPON_SMG"
 	{
@@ -110,15 +110,15 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"da"	"Axtinguisher"
+		"da"	"Udbrænder"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"da"	"Flare Gun"
+		"da"	"Signalpistol"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"da"	"Bagbrænderen"
+		"da"	"Bagbrænder"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -130,7 +130,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"da"	"De Dødelige Boksehandsker"
+		"da"	"Kalinins Grusomme Boksehandsker"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
@@ -142,7 +142,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"da"	"Bonk! Atomic Punch"
+		"da"	"Bonk! Atomic Punch læskedrik"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
@@ -170,7 +170,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"da"	"Direct Hit"
+		"da"	"Fuldtræfferen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"da"	"Buff Banner"
+		"da"	"Buff-banner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
@@ -190,23 +190,23 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"da"	"Eyelander"
+		"da"	"Højlandsklinge"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"da"	"Gunboats"
+		"da"	"Blysålerne"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"da"	"Wrangleren"
+		"da"	"Fjernbetjener"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"da"	"Frontier Justice"
+		"da"	"Præriens Hævn"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"da"	"Gunslingeren"
+		"da"	"Kanonslynger"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
@@ -214,15 +214,19 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"da"	"Pain Train"
+		"da"	"Torturtog"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"da"	"Sydlig Velkomst"
+		"da"	"Sydens Velkomst"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
 		"da"	"Dalokohs Bar"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"da"	"Crit-a-Cola"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -238,23 +242,23 @@
 	}
 	"TF_THEPOWERJACK"
 	{
-		"da"	"Powerjack"
+		"da"	"Donhammer"
 	}
 	"TF_THEDEGREASER"
 	{
-		"da"	"Degreaser"
+		"da"	"Fedtfjerner"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"da"	"Shortstop"
+		"da"	"Håndbremsen"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"da"	"Holy Mackerel"
+		"da"	"Milde Makrel"
 	}
 	"TF_MADMILK"
 	{
-		"da"	"Mad Milk"
+		"da"	"Manisk Mælk"
 	}
 	"TF_LETRANGER"
 	{
@@ -262,19 +266,19 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"da"	"Your Eternal Reward"
+		"da"	"Din Endelige Belønning"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"da"	"Battalion\'s Backup"
+		"da"	"Forsvarsfane"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"da"	"Black Box"
+		"da"	"Den sorte boks"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"da"	"Sydney Sleeper"
+		"da"	"Sydney-Soveren"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -286,10 +290,10 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"da"	"Rocket Jumper"
+		"da"	"Rakethopperen"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"da"	"De hurtige boksehandsker"
+		"da"	"Gevaldigt Rapfodede Unionshandsker"
 	}
 }
