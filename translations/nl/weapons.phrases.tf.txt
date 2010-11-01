@@ -60,6 +60,14 @@
 	{
 		"nl"	"Jarate"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"nl"	"Doodse Gelijkenis"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"nl"	"Verhul en Dolk"
+	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"nl"	"Ambassadeur"

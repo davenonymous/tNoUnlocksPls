@@ -60,6 +60,14 @@
 	{
 		"ko"	"Jarate"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"ko"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"ko"	"Cloak and Dagger"
+	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"ko"	"앰버서더"

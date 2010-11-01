@@ -60,6 +60,14 @@
 	{
 		"es"	"Jarate"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"es"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"es"	"Cloak and Dagger"
+	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"es"	"Ambassador"

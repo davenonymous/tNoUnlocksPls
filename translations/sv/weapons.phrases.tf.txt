@@ -60,6 +60,14 @@
 	{
 		"sv"	"Jarate"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"sv"	"Dödsringare"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"sv"	"Dolk Och Mantel"
+	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"sv"	"Ambassadör"

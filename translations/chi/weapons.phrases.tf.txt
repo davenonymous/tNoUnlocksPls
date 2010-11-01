@@ -60,6 +60,14 @@
 	{
 		"chi"	"瓶手道尿瓶"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"chi"	"死亡顶替者怀表"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"chi"	"隐秘刺杀者运动表"
+	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"chi"	"Ambassador"

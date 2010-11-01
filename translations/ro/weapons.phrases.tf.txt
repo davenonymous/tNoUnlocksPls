@@ -60,6 +60,14 @@
 	{
 		"ro"	"Şuşu"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"ro"	"Ceasul Morţii"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"ro"	"Pelerină şi Pumnal"
+	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
 		"ro"	"Ambasador"
