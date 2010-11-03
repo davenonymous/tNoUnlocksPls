@@ -6,7 +6,7 @@
 
 #define VERSION	"0.0.4"
 #define MAXITEMS	128
-
+#define TOGGLE_FLAG	ADMFLAG_ROOT
 
 new bool:g_bEnabled;
 new bool:g_bDefault;		//true == replace weapons by default, unless told so with sm_toggleunlock <iIDI>
@@ -62,7 +62,14 @@ public OnPluginStart() {
 		SetFailState("No translation file found.");
 	}
 
-	RegAdminCmd("sm_toggleunlock", Command_ToggleUnlock, ADMFLAG_ROOT);
+	decl String:sWeaponsCfgPath[PLATFORM_MAX_PATH];
+	BuildPath(Path_SM, sWeaponsCfgPath, PLATFORM_MAX_PATH, "configs/weapons.cfg");
+
+	if(!FileExists(sWeaponsCfgPath)) {
+		SetFailState("File does not exist: configs/weapons.cfg");
+	}
+
+	RegAdminCmd("sm_toggleunlock", Command_ToggleUnlock, TOGGLE_FLAG);
 
 	/* Account for late loading */
 	new Handle:topmenu;
@@ -106,7 +113,7 @@ public OnAdminMenuReady(Handle:topmenu)
 	g_hTopMenu = topmenu;
 
 	new TopMenuObject:topMenuServerCommands = FindTopMenuCategory(g_hTopMenu, ADMINMENU_SERVERCOMMANDS);
-	AddToTopMenu(g_hTopMenu, "sm_toggleunlock", TopMenuObject_Item, AdminMenu_Unlocks, topMenuServerCommands, "", ADMFLAG_ROOT);
+	AddToTopMenu(g_hTopMenu, "sm_toggleunlock", TopMenuObject_Item, AdminMenu_Unlocks, topMenuServerCommands, "", TOGGLE_FLAG);
 }
 
 public AdminMenu_Unlocks(Handle:topmenu, TopMenuAction:action, TopMenuObject:object_id, param, String:buffer[], maxlength) {
