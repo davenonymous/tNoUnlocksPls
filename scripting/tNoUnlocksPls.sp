@@ -398,9 +398,15 @@ stock IsStripable(iIDI) {
 
 stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	//Replace with Bottle
-	if(iIDI == 132 || iIDI == 172) {	//Eyelander && Scotsman\'s Skullcutter
+	if(iIDI == 132 || iIDI == 172 || iIDI == 307 || iIDI == 327) {	//Eyelander && Scotsman\'s Skullcutter && TF_UllapoolCaber & TF_Claidheamohmor
 		strcopy(class, size, "tf_weapon_bottle");
 		replacement = 1;
+		return true;
+	}
+
+	if(iIDI == 308) { //TF_LochNLoad
+		strcopy(class, size, "tf_weapon_grenadelauncher");
+		replacement = 19;
 		return true;
 	}
 
@@ -435,7 +441,7 @@ stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	}
 
 	//Replace with Wrench
-	if(iIDI == 142 || iIDI == 155) {	//Gunslinger & Southern Hospitality
+	if(iIDI == 142 || iIDI == 155 || iIDI == 329) {	//Gunslinger & Southern Hospitality & Jag
 		strcopy(class, size, "tf_weapon_wrench");
 		replacement = 7;
 		return true;
@@ -486,19 +492,19 @@ stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	//Replace with Syringegun
 	if(iIDI == 36 || iIDI == 305) {	//Blutsauger + TF_CrusadersCrossbow
 		strcopy(class, size, "tf_weapon_syringegun_medic");
-		replacement = 33;
+		replacement = 17;
 		return true;
 	}
 
 	//Replace with Bonesaw
-	if(iIDI == 37 || iIDI == 173) { //Ubersaw + Vitasaw
+	if(iIDI == 37 || iIDI == 173 || iIDI == 304) { //Ubersaw + Vitasaw + The Amputator
 		strcopy(class, size, "tf_weapon_bonesaw");
 		replacement = 32;
 		return true;
 	}
 
 	//Replace with Fireaxe
-	if(iIDI == 38 || iIDI == 214 || iIDI == 153) {	// Axtinguisher && TF_ThePowerjack && Homewrecker
+	if(iIDI == 38 || iIDI == 214 || iIDI == 153 || iIDI == 326) {	// Axtinguisher && TF_ThePowerjack && Homewrecker && BackScratcher
 		strcopy(class, size, "tf_weapon_fireaxe");
 		replacement = 2;
 		return true;
@@ -512,28 +518,28 @@ stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	}
 
 	//Replace with Minigun
-	if(iIDI == 41) {	// Natascha
+	if(iIDI == 41 || iIDI == 298 || iIDI == 312) {	// Natascha && TF_IRON_CURTAIN && TF_GatlingGun
 		strcopy(class, size, "tf_weapon_minigun");
 		replacement = 15;
 		return true;
 	}
 
 	//Replace with Fists
-	if(iIDI == 43 || iIDI == 239) {	//Killing Gloves of Boxing && TF_Unique_Gloves_of_Running_Urgently
+	if(iIDI == 43 || iIDI == 239 || iIDI == 310 || iIDI == 331) {	//Killing Gloves of Boxing && TF_Unique_Gloves_of_Running_Urgently && TF_WarriorsSpirit & Fists of steel
 		strcopy(class, size, "tf_weapon_fists");
 		replacement = 5;
 		return true;
 	}
 
 	//Replace with Bat
-	if(iIDI == 44 || iIDI == 221) {		//The Sandman & TF_TheHolyMackerel
+	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325) {		//The Sandman & TF_TheHolyMackerel & Candy Cane & Boston Basher
 		strcopy(class, size, "tf_weapon_bat");
 		replacement = 0;
 		return true;
 	}
 
 	//Replace with Spy watch
-	if(iIDI == 59 || iIDI == 60) {		//Dead Ringer && Cloak and Dagger
+	if(iIDI == 59 || iIDI == 60 || iIDI == 297) {	//Dead Ringer && Cloak and Dagger && TTG Watch
 		strcopy(class, size, "tf_weapon_invis");
 		replacement = 30;
 		return true;
