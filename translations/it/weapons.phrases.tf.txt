@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"it"	"Kritzkrieg"
+		"it"	"La Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"it"	"Blutsauger"
+		"it"	"La Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"it"	"Ubersaw"
+		"it"	"L\'Ubersega"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"it"	"Axtinguisher"
+		"it"	"L\'Estintascia"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"it"	"Pistola Lanciarazzi"
+		"it"	"La Pistola Lanciarazzi"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"it"	"Backburner"
+		"it"	"Il Retrobruciatore"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,111 +30,111 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"it"	"Sandvich"
+		"it"	"Il Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"it"	"Killing Gloves of Boxing"
+		"it"	"Ke Guantoni da Box!"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"it"	"Sandman"
+		"it"	"La Sandman"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"it"	"Force-A-Nature"
+		"it"	"La Forza-Della-Natura"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"it"	"Bonk! Atomic Punch"
+		"it"	"Bonk! Pugno Atomico"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"it"	"Huntsman"
+		"it"	"L\'Arco da Cacciatore"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"it"	"Razorback"
+		"it"	"Il Razorback"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"it"	"Jarate"
+		"it"	"Karavaso"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"it"	"Dead Ringer"
+		"it"	"Il Cipollotto Letale"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"it"	"Cloak and Dagger"
+		"it"	"L\'Orologio Mimetico"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"it"	"Ambassador"
+		"it"	"L\'Ambasciatore"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"it"	"Direct Hit"
+		"it"	"Il Colpo Diretto"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"it"	"Equalizer"
+		"it"	"L\'Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"it"	"Buff Banner"
+		"it"	"Lo Stendardo Scamosciato"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"it"	"Scottish Resistance"
+		"it"	"La Resistenza Scozzese"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"it"	"Chargin\' Targe"
+		"it"	"Lo Scudo da Carica"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"it"	"Eyelander"
+		"it"	"L\'Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"it"	"Gunboats"
+		"it"	"I Cannonieri"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"it"	"Attaccabrighe"
+		"it"	"L\'Attaccabrighe"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"it"	"Giustizia di Frontiera"
+		"it"	"La Giustizia di Frontiera"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"it"	"Pistolero"
+		"it"	"Il Pistolero"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"it"	"Homewrecker"
+		"it"	"Lo Sfasciacase"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"it"	"Pain Train"
+		"it"	"Il Pain Train"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"it"	"Ospitalità del Sud"
+		"it"	"L\'Ospitalità del Sud"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"it"	"Dalokohs Bar"
+		"it"	"La Barretta Dalokohs"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"it"	"Lugermorph"
+		"it"	"La Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"it"	"Big Kill"
+		"it"	"La Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -142,35 +142,35 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"it"	"Golden Wrench"
+		"it"	"La Chiave d\'Oro"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"it"	"Tribalman\'s Shiv"
+		"it"	"Il Pugnale Tribale"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"it"	"Scotsman\'s Skullcutter"
+		"it"	"Lo Scotsman\'s Skullcutter"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"it"	"Vita-Saw"
+		"it"	"Il Vita-Saw"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"it"	"Powerjack"
+		"it"	"Il Powerjack"
 	}
 	"TF_THEDEGREASER"
 	{
-		"it"	"Sgrassatore"
+		"it"	"Lo Sgrassatore"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"it"	"Shortstop"
+		"it"	"La Shortstop"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"it"	"Porca Trota"
+		"it"	"La Porca Trota"
 	}
 	"TF_MADMILK"
 	{
@@ -182,7 +182,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"it"	"La Ricompensa Eterna"
+		"it"	"L\'Eterna Ricompensa"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -190,7 +190,7 @@
 	}
 	"TF_THEBLACKBOX"
 	{
-		"it"	"Scatola Nera"
+		"it"	"La Scatola Nera"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
@@ -198,11 +198,11 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"it"	"Lo Scudo d\'Emergenza di Darwin"
+		"it"	"Scudo d\'Emergenza di Darwin"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"it"	"Bushwacka"
+		"it"	"Il Bushwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
@@ -214,6 +214,14 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"it"	"Padella"
+		"it"	"La Padella"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"it"	"Il Saltatore Adesivo"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"it"	"Il Decapitatore del Cavaliere Senza Testa e Senza Cavallo"
 	}
 }

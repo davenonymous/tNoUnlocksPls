@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"no"	"Kritzkrieg"
+		"no"	"Kritzkriegen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"no"	"Blutsauger"
+		"no"	"Blodsugeren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"no"	"Ubersaw"
+		"no"	"Ubersagen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"no"	"Axtinguisher"
+		"no"	"Brannøkseren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"no"	"Flare Gun"
+		"no"	"Signalpistolen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"no"	"Backburner"
+		"no"	"Ryggbrenneren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,19 +30,19 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"no"	"Sandvich"
+		"no"	"Smørbrødet"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"no"	"Killing Gloves of Boxing"
+		"no"	"De Krigerske, Grusomme Boksehanskene"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"no"	"Sandman"
+		"no"	"Sandmannen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"no"	"Force-A-Nature"
+		"no"	"Naturkraften"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -50,11 +50,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"no"	"Huntsman"
+		"no"	"Jegeren"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"no"	"Razorback"
+		"no"	"Villsvinryggen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,67 +62,75 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"no"	"Dead Ringer"
+		"no"	"Dobbeltgjengeren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"no"	"Cloak and Dagger"
+		"no"	"Snikmorderen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"no"	"Ambassador"
+		"no"	"Ambassadøren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"no"	"Direct Hit"
+		"no"	"Fulltrefferen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"no"	"Equalizer"
+		"no"	"Utjevneren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"no"	"Buff Banner"
+		"no"	"Motivasjonsbanneret"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"no"	"Scottish Resistance"
+		"no"	"Den Skotske Motstanden"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"no"	"Chargin\' Targe"
+		"no"	"Stormangrepskjoldet"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"no"	"Eyelander"
+		"no"	"Øyelanderen"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"no"	"Gunboats"
+		"no"	"Kanonbåten"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"no"	"Wrangleren"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"no"	"Homewrecker"
+		"no"	"Husknuseren"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"no"	"Pain Train"
+		"no"	"Smertetoget"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"no"	"Dalokohs Bar"
+		"no"	"Dalokojs Bar"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"no"	"Lugermorph"
+		"no"	"Lugermorphen"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"no"	"Big Kill"
+		"no"	"Det store drapet"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
 		"no"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"no"	"Den Gylne skiftenøkkelen"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
@@ -130,11 +138,11 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"no"	"Vita-Saw"
+		"no"	"Vita-sagen"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"no"	"Powerjack"
+		"no"	"Kraftjekken"
 	}
 	"TF_THEDEGREASER"
 	{
@@ -146,7 +154,7 @@
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"no"	"Holy Mackerel"
+		"no"	"Hellige makrell"
 	}
 	"TF_MADMILK"
 	{
@@ -158,7 +166,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"no"	"Your Eternal Reward"
+		"no"	"Eternal Reward"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -182,7 +190,7 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"no"	"Rocket Jumper"
+		"no"	"Raketthopperen"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -190,6 +198,10 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"no"	"Stekepanne"
+		"no"	"Stekepanna"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"no"	"Klisterhopperen"
 	}
 }

@@ -2,59 +2,59 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"nl"	"Kritzkrieg"
+		"nl"	"De Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"nl"	"Bloedzuiger"
+		"nl"	"De Bloedzuiger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"nl"	"Überzaag"
+		"nl"	"De Überzaag"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"nl"	"Bijlblusser"
+		"nl"	"De Bijlblusser"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"nl"	"Lichtpistool"
+		"nl"	"Het Lichtpistool"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"nl"	"Rugbrander"
+		"nl"	"De Rugbrander"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"nl"	"Natasja"
+		"nl"	"Natascha"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"nl"	"Sandwich"
+		"nl"	"De Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"nl"	"Moordende Handschoenen van het Boksen"
+		"nl"	"De Moordende Handschoenen van het Boksen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"nl"	"Zandman"
+		"nl"	"De Klaas Vaak"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"nl"	"Kracht-van-de-Natuur"
+		"nl"	"De Kracht-van-de-Natuur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"nl"	"Bonk! Atomische Vuist"
+		"nl"	"Bonk! Atomische Stoot"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"nl"	"Jaagman"
+		"nl"	"De Jachtman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"nl"	"Scheermesrug"
+		"nl"	"De Scheermesrug"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,27 +62,27 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"nl"	"Doodse Gelijkenis"
+		"nl"	"De Doodse Gelijkenis"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"nl"	"Verhul en Dolk"
+		"nl"	"De Verhul en Dolk"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"nl"	"Ambassadeur"
+		"nl"	"De Ambassadeur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"nl"	"Directe Inslag"
+		"nl"	"De Directe Inslag"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"nl"	"Gelijkmaker"
+		"nl"	"De Gelijkmaker"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"nl"	"Versterkende Vaandel"
+		"nl"	"Het Versterkende Vaandel"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
@@ -90,51 +90,51 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"nl"	"Stormende Schild"
+		"nl"	"Het Stormende Schild"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"nl"	"Eyelander"
+		"nl"	"De Ooglander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"nl"	"Kanonneerboten"
+		"nl"	"De Kanonneerboten"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"nl"	"Wrangler"
+		"nl"	"De Verstikker"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"nl"	"Frontier Justice"
+		"nl"	"De Frontale Gerechtigheid"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"nl"	"Gunslinger"
+		"nl"	"De Geweerslinger"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"nl"	"Homewrecker"
+		"nl"	"De Huizenbreker"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"nl"	"Pijn Trein"
+		"nl"	"De Pijn Trein"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"nl"	"Southern Hospitality"
+		"nl"	"De Zuiderse Gastvrijheid"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"nl"	"Dalokohs Bar"
+		"nl"	"De Dalokohs Reep"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"nl"	"Lugermorph"
+		"nl"	"De Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"nl"	"Big Kill"
+		"nl"	"De Grote Dood"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -142,71 +142,71 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"nl"	"Gouden Moersleutel"
+		"nl"	"De Gouden Moersleutel"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"nl"	"Stammenmans Shiv"
+		"nl"	"De Stammenmans Shiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"nl"	"Schotse Schedelhouwer"
+		"nl"	"De Schotse Schedelhouwer"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"nl"	"Vita-Saw"
+		"nl"	"De Vita-Zaag"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"nl"	"Powerjack"
+		"nl"	"De Krachtkrik"
 	}
 	"TF_THEDEGREASER"
 	{
-		"nl"	"Degreaser"
+		"nl"	"De Ontvetter"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"nl"	"Shortstop"
+		"nl"	"De Korte Stop"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"nl"	"Holy Mackerel"
+		"nl"	"De Heilige Makreel"
 	}
 	"TF_MADMILK"
 	{
-		"nl"	"Mad Milk"
+		"nl"	"Maffe Melk"
 	}
 	"TF_LETRANGER"
 	{
-		"nl"	"L\'Etranger"
+		"nl"	"L\'Étranger"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"nl"	"Your Eternal Reward"
+		"nl"	"Je Eeuwige Beloning"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"nl"	"Battalion\'s Backup"
+		"nl"	"Back-up van het Bataljon"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"nl"	"Black Box"
+		"nl"	"De Zwarte Doos"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"nl"	"Sydney Sleeper"
+		"nl"	"De Sydney Slaper"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"nl"	"Darwin\'s Danger Shield"
+		"nl"	"Darwins Gevaarschild"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"nl"	"Bushwacka"
+		"nl"	"De Bushwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"nl"	"Rocket Jumper"
+		"nl"	"De Raketspringer"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -214,6 +214,10 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"nl"	"Braadpan"
+		"nl"	"De Braadpan"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"nl"	"De Kleefbomspringer"
 	}
 }

@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"es"	"Kritzkrieg"
+		"es"	"La Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"es"	"Blutsauger"
+		"es"	"La Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"es"	"Ubersaw"
+		"es"	"La Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"es"	"Axtinguisher"
+		"es"	"El Hacherminador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"es"	"Flare Gun"
+		"es"	"La Pistola de Bengalas"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"es"	"Backburner"
+		"es"	"El Dragón"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,183 +30,183 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"es"	"Sandvich"
+		"es"	"El Focata"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"es"	"Killing Gloves of Boxing"
+		"es"	"Los Kañeros Guantes de Boxeo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"es"	"Sandman"
+		"es"	"El Somnífero"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"es"	"Force-A-Nature"
+		"es"	"La Dispensadora de Caña"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"es"	"Bonk! Atomic Punch"
+		"es"	"¡Plonk! La Bebida Salvavidas"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"es"	"Huntsman"
+		"es"	"El Cazador"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"es"	"Razorback"
+		"es"	"El Caparazumbador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"es"	"Jarate"
+		"es"	"Fraskungfú"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"es"	"Dead Ringer"
+		"es"	"El Duplicante"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"es"	"Cloak and Dagger"
+		"es"	"El Embozador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"es"	"Ambassador"
+		"es"	"La Embajadora"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"es"	"Direct Hit"
+		"es"	"El Impacto Directo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"es"	"Equalizer"
+		"es"	"El Ecualizador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"es"	"Buff Banner"
+		"es"	"El Estandarte de Ánimo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"es"	"Scottish Resistance"
+		"es"	"La Resistencia Escocesa"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"es"	"Chargin\' Targe"
+		"es"	"El Targe de Carga"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"es"	"Eyelander"
+		"es"	"La Intuertal"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"es"	"Gunboats"
+		"es"	"Las Botas Blindadas"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"es"	"Wrangler"
+		"es"	"El Arreo"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"es"	"Frontier Justice"
+		"es"	"La Justiciera"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"es"	"Gunslinger"
+		"es"	"El Forajido"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"es"	"Homewrecker"
+		"es"	"El Demoledor"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"es"	"Pain Train"
+		"es"	"El Tren del Dolor"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"es"	"Hospitalidad Sureña"
+		"es"	"La Hospitalidad Sureña"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"es"	"Dalokohs Bar"
+		"es"	"Chocolatina Dalokohs"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"es"	"Lugermorph"
+		"es"	"La Lugermorfa"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"es"	"Big Kill"
+		"es"	"El Pistolón"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"es"	"Crit-a-Cola"
+		"es"	"CritiCola"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"es"	"Golden Wrench"
+		"es"	"La Llave Inglesa Dorada"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"es"	"Tribalman\'s Shiv"
+		"es"	"La Cuchilla Tribal"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"es"	"Cortacráneos Escocés"
+		"es"	"El Cortacráneos Escocés"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"es"	"Vita-Saw"
+		"es"	"La Vitasierra"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"es"	"Powerjack"
+		"es"	"El batemartillo"
 	}
 	"TF_THEDEGREASER"
 	{
-		"es"	"Degreaser"
+		"es"	"El desengrasador"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"es"	"Shortstop"
+		"es"	"El paratenseco"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"es"	"Holy Mackerel"
+		"es"	"El arenque sagrado"
 	}
 	"TF_MADMILK"
 	{
-		"es"	"Mad Milk"
+		"es"	"Leche loca"
 	}
 	"TF_LETRANGER"
 	{
-		"es"	"L\'Etranger"
+		"es"	"El extranjero"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"es"	"Your Eternal Reward"
+		"es"	"Tu eterna recompensa"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"es"	"Battalion\'s Backup"
+		"es"	"El refuerzo del batallón"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"es"	"Black Box"
+		"es"	"La caja negra"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"es"	"Sydney Sleeper"
+		"es"	"El adormecedor de Sídney"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"es"	"Darwin\'s Danger Shield"
+		"es"	"El escudo de Darwin"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"es"	"Bushwacka"
+		"es"	"El machetón"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"es"	"Rocket Jumper"
+		"es"	"El saltador de cohetes"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -214,7 +214,7 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"es"	"Frying Pan"
+		"es"	"La Sartén"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{

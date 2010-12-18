@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"da"	"Kritzkrieg"
+		"da"	"Kritzkriegen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"da"	"Blutsauger"
+		"da"	"Blutsaugeren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"da"	"Ubersaw"
+		"da"	"Ubersawen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"da"	"Udbrænder"
+		"da"	"Udbrænderen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"da"	"Signalpistol"
+		"da"	"Signalpistolen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"da"	"Bagbrænder"
+		"da"	"Bagbrænderen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,7 +30,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"da"	"Sandvich"
+		"da"	"Sandvichen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
@@ -54,7 +54,7 @@
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"da"	"Razorback"
+		"da"	"Razorback-skjoldet"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,11 +62,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"da"	"Dead Ringer"
+		"da"	"Gengangeren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"da"	"Cloak and Dagger"
+		"da"	"Cloak and Daggeren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -78,23 +78,23 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"da"	"Equalizer"
+		"da"	"Equalizeren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"da"	"Buff-banner"
+		"da"	"Buff-banneret"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"da"	"Skotske Modstand"
+		"da"	"Den Skotske Modstand"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"da"	"Chargin\' Targe"
+		"da"	"Angrebsskjoldet"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"da"	"Højlandsklinge"
+		"da"	"Højlandsklingen"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
@@ -102,7 +102,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"da"	"Fjernbetjener"
+		"da"	"Fjernbetjeneren"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
@@ -110,15 +110,15 @@
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"da"	"Kanonslynger"
+		"da"	"Kanonslyngeren"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"da"	"Homewrecker"
+		"da"	"Hjerteknuseren"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"da"	"Torturtog"
+		"da"	"Torturtoget"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -126,7 +126,7 @@
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"da"	"Dalokohs Bar"
+		"da"	"Dalokohs Chokoladebar"
 	}
 	"TF_TTG_MAXGUN"
 	{
@@ -142,11 +142,11 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"da"	"Gylden Skruenøgle"
+		"da"	"Den Gyldne Skruenøgle"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"da"	"Stammemandens Dolk"
+		"da"	"Stammemandens Machete"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
@@ -154,15 +154,15 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"da"	"Vita-Saw"
+		"da"	"Vita-saven"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"da"	"Donhammer"
+		"da"	"Donhammeren"
 	}
 	"TF_THEDEGREASER"
 	{
-		"da"	"Fedtfjerner"
+		"da"	"Fedtfjerneren"
 	}
 	"TF_THESHORTSTOP"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"da"	"L\'Etranger"
+		"da"	"L\'étranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -186,7 +186,7 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"da"	"Forsvarsfane"
+		"da"	"Forsvarsfanen"
 	}
 	"TF_THEBLACKBOX"
 	{
@@ -194,15 +194,15 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"da"	"Sydney-Soveren"
+		"da"	"Sydney-soveren"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"da"	"Darwin\'s Danger Shield"
+		"da"	"Darwins fareskjold"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"da"	"Bushwacka"
+		"da"	"Løvbaskeren"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
@@ -214,6 +214,14 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"da"	"Stegepande"
+		"da"	"Stegepanden"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"da"	"Klæbebombe-hopperen"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"da"	"Den Hesteløse Hovedløse Hestemands Hovedafhugger"
 	}
 }

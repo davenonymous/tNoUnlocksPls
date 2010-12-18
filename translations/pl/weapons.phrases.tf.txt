@@ -10,203 +10,203 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"pl"	"Ubersaw"
+		"pl"	"Überpiła"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"pl"	"Axtinguisher"
+		"pl"	"Gasiekiera"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"pl"	"Flare Gun"
+		"pl"	"Pistolet Sygnałowy"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"pl"	"Backburner"
+		"pl"	"Dupalacz"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"pl"	"Natascha"
+		"pl"	"Natasza"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"pl"	"Sandvich"
+		"pl"	"Kanapka"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"pl"	"Killing Gloves of Boxing"
+		"pl"	"Krytyczne Grzmoty Bokserskie"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"pl"	"Sandman"
+		"pl"	"Piaskun"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"pl"	"Force-A-Nature"
+		"pl"	"Siła Natury"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"pl"	"Bonk! Atomic Punch"
+		"pl"	"Bonk! Atomowy Kop"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"pl"	"Huntsman"
+		"pl"	"Łowca"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"pl"	"Razorback"
+		"pl"	"Antyklinga"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"pl"	"Jarate"
+		"pl"	"Sikwondo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"pl"	"Dead Ringer"
+		"pl"	"Dzwon Zmarłego"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"pl"	"Cloak and Dagger"
+		"pl"	"Peleryna Nożownika"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"pl"	"Ambassador"
+		"pl"	"Ambasador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"pl"	"Direct Hit"
+		"pl"	"Celny Strzał"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"pl"	"Equalizer"
+		"pl"	"Wyrównywacz"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"pl"	"Buff Banner"
+		"pl"	"Sztandar Chwały"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"pl"	"Scottish Resistance"
+		"pl"	"Szkocki Opór"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"pl"	"Chargin\' Targe"
+		"pl"	"Tarcza Szarży"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"pl"	"Eyelander"
+		"pl"	"Wyszczerbiec"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"pl"	"Gunboats"
+		"pl"	"Kanonierki"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"pl"	"Wrangler"
+		"pl"	"Poskramiacz"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"pl"	"Frontier Justice"
+		"pl"	"Samosąd"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"pl"	"Gunslinger"
+		"pl"	"Jednoręki Bandyta"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"pl"	"Homewrecker"
+		"pl"	"Burzyciel"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"pl"	"Pain Train"
+		"pl"	"Pociąg Bólu"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"pl"	"Southern Hospitality"
+		"pl"	"Południowa Gościnność"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"pl"	"Dalokohs Bar"
+		"pl"	"Tabliczka Ladyczeko"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"pl"	"Lugermorph"
+		"pl"	"Lugerczak"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"pl"	"Big Kill"
+		"pl"	"Wielkie Zabójstwo"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"pl"	"Crit-a-Cola"
+		"pl"	"Kryt-o-Cola"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"pl"	"Golden Wrench"
+		"pl"	"Złoty Klucz"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"pl"	"Tribalman\'s Shiv"
+		"pl"	"Plemienne Ostrze"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"pl"	"Scotsman\'s Skullcutter"
+		"pl"	"Czerepołamacz Szkota"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"pl"	"Vita-Saw"
+		"pl"	"Vita-Piła"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"pl"	"Powerjack"
+		"pl"	"Lewarek"
 	}
 	"TF_THEDEGREASER"
 	{
-		"pl"	"Degreaser"
+		"pl"	"Odtłuszczacz"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"pl"	"Shortstop"
+		"pl"	"Wstrzymywacz"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"pl"	"Holy Mackerel"
+		"pl"	"Święta Makrela"
 	}
 	"TF_MADMILK"
 	{
-		"pl"	"Mad Milk"
+		"pl"	"Wściekłe Mleko"
 	}
 	"TF_LETRANGER"
 	{
-		"pl"	"L\'Etranger"
+		"pl"	"L\'Étranger"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"pl"	"Your Eternal Reward"
+		"pl"	"Ostateczna Nagroda"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"pl"	"Battalion\'s Backup"
+		"pl"	"Wsparcie Batalionu"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"pl"	"Black Box"
+		"pl"	"Czarna Skrzynka"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"pl"	"Sydney Sleeper"
+		"pl"	"Sydnejski Usypiacz"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"pl"	"Darwin\'s Danger Shield"
+		"pl"	"Darwińska Tarcza Ochronna"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"pl"	"Bushwacka"
+		"pl"	"Partyzant"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"pl"	"Rocket Jumper"
+		"pl"	"Rakietowy Skoczek"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -214,7 +214,7 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"pl"	"Frying Pan"
+		"pl"	"Patelnia"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
@@ -222,6 +222,6 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"pl"	"Horseless Headless Horsemann\'s Headtaker"
+		"pl"	"Ścinacz Głów Bezkonnego Bezgłowego Jeźdźca"
 	}
 }

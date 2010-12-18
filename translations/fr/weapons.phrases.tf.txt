@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"fr"	"Kritzkrieg"
+		"fr"	"Le Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"fr"	"Blutsauger"
+		"fr"	"Le Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"fr"	"Ubersaw"
+		"fr"	"L\'Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"fr"	"Hachtincteur"
+		"fr"	"L\'Hachtincteur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"fr"	"Pistolet de détresse"
+		"fr"	"Le pistolet de détresse"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"fr"	"Brûleur arrière"
+		"fr"	"Le brûleur arrière"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,19 +30,19 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"fr"	"Sandvich"
+		"fr"	"Le Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"fr"	"Gants de Boxe de la Mort"
+		"fr"	"Les gants de boxe de la mort"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"fr"	"Marchand de sable"
+		"fr"	"Le Marchand de sable"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"fr"	"Éradicateur"
+		"fr"	"La Force-de-la-Nature"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -50,11 +50,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"fr"	"Huntsman"
+		"fr"	"Le Huntsman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"fr"	"Razorback"
+		"fr"	"Le Razorback"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,79 +62,79 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"fr"	"Dead Ringer"
+		"fr"	"La Dead Ringer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"fr"	"Cloak and Dagger"
+		"fr"	"La Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"fr"	"Ambassador"
+		"fr"	"L\'Ambassador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"fr"	"Direct Hit"
+		"fr"	"Le Direct Hit"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"fr"	"Equalizer"
+		"fr"	"L\'Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"fr"	"Buff drapeau"
+		"fr"	"Le Buff drapeau"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"fr"	"Scottish Resistance"
+		"fr"	"La Scottish Resistance"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"fr"	"Bouclier bélier"
+		"fr"	"Le Bouclier bélier"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"fr"	"Eyelander"
+		"fr"	"L\'Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"fr"	"Bottes de sûreté"
+		"fr"	"Les Bottes de sûreté"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"fr"	"Dompteur"
+		"fr"	"Le Dompteur"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"fr"	"Justice Frontalière"
+		"fr"	"La Justice Frontalière"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"fr"	"Flingueur"
+		"fr"	"Le Flingueur"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"fr"	"Destructeur de Maison"
+		"fr"	"Le Destructeur de Maison"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"fr"	"Pain Train"
+		"fr"	"Le Pain Train"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"fr"	"Hospitalité du Sud"
+		"fr"	"L\'Hospitalité du Sud"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"fr"	"Barre de Dalokohs"
+		"fr"	"La Barre de Dalokohs"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"fr"	"Lugermorph"
+		"fr"	"Le Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"fr"	"Big Kill"
+		"fr"	"Le Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -142,15 +142,15 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"fr"	"Clé Dorée"
+		"fr"	"La Clé Dorée"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"fr"	"Couteau Aborigène"
+		"fr"	"Le Couteau Aborigène"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"fr"	"Fendeuse de Crâne Écossaise"
+		"fr"	"La Fendeuse de Crâne Écossaise"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -158,19 +158,19 @@
 	}
 	"TF_THEPOWERJACK"
 	{
-		"fr"	"Powerjack"
+		"fr"	"Le Powerjack"
 	}
 	"TF_THEDEGREASER"
 	{
-		"fr"	"Degreaser"
+		"fr"	"Le Dégraisseur"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"fr"	"Shortstop"
+		"fr"	"Le Shortstop"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"fr"	"Holy Mackerel"
+		"fr"	"Le Maquereau Sacré"
 	}
 	"TF_MADMILK"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"fr"	"L\'Etranger"
+		"fr"	"L\'Étranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -186,15 +186,15 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"fr"	"Battalion\'s Backup"
+		"fr"	"Le Bataillon de soutien"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"fr"	"Black Box"
+		"fr"	"La Boîte Noire"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"fr"	"Sydney Sleeper"
+		"fr"	"Le Sydney Sleeper"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -202,7 +202,7 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"fr"	"Bushwacka"
+		"fr"	"Le Bushwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
@@ -210,7 +210,7 @@
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"fr"	"Gants de détalage d\'urgence"
+		"fr"	"Gants de Retraite Urgente"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
@@ -222,6 +222,6 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"fr"	"Le décapiteur du Chevalier sans Cheval sans Tête."
+		"fr"	"Le décapiteur du Cavalier sans Tête et sans Cheval"
 	}
 }

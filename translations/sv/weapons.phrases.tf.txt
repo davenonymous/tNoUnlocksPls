@@ -6,23 +6,23 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"sv"	"Blutsauger"
+		"sv"	"Blutsaugern"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"sv"	"Übersåg"
+		"sv"	"Übersågen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"sv"	"Brandslaktare"
+		"sv"	"Brandslaktaren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"sv"	"Signalpistol"
+		"sv"	"Signalpistolen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"sv"	"Ryggbrännare"
+		"sv"	"Ryggbrännaren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,7 +30,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"sv"	"Smörgos"
+		"sv"	"Smörgosen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
@@ -62,31 +62,31 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"sv"	"Dödsringare"
+		"sv"	"Dödsringaren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"sv"	"Dolk Och Mantel"
+		"sv"	"Dolken Och Manteln"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"sv"	"Ambassadör"
+		"sv"	"Ambassadören"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"sv"	"Direkt Träff"
+		"sv"	"Direkta Träffen"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"sv"	"Utjämnare"
+		"sv"	"Utjämnaren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"sv"	"Buffbaner"
+		"sv"	"Buffbaneret"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"sv"	"Skotskt Motstånd"
+		"sv"	"Skotska Motståndet"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
@@ -98,11 +98,11 @@
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"sv"	"Kanonbåtar"
+		"sv"	"Kanonbåtarna"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"sv"	"Grälmakare"
+		"sv"	"Grälmakaren"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
@@ -110,7 +110,7 @@
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"sv"	"Revolverman"
+		"sv"	"Revolvermannen"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
@@ -118,7 +118,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"sv"	"Ägare"
+		"sv"	"Ägaren"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -126,11 +126,11 @@
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"sv"	"Dalokohs-Kaka"
+		"sv"	"Dalokohs-Kakan"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"sv"	"Lugermorph"
+		"sv"	"Lugermorphen"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
@@ -142,7 +142,7 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"sv"	"Gyllene Skiftnyckel"
+		"sv"	"Den Gyllene Skiftnyckeln"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -154,15 +154,15 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"sv"	"Vita-Såg"
+		"sv"	"Vita-Sågen"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"sv"	"Eldomkraft"
+		"sv"	"Eldomkraften"
 	}
 	"TF_THEDEGREASER"
 	{
-		"sv"	"Avfettare"
+		"sv"	"Avfettaren"
 	}
 	"TF_THESHORTSTOP"
 	{
@@ -170,7 +170,7 @@
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"sv"	"Fin Fisk"
+		"sv"	"Fina Fisken"
 	}
 	"TF_MADMILK"
 	{
@@ -190,11 +190,11 @@
 	}
 	"TF_THEBLACKBOX"
 	{
-		"sv"	"Svart Låda"
+		"sv"	"Svarta Lådan"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"sv"	"Sydney-Sövare"
+		"sv"	"Sydney-Sövaren"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -206,7 +206,7 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"sv"	"Rakethoppare"
+		"sv"	"Rakethopparen"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -214,6 +214,14 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"sv"	"Stekpanna"
+		"sv"	"Stekpannan"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"sv"	"Klisterbombshopparen"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"sv"	"Hästlöse Huvudlöse Horsemanns Halshuggare"
 	}
 }

@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"de"	"Kritzkrieg"
+		"de"	"Die Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"de"	"Blutsauger"
+		"de"	"Der Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"de"	"Übersäge"
+		"de"	"Die Übersäge"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"de"	"Axtinator"
+		"de"	"Der Axtinator"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"de"	"Leuchtpistole"
+		"de"	"Die Signalpistole"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"de"	"Rückenschmorer"
+		"de"	"Der Rückenschmorer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,31 +30,31 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"de"	"Sandvich"
+		"de"	"Das Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"de"	"Killing Gloves of Boxing"
+		"de"	"Die Killing Gloves of Boxing"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"de"	"Sandman"
+		"de"	"Der Sandman"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"de"	"Force-A-Nature"
+		"de"	"Die Force-A-Nature"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"de"	"Bonk! Energy Drink"
+		"de"	"Bonk! Atomic Punch"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"de"	"Huntsman"
+		"de"	"Der Huntsman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"de"	"Razorback"
+		"de"	"Der Razorback"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,43 +62,43 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"de"	"Scheintoduhr"
+		"de"	"Die Scheintoduhr"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"de"	"Cloak and Dagger"
+		"de"	"Der Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"de"	"Ambassador"
+		"de"	"Der Ambassador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"de"	"Direkter Treffer"
+		"de"	"Der Direktschlag"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"de"	"Equalizer"
+		"de"	"Der Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"de"	"Buff Banner"
+		"de"	"Das Buff-Banner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"de"	"Schottischer Widerstand"
+		"de"	"Der Schottische Widerstand"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"de"	"Chargin\' Targe"
+		"de"	"Der Sturmschild"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"de"	"Eyelander"
+		"de"	"Der Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"de"	"Raketenstiefel"
+		"de"	"Die Raketenstiefel"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
@@ -106,35 +106,35 @@
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"de"	"Selbstjustiz"
+		"de"	"Die Selbstjustiz"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"de"	"Gunslinger"
+		"de"	"Der Gunslinger"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"de"	"Homewrecker"
+		"de"	"Der Unruhestifter"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"de"	"Pain Train"
+		"de"	"Der Pain Train"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"de"	"Texanische Gastfreundschaft"
+		"de"	"Die Texanische Gastfreundschaft"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"de"	"Dalokohs Bar"
+		"de"	"Der Dalokohs-Riegel"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"de"	"Lugermorph"
+		"de"	"Die Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"de"	"Big Kill"
+		"de"	"Der Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -142,35 +142,35 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"de"	"Goldener Schraubenschlüssel"
+		"de"	"Der Goldene Schraubenschlüssel"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"de"	"Stammesklinge"
+		"de"	"Die Stammesklinge"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"de"	"Schottischer Schädelspalter"
+		"de"	"Der Schottische Schädelspalter"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"de"	"Vita-Saw"
+		"de"	"Die Vital-Säge"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"de"	"Wagenheber"
+		"de"	"Der Wagenheber"
 	}
 	"TF_THEDEGREASER"
 	{
-		"de"	"Herdflamme"
+		"de"	"Die Herdflamme"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"de"	"Shortstop"
+		"de"	"Der Shortstop"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"de"	"Holy Mackerel"
+		"de"	"Die Heilige Makrele"
 	}
 	"TF_MADMILK"
 	{
@@ -190,7 +190,7 @@
 	}
 	"TF_THEBLACKBOX"
 	{
-		"de"	"Black Box"
+		"de"	"Die Blackbox"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
@@ -202,11 +202,11 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"de"	"Buschwacka"
+		"de"	"Der Buschwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"de"	"Raketen-Springer"
+		"de"	"Der Raketen-Springer"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -214,7 +214,7 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"de"	"Bratpfanne"
+		"de"	"Die Bratpfanne"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{

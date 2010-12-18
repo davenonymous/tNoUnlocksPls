@@ -2,103 +2,103 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"zho"	"Kritzkrieg"
+		"zho"	"暴擊製造者"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"zho"	"Blutsauger"
+		"zho"	"嗜血針槍"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"zho"	"Ubersaw"
+		"zho"	"超能骨鋸"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"zho"	"Axtinguisher"
+		"zho"	"火斧"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"zho"	"Flare Gun"
+		"zho"	"信號槍"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"zho"	"Backburner"
+		"zho"	"背後火焰發射器"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"zho"	"Natascha"
+		"zho"	"娜塔莎"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"zho"	"Sandvich"
+		"zho"	"三明治"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"zho"	"Killing Gloves of Boxing"
+		"zho"	"殺人拳套"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"zho"	"Sandman"
+		"zho"	"睡魔"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"zho"	"Force-A-Nature"
+		"zho"	"自然之力"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"zho"	"Bonk! Atomic Punch"
+		"zho"	"Bonk! 原子能量飲料"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"zho"	"Huntsman"
+		"zho"	"獵人長弓"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"zho"	"Razorback"
+		"zho"	"劍脊野豬盾"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"zho"	"Jarate"
+		"zho"	"瓶手道"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"zho"	"Dead Ringer"
+		"zho"	"死亡送終者"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"zho"	"Cloak and Dagger"
+		"zho"	"隱身匕首"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"zho"	"Ambassador"
+		"zho"	"全能大使"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"zho"	"Direct Hit"
+		"zho"	"直擊火箭"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"zho"	"Equalizer"
+		"zho"	"傷害均衡十字鎬"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"zho"	"Buff Banner"
+		"zho"	"增幅旗幟"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"zho"	"Scottish Resistance"
+		"zho"	"蘇格蘭式防禦黏彈"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"zho"	"Chargin\' Targe"
+		"zho"	"衝擊刺盾"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"zho"	"Eyelander"
+		"zho"	"魔眼闊劍"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"zho"	"Gunboats"
+		"zho"	"鐵砲護靴"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
@@ -114,11 +114,11 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"zho"	"Homewrecker"
+		"zho"	"家用破壞者"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"zho"	"Pain Train"
+		"zho"	"天堂路"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -126,15 +126,15 @@
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"zho"	"Dalokohs Bar"
+		"zho"	"美味巧克力"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"zho"	"Lugermorph"
+		"zho"	"魯格變形式"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"zho"	"Big Kill"
+		"zho"	"大屠殺"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -182,7 +182,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"zho"	"永恆報償"
+		"zho"	"您的永恆獎賞"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -215,5 +215,13 @@
 	"TF_UNIQUE_FRYINGPAN"
 	{
 		"zho"	"油炸平底鍋"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"zho"	"黏彈跳躍者"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"zho"	"連馬都沒有的無頭騎士斬首斧"
 	}
 }

@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"ro"	"Kritzkrieg"
+		"ro"	"Kritzkrieg-ul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"ro"	"Blutsauger"
+		"ro"	"Blutsauger-ul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"ro"	"Über Fierăstrău"
+		"ro"	"Über Fierăstrăul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"ro"	"Extinctopor"
+		"ro"	"Extinctoporul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"ro"	"Pistol de Semnalizare"
+		"ro"	"Pistolul de Semnalizare"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"ro"	"Arzător de Spate"
+		"ro"	"Arzătorul de Spate"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,7 +30,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"ro"	"Sandvich"
+		"ro"	"Sandvich-ul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
@@ -46,15 +46,15 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"ro"	"Bonk! Energizant Atomic"
+		"ro"	"Bonk! Energizantul Atomic"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"ro"	"Vânător de Oameni"
+		"ro"	"Vânătorul de Oameni"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"ro"	"Razorback"
+		"ro"	"Razorback-ul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -66,31 +66,31 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"ro"	"Pelerină şi Pumnal"
+		"ro"	"Pelerina şi Pumnalul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"ro"	"Ambasador"
+		"ro"	"Ambasadorul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"ro"	"Lovitură Directă"
+		"ro"	"Lovitura Directă"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"ro"	"Egalizator"
+		"ro"	"Egalizatorul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"ro"	"Steguleţ"
+		"ro"	"Steguleţul"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"ro"	"Rezistenţă Scoţiană"
+		"ro"	"Rezistenţa Scoţiană"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"ro"	"Scut Şarjator"
+		"ro"	"Scutul Şarjator"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
@@ -98,23 +98,23 @@
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"ro"	"Cizme Blindate"
+		"ro"	"Cizmele Blindate"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"ro"	"Controlor"
+		"ro"	"Controlorul"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"ro"	"Justiţiar a Frontierei"
+		"ro"	"Justiţiarul Frontierei"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"ro"	"Pistolar"
+		"ro"	"Pistolarul"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"ro"	"Homewrecker"
+		"ro"	"Homewrecker-ul"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
@@ -122,19 +122,19 @@
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"ro"	"Ospitalitate din Sud"
+		"ro"	"Ospitalitatea din Sud"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"ro"	"Ciocolată Dalokohs"
+		"ro"	"Ciocolata Dalokohs"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"ro"	"Lugermorph"
+		"ro"	"Lugermorph-ul"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"ro"	"Big Kill"
+		"ro"	"Big Kill-ul"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -142,7 +142,7 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"ro"	"Cheie Franceză de Aur"
+		"ro"	"Cheia Franceză de Aur"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -154,27 +154,15 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"ro"	"Vita-Saw"
-	}
-	"TF_THEPOWERJACK"
-	{
-		"ro"	"Powerjack"
+		"ro"	"Vita-Fierăstrăul"
 	}
 	"TF_THEDEGREASER"
 	{
-		"ro"	"Degreaser"
-	}
-	"TF_THESHORTSTOP"
-	{
-		"ro"	"Shortstop"
-	}
-	"TF_THEHOLYMACKEREL"
-	{
-		"ro"	"Holy Mackerel"
+		"ro"	"Degresatorul"
 	}
 	"TF_MADMILK"
 	{
-		"ro"	"Mad Milk"
+		"ro"	"Lapte Nebun"
 	}
 	"TF_LETRANGER"
 	{
@@ -182,30 +170,18 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"ro"	"Your Eternal Reward"
-	}
-	"TF_THEBATTALIONSBACKUP"
-	{
-		"ro"	"Battalion\'s Backup"
+		"ro"	"Recompensa Ta Eternă"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"ro"	"Black Box"
-	}
-	"TF_SYDNEYSLEEPER"
-	{
-		"ro"	"Sydney Sleeper"
+		"ro"	"Cutia Neagră"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"ro"	"Darwin\'s Danger Shield"
+		"ro"	"Scutul pentru Pericol al lui Darwin"
 	}
-	"TF_THEBUSHWACKA"
+	"TF_UNIQUE_FRYINGPAN"
 	{
-		"ro"	"Bushwacka"
-	}
-	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
-	{
-		"ro"	"Rocket Jumper"
+		"ro"	"Tigaia"
 	}
 }

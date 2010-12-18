@@ -10,95 +10,95 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"fi"	"Ubersaw"
+		"fi"	"Ubersaha"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"fi"	"Axtinguisher"
+		"fi"	"Sammutuskirves"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"fi"	"Flare Gun"
+		"fi"	"Valopistooli"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"fi"	"Selänpoltin"
+		"fi"	"Jälkipoltin"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"fi"	"Natascha"
+		"fi"	"Natasha"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"fi"	"Sandvich"
+		"fi"	"Voileipä"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"fi"	"Killing Gloves of Boxing"
+		"fi"	"Kuolettavat Nyrkkeilyhanskat"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"fi"	"Sandman"
+		"fi"	"Nukkumatti"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"fi"	"Force-A-Nature"
+		"fi"	"Luonnonvoima"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"fi"	"Bonk! Atomic Punch"
+		"fi"	"Naps! Atomi-isku"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"fi"	"Huntsman"
+		"fi"	"Metsämies"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"fi"	"Razorback"
+		"fi"	"Selkäsuoja"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"fi"	"Jarate"
+		"fi"	"Nestekarate"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"fi"	"Dead Ringer"
+		"fi"	"Kuolemankello"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"fi"	"Cloak and Dagger"
+		"fi"	"Viitta ja Tikari"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"fi"	"Ambassador"
+		"fi"	"Suurlähettiläs"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"fi"	"Direct Hit"
+		"fi"	"Suoraosuma"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"fi"	"Equalizer"
+		"fi"	"Tasoittaja"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"fi"	"Buff Banner"
+		"fi"	"Sotalippu"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"fi"	"Scottish Resistance"
+		"fi"	"Skotlannin vastarinta"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"fi"	"Chargin\' Targe"
+		"fi"	"Rynnäkkökilpi"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"fi"	"Eyelander"
+		"fi"	"Kaulankatkoja"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"fi"	"Gunboats"
+		"fi"	"Terässaappaat"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
@@ -118,7 +118,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"fi"	"Pain Train"
+		"fi"	"Kipujuna"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -126,7 +126,7 @@
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"fi"	"Dalokohs Bar"
+		"fi"	"Suklaalevy"
 	}
 	"TF_TTG_MAXGUN"
 	{
@@ -134,7 +134,7 @@
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"fi"	"Big Kill"
+		"fi"	"Suurmurha"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -146,7 +146,7 @@
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"fi"	"Tribalman\'s Shiv"
+		"fi"	"Heimolaisterä"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
@@ -154,59 +154,59 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"fi"	"Vita-Saw"
+		"fi"	"Vita-saha"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"fi"	"Powerjack"
+		"fi"	"Tunkki"
 	}
 	"TF_THEDEGREASER"
 	{
-		"fi"	"Degreaser"
+		"fi"	"Rasvanpolttaja"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"fi"	"Shortstop"
+		"fi"	"Pysäyttäjä"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"fi"	"Holy Mackerel"
+		"fi"	"Pyhä makrilli"
 	}
 	"TF_MADMILK"
 	{
-		"fi"	"Mad Milk"
+		"fi"	"Hullu maito"
 	}
 	"TF_LETRANGER"
 	{
-		"fi"	"L\'Etranger"
+		"fi"	"L\'Etranger-revolveri"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"fi"	"Your Eternal Reward"
+		"fi"	"Ikuinen palkkiosi"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"fi"	"Battalion\'s Backup"
+		"fi"	"Pataljoonan taustatuki"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"fi"	"Black Box"
+		"fi"	"Musta laatikko"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"fi"	"Sydney Sleeper"
+		"fi"	"Sydney Sleeper -nukutuskivääri"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"fi"	"Darwin\'s Danger Shield"
+		"fi"	"Darwinin vaarakilpi"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"fi"	"Bushwacka"
+		"fi"	"Bushwacka-veitsi"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"fi"	"Rocket Jumper"
+		"fi"	"Rakettihyppääjä"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -215,5 +215,13 @@
 	"TF_UNIQUE_FRYINGPAN"
 	{
 		"fi"	"Paistinpannu"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"fi"	"Tahmapomppija"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"fi"	"Ratsuttoman Päättömän Ratsumiehen Päänviejä"
 	}
 }

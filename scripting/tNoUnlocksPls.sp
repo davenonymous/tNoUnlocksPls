@@ -4,7 +4,7 @@
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.0.5"
+#define VERSION	"0.0.6"
 #define MAXITEMS	128
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
@@ -375,7 +375,20 @@ stock IsStripable(iIDI) {
 			iIDI == 239	||	//TF_Unique_Gloves_of_Running_Urgently
 			iIDI == 264	||	//TF_UNIQUE_FRYINGPAN
 			iIDI == 265	||	//TF_WEAPON_STICKYBOMB_JUMP
-			iIDI == 266		//TF_HALLOWEENBOSS_AXE
+			iIDI == 266	||	//TF_HALLOWEENBOSS_AXE
+			iIDI == 297 ||	//TF_TTG_WATCH
+			iIDI == 298 ||	//TF_IRON_CURTAIN
+			iIDI == 304 ||  //TF_Amputator
+			iIDI == 307 ||	//TF_UllapoolCaber
+			iIDI == 308 || 	//TF_LochNLoad
+			iIDI == 310 ||	//TF_WarriorsSpirit
+			iIDI == 312 ||	//TF_GatlingGun
+			iIDI == 317 ||	//TF_CandyCane
+			iIDI == 325 ||	//TF_BostonBasher
+			iIDI == 326	||	//TF_BackScratcher
+			iIDI == 327 ||	//TF_Claidheamohmor
+			iIDI == 329 ||	//TF_Jag
+			iIDI == 331		//TF_FistsOfSteel
 
 							)
 								return true;
@@ -399,7 +412,7 @@ stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	}
 
 	//Replace with HWG-Shotgun
-	if(iIDI == 42 || iIDI == 159) {	//Sandvich & Dalokohs Bar
+	if(iIDI == 42 || iIDI == 159 || iIDI == 311 ) {	//Sandvich & Dalokohs Bar & TF_BuffaloSteak
 		strcopy(class, size, "tf_weapon_shotgun_hwg");
 		replacement = 11;
 		return true;
@@ -471,7 +484,7 @@ stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	}
 
 	//Replace with Syringegun
-	if(iIDI == 36) {	//Blutsauger
+	if(iIDI == 36 || iIDI == 305) {	//Blutsauger + TF_CrusadersCrossbow
 		strcopy(class, size, "tf_weapon_syringegun_medic");
 		replacement = 33;
 		return true;

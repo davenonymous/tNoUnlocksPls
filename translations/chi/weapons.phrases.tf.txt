@@ -14,7 +14,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"chi"	"灭火器斧"
+		"chi"	"火焰战斧"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
@@ -50,7 +50,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"chi"	"Huntsman"
+		"chi"	"猎人短弓"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
@@ -70,7 +70,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"chi"	"Ambassador"
+		"chi"	"大使手枪"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
@@ -130,11 +130,11 @@
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"chi"	"Lugermorph"
+		"chi"	"鲁格尔手枪"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"chi"	"Big Kill"
+		"chi"	"屠杀枪"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -154,62 +154,74 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"chi"	"Vita-Saw"
+		"chi"	"维塔锯"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"chi"	"Powerjack"
+		"chi"	"电源插座"
 	}
 	"TF_THEDEGREASER"
 	{
-		"chi"	"Degreaser"
+		"chi"	"脱油剂"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"chi"	"Shortstop"
+		"chi"	"游击手"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"chi"	"Holy Mackerel"
+		"chi"	"圣灵鲭鱼"
 	}
 	"TF_MADMILK"
 	{
-		"chi"	"Mad Milk"
+		"chi"	"疯狂的牛奶"
 	}
 	"TF_LETRANGER"
 	{
-		"chi"	"L\'Etranger"
+		"chi"	"陌生人"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"chi"	"Your Eternal Reward"
+		"chi"	"永生的回报"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"chi"	"Battalion\'s Backup"
+		"chi"	"军队的支援"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"chi"	"Black Box"
+		"chi"	"黑匣子"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"chi"	"Sydney Sleeper"
+		"chi"	"悉尼懒鬼"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"chi"	"Darwin\'s Danger Shield"
+		"chi"	"达尔文的危险之盾"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"chi"	"Bushwacka"
+		"chi"	"灌木丛"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"chi"	"Rocket Jumper"
+		"chi"	"火箭伞兵"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"chi"	"紧急逃跑手套"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"chi"	"平底煎锅"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"chi"	"黏弹跳跃者"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"chi"	"脱缰的无头骑士斩首斧"
 	}
 }

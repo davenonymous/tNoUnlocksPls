@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"en"	"The Kritzkrieg"
+		"en"	"Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"en"	"The Blutsauger"
+		"en"	"Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"en"	"The Ubersaw"
+		"en"	"Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"en"	"The Axtinguisher"
+		"en"	"Axtinguisher"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"en"	"The Flare Gun"
+		"en"	"Flare Gun"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"en"	"The Backburner"
+		"en"	"Backburner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,19 +30,19 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"en"	"The Sandvich"
+		"en"	"Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"en"	"The Killing Gloves of Boxing"
+		"en"	"Killing Gloves of Boxing"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"en"	"The Sandman"
+		"en"	"Sandman"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"en"	"The Force-A-Nature"
+		"en"	"Force-A-Nature"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -50,11 +50,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"en"	"The Huntsman"
+		"en"	"Huntsman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"en"	"The Razorback"
+		"en"	"Razorback"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,79 +62,79 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"en"	"The Dead Ringer"
+		"en"	"Dead Ringer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"en"	"The Cloak and Dagger"
+		"en"	"Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"en"	"The Ambassador"
+		"en"	"Ambassador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"en"	"The Direct Hit"
+		"en"	"Direct Hit"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"en"	"The Equalizer"
+		"en"	"Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"en"	"The Buff Banner"
+		"en"	"Buff Banner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"en"	"The Scottish Resistance"
+		"en"	"Scottish Resistance"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"en"	"The Chargin\' Targe"
+		"en"	"Chargin\' Targe"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"en"	"The Eyelander"
+		"en"	"Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"en"	"The Gunboats"
+		"en"	"Gunboats"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"en"	"The Wrangler"
+		"en"	"Wrangler"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"en"	"The Frontier Justice"
+		"en"	"Frontier Justice"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"en"	"The Gunslinger"
+		"en"	"Gunslinger"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"en"	"The Homewrecker"
+		"en"	"Homewrecker"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"en"	"The Pain Train"
+		"en"	"Pain Train"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"en"	"The Southern Hospitality"
+		"en"	"Southern Hospitality"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"en"	"The Dalokohs Bar"
+		"en"	"Dalokohs Bar"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"en"	"The Lugermorph"
+		"en"	"Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"en"	"The Big Kill"
+		"en"	"Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -142,35 +142,35 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"en"	"The Golden Wrench"
+		"en"	"Golden Wrench"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"en"	"The Tribalman\'s Shiv"
+		"en"	"Tribalman\'s Shiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"en"	"The Scotsman\'s Skullcutter"
+		"en"	"Scotsman\'s Skullcutter"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"en"	"The Vita-Saw"
+		"en"	"Vita-Saw"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"en"	"The Powerjack"
+		"en"	"Powerjack"
 	}
 	"TF_THEDEGREASER"
 	{
-		"en"	"The Degreaser"
+		"en"	"Degreaser"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"en"	"The Shortstop"
+		"en"	"Shortstop"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"en"	"The Holy Mackerel"
+		"en"	"Holy Mackerel"
 	}
 	"TF_MADMILK"
 	{
@@ -186,15 +186,15 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"en"	"The Battalion\'s Backup"
+		"en"	"Battalion\'s Backup"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"en"	"The Black Box"
+		"en"	"Black Box"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"en"	"The Sydney Sleeper"
+		"en"	"Sydney Sleeper"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -202,11 +202,11 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"en"	"The Bushwacka"
+		"en"	"Bushwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"en"	"The Rocket Jumper"
+		"en"	"Rocket Jumper"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -214,14 +214,74 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"en"	"The Frying Pan"
+		"en"	"Frying Pan"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"en"	"The Sticky Jumper"
+		"en"	"Sticky Jumper"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"en"	"The Horseless Headless Horsemann\'s Headtaker"
+		"en"	"Horseless Headless Horsemann\'s Headtaker"
+	}
+	"TF_TTG_WATCH"
+	{
+		"en"	"Enthusiast\'s Timepiece"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"en"	"Iron Curtain"
+	}
+	"TF_AMPUTATOR"
+	{
+		"en"	"Amputator"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"en"	"Crusader\'s Crossbow"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"en"	"Ullapool Caber"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"en"	"Loch-n-Load"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"en"	"Warrior\'s Spirit"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"en"	"Buffalo Steak Sandvich"
+	}
+	"TF_GATLINGGUN"
+	{
+		"en"	"Brass Beast"
+	}
+	"TF_CANDYCANE"
+	{
+		"en"	"Candy Cane"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"en"	"Boston Basher"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"en"	"Back Scratcher"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"en"	"Claidheamohmor"
+	}
+	"TF_JAG"
+	{
+		"en"	"Jag"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"en"	"Fists of Steel"
 	}
 }
