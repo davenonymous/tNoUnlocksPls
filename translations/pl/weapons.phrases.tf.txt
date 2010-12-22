@@ -118,7 +118,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"pl"	"Pociąg Bólu"
+		"pl"	"Pałka Sokisty"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{

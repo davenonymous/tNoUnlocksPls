@@ -172,6 +172,10 @@
 	{
 		"ro"	"Recompensa Ta Eternă"
 	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"ro"	"Sprijinul Batalionului"
+	}
 	"TF_THEBLACKBOX"
 	{
 		"ro"	"Cutia Neagră"

@@ -274,7 +274,7 @@
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"en"	"Claidheamohmor"
+		"en"	"Claidheamh Mòr"
 	}
 	"TF_JAG"
 	{
