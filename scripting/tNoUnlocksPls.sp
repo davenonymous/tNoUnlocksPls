@@ -4,7 +4,7 @@
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.0.6"
+#define VERSION	"0.0.7"
 #define MAXITEMS	128
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
