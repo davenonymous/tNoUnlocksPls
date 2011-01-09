@@ -76,6 +76,8 @@ public OnPluginStart() {
 	if (LibraryExists("adminmenu") && ((topmenu = GetAdminTopMenu()) != INVALID_HANDLE)) {
 		OnAdminMenuReady(topmenu);
 	}
+
+	AutoExecConfig();
 }
 
 public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValue[]) {
