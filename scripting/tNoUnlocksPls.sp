@@ -4,10 +4,11 @@
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.0.7"
+#define VERSION	"0.0.8"
 #define MAXITEMS	128
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
+new bool:g_bAnnounce;
 new bool:g_bEnabled;
 new bool:g_bDefault;		//true == replace weapons by default, unless told so with sm_toggleunlock <iIDI>
 new bool:g_bAlwaysReplace;	//true == dont strip, always replace weapons
@@ -17,6 +18,7 @@ new Handle:g_hCvarDefault;
 new Handle:g_hCvarEnabled;
 new Handle:g_hCvarAlwaysReplace;
 new Handle:g_hCvarFile;
+new Handle:g_hCvarAnnounce;
 
 new Handle:g_hTopMenu = INVALID_HANDLE;
 
@@ -45,6 +47,7 @@ public OnPluginStart() {
 
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarAlwaysReplace = CreateConVar("sm_tnounlockspls_alwaysreplace", "0", "If set to 1 strippable weapons will be replaced nonetheless", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
 
@@ -52,6 +55,7 @@ public OnPluginStart() {
 	HookConVarChange(g_hCvarDefault, Cvar_Changed);
 	HookConVarChange(g_hCvarEnabled, Cvar_Changed);
 	HookConVarChange(g_hCvarFile, Cvar_Changed);
+	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
 
 	decl String:translationPath[PLATFORM_MAX_PATH];
 	BuildPath(Path_SM, translationPath, PLATFORM_MAX_PATH, "translations/weapons.phrases.tf.txt");
@@ -89,6 +93,7 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 	} else {
 		g_bDefault = GetConVarBool(g_hCvarDefault);
 		g_bEnabled = GetConVarBool(g_hCvarEnabled);
+		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 		g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
 	}
 }
@@ -96,6 +101,8 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 public OnConfigsExecuted() {
 	g_bDefault = GetConVarBool(g_hCvarDefault);
 	g_bEnabled = GetConVarBool(g_hCvarEnabled);
+	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
+
 	g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
 
 	GetConVarString(g_hCvarFile, g_sCfgFile, sizeof(g_sCfgFile));
@@ -312,7 +319,9 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 			TF2Items_SetNumAttributes(hTest, 0);
 			hItemOverride = hTest;
 
-			CPrintToChat(iClient, "Stripped attributes of your '{olive}%T{default}'", g_xItems[id][trans], iClient);
+			if(g_bAnnounce)
+				CPrintToChat(iClient, "Stripped attributes of your '{olive}%T{default}'", g_xItems[id][trans], iClient);
+
 			return Plugin_Changed;
 		}
 	}
@@ -331,7 +340,7 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 		hItemOverride = hTest;
 
 		new idPrev = FindItemWithID(iItemDefinitionIndex);
-		if(idPrev != -1) {
+		if(idPrev != -1 && g_bAnnounce) {
 			CPrintToChat(iClient, "Replaced your '{olive}%T{default}'", g_xItems[idPrev][trans], iClient);
 		}
 
