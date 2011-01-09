@@ -573,7 +573,7 @@ stock bool:GetReplacement(iIDI, String:class[], size, &replacement) {
 	//Replace with Engineer Shotgun
 	if(iIDI == 141) { // Frontier Justice
 		strcopy(class, size, "tf_weapon_shotgun_primary");
-		replacement = 6;
+		replacement = 9;
 		return true;
 	}
 
