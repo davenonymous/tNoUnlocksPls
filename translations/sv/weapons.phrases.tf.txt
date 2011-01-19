@@ -6,7 +6,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"sv"	"Blutsaugern"
+		"sv"	"Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
@@ -210,7 +210,7 @@
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"sv"	"Handskar Av Brådskande Löpning"
+		"sv"	"Gorbatjovs Rushande Uppercut"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
@@ -223,5 +223,65 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"sv"	"Hästlöse Huvudlöse Horsemanns Halshuggare"
+	}
+	"TF_TTG_WATCH"
+	{
+		"sv"	"Entusiastens Tidur"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"sv"	"Järnridån"
+	}
+	"TF_AMPUTATOR"
+	{
+		"sv"	"Amputeraren"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"sv"	"Korsriddarens Armborst"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"sv"	"Ullapool-Caber"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"sv"	"Loch-n-Load"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"sv"	"Krigarens Anda"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"sv"	"Buffelbiffsmörgos"
+	}
+	"TF_GATLINGGUN"
+	{
+		"sv"	"Mässingsmonstret"
+	}
+	"TF_CANDYCANE"
+	{
+		"sv"	"Polkagrisen"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"sv"	"Bostonbankaren"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"sv"	"Ryggkliaren"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"sv"	"Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"sv"	"Jacken"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"sv"	"Stålnävarna"
 	}
 }

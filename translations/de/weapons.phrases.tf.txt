@@ -224,4 +224,64 @@
 	{
 		"de"	"Der Kopfabreißer des Pferdlosen Kopflosen Reiters"
 	}
+	"TF_TTG_WATCH"
+	{
+		"de"	"Die Enthusiasten-Uhr"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"de"	"Der Eiserne Vorhang"
+	}
+	"TF_AMPUTATOR"
+	{
+		"de"	"Der Amputator"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"de"	"Des Kreuzritters Armbrust"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"de"	"Der Ullapool\'sche Stiel"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"de"	"Der Lochnesser"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"de"	"Des Kriegers Geist"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"de"	"Das Buffalo-Steak-Sandvich"
+	}
+	"TF_GATLINGGUN"
+	{
+		"de"	"Das Messingmonster"
+	}
+	"TF_CANDYCANE"
+	{
+		"de"	"Die Zuckerstange"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"de"	"Der Boston-Beißer"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"de"	"Der Rückenkratzer"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"de"	"Das Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"de"	"Der Jaguar"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"de"	"Die Stahlfäuste"
+	}
 }

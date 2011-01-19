@@ -86,7 +86,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"no"	"Den Skotske Motstanden"
+		"no"	"Den skotske motstanden"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
@@ -131,6 +131,10 @@
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
 		"no"	"Den Gylne skiftenøkkelen"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"no"	"Stammemannens kniv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
@@ -203,5 +207,69 @@
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
 		"no"	"Klisterhopperen"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"no"	"Den hesteløse hodeløse hestemannens hodetaker"
+	}
+	"TF_TTG_WATCH"
+	{
+		"no"	"Entusiastens urverk"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"no"	"Jernteppet"
+	}
+	"TF_AMPUTATOR"
+	{
+		"no"	"Amputereren"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"no"	"Korsfarerens armbrøst"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"no"	"Ullapool stauren"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"no"	"Loch-n-Load"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"no"	"Krigerens moral"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"no"	"Bøffelbiff smørbrødet"
+	}
+	"TF_GATLINGGUN"
+	{
+		"no"	"Messingbeistet"
+	}
+	"TF_CANDYCANE"
+	{
+		"no"	"Polkagrisen"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"no"	"Boston slåeren"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"no"	"Ryggskraperen"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"no"	"Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"no"	"Rangelen"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"no"	"Knyttnever av stål"
 	}
 }

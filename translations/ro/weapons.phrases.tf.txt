@@ -188,4 +188,44 @@
 	{
 		"ro"	"Tigaia"
 	}
+	"TF_TTG_WATCH"
+	{
+		"ro"	"Ceasul Entuziastului"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"ro"	"Cortina de Fier"
+	}
+	"TF_AMPUTATOR"
+	{
+		"ro"	"Amputatorul"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"ro"	"Arbaleta Cruciatului"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"ro"	"Cabrul Ullapool"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"ro"	"Spiritul Războinicului"
+	}
+	"TF_GATLINGGUN"
+	{
+		"ro"	"Bestia de Aramă"
+	}
+	"TF_CANDYCANE"
+	{
+		"ro"	"Bastonul de Zahăr"
+	}
+	"TF_JAG"
+	{
+		"ro"	"Colţul"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"ro"	"Pumnii de Oţel"
+	}
 }

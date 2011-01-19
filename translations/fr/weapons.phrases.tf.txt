@@ -34,7 +34,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"fr"	"Les gants de boxe de la mort"
+		"fr"	"Les Kamarades, Gants de Boxe"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
@@ -114,7 +114,7 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"fr"	"Le Destructeur de Maison"
+		"fr"	"Le Fracasseur d\'Abri"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
@@ -150,7 +150,7 @@
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"fr"	"La Fendeuse de Crâne Écossaise"
+		"fr"	"La Guillotine Écossaise"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -206,7 +206,7 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"fr"	"Rocket Jumper"
+		"fr"	"Le Propul\'sauteur"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -218,10 +218,70 @@
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"fr"	"Le Sticky Jumper"
+		"fr"	"L\'Explo\'sauteur"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"fr"	"Le décapiteur du Cavalier sans Tête et sans Cheval"
+	}
+	"TF_TTG_WATCH"
+	{
+		"fr"	"La Montre du Passionné"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"fr"	"Le Rideau de Fer"
+	}
+	"TF_AMPUTATOR"
+	{
+		"fr"	"L\'Amputateur"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"fr"	"L\'Arbalète du Croisé"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"fr"	"Le Caber d\'Ullapool"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"fr"	"Le Loch-n-Load"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"fr"	"L\'Esprit du Guerrier"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"fr"	"Le Sandvich au Steak de Bison"
+	}
+	"TF_GATLINGGUN"
+	{
+		"fr"	"La Bête de Bronze"
+	}
+	"TF_CANDYCANE"
+	{
+		"fr"	"Le Sucre d\'Orge"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"fr"	"Le Bastonneur Bostonien"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"fr"	"Le Gratte-dos"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"fr"	"La Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"fr"	"Le Crochet"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"fr"	"Les Poings d\'Acier"
 	}
 }

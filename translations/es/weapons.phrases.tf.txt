@@ -224,4 +224,16 @@
 	{
 		"es"	"El Decapitador del Jinete Decapitado Sin Montura"
 	}
+	"TF_LOCHNLOAD"
+	{
+		"es"	"El Bombstruo del Lago Ness"
+	}
+	"TF_GATLINGGUN"
+	{
+		"es"	"El Titán de Latón"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"es"	"El Machacador de Boston"
+	}
 }

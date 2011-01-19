@@ -224,4 +224,64 @@
 	{
 		"ru"	"Секира Пешего всадника без головы"
 	}
+	"TF_TTG_WATCH"
+	{
+		"ru"	"Часы энтузиаста"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"ru"	"Железный занавес"
+	}
+	"TF_AMPUTATOR"
+	{
+		"ru"	"Ампутатор"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"ru"	"Арбалет крестоносца"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"ru"	"Аллапульское бревно"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"ru"	"Подкидыш"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"ru"	"Воинский дух"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"ru"	"Мясной бутерброд"
+	}
+	"TF_GATLINGGUN"
+	{
+		"ru"	"Латунный монстр"
+	}
+	"TF_CANDYCANE"
+	{
+		"ru"	"Карамельная трость"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"ru"	"Бостонский раздолбай"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"ru"	"Спиночёс"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"ru"	"Клеймор"
+	}
+	"TF_JAG"
+	{
+		"ru"	"Острозуб"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"ru"	"Стальные кулаки"
+	}
 }

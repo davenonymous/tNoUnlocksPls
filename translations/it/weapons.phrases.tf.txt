@@ -58,7 +58,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"it"	"Karavaso"
+		"it"	"Karattolo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
@@ -110,7 +110,7 @@
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"it"	"Il Pistolero"
+		"it"	"Il Pugno di Ferro"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
@@ -122,7 +122,7 @@
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"it"	"L\'Ospitalità del Sud"
+		"it"	"L\'Ospitalità Meridionale"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{

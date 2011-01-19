@@ -224,4 +224,64 @@
 	{
 		"pl"	"Ścinacz Głów Bezkonnego Bezgłowego Jeźdźca"
 	}
+	"TF_TTG_WATCH"
+	{
+		"pl"	"Czasomierz Entuzjasty"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"pl"	"Żelazna Kurtyna"
+	}
+	"TF_AMPUTATOR"
+	{
+		"pl"	"Amputator"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"pl"	"Kusza Krzyżowca"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"pl"	"Ullapoolski Pal"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"pl"	"Loch-n-Load"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"pl"	"Dusza Wojownika"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"pl"	"Stek z Bizona"
+	}
+	"TF_GATLINGGUN"
+	{
+		"pl"	"Mosiężna Bestia"
+	}
+	"TF_CANDYCANE"
+	{
+		"pl"	"Cukrowa Laska"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"pl"	"Bostoński Tłuczek"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"pl"	"Drapaczka"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"pl"	"Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"pl"	"Kieł"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"pl"	"Pięści ze Stali"
+	}
 }

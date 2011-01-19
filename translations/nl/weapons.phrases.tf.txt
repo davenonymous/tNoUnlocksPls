@@ -106,7 +106,7 @@
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"nl"	"De Frontale Gerechtigheid"
+		"nl"	"De Grensgerechtigheid"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
@@ -219,5 +219,37 @@
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
 		"nl"	"De Kleefbomspringer"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"nl"	"De Paardloze Hoofdloze Paardmann\'s Hoofdnemer"
+	}
+	"TF_AMPUTATOR"
+	{
+		"nl"	"De Amputeerder"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"nl"	"De Kruisvaarders Kruisboog"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"nl"	"De Buffel Biefstuk Sandvich"
+	}
+	"TF_CANDYCANE"
+	{
+		"nl"	"De Zuurstok"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"nl"	"De Boston Beuker"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"nl"	"De Ruggenkrabber"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"nl"	"De Claidheamh Mòr"
 	}
 }

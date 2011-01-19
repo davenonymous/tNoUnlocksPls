@@ -202,7 +202,7 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"fi"	"Bushwacka-veitsi"
+		"fi"	"Puskanpätkijä"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
@@ -223,5 +223,65 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"fi"	"Ratsuttoman Päättömän Ratsumiehen Päänviejä"
+	}
+	"TF_TTG_WATCH"
+	{
+		"fi"	"Harrastelijan rannekello"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"fi"	"Rautaesirippu"
+	}
+	"TF_AMPUTATOR"
+	{
+		"fi"	"Amputoija"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"fi"	"Ristiretkeilijän varsijousi"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"fi"	"Ullapoolin Tukki"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"fi"	"Lataus ja Laattaus"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"fi"	"Soturin sielu"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"fi"	"Puhvelinpihvipurilainen"
+	}
+	"TF_GATLINGGUN"
+	{
+		"fi"	"Messinkipeto"
+	}
+	"TF_CANDYCANE"
+	{
+		"fi"	"Karkkikeppi"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"fi"	"Piikkipaukuttaja"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"fi"	"Selänrapsutin"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"fi"	"Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"fi"	"Väkänen"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"fi"	"Teräsnyrkit"
 	}
 }
