@@ -146,7 +146,7 @@
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"sv"	"Stamherrens Hemgjorda Kniv"
+		"sv"	"Stamherrens Handgjorda Kniv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{

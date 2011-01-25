@@ -224,4 +224,56 @@
 	{
 		"it"	"Il Decapitatore del Cavaliere Senza Testa e Senza Cavallo"
 	}
+	"TF_IRON_CURTAIN"
+	{
+		"it"	"La Cortina di Ferro"
+	}
+	"TF_AMPUTATOR"
+	{
+		"it"	"L\'Amputatore"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"it"	"La Balestra del Crociato"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"it"	"Il Tronco di Ullapool"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"it"	"Il Loch-n-Load"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"it"	"Lo Spirito del Guerriero"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"it"	"Il Sandvich alla Bistecca di Bufalo"
+	}
+	"TF_GATLINGGUN"
+	{
+		"it"	"La Bestia d\'Ottone"
+	}
+	"TF_CANDYCANE"
+	{
+		"it"	"Il Bastoncino di Zucchero"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"it"	"L\'Assaltatore di Boston"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"it"	"Il Gratta Schiena"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"it"	"La Claidheamh Mòr"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"it"	"I Pugni d\'Acciaio"
+	}
 }

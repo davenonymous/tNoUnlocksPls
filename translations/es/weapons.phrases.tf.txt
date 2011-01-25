@@ -224,16 +224,64 @@
 	{
 		"es"	"El Decapitador del Jinete Decapitado Sin Montura"
 	}
+	"TF_TTG_WATCH"
+	{
+		"es"	"El Reloj del Coleccionista"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"es"	"El Telón de Acero"
+	}
+	"TF_AMPUTATOR"
+	{
+		"es"	"El Amputador"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"es"	"La Ballesta del Cruzado"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"es"	"El Cáber de Ullapool"
+	}
 	"TF_LOCHNLOAD"
 	{
 		"es"	"El Bombstruo del Lago Ness"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"es"	"Las Zarpas del Guerrero"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"es"	"El Focata de Filete de Búfalo"
 	}
 	"TF_GATLINGGUN"
 	{
 		"es"	"El Titán de Latón"
 	}
+	"TF_CANDYCANE"
+	{
+		"es"	"El Bastón de Caramelo"
+	}
 	"TF_BOSTONBASHER"
 	{
 		"es"	"El Machacador de Boston"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"es"	"El Rascaespaldas"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"es"	"La Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"es"	"El Manitas"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"es"	"Los Puños de Acero"
 	}
 }
