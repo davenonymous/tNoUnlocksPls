@@ -5,7 +5,7 @@
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.0.9"
+#define VERSION	"0.0.10"
 #define MAXITEMS	128
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
@@ -361,7 +361,7 @@ stock IsStripable(iIDI) {
 			iIDI == 41	||	//Natascha
 			iIDI == 43	||	//Killing Gloves of Boxing
 			iIDI == 44	||	//Sandman
-			//iIDI == 45	||	//Force-A-Nature
+			//iIDI == 45	||	//Force-A-Nature			//Animations are totally borked
 			iIDI == 59	||	//Dead Ringer
 			iIDI == 60	||	//Cloak and Dagger
 			iIDI == 61	||	//Ambassador
@@ -390,7 +390,7 @@ stock IsStripable(iIDI) {
 			iIDI == 297 ||	//TF_TTG_WATCH
 			iIDI == 298 ||	//TF_IRON_CURTAIN
 			iIDI == 304 ||  //TF_Amputator
-			iIDI == 307 ||	//TF_UllapoolCaber
+			//iIDI == 307 ||	//TF_UllapoolCaber		// Nope, still explodes
 			iIDI == 308 || 	//TF_LochNLoad
 			iIDI == 310 ||	//TF_WarriorsSpirit
 			iIDI == 312 ||	//TF_GatlingGun
