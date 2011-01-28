@@ -368,7 +368,7 @@ stock IsStripable(iIDI) {
 			iIDI == 127	||	//Direct Hit
 			iIDI == 128	||	//Equalizer
 			iIDI == 130	||	//Scottish Resistance
-			iIDI == 141	||	//Frontier Justice
+			//iIDI == 141	||	//Frontier Justice			//Reported by Boylee to be broken, players still get Revenge crits. Thanks.
 			iIDI == 153	||	//Homewrecker
 			iIDI == 154	||	//Pain Train
 			iIDI == 171	||	//Tribalman\'s Shiv
