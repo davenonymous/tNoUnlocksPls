@@ -464,8 +464,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher
-	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325) {
+	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick
+	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349) {
 		strcopy(sClass, size, "tf_weapon_bat");
 		replacement = 0;
 		return true;
@@ -478,8 +478,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Axtinguisher, Homewrecker, Powerjack, Back Scratcher
-	if(iIDI == 38 || iIDI == 153 || iIDI == 214 || iIDI == 326) {
+	// Replace Axtinguisher, Homewrecker, Powerjack, Back Scratcher, Sharpened Volcano Fragment
+	if(iIDI == 38 || iIDI == 153 || iIDI == 214 || iIDI == 326 || iIDI == 348) {
 		strcopy(sClass, size, "tf_weapon_fireaxe");
 		replacement = 2;
 		return true;

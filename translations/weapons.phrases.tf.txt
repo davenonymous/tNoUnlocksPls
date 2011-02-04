@@ -284,4 +284,12 @@
 	{
 		"en"	"Fists of Steel"
 	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"en"	"Sharpened Volcano Fragment"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"en"	"Sun-on-a-Stick"
+	}
 }
