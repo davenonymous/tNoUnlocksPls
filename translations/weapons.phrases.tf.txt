@@ -292,4 +292,20 @@
 	{
 		"en"	"Sun-on-a-Stick"
 	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"en"	"Concheror"
+	}
+	"TF_GUNBAI"
+	{
+		"en"	"Fan O\'War"
+	}
+	"TF_KUNAI"
+	{
+		"en"	"Conniver\'s Kunai"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"en"	"Half-Zatoichi"
+	}
 }
