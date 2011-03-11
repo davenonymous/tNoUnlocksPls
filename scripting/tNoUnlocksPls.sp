@@ -464,8 +464,22 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick
-	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349) {
+	// Replace Soldier Katana (TFClass_Soldier)
+	if(iIDI == 357 && class == TFClass_Soldier) {
+		strcopy(sClass, size, "tf_weapon_shovel");
+		replacement = 6;
+		return true;
+	}
+
+	// Replace Soldier Katana (TFClass_DemoMan)
+	if(iIDI == 357 && class == TFClass_DemoMan) {
+		strcopy(sClass, size, "tf_weapon_bottle");
+		replacement = 1;
+		return true;
+	}
+
+	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Gunbai
+	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355) {
 		strcopy(sClass, size, "tf_weapon_bat");
 		replacement = 0;
 		return true;
@@ -492,8 +506,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Your Eternal Reward
-	if(iIDI == 225) {
+	// Replace Your Eternal Reward, Kunai
+	if(iIDI == 225 || iIDI == 356) {
 		strcopy(sClass, size, "tf_weapon_knife");
 		replacement = 4;
 		return true;
@@ -534,8 +548,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Buff Banner, Gunboats, Battalion's Backup
-	if(iIDI == 129 || iIDI == 133 || iIDI == 226) {
+	// Replace Buff Banner, Gunboats, Battalion's Backup, Soldier's Sashimono
+	if(iIDI == 129 || iIDI == 133 || iIDI == 226 || iIDI == 354) {
 		strcopy(sClass, size, "tf_weapon_shotgun_soldier");
 		replacement = 10;
 		return true;
