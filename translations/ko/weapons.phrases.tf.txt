@@ -28,6 +28,10 @@
 	{
 		"ko"	"나타샤"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"ko"	"샌드비치"
+	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
 		"ko"	"K.G.B"
@@ -100,6 +104,10 @@
 	{
 		"ko"	"랭글러"
 	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"ko"	"개척자의 정의"
+	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
 		"ko"	"건슬링어"
@@ -154,7 +162,7 @@
 	}
 	"TF_THEDEGREASER"
 	{
-		"ko"	"그리스 지우개"
+		"ko"	"기름때 제거기"
 	}
 	"TF_THESHORTSTOP"
 	{
@@ -186,7 +194,7 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"ko"	"시드니 슬리퍼"
+		"ko"	"시드니 마취총"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -211,5 +219,49 @@
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
 		"ko"	"점착 점퍼"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"ko"	"말도 없고 머리도 없는 기만병의 목따개"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"ko"	"철의 장막"
+	}
+	"TF_AMPUTATOR"
+	{
+		"ko"	"의료톱"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"ko"	"십자군의 석궁"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"ko"	"전사의 혼"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"ko"	"버팔로 스테이크 샌드비치"
+	}
+	"TF_GATLINGGUN"
+	{
+		"ko"	"황동 야수"
+	}
+	"TF_CANDYCANE"
+	{
+		"ko"	"지팡이 사탕"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"ko"	"효자손"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"ko"	"클레이모어"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"ko"	"강철 주먹"
 	}
 }

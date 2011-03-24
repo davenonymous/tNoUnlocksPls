@@ -226,7 +226,7 @@
 	}
 	"TF_TTG_WATCH"
 	{
-		"ru"	"Часы энтузиаста"
+		"ru"	"Часы ярого поклонника"
 	}
 	"TF_IRON_CURTAIN"
 	{
@@ -283,5 +283,29 @@
 	"TF_FISTSOFSTEEL"
 	{
 		"ru"	"Стальные кулаки"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"ru"	"Заостренный осколок вулкана"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"ru"	"Солнце на палочке"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"ru"	"Завоеватель"
+	}
+	"TF_GUNBAI"
+	{
+		"ru"	"Веер войны"
+	}
+	"TF_KUNAI"
+	{
+		"ru"	"Кунай заговорщика"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"ru"	"Полузатойчи"
 	}
 }

@@ -224,6 +224,10 @@
 	{
 		"nl"	"De Paardloze Hoofdloze Paardmann\'s Hoofdnemer"
 	}
+	"TF_IRON_CURTAIN"
+	{
+		"nl"	"Het IJzeren Gordijn"
+	}
 	"TF_AMPUTATOR"
 	{
 		"nl"	"De Amputeerder"
@@ -232,9 +236,25 @@
 	{
 		"nl"	"De Kruisvaarders Kruisboog"
 	}
+	"TF_ULLAPOOLCABER"
+	{
+		"nl"	"De Ullapool Paal"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"nl"	"De Loch-n-Laad"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"nl"	"De Krijgersgeest"
+	}
 	"TF_BUFFALOSTEAK"
 	{
 		"nl"	"De Buffel Biefstuk Sandvich"
+	}
+	"TF_GATLINGGUN"
+	{
+		"nl"	"Het Koperen Kreatuur"
 	}
 	"TF_CANDYCANE"
 	{
@@ -251,5 +271,21 @@
 	"TF_CLAIDHEAMOHMOR"
 	{
 		"nl"	"De Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"nl"	"De Kartel"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"nl"	"De Vuisten van Staal"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"nl"	"Geslepen Vulkaan Fragment"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"nl"	"De Zon-op-een-Stok"
 	}
 }

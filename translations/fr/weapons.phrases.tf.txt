@@ -34,7 +34,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"fr"	"Les Kamarades, Gants de Boxe"
+		"fr"	"Les Kamarades Gants de Boxe"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
@@ -70,7 +70,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"fr"	"L\'Ambassador"
+		"fr"	"L\'Ambassadeur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
@@ -283,5 +283,29 @@
 	"TF_FISTSOFSTEEL"
 	{
 		"fr"	"Les Poings d\'Acier"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"fr"	"Fragment Volcanique Affûté"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"fr"	"Le Soleil-sur-un-Bâton"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"fr"	"Conque-érant"
+	}
+	"TF_GUNBAI"
+	{
+		"fr"	"L\'évent-taille"
+	}
+	"TF_KUNAI"
+	{
+		"fr"	"Kunaï du Conspirateur"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"fr"	"Demi-Zatoichi"
 	}
 }

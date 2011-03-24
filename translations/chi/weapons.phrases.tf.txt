@@ -224,4 +224,44 @@
 	{
 		"chi"	"脱缰的无头骑士斩首斧"
 	}
+	"TF_TTG_WATCH"
+	{
+		"chi"	"热衷者的计时器"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"chi"	"铁幕转轮机枪"
+	}
+	"TF_AMPUTATOR"
+	{
+		"chi"	"器官切割器"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"chi"	"十字军之弩"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"chi"	"木柄手榴弹"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"chi"	"水牛排三明治"
+	}
+	"TF_GATLINGGUN"
+	{
+		"chi"	"黄铜猛兽"
+	}
+	"TF_CANDYCANE"
+	{
+		"chi"	"糖果手杖"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"chi"	"波士顿狼牙棒"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"chi"	"钢拳"
+	}
 }

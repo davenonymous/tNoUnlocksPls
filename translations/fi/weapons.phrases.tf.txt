@@ -10,7 +10,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"fi"	"Ubersaha"
+		"fi"	"Übersaha"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
@@ -30,7 +30,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"fi"	"Voileipä"
+		"fi"	"Toveri Voileipä"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
@@ -154,7 +154,7 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"fi"	"Vita-saha"
+		"fi"	"Bensasuoni"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -238,7 +238,7 @@
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"fi"	"Ristiretkeilijän varsijousi"
+		"fi"	"Ristiretkeläisen varsijousi"
 	}
 	"TF_ULLAPOOLCABER"
 	{
@@ -283,5 +283,29 @@
 	"TF_FISTSOFSTEEL"
 	{
 		"fi"	"Teräsnyrkit"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"fi"	"Teroitettu tulivuoren kappale"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"fi"	"Tähtitikku"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"fi"	"Conchistadori"
+	}
+	"TF_GUNBAI"
+	{
+		"fi"	"Sotaviuhka"
+	}
+	"TF_KUNAI"
+	{
+		"fi"	"Kieroilijan Kunai"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"fi"	"Puolisokea Samurai"
 	}
 }

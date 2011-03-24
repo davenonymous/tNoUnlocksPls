@@ -284,4 +284,28 @@
 	{
 		"es"	"Los Puños de Acero"
 	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"es"	"Fragmento Volcánico Afilado"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"es"	"El Sol-en-un-Palo"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"es"	"Conchistador"
+	}
+	"TF_GUNBAI"
+	{
+		"es"	"Abanico Bélico"
+	}
+	"TF_KUNAI"
+	{
+		"es"	"Kunai del Conspirador"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"es"	"Katana del Medio Zatoichi"
+	}
 }

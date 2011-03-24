@@ -272,4 +272,12 @@
 	{
 		"no"	"Knyttnever av stål"
 	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"no"	"Slipt vulkanfragment"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"no"	"Sol-på-en-pinne"
+	}
 }

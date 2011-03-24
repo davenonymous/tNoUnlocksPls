@@ -284,4 +284,12 @@
 	{
 		"sv"	"Stålnävarna"
 	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"sv"	"Vässad Vulkanbit"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"sv"	"Sol-på-Pinne"
+	}
 }

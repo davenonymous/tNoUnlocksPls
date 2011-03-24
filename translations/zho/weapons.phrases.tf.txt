@@ -224,4 +224,60 @@
 	{
 		"zho"	"連馬都沒有的無頭騎士斬首斧"
 	}
+	"TF_TTG_WATCH"
+	{
+		"zho"	"熱衷粉絲的手錶"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"zho"	"鐵幕"
+	}
+	"TF_AMPUTATOR"
+	{
+		"zho"	"截肢鋸"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"zho"	"十字軍十字弓"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"zho"	"阿勒浦木製手榴彈"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"zho"	"戰士之魂"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"zho"	"水牛排三明治"
+	}
+	"TF_GATLINGGUN"
+	{
+		"zho"	"黃銅野獸"
+	}
+	"TF_CANDYCANE"
+	{
+		"zho"	"拐杖糖"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"zho"	"波士頓狼牙棒"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"zho"	"不求人"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"zho"	"蓋爾巨劍"
+	}
+	"TF_JAG"
+	{
+		"zho"	"鉤爪扳手"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"zho"	"鐵拳"
+	}
 }

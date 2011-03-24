@@ -160,6 +160,10 @@
 	{
 		"ro"	"Degresatorul"
 	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"ro"	"Macroul Sfânt"
+	}
 	"TF_MADMILK"
 	{
 		"ro"	"Lapte Nebun"
@@ -212,6 +216,10 @@
 	{
 		"ro"	"Spiritul Războinicului"
 	}
+	"TF_BUFFALOSTEAK"
+	{
+		"ro"	"Sandvich din Friptură de Bivol"
+	}
 	"TF_GATLINGGUN"
 	{
 		"ro"	"Bestia de Aramă"
@@ -219,6 +227,14 @@
 	"TF_CANDYCANE"
 	{
 		"ro"	"Bastonul de Zahăr"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"ro"	"Scărpinătorul de Spate"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"ro"	"Mareaţa Sabie"
 	}
 	"TF_JAG"
 	{

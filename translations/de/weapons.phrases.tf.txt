@@ -110,7 +110,7 @@
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"de"	"Der Gunslinger"
+		"de"	"Der Sentry-Werfer"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
@@ -134,7 +134,7 @@
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"de"	"Der Big Kill"
+		"de"	"Der Big-Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -154,7 +154,7 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"de"	"Die Vital-Säge"
+		"de"	"Die Vitalsäge"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -194,7 +194,7 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"de"	"Sydney Sleeper"
+		"de"	"Der Sydney-Schläfer"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -283,5 +283,29 @@
 	"TF_FISTSOFSTEEL"
 	{
 		"de"	"Die Stahlfäuste"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"de"	"Geschliffenes Vulkanstein-Fragment"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"de"	"Die Sonne-am-Stiel"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"de"	"Eroberer"
+	}
+	"TF_GUNBAI"
+	{
+		"de"	"Kriegsfächer"
+	}
+	"TF_KUNAI"
+	{
+		"de"	"Verschwörer-Kunai"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"de"	"Halb-Zatoichi"
 	}
 }

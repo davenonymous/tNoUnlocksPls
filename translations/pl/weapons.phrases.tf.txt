@@ -284,4 +284,28 @@
 	{
 		"pl"	"Pięści ze Stali"
 	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"pl"	"Naostrzony Fragment Wulkanu"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"pl"	"Gwiazda Poranna"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"pl"	"Concheror"
+	}
+	"TF_GUNBAI"
+	{
+		"pl"	"Wachlarz Wojenny"
+	}
+	"TF_KUNAI"
+	{
+		"pl"	"Kunai Krętacza"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"pl"	"Prawie-Zatoichi"
+	}
 }

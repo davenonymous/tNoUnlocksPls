@@ -224,4 +224,24 @@
 	{
 		"da"	"Den Hesteløse Hovedløse Hestemands Hovedafhugger"
 	}
+	"TF_IRON_CURTAIN"
+	{
+		"da"	"Jerntæppet"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"da"	"Krigerens Ånd"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"da"	"Boston Baskeren"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"da"	"Rygkradseren"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"da"	"Stålnæverne"
+	}
 }
