@@ -5,7 +5,7 @@
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.0.12"
+#define VERSION	"0.0.13"
 #define MAXITEMS	128
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
@@ -31,7 +31,7 @@ public Plugin:myinfo = {
 	author      = "Thrawn",
 	description = "Removes attributes from weapons or replaces them with the original.",
 	version     = VERSION,
-	url         = "http://aaa.wallbash.com"
+	url         = "http://forums.alliedmods.net/showthread.php?t=140045"
 };
 
 enum Item {
@@ -464,21 +464,21 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Soldier Katana (TFClass_Soldier)
+	// Replace Half-Zatoichi (TFClass_Soldier)
 	if(iIDI == 357 && class == TFClass_Soldier) {
 		strcopy(sClass, size, "tf_weapon_shovel");
 		replacement = 6;
 		return true;
 	}
 
-	// Replace Soldier Katana (TFClass_DemoMan)
+	// Replace Half-Zatoichi (TFClass_DemoMan)
 	if(iIDI == 357 && class == TFClass_DemoMan) {
 		strcopy(sClass, size, "tf_weapon_bottle");
 		replacement = 1;
 		return true;
 	}
 
-	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Gunbai
+	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War
 	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355) {
 		strcopy(sClass, size, "tf_weapon_bat");
 		replacement = 0;
@@ -506,7 +506,7 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Your Eternal Reward, Kunai
+	// Replace Your Eternal Reward, Conniver's Kunai
 	if(iIDI == 225 || iIDI == 356) {
 		strcopy(sClass, size, "tf_weapon_knife");
 		replacement = 4;
@@ -548,15 +548,15 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Buff Banner, Gunboats, Battalion's Backup, Soldier's Sashimono
+	// Replace Buff Banner, Gunboats, Battalion's Backup, Concheror
 	if(iIDI == 129 || iIDI == 133 || iIDI == 226 || iIDI == 354) {
 		strcopy(sClass, size, "tf_weapon_shotgun_soldier");
 		replacement = 10;
 		return true;
 	}
 
-	// Replace Sandvich, Dalokohs Bar, Buffalo Steak Sandvich
-	if(iIDI == 42 || iIDI == 159 || iIDI == 311) {
+	// Replace Sandvich, Dalokohs Bar, Buffalo Steak Sandvich, Fishcake
+	if(iIDI == 42 || iIDI == 159 || iIDI == 311 || iIDI == 433) {
 		strcopy(sClass, size, "tf_weapon_shotgun_hwg");
 		replacement = 11;
 		return true;

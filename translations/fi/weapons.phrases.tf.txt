@@ -74,7 +74,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"fi"	"Suoraosuma"
+		"fi"	"Täysosuma"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
@@ -154,7 +154,7 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"fi"	"Bensasuoni"
+		"fi"	"Vita-saha"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"fi"	"L\'Etranger-revolveri"
+		"fi"	"L'Etranger-revolveri"
 	}
 	"TF_ETERNALREWARD"
 	{

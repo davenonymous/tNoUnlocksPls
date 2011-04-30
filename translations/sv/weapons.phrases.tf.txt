@@ -90,7 +90,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"sv"	"Chargin\' Targe"
+		"sv"	"Anfallsskölden"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"sv"	"L\'Etranger"
+		"sv"	"Främlingen"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -290,6 +290,22 @@
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"sv"	"Sol-på-Pinne"
+		"sv"	"Solstickan"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"sv"	"Trumpetsnäcka"
+	}
+	"TF_GUNBAI"
+	{
+		"sv"	"Krigsfjäder"
+	}
+	"TF_KUNAI"
+	{
+		"sv"	"Konspiratorns Kunai"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"sv"	"Halv-Zatoichi"
 	}
 }

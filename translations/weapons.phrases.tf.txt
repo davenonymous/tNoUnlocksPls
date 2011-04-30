@@ -90,7 +90,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"en"	"Chargin\' Targe"
+		"en"	"Chargin' Targe"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
@@ -146,11 +146,11 @@
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"en"	"Tribalman\'s Shiv"
+		"en"	"Tribalman's Shiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"en"	"Scotsman\'s Skullcutter"
+		"en"	"Scotsman's Skullcutter"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"en"	"L\'Etranger"
+		"en"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -186,7 +186,7 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"en"	"Battalion\'s Backup"
+		"en"	"Battalion's Backup"
 	}
 	"TF_THEBLACKBOX"
 	{
@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"en"	"Darwin\'s Danger Shield"
+		"en"	"Darwin's Danger Shield"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -222,11 +222,11 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"en"	"Horseless Headless Horsemann\'s Headtaker"
+		"en"	"Horseless Headless Horsemann's Headtaker"
 	}
 	"TF_TTG_WATCH"
 	{
-		"en"	"Enthusiast\'s Timepiece"
+		"en"	"Enthusiast's Timepiece"
 	}
 	"TF_IRON_CURTAIN"
 	{
@@ -238,7 +238,7 @@
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"en"	"Crusader\'s Crossbow"
+		"en"	"Crusader's Crossbow"
 	}
 	"TF_ULLAPOOLCABER"
 	{
@@ -250,7 +250,7 @@
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"en"	"Warrior\'s Spirit"
+		"en"	"Warrior's Spirit"
 	}
 	"TF_BUFFALOSTEAK"
 	{
@@ -298,14 +298,18 @@
 	}
 	"TF_GUNBAI"
 	{
-		"en"	"Fan O\'War"
+		"en"	"Fan O'War"
 	}
 	"TF_KUNAI"
 	{
-		"en"	"Conniver\'s Kunai"
+		"en"	"Conniver's Kunai"
 	}
 	"TF_SOLDIERKATANA"
 	{
 		"en"	"Half-Zatoichi"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"en"	"Fishcake"
 	}
 }

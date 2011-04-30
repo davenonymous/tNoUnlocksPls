@@ -138,7 +138,7 @@
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"de"	"Krit-\'n-Cola"
+		"de"	"Krit-'n-Cola"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"de"	"L\'Etranger"
+		"de"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"de"	"Darwin\'s Danger Shield"
+		"de"	"Darwin's Danger Shield"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -242,7 +242,7 @@
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"de"	"Der Ullapool\'sche Stiel"
+		"de"	"Der Ullapool'sche Stiel"
 	}
 	"TF_LOCHNLOAD"
 	{

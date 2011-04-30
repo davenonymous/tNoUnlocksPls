@@ -166,7 +166,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"no"	"L\'Etranger"
+		"no"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -174,7 +174,7 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"no"	"Battalion\'s Backup"
+		"no"	"Battalion's Backup"
 	}
 	"TF_THEBLACKBOX"
 	{
@@ -186,7 +186,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"no"	"Darwin\'s Danger Shield"
+		"no"	"Darwin's Danger Shield"
 	}
 	"TF_THEBUSHWACKA"
 	{

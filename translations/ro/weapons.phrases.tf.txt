@@ -170,7 +170,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"ro"	"L\'Etranger"
+		"ro"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -191,6 +191,10 @@
 	"TF_UNIQUE_FRYINGPAN"
 	{
 		"ro"	"Tigaia"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"ro"	"Taietorul de Capete al Călărețul Fără Cap și Cal"
 	}
 	"TF_TTG_WATCH"
 	{

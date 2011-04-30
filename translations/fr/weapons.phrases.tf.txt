@@ -10,11 +10,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"fr"	"L\'Ubersaw"
+		"fr"	"L'Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"fr"	"L\'Hachtincteur"
+		"fr"	"L'Hachtincteur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
@@ -70,7 +70,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"fr"	"L\'Ambassadeur"
+		"fr"	"L'Ambassadeur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
@@ -78,7 +78,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"fr"	"L\'Equalizer"
+		"fr"	"L'Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
@@ -94,7 +94,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"fr"	"L\'Eyelander"
+		"fr"	"L'Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
@@ -114,7 +114,7 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"fr"	"Le Fracasseur d\'Abri"
+		"fr"	"Le Fracasseur d'Abri"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
@@ -122,7 +122,7 @@
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"fr"	"L\'Hospitalité du Sud"
+		"fr"	"L'Hospitalité du Sud"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"fr"	"L\'Étranger"
+		"fr"	"L'Étranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"fr"	"Darwin\'s Danger Shield"
+		"fr"	"Darwin's Danger Shield"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -206,7 +206,7 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"fr"	"Le Propul\'sauteur"
+		"fr"	"Le Propul'sauteur"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -218,7 +218,7 @@
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"fr"	"L\'Explo\'sauteur"
+		"fr"	"L'Explo'sauteur"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
@@ -234,15 +234,15 @@
 	}
 	"TF_AMPUTATOR"
 	{
-		"fr"	"L\'Amputateur"
+		"fr"	"L'Amputateur"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"fr"	"L\'Arbalète du Croisé"
+		"fr"	"L'Arbalète du Croisé"
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"fr"	"Le Caber d\'Ullapool"
+		"fr"	"Le Caber d'Ullapool"
 	}
 	"TF_LOCHNLOAD"
 	{
@@ -250,7 +250,7 @@
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"fr"	"L\'Esprit du Guerrier"
+		"fr"	"L'Esprit du Guerrier"
 	}
 	"TF_BUFFALOSTEAK"
 	{
@@ -262,7 +262,7 @@
 	}
 	"TF_CANDYCANE"
 	{
-		"fr"	"Le Sucre d\'Orge"
+		"fr"	"Le Sucre d'Orge"
 	}
 	"TF_BOSTONBASHER"
 	{
@@ -282,7 +282,7 @@
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"fr"	"Les Poings d\'Acier"
+		"fr"	"Les Poings d'Acier"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
@@ -298,7 +298,7 @@
 	}
 	"TF_GUNBAI"
 	{
-		"fr"	"L\'évent-taille"
+		"fr"	"L'évent-taille"
 	}
 	"TF_KUNAI"
 	{

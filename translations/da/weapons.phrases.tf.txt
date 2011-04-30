@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"da"	"L\'étranger"
+		"da"	"L'étranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -232,6 +232,10 @@
 	{
 		"da"	"Krigerens Ånd"
 	}
+	"TF_GATLINGGUN"
+	{
+		"da"	"Messingbæstet"
+	}
 	"TF_BOSTONBASHER"
 	{
 		"da"	"Boston Baskeren"
@@ -240,8 +244,16 @@
 	{
 		"da"	"Rygkradseren"
 	}
+	"TF_JAG"
+	{
+		"da"	"Jaguaren"
+	}
 	"TF_FISTSOFSTEEL"
 	{
 		"da"	"Stålnæverne"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"da"	"Skærpet vulkanfragment"
 	}
 }

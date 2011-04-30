@@ -178,7 +178,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"nl"	"L\'Étranger"
+		"nl"	"L'Étranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"nl"	"De Paardloze Hoofdloze Paardmann\'s Hoofdnemer"
+		"nl"	"De Paardloze Hoofdloze Paardmann's Hoofdnemer"
 	}
 	"TF_IRON_CURTAIN"
 	{

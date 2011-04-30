@@ -10,11 +10,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"it"	"L\'Ubersega"
+		"it"	"L'Ubersega"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"it"	"L\'Estintascia"
+		"it"	"L'Estintascia"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
@@ -50,7 +50,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"it"	"L\'Arco da Cacciatore"
+		"it"	"L'Arco da Cacciatore"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
@@ -66,11 +66,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"it"	"L\'Orologio Mimetico"
+		"it"	"L'Orologio Mimetico"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"it"	"L\'Ambasciatore"
+		"it"	"L'Ambasciatore"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
@@ -78,7 +78,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"it"	"L\'Equalizer"
+		"it"	"L'Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
@@ -94,7 +94,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"it"	"L\'Eyelander"
+		"it"	"L'Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
@@ -102,7 +102,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"it"	"L\'Attaccabrighe"
+		"it"	"L'Attaccabrighe"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
@@ -122,7 +122,7 @@
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"it"	"L\'Ospitalità Meridionale"
+		"it"	"L'Ospitalità Meridionale"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
@@ -142,7 +142,7 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"it"	"La Chiave d\'Oro"
+		"it"	"La Chiave d'Oro"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -150,7 +150,7 @@
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"it"	"Lo Scotsman\'s Skullcutter"
+		"it"	"Lo Scotsman's Skullcutter"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -178,11 +178,11 @@
 	}
 	"TF_LETRANGER"
 	{
-		"it"	"L\'Etranger"
+		"it"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"it"	"L\'Eterna Ricompensa"
+		"it"	"L'Eterna Ricompensa"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"it"	"Scudo d\'Emergenza di Darwin"
+		"it"	"Scudo d'Emergenza di Darwin"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -230,7 +230,7 @@
 	}
 	"TF_AMPUTATOR"
 	{
-		"it"	"L\'Amputatore"
+		"it"	"L'Amputatore"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
@@ -254,7 +254,7 @@
 	}
 	"TF_GATLINGGUN"
 	{
-		"it"	"La Bestia d\'Ottone"
+		"it"	"La Bestia d'Ottone"
 	}
 	"TF_CANDYCANE"
 	{
@@ -262,7 +262,7 @@
 	}
 	"TF_BOSTONBASHER"
 	{
-		"it"	"L\'Assaltatore di Boston"
+		"it"	"L'Assaltatore di Boston"
 	}
 	"TF_BACKSCRATCHER"
 	{
@@ -274,6 +274,6 @@
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"it"	"I Pugni d\'Acciaio"
+		"it"	"I Pugni d'Acciaio"
 	}
 }

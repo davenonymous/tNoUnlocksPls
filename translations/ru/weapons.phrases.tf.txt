@@ -126,7 +126,7 @@
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"ru"	"Плитка Далокош"
+		"ru"	""
 	}
 	"TF_TTG_MAXGUN"
 	{

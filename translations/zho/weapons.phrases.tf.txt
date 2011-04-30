@@ -238,7 +238,7 @@
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"zho"	"十字軍十字弓"
+		"zho"	"聖十字弩弓"
 	}
 	"TF_ULLAPOOLCABER"
 	{
@@ -279,5 +279,29 @@
 	"TF_FISTSOFSTEEL"
 	{
 		"zho"	"鐵拳"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"zho"	"熔岩巨斧"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"zho"	"炎日法杖"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"zho"	"家徽旗"
+	}
+	"TF_GUNBAI"
+	{
+		"zho"	"鐵軍扇"
+	}
+	"TF_KUNAI"
+	{
+		"zho"	"陰謀苦無"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"zho"	"半盲劍俠"
 	}
 }

@@ -26,7 +26,7 @@
 	}
 	"TF_LETRANGER"
 	{
-		"jp"	"L\'Etranger"
+		"jp"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
@@ -34,7 +34,7 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"jp"	"Battalion\'s Backup"
+		"jp"	"Battalion's Backup"
 	}
 	"TF_THEBLACKBOX"
 	{
@@ -46,7 +46,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"jp"	"Darwin\'s Danger Shield"
+		"jp"	"Darwin's Danger Shield"
 	}
 	"TF_THEBUSHWACKA"
 	{
