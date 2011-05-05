@@ -406,7 +406,7 @@ stock IsStripable(iIDI) {
 	return false;
 }
 
-
+// %%START%%
 stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &replacement) {
 	// Replace Pain Train (TFClass_Soldier)
 	if(iIDI == 154 && class == TFClass_Soldier) {
@@ -414,7 +414,7 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		replacement = 6;
 		return true;
 	}
-
+~
 	// Replace Pain Train (TFClass_DemoMan)
 	if(iIDI == 154 && class == TFClass_DemoMan) {
 		strcopy(sClass, size, "tf_weapon_bottle");
@@ -669,3 +669,4 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 
 	return false;
 }
+// %%END%%
