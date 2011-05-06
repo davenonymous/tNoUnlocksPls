@@ -222,19 +222,39 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"da"	"Den Hesteløse Hovedløse Hestemands Hovedafhugger"
+		"da"	"Hesteløse Hovedløse Hestemands Hovedtager"
+	}
+	"TF_TTG_WATCH"
+	{
+		"da"	"Entusiastens Tidsmåler"
 	}
 	"TF_IRON_CURTAIN"
 	{
 		"da"	"Jerntæppet"
 	}
+	"TF_AMPUTATOR"
+	{
+		"da"	"Amputatoren"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"da"	"Korsridderens Armbrøst"
+	}
 	"TF_WARRIORSSPIRIT"
 	{
 		"da"	"Krigerens Ånd"
 	}
+	"TF_BUFFALOSTEAK"
+	{
+		"da"	"Bøffel Bøf Sandvichen"
+	}
 	"TF_GATLINGGUN"
 	{
 		"da"	"Messingbæstet"
+	}
+	"TF_CANDYCANE"
+	{
+		"da"	"Slikstokken"
 	}
 	"TF_BOSTONBASHER"
 	{
@@ -250,10 +270,22 @@
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"da"	"Stålnæverne"
+		"da"	"Næver af Stål"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
 		"da"	"Skærpet vulkanfragment"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"da"	"Solen-på-en-Pind"
+	}
+	"TF_GUNBAI"
+	{
+		"da"	"Krigsviften"
+	}
+	"TF_KUNAI"
+	{
+		"da"	"Kynikerens Kunai"
 	}
 }

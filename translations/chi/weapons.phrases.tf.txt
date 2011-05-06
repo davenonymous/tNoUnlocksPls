@@ -38,11 +38,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"chi"	""
+		"chi"	"睡魔"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"chi"	""
+		"chi"	"自然之力"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -62,11 +62,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"chi"	"死亡顶替者怀表"
+		"chi"	"死亡之铃"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"chi"	"隐秘刺杀者运动表"
+		"chi"	"隐形刺客"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -74,7 +74,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"chi"	""
+		"chi"	"精确打击者"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
@@ -86,7 +86,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"chi"	""
+		"chi"	"苏格兰防御者"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
@@ -98,7 +98,7 @@
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"chi"	""
+		"chi"	"炮艇"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
@@ -114,7 +114,7 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"chi"	""
+		"chi"	"拆迁者"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
@@ -138,7 +138,7 @@
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"chi"	"暴击可乐"
+		"chi"	"爆击可乐"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
@@ -158,7 +158,7 @@
 	}
 	"TF_THEPOWERJACK"
 	{
-		"chi"	"电源插座"
+		"chi"	"强力千斤顶"
 	}
 	"TF_THEDEGREASER"
 	{
@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"chi"	"脱缰的无头骑士斩首斧"
+		"chi"	"脱缰无头骑士的斩首斧"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -244,6 +244,10 @@
 	{
 		"chi"	"木柄手榴弹"
 	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"chi"	"勇士之魂"
+	}
 	"TF_BUFFALOSTEAK"
 	{
 		"chi"	"水牛排三明治"
@@ -260,8 +264,48 @@
 	{
 		"chi"	"波士顿狼牙棒"
 	}
+	"TF_BACKSCRATCHER"
+	{
+		"chi"	"不求人"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"chi"	"摩尔巨剑"
+	}
+	"TF_JAG"
+	{
+		"chi"	"尖齿扳手"
+	}
 	"TF_FISTSOFSTEEL"
 	{
-		"chi"	"钢拳"
+		"chi"	"钢铁手套"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"chi"	"熔岩战斧"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"chi"	"太阳之棍"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"chi"	"征服者战旗"
+	}
+	"TF_GUNBAI"
+	{
+		"chi"	"军配扇"
+	}
+	"TF_KUNAI"
+	{
+		"chi"	"密谋者的苦无"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"chi"	"座头市之刀"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"chi"	"炸鱼饼"
 	}
 }

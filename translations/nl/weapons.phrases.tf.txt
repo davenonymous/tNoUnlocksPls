@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"nl"	"De Paardloze Hoofdloze Paardmann's Hoofdnemer"
+		"nl"	"Paardloze Hoofdloze Paardmann's Hoofdnemer"
 	}
 	"TF_IRON_CURTAIN"
 	{
@@ -287,5 +287,21 @@
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
 		"nl"	"De Zon-op-een-Stok"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"nl"	"Veroveraarsschelp"
+	}
+	"TF_GUNBAI"
+	{
+		"nl"	"Oorlogswaaier"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"nl"	"Half-Zatoichi"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"nl"	"Viskoek"
 	}
 }

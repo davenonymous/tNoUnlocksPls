@@ -276,4 +276,20 @@
 	{
 		"it"	"I Pugni d'Acciaio"
 	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"it"	"Scheggia Vulcanica Affilata"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"it"	"Strombozzatore"
+	}
+	"TF_GUNBAI"
+	{
+		"it"	"Ven Taglio"
+	}
+	"TF_KUNAI"
+	{
+		"it"	"Kunai del Congiuratore"
+	}
 }

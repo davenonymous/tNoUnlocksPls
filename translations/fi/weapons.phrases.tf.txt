@@ -308,4 +308,8 @@
 	{
 		"fi"	"Puolisokea Samurai"
 	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"fi"	"Kalakakku"
+	}
 }

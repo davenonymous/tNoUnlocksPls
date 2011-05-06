@@ -308,4 +308,8 @@
 	{
 		"sv"	"Halv-Zatoichi"
 	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"sv"	"Fiskkaka"
+	}
 }

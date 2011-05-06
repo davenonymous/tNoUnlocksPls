@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"de"	"Der Kopfabreißer des Pferdlosen Kopflosen Reiters"
+		"de"	"Kopfabreißer des Pferdlosen Kopflosen Reiters"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -307,5 +307,9 @@
 	"TF_SOLDIERKATANA"
 	{
 		"de"	"Halb-Zatoichi"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"de"	"Fischkuchen"
 	}
 }

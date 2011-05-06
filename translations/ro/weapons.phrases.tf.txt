@@ -58,7 +58,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"ro"	"Şuşu"
+		"ro"	"Karate la Borcan"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
@@ -156,9 +156,17 @@
 	{
 		"ro"	"Vita-Fierăstrăul"
 	}
+	"TF_THEPOWERJACK"
+	{
+		"ro"	"Supercric"
+	}
 	"TF_THEDEGREASER"
 	{
 		"ro"	"Degresatorul"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"ro"	"Oprirea Scurtă"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
@@ -184,13 +192,33 @@
 	{
 		"ro"	"Cutia Neagră"
 	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"ro"	"Tranchilizantorul din Sydney"
+	}
 	"TF_DARWINSDANGERSHIELD"
 	{
 		"ro"	"Scutul pentru Pericol al lui Darwin"
 	}
+	"TF_THEBUSHWACKA"
+	{
+		"ro"	"Bushwacka-ul"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"ro"	"Săritorul cu Rachete"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"ro"	"Mănușile pentru Alergare Urgentă"
+	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
 		"ro"	"Tigaia"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"ro"	"Săritorul Lipicios"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
@@ -216,6 +244,10 @@
 	{
 		"ro"	"Cabrul Ullapool"
 	}
+	"TF_LOCHNLOAD"
+	{
+		"ro"	"Țintește și-ncarcă"
+	}
 	"TF_WARRIORSSPIRIT"
 	{
 		"ro"	"Spiritul Războinicului"
@@ -232,6 +264,10 @@
 	{
 		"ro"	"Bastonul de Zahăr"
 	}
+	"TF_BOSTONBASHER"
+	{
+		"ro"	"Izbitorul din Boston"
+	}
 	"TF_BACKSCRATCHER"
 	{
 		"ro"	"Scărpinătorul de Spate"
@@ -247,5 +283,29 @@
 	"TF_FISTSOFSTEEL"
 	{
 		"ro"	"Pumnii de Oţel"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"ro"	"Fragment de Vulcan Ascuţit"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"ro"	"Soarele-pe-Băț"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"ro"	"Cotropitor"
+	}
+	"TF_GUNBAI"
+	{
+		"ro"	"Gunbai"
+	}
+	"TF_KUNAI"
+	{
+		"ro"	"Kunai-ul Conspiratorului"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"ro"	"Zatoichi-njumătăţit"
 	}
 }
