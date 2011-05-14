@@ -478,8 +478,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War
-	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355) {
+	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Three-Rune Blade
+	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355 || iIDI == 452) {
 		strcopy(sClass, size, "tf_weapon_bat");
 		replacement = 0;
 		return true;

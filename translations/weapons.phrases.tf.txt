@@ -312,4 +312,8 @@
 	{
 		"en"	"Fishcake"
 	}
+	"TF_SCOUTSWORD"
+	{
+		"en"	"Three-Rune Blade"
+	}
 }
