@@ -222,7 +222,11 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"it"	"Il Decapitatore del Cavaliere Senza Testa e Senza Cavallo"
+		"it"	"Decapitatore del Cavaliere Senza Testa e Senza Cavallo"
+	}
+	"TF_TTG_WATCH"
+	{
+		"it"	"L'Orologio da Entusiasta"
 	}
 	"TF_IRON_CURTAIN"
 	{
@@ -272,6 +276,10 @@
 	{
 		"it"	"La Claidheamh Mòr"
 	}
+	"TF_JAG"
+	{
+		"it"	"Il Jag"
+	}
 	"TF_FISTSOFSTEEL"
 	{
 		"it"	"I Pugni d'Acciaio"
@@ -279,6 +287,10 @@
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
 		"it"	"Scheggia Vulcanica Affilata"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"it"	"Il Sole-su-un-Bastone"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
@@ -291,5 +303,13 @@
 	"TF_KUNAI"
 	{
 		"it"	"Kunai del Congiuratore"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"it"	"Lo Spadaccino Mancato"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"it"	"Tortina di Pesce"
 	}
 }

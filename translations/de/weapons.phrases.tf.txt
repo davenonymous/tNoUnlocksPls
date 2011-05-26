@@ -312,4 +312,8 @@
 	{
 		"de"	"Fischkuchen"
 	}
+	"TF_SCOUTSWORD"
+	{
+		"de"	"Drei-Runen-Klinge"
+	}
 }

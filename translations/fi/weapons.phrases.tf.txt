@@ -312,4 +312,8 @@
 	{
 		"fi"	"Kalakakku"
 	}
+	"TF_SCOUTSWORD"
+	{
+		"fi"	"Kolmen riimun säilä"
+	}
 }

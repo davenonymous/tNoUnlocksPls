@@ -280,4 +280,8 @@
 	{
 		"no"	"Sol-på-en-pinne"
 	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"no"	"Fiskekake"
+	}
 }

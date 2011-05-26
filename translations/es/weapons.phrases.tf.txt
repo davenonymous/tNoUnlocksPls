@@ -312,4 +312,8 @@
 	{
 		"es"	"Barrita de Pescado"
 	}
+	"TF_SCOUTSWORD"
+	{
+		"es"	"Hoja Trirrúnica"
+	}
 }

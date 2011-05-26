@@ -118,7 +118,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"nl"	"De Pijn Trein"
+		"nl"	"De Pijntrein"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -126,7 +126,7 @@
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"nl"	"De Dalokohs Reep"
+		"nl"	"De Dalokohsreep"
 	}
 	"TF_TTG_MAXGUN"
 	{
@@ -222,7 +222,11 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"nl"	"Paardloze Hoofdloze Paardmann's Hoofdnemer"
+		"nl"	"Paardloze Hoofdloze Paardmanns Hoofdnemer"
+	}
+	"TF_TTG_WATCH"
+	{
+		"nl"	"Het Enthousiastelingenuurwerk"
 	}
 	"TF_IRON_CURTAIN"
 	{
@@ -238,7 +242,7 @@
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"nl"	"De Ullapool Paal"
+		"nl"	"De Suizende Schotsman"
 	}
 	"TF_LOCHNLOAD"
 	{
@@ -250,11 +254,11 @@
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"nl"	"De Buffel Biefstuk Sandvich"
+		"nl"	"De Buffelbiefstuksandvich"
 	}
 	"TF_GATLINGGUN"
 	{
-		"nl"	"Het Koperen Kreatuur"
+		"nl"	"Het Messingen Monster"
 	}
 	"TF_CANDYCANE"
 	{
@@ -282,7 +286,7 @@
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
-		"nl"	"Geslepen Vulkaan Fragment"
+		"nl"	"Geslepen Vulkaanfragment"
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
@@ -296,6 +300,10 @@
 	{
 		"nl"	"Oorlogswaaier"
 	}
+	"TF_KUNAI"
+	{
+		"nl"	"Complotteerders Kunai"
+	}
 	"TF_SOLDIERKATANA"
 	{
 		"nl"	"Half-Zatoichi"
@@ -303,5 +311,9 @@
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"nl"	"Viskoek"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"nl"	"Drie-Runenzwaard"
 	}
 }

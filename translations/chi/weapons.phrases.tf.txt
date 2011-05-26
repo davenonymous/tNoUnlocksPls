@@ -286,7 +286,7 @@
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"chi"	"太阳之棍"
+		"chi"	"太阳之杖"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{

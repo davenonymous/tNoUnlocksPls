@@ -312,4 +312,8 @@
 	{
 		"pl"	"Ciastko Rybne"
 	}
+	"TF_SCOUTSWORD"
+	{
+		"pl"	"Trójruniczne Ostrze"
+	}
 }

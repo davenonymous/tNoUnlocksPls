@@ -114,7 +114,7 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"fr"	"Le Fracasseur d'Abri"
+		"fr"	"Le Briseur de Ménages"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
@@ -311,5 +311,9 @@
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"fr"	"Bâtonnet de Poisson"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"fr"	"Lame à Trois Runes"
 	}
 }
