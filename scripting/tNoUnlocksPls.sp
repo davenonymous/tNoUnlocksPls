@@ -492,8 +492,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Axtinguisher, Homewrecker, Powerjack, Back Scratcher, Sharpened Volcano Fragment
-	if(iIDI == 38 || iIDI == 153 || iIDI == 214 || iIDI == 326 || iIDI == 348) {
+	// Replace Axtinguisher, Homewrecker, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Maul
+	if(iIDI == 38 || iIDI == 153 || iIDI == 214 || iIDI == 326 || iIDI == 348 || iIDI == 466) {
 		strcopy(sClass, size, "tf_weapon_fireaxe");
 		replacement = 2;
 		return true;

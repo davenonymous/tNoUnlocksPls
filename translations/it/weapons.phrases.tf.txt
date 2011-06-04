@@ -34,7 +34,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"it"	"Ke Guantoni da Box!"
+		"it"	"Ke Guantoni da Boxe!"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
@@ -58,7 +58,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"it"	"Karattolo"
+		"it"	"Giarate"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
@@ -90,7 +90,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"it"	"Lo Scudo da Carica"
+		"it"	"Il Brocchiere da Carica"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
@@ -150,7 +150,7 @@
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"it"	"Lo Scotsman's Skullcutter"
+		"it"	"Il Tagliateschi dello Scozzese"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -158,7 +158,7 @@
 	}
 	"TF_THEPOWERJACK"
 	{
-		"it"	"Il Powerjack"
+		"it"	"Il Cric Elettrico"
 	}
 	"TF_THEDEGREASER"
 	{
@@ -166,7 +166,7 @@
 	}
 	"TF_THESHORTSTOP"
 	{
-		"it"	"La Shortstop"
+		"it"	"L'Interbase"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
@@ -194,7 +194,7 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"it"	"La Spia di Sydney"
+		"it"	"Il Tranquillante di Sydney"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -206,7 +206,7 @@
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"it"	"Saltatore-Razzo"
+		"it"	"Il Salta-Razzo"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -226,7 +226,7 @@
 	}
 	"TF_TTG_WATCH"
 	{
-		"it"	"L'Orologio da Entusiasta"
+		"it"	"L'Orologio del Fanatico"
 	}
 	"TF_IRON_CURTAIN"
 	{
@@ -246,7 +246,7 @@
 	}
 	"TF_LOCHNLOAD"
 	{
-		"it"	"Il Loch-n-Load"
+		"it"	"Il Lancia Granate del Loch"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
@@ -311,5 +311,9 @@
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"it"	"Tortina di Pesce"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"it"	"Spada delle Tre Rune"
 	}
 }

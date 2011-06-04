@@ -244,6 +244,10 @@
 	{
 		"zho"	"阿勒浦木製手榴彈"
 	}
+	"TF_LOCHNLOAD"
+	{
+		"zho"	"Loch-n-Load"
+	}
 	"TF_WARRIORSSPIRIT"
 	{
 		"zho"	"戰士之魂"
@@ -303,5 +307,9 @@
 	"TF_SOLDIERKATANA"
 	{
 		"zho"	"半盲劍俠"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"zho"	"盧恩古刃"
 	}
 }

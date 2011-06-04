@@ -182,7 +182,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"fr"	"Your Eternal Reward"
+		"fr"	"Votre Récompense Éternelle"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{

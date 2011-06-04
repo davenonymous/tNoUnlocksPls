@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"no"	"Kritzkriegen"
+		"no"	"Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"no"	"Blodsugeren"
+		"no"	"Blodsuger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"no"	"Ubersagen"
+		"no"	"Ubersag"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"no"	"Brannøkseren"
+		"no"	"Brannøkser"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"no"	"Signalpistolen"
+		"no"	"Signalpistol"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"no"	"Ryggbrenneren"
+		"no"	"Ryggbrenner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,19 +30,19 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"no"	"Smørbrødet"
+		"no"	"Smørbrød"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"no"	"De Krigerske, Grusomme Boksehanskene"
+		"no"	"Krigerske, Grusomme Boksehansker"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"no"	"Sandmannen"
+		"no"	"Sandmann"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"no"	"Naturkraften"
+		"no"	"Naturkraft"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -50,11 +50,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"no"	"Jegeren"
+		"no"	"Jeger"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"no"	"Villsvinryggen"
+		"no"	"Villsvinrygg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,67 +62,67 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"no"	"Dobbeltgjengeren"
+		"no"	"Dobbeltgjenger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"no"	"Snikmorderen"
+		"no"	"Snikmorder"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"no"	"Ambassadøren"
+		"no"	"Ambassadør"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"no"	"Fulltrefferen"
+		"no"	"Fulltreffer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"no"	"Utjevneren"
+		"no"	"Utjevner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"no"	"Motivasjonsbanneret"
+		"no"	"Motivasjonsbanner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"no"	"Den skotske motstanden"
+		"no"	"Skotsk motstand"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"no"	"Stormangrepskjoldet"
+		"no"	"Stormangrepskjold"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"no"	"Øyelanderen"
+		"no"	"Øyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"no"	"Kanonbåten"
+		"no"	"Kanonbåter"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"no"	"Wrangleren"
+		"no"	"Wrangler"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"no"	"Husknuseren"
+		"no"	"Husknuser"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"no"	"Smertetoget"
+		"no"	"Smertetog"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"no"	"Dalokojs Bar"
+		"no"	"Dalokohs-bar"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"no"	"Lugermorphen"
+		"no"	"Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"no"	"Det store drapet"
+		"no"	"Stordrap"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -130,7 +130,7 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"no"	"Den Gylne skiftenøkkelen"
+		"no"	"Gyllen skiftenøkkel"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -142,15 +142,15 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"no"	"Vita-sagen"
+		"no"	"Vita-sag"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"no"	"Kraftjekken"
+		"no"	"Kraftjekk"
 	}
 	"TF_THEDEGREASER"
 	{
-		"no"	"Degreaser"
+		"no"	"Avfetter"
 	}
 	"TF_THESHORTSTOP"
 	{
@@ -158,7 +158,7 @@
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"no"	"Hellige makrell"
+		"no"	"Hellig makrell"
 	}
 	"TF_MADMILK"
 	{
@@ -174,7 +174,7 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"no"	"Battalion's Backup"
+		"no"	"Bataljonens Backup"
 	}
 	"TF_THEBLACKBOX"
 	{
@@ -182,7 +182,7 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"no"	"Sydney Sleeper"
+		"no"	"Sydney-soveren"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -190,23 +190,23 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"no"	"Bushwacka"
+		"no"	"Buskebaskeren"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"no"	"Raketthopperen"
+		"no"	"Raketthopper"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"no"	"Gloves of Running Urgently"
+		"no"	"Gorbatsjov Rusende Uppercut"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"no"	"Stekepanna"
+		"no"	"Stekepanne"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"no"	"Klisterhopperen"
+		"no"	"Klisterhopper"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
@@ -222,7 +222,7 @@
 	}
 	"TF_AMPUTATOR"
 	{
-		"no"	"Amputereren"
+		"no"	"Amputerer"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
@@ -230,7 +230,7 @@
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"no"	"Ullapool stauren"
+		"no"	"Ullapool-staur"
 	}
 	"TF_LOCHNLOAD"
 	{
@@ -242,23 +242,23 @@
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"no"	"Bøffelbiff smørbrødet"
+		"no"	"Bøffelbiff smørbrød"
 	}
 	"TF_GATLINGGUN"
 	{
-		"no"	"Messingbeistet"
+		"no"	"Messingbeist"
 	}
 	"TF_CANDYCANE"
 	{
-		"no"	"Polkagrisen"
+		"no"	"Polkagris"
 	}
 	"TF_BOSTONBASHER"
 	{
-		"no"	"Boston slåeren"
+		"no"	"Bostonbanker"
 	}
 	"TF_BACKSCRATCHER"
 	{
-		"no"	"Ryggskraperen"
+		"no"	"Ryggskraper"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
@@ -266,7 +266,7 @@
 	}
 	"TF_JAG"
 	{
-		"no"	"Rangelen"
+		"no"	"Rangel"
 	}
 	"TF_FISTSOFSTEEL"
 	{

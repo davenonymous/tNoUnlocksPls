@@ -312,4 +312,8 @@
 	{
 		"sv"	"Fiskkaka"
 	}
+	"TF_SCOUTSWORD"
+	{
+		"sv"	"Treruns-svärd"
+	}
 }

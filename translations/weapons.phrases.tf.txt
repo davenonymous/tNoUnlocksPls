@@ -316,4 +316,8 @@
 	{
 		"en"	"Three-Rune Blade"
 	}
+	"TF_RFAHAMMER"
+	{
+		"en"	"Maul"
+	}
 }
