@@ -5,7 +5,7 @@
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.0.15"
+#define VERSION	"0.0.16"
 #define MAXITEMS	128
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
@@ -500,7 +500,7 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 	}
 
 	// Replace Saxxy (TFCLass_Spy)
-	if(iIDI == 423 && class == TFCLass_Spy) {
+	if(iIDI == 423 && class == TFClass_Spy) {
 		strcopy(sClass, size, "tf_weapon_knife");
 		replacement = 4;
 		return true;
