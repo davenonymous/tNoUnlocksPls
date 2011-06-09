@@ -308,6 +308,10 @@
 	{
 		"nl"	"Half-Zatoichi"
 	}
+	"TF_SAXXY"
+	{
+		"nl"	"De Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"nl"	"Viskoek"

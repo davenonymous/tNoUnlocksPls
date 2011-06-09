@@ -304,6 +304,10 @@
 	{
 		"chi"	"座头市之刀"
 	}
+	"TF_SAXXY"
+	{
+		"chi"	"Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"chi"	"炸鱼饼"

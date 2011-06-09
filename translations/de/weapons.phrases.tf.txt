@@ -308,6 +308,10 @@
 	{
 		"de"	"Halb-Zatoichi"
 	}
+	"TF_SAXXY"
+	{
+		"de"	"Der Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"de"	"Fischkuchen"

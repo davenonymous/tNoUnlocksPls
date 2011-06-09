@@ -308,6 +308,10 @@
 	{
 		"es"	"Katana del Medio Zatoichi"
 	}
+	"TF_SAXXY"
+	{
+		"es"	"Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"es"	"Barrita de Pescado"

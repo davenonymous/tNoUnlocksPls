@@ -308,6 +308,10 @@
 	{
 		"en"	"Half-Zatoichi"
 	}
+	"TF_SAXXY"
+	{
+		"en"	"Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"en"	"Fishcake"

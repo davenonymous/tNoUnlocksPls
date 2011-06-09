@@ -308,6 +308,10 @@
 	{
 		"pl"	"Prawie-Zatoichi"
 	}
+	"TF_SAXXY"
+	{
+		"pl"	"Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"pl"	"Ciastko Rybne"

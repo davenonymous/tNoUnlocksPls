@@ -478,6 +478,69 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
+	// Replace Saxxy (TFClass_Pyro)
+	if(iIDI == 423 && class == TFClass_Pyro) {
+		strcopy(sClass, size, "tf_weapon_fireaxe");
+		replacement = 2;
+		return true;
+	}
+
+	// Replace Saxxy (TFClass_Medic)
+	if(iIDI == 423 && class == TFClass_Medic) {
+		strcopy(sClass, size, "tf_weapon_bonesaw");
+		replacement = 8;
+		return true;
+	}
+
+	// Replace Saxxy (TFClass_Soldier)
+	if(iIDI == 423 && class == TFClass_Soldier) {
+		strcopy(sClass, size, "tf_weapon_shovel");
+		replacement = 6;
+		return true;
+	}
+
+	// Replace Saxxy (TFCLass_Spy)
+	if(iIDI == 423 && class == TFCLass_Spy) {
+		strcopy(sClass, size, "tf_weapon_knife");
+		replacement = 4;
+		return true;
+	}
+
+	// Replace Saxxy (TFClass_Scout)
+	if(iIDI == 423 && class == TFClass_Scout) {
+		strcopy(sClass, size, "tf_weapon_bat");
+		replacement = 0;
+		return true;
+	}
+
+	// Replace Saxxy (TFClass_Heavy)
+	if(iIDI == 423 && class == TFClass_Heavy) {
+		strcopy(sClass, size, "tf_weapon_fists");
+		replacement = 5;
+		return true;
+	}
+
+	// Replace Saxxy (TFClass_Sniper)
+	if(iIDI == 423 && class == TFClass_Sniper) {
+		strcopy(sClass, size, "tf_weapon_club");
+		replacement = 3;
+		return true;
+	}
+
+	// Replace Saxxy (TFClass_Engineer)
+	if(iIDI == 423 && class == TFClass_Engineer) {
+		strcopy(sClass, size, "tf_weapon_wrench");
+		replacement = 7;
+		return true;
+	}
+
+	// Replace Saxxy (TFClass_DemoMan)
+	if(iIDI == 423 && class == TFClass_DemoMan) {
+		strcopy(sClass, size, "tf_weapon_bottle");
+		replacement = 1;
+		return true;
+	}
+
 	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Three-Rune Blade
 	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355 || iIDI == 452) {
 		strcopy(sClass, size, "tf_weapon_bat");

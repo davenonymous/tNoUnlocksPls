@@ -308,6 +308,10 @@
 	{
 		"fr"	"Demi-Zatoichi"
 	}
+	"TF_SAXXY"
+	{
+		"fr"	"Le Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"fr"	"Bâtonnet de Poisson"

@@ -308,6 +308,10 @@
 	{
 		"it"	"Lo Spadaccino Mancato"
 	}
+	"TF_SAXXY"
+	{
+		"it"	"Il Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"it"	"Tortina di Pesce"
