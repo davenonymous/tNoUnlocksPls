@@ -9,6 +9,8 @@
 #define MAXITEMS	128
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
+#define USE_GIVEITEM_TIMER
+
 new bool:g_bAnnounce;
 new bool:g_bEnabled;
 new bool:g_bDefault;		//true == replace weapons by default, unless told so with sm_toggleunlock <iIDI>
@@ -331,6 +333,20 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 	new idToBe;
 	//PrintToChat(iClient, "replacing item %i", iItemDefinitionIndex);
 	if (GetReplacement(iItemDefinitionIndex, TF2_GetPlayerClass(iClient), sClass, sizeof(sClass), idToBe)) {
+		new idPrev = FindItemWithID(iItemDefinitionIndex);
+		if(idPrev != -1 && g_bAnnounce) {
+			CPrintToChat(iClient, "Replaced your '{olive}%T{default}'", g_xItems[idPrev][trans], iClient);
+		}
+
+#if defined USE_GIVEITEM_TIMER
+		new Handle:hDataPack = CreateDataPack();
+		CreateDataTimer(0.3, Timer_EquipWeapon, hDataPack);
+		WritePackCell(hDataPack, iClient);
+		WritePackCell(hDataPack, idToBe);
+		WritePackString(hDataPack, sClass);
+
+		return Plugin_Handled;
+#else
 		new Handle:hTest = TF2Items_CreateItem(OVERRIDE_CLASSNAME | OVERRIDE_ITEM_DEF | OVERRIDE_ITEM_LEVEL | OVERRIDE_ITEM_QUALITY | OVERRIDE_ATTRIBUTES);
 		TF2Items_SetClassname(hTest, sClass);
 		TF2Items_SetItemIndex(hTest, idToBe);
@@ -338,18 +354,35 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 		TF2Items_SetQuality(hTest, 0);
 		TF2Items_SetNumAttributes(hTest, 0);
 		hItemOverride = hTest;
-
-		new idPrev = FindItemWithID(iItemDefinitionIndex);
-		if(idPrev != -1 && g_bAnnounce) {
-			CPrintToChat(iClient, "Replaced your '{olive}%T{default}'", g_xItems[idPrev][trans], iClient);
-		}
-
-
 		return Plugin_Changed;
+#endif
 	}
 
 	return Plugin_Continue;
 }
+
+#if defined USE_GIVEITEM_TIMER
+public Action:Timer_EquipWeapon(Handle:timer, Handle:hDataPack) {
+	ResetPack(hDataPack);
+	new iClient = ReadPackCell(hDataPack);
+	new idToBe = ReadPackCell(hDataPack);
+	new String:sClass[64];
+	ReadPackString(hDataPack, sClass, sizeof(sClass));
+	CloseHandle(hDataPack);
+
+	new Handle:hTest = TF2Items_CreateItem(OVERRIDE_CLASSNAME | OVERRIDE_ITEM_DEF | OVERRIDE_ITEM_LEVEL | OVERRIDE_ITEM_QUALITY | OVERRIDE_ATTRIBUTES);
+	TF2Items_SetClassname(hTest, sClass);
+	TF2Items_SetItemIndex(hTest, idToBe);
+	TF2Items_SetLevel(hTest, 1);
+	TF2Items_SetQuality(hTest, 0);
+	TF2Items_SetNumAttributes(hTest, 0);
+
+	new entity = TF2Items_GiveNamedItem(iClient, hTest);
+	CloseHandle(hTest);
+
+	EquipPlayerWeapon(iClient, entity);
+}
+#endif
 
 stock IsStripable(iIDI) {
 	if(
