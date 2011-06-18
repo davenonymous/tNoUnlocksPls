@@ -368,7 +368,7 @@ public Action:Timer_EquipWeapon(Handle:timer, Handle:hDataPack) {
 	new idToBe = ReadPackCell(hDataPack);
 	new String:sClass[64];
 	ReadPackString(hDataPack, sClass, sizeof(sClass));
-	CloseHandle(hDataPack);
+	//CloseHandle(hDataPack);
 
 	new Handle:hTest = TF2Items_CreateItem(OVERRIDE_CLASSNAME | OVERRIDE_ITEM_DEF | OVERRIDE_ITEM_LEVEL | OVERRIDE_ITEM_QUALITY | OVERRIDE_ATTRIBUTES);
 	TF2Items_SetClassname(hTest, sClass);
