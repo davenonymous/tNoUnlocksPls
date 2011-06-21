@@ -316,8 +316,13 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 	if (hItemOverride != INVALID_HANDLE)
 		return Plugin_Continue;
 
-	if(g_bBlockSetHats && IsSetHatAndShouldBeBlocked(iItemDefinitionIndex))
+	if(g_bBlockSetHats && IsSetHatAndShouldBeBlocked(iItemDefinitionIndex)) {
+		if(g_bAnnounce)
+			CPrintToChat(iClient, "Removed your {olive}%s{default} to prevent set bonuses.", "hat");
+
 		return Plugin_Handled;
+	}
+
 
 	if(!EnabledForItem(iItemDefinitionIndex))
 		return Plugin_Continue;
