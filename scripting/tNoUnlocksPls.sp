@@ -541,7 +541,7 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Saxxy (TFCLass_Spy)
+	// Replace Saxxy (TFClass_Spy)
 	if(iIDI == 423 && class == TFClass_Spy) {
 		strcopy(sClass, size, "tf_weapon_knife");
 		replacement = 4;
@@ -771,6 +771,38 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		replacement = 30;
 		return true;
 	}
+
+	return false;
+}
+
+stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
+	// Set: polycount_sniper
+	// Hat: Ol' Snaggletooth
+	// Weapons: The Sydney Sleeper, Darwin's Danger Shield, The Bushwacka
+	if(iIDI == 229 && !EnabledForItem(230) && !EnabledForItem(231) && !EnabledForItem(232))return true;
+
+	// Set: polycount_soldier
+	// Hat: The Grenadier's Softcap
+	// Weapons: The Battalion's Backup, The Black Box
+	if(iIDI == 227 && !EnabledForItem(226) && !EnabledForItem(228))return true;
+
+	// Set: polycount_pyro
+	// Hat: The Attendant
+	// Weapons: The Powerjack, The Degreaser
+	if(iIDI == 213 && !EnabledForItem(214) && !EnabledForItem(215))return true;
+
+	// Set: polycount_scout
+	// Hat: The Milkman
+	// Weapons: The Shortstop, The Holy Mackerel, Mad Milk
+	if(iIDI == 219 && !EnabledForItem(220) && !EnabledForItem(221) && !EnabledForItem(222))return true;
+
+	// Set: polycount_spy
+	// Hat: The Familiar Fez
+	// Weapons: L'Etranger, Your Eternal Reward
+	if(iIDI == 223 && !EnabledForItem(224) && !EnabledForItem(225))return true;
+
+	// Sets without hats: hibernating_bear, experts_ordnance, medieval_medic
+	// Those will not be blocked even if sm_tnounlockspls_blocksets is enabled!
 
 	return false;
 }
