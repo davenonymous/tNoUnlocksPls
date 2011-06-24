@@ -292,6 +292,10 @@
 	{
 		"zho"	"炎日法杖"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"zho"	"引爆器"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"zho"	"家徽旗"
@@ -307,6 +311,10 @@
 	"TF_SOLDIERKATANA"
 	{
 		"zho"	"半盲劍俠"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"zho"	"快治好"
 	}
 	"TF_SCOUTSWORD"
 	{

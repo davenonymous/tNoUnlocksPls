@@ -280,6 +280,18 @@
 	{
 		"no"	"Sol-på-en-pinne"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"no"	"Detonatoren"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"no"	"Kvikk-fiks"
+	}
+	"TF_SAXXY"
+	{
+		"no"	"Saxxy"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"no"	"Fiskekake"

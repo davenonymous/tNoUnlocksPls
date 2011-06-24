@@ -292,6 +292,10 @@
 	{
 		"de"	"Die Sonne-am-Stiel"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"de"	"Der Detonierer"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"de"	"Eroberer"
@@ -308,6 +312,10 @@
 	{
 		"de"	"Halb-Zatoichi"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"de"	"Der Notarzt"
+	}
 	"TF_SAXXY"
 	{
 		"de"	"Der Saxxy"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"de"	"Drei-Runen-Klinge"
+	}
+	"TF_RFAHAMMER"
+	{
+		"de"	"Der Spalthammer"
 	}
 }

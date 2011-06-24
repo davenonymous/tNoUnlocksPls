@@ -6,7 +6,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"nl"	"De Bloedzuiger"
+		"nl"	"De Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
@@ -82,7 +82,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"nl"	"Het Versterkende Vaandel"
+		"nl"	"Het Versterkende Banier"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
@@ -102,7 +102,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"nl"	"De Verstikker"
+		"nl"	"De Beteugelaar"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
@@ -146,7 +146,7 @@
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"nl"	"De Stammenmans Shiv"
+		"nl"	"De Stammenmannenshiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
@@ -292,6 +292,10 @@
 	{
 		"nl"	"De Zon-op-een-Stok"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"nl"	"Detonator"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"nl"	"Veroveraarsschelp"
@@ -308,6 +312,10 @@
 	{
 		"nl"	"Half-Zatoichi"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"nl"	"De Snelle Herstelling"
+	}
 	"TF_SAXXY"
 	{
 		"nl"	"De Saxxy"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"nl"	"Drie-Runenzwaard"
+	}
+	"TF_RFAHAMMER"
+	{
+		"nl"	"De Strijdhamer"
 	}
 }

@@ -292,6 +292,10 @@
 	{
 		"ro"	"Soarele-pe-Băț"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"ro"	"Detonatorul"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"ro"	"Cotropitor"
@@ -307,5 +311,9 @@
 	"TF_SOLDIERKATANA"
 	{
 		"ro"	"Zatoichi-njumătăţit"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"ro"	"Reparaţia Rapidă"
 	}
 }

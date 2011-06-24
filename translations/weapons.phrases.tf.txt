@@ -292,6 +292,10 @@
 	{
 		"en"	"Sun-on-a-Stick"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"en"	"Detonator"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"en"	"Concheror"
@@ -308,17 +312,101 @@
 	{
 		"en"	"Half-Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"en"	"Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"en"	"Bazaar Bargain"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"en"	"Persian Persuader"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"en"	"Ali Baba's Wee Booties"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"en"	"Splendid Screen"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"en"	"Quick-Fix"
+	}
+	"TF_OVERDOSE"
+	{
+		"en"	"Overdose"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"en"	"Solemn Vow"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"en"	"Liberty Launcher"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"en"	"Reserve Shooter"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"en"	"Market Gardener"
+	}
 	"TF_SAXXY"
 	{
 		"en"	"Saxxy"
+	}
+	"TF_TOMISLAV"
+	{
+		"en"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"en"	"Family Business"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"en"	"Eviction Notice"
 	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"en"	"Fishcake"
 	}
+	"TF_MANTREADS"
+	{
+		"en"	"Mantreads"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"en"	"Disciplinary Action"
+	}
+	"TF_SODAPOPPER"
+	{
+		"en"	"Soda Popper"
+	}
+	"TF_WINGER"
+	{
+		"en"	"Winger"
+	}
+	"TF_ATOMIZER"
+	{
+		"en"	"Atomizer"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"en"	"Three-Rune Blade"
+	}
+	"TF_ENFORCER"
+	{
+		"en"	"Enforcer"
+	}
+	"TF_BIGEARNER"
+	{
+		"en"	"Big Earner"
 	}
 	"TF_RFAHAMMER"
 	{

@@ -292,6 +292,10 @@
 	{
 		"pl"	"Gwiazda Poranna"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"pl"	"Detonator"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"pl"	"Concheror"
@@ -308,6 +312,10 @@
 	{
 		"pl"	"Prawie-Zatoichi"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"pl"	"Szybki Lek"
+	}
 	"TF_SAXXY"
 	{
 		"pl"	"Saxxy"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"pl"	"Trójruniczne Ostrze"
+	}
+	"TF_RFAHAMMER"
+	{
+		"pl"	"Maul"
 	}
 }

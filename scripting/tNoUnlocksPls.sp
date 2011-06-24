@@ -588,15 +588,15 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Three-Rune Blade
-	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355 || iIDI == 452) {
+	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Atomizer, Three-Rune Blade
+	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355 || iIDI == 450 || iIDI == 452) {
 		strcopy(sClass, size, "tf_weapon_bat");
 		replacement = 0;
 		return true;
 	}
 
-	// Replace Eyelander, Scotsman's Skullcutter, HHH's Headtaker, Ullapool Caber, Claidheamohmor
-	if(iIDI == 132 || iIDI == 172 || iIDI == 266 || iIDI == 307 || iIDI == 327) {
+	// Replace Eyelander, Scotsman's Skullcutter, HHH's Headtaker, Ullapool Caber, Claidheamohmor, Persian Persuader
+	if(iIDI == 132 || iIDI == 172 || iIDI == 266 || iIDI == 307 || iIDI == 327 || iIDI == 404) {
 		strcopy(sClass, size, "tf_weapon_bottle");
 		replacement = 1;
 		return true;
@@ -609,29 +609,29 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Tribalman's Shiv, Bushwacka
-	if(iIDI == 171 || iIDI == 232) {
+	// Replace Tribalman's Shiv, Bushwacka, Shahanshah
+	if(iIDI == 171 || iIDI == 232 || iIDI == 401) {
 		strcopy(sClass, size, "tf_weapon_club");
 		replacement = 3;
 		return true;
 	}
 
-	// Replace Your Eternal Reward, Conniver's Kunai
-	if(iIDI == 225 || iIDI == 356) {
+	// Replace Your Eternal Reward, Conniver's Kunai, Big Earner
+	if(iIDI == 225 || iIDI == 356 || iIDI == 461) {
 		strcopy(sClass, size, "tf_weapon_knife");
 		replacement = 4;
 		return true;
 	}
 
-	// Replace Killing Gloves of Boxing, Gloves of Running Urgently, Warrior's Spirit, Fists of Steel
-	if(iIDI == 43 || iIDI == 239 || iIDI == 310 || iIDI == 331) {
+	// Replace Killing Gloves of Boxing, Gloves of Running Urgently, Warrior's Spirit, Fists of Steel, Eviction Notice
+	if(iIDI == 43 || iIDI == 239 || iIDI == 310 || iIDI == 331 || iIDI == 426) {
 		strcopy(sClass, size, "tf_weapon_fists");
 		replacement = 5;
 		return true;
 	}
 
-	// Replace Equalizer
-	if(iIDI == 128) {
+	// Replace Equalizer, Market Gardener, Disciplinary Action
+	if(iIDI == 128 || iIDI == 416 || iIDI == 447) {
 		strcopy(sClass, size, "tf_weapon_shovel");
 		replacement = 6;
 		return true;
@@ -644,8 +644,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Ubersaw, Vita-Saw, Amputator
-	if(iIDI == 37 || iIDI == 173 || iIDI == 304) {
+	// Replace Ubersaw, Vita-Saw, Amputator, Solemn Vow
+	if(iIDI == 37 || iIDI == 173 || iIDI == 304 || iIDI == 413) {
 		strcopy(sClass, size, "tf_weapon_bonesaw");
 		replacement = 8;
 		return true;
@@ -658,43 +658,43 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Buff Banner, Gunboats, Battalion's Backup, Concheror
-	if(iIDI == 129 || iIDI == 133 || iIDI == 226 || iIDI == 354) {
+	// Replace Buff Banner, Gunboats, Battalion's Backup, Concheror, Reserve Shooter, Mantreads
+	if(iIDI == 129 || iIDI == 133 || iIDI == 226 || iIDI == 354 || iIDI == 415 || iIDI == 444) {
 		strcopy(sClass, size, "tf_weapon_shotgun_soldier");
 		replacement = 10;
 		return true;
 	}
 
-	// Replace Sandvich, Dalokohs Bar, Buffalo Steak Sandvich, Fishcake
-	if(iIDI == 42 || iIDI == 159 || iIDI == 311 || iIDI == 433) {
+	// Replace Sandvich, Dalokohs Bar, Buffalo Steak Sandvich, Family Business, Fishcake
+	if(iIDI == 42 || iIDI == 159 || iIDI == 311 || iIDI == 425 || iIDI == 433) {
 		strcopy(sClass, size, "tf_weapon_shotgun_hwg");
 		replacement = 11;
 		return true;
 	}
 
-	// Replace Flare Gun
-	if(iIDI == 39) {
+	// Replace Flare Gun, Detonator
+	if(iIDI == 39 || iIDI == 351) {
 		strcopy(sClass, size, "tf_weapon_shotgun_pyro");
 		replacement = 12;
 		return true;
 	}
 
-	// Replace Force-a-Nature, Shortstop
-	if(iIDI == 45 || iIDI == 220) {
+	// Replace Force-a-Nature, Shortstop, Soda Popper
+	if(iIDI == 45 || iIDI == 220 || iIDI == 448) {
 		strcopy(sClass, size, "tf_weapon_scattergun");
 		replacement = 13;
 		return true;
 	}
 
-	// Replace Huntsman, Sydney Sleeper
-	if(iIDI == 56 || iIDI == 230) {
+	// Replace Huntsman, Sydney Sleeper, Bazaar Bargain
+	if(iIDI == 56 || iIDI == 230 || iIDI == 402) {
 		strcopy(sClass, size, "tf_weapon_sniperrifle");
 		replacement = 14;
 		return true;
 	}
 
-	// Replace Natascha, Iron Curtain, Brass Beast
-	if(iIDI == 41 || iIDI == 298 || iIDI == 312) {
+	// Replace Natascha, Iron Curtain, Brass Beast, Tomislav
+	if(iIDI == 41 || iIDI == 298 || iIDI == 312 || iIDI == 424) {
 		strcopy(sClass, size, "tf_weapon_minigun");
 		replacement = 15;
 		return true;
@@ -707,29 +707,29 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Blutsauger, Crusader's Crossbow
-	if(iIDI == 36 || iIDI == 305) {
+	// Replace Blutsauger, Crusader's Crossbow, Overdose
+	if(iIDI == 36 || iIDI == 305 || iIDI == 412) {
 		strcopy(sClass, size, "tf_weapon_syringegun_medic");
 		replacement = 17;
 		return true;
 	}
 
-	// Replace Direct Hit, Black Box, Rocket Jumper
-	if(iIDI == 127 || iIDI == 228 || iIDI == 237) {
+	// Replace Direct Hit, Black Box, Rocket Jumper, Liberty Launcher
+	if(iIDI == 127 || iIDI == 228 || iIDI == 237 || iIDI == 414) {
 		strcopy(sClass, size, "tf_weapon_rocketlauncher");
 		replacement = 18;
 		return true;
 	}
 
-	// Replace Loch-n-Load
-	if(iIDI == 308) {
+	// Replace Loch-n-Load, Ali Baba's Wee Booties
+	if(iIDI == 308 || iIDI == 405) {
 		strcopy(sClass, size, "tf_weapon_grenadelauncher");
 		replacement = 19;
 		return true;
 	}
 
-	// Replace Scottish Resistance, Chargin' Targe, Stickybomb Jumper
-	if(iIDI == 130 || iIDI == 131 || iIDI == 265) {
+	// Replace Scottish Resistance, Chargin' Targe, Stickybomb Jumper, Splendid Screen
+	if(iIDI == 130 || iIDI == 131 || iIDI == 265 || iIDI == 406) {
 		strcopy(sClass, size, "tf_weapon_pipebomblauncher");
 		replacement = 20;
 		return true;
@@ -749,22 +749,22 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Bonk! Atomic Punch, Crit-a-Cola, Mad Milk
-	if(iIDI == 46 || iIDI == 163 || iIDI == 222) {
+	// Replace Bonk! Atomic Punch, Crit-a-Cola, Mad Milk, Winger
+	if(iIDI == 46 || iIDI == 163 || iIDI == 222 || iIDI == 449) {
 		strcopy(sClass, size, "tf_weapon_pistol_scout");
 		replacement = 23;
 		return true;
 	}
 
-	// Replace Ambassador, TTG Sam Revolver, L'Etranger
-	if(iIDI == 61 || iIDI == 161 || iIDI == 224) {
+	// Replace Ambassador, TTG Sam Revolver, L'Etranger, Enforcer
+	if(iIDI == 61 || iIDI == 161 || iIDI == 224 || iIDI == 460) {
 		strcopy(sClass, size, "tf_weapon_revolver");
 		replacement = 24;
 		return true;
 	}
 
-	// Replace Kritzkrieg
-	if(iIDI == 35) {
+	// Replace Kritzkrieg, Quick-Fix
+	if(iIDI == 35 || iIDI == 411) {
 		strcopy(sClass, size, "tf_weapon_medigun");
 		replacement = 29;
 		return true;
@@ -786,15 +786,25 @@ stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 	// Weapons: The Sydney Sleeper, Darwin's Danger Shield, The Bushwacka
 	if(iIDI == 229 && !EnabledForItem(230) && !EnabledForItem(231) && !EnabledForItem(232))return true;
 
-	// Set: polycount_soldier
-	// Hat: The Grenadier's Softcap
-	// Weapons: The Battalion's Backup, The Black Box
-	if(iIDI == 227 && !EnabledForItem(226) && !EnabledForItem(228))return true;
-
 	// Set: polycount_pyro
 	// Hat: The Attendant
 	// Weapons: The Powerjack, The Degreaser
 	if(iIDI == 213 && !EnabledForItem(214) && !EnabledForItem(215))return true;
+
+	// Set: gangland_spy
+	// Hat: The Made Man
+	// Weapons: The Enforcer, The Big Earner
+	if(iIDI == 462 && !EnabledForItem(460) && !EnabledForItem(461))return true;
+
+	// Set: general_suit
+	// Hat: Fancy Dress Uniform
+	// Weapons: The Mantreads, The Disciplinary Action
+	if(iIDI == 446 && !EnabledForItem(444) && !EnabledForItem(447))return true;
+
+	// Set: black_market
+	// Hat: Capone's Capper
+	// Weapons: Tomislav, The Family Business, The Eviction Notice
+	if(iIDI == 427 && !EnabledForItem(424) && !EnabledForItem(425) && !EnabledForItem(426))return true;
 
 	// Set: polycount_scout
 	// Hat: The Milkman
@@ -806,7 +816,32 @@ stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 	// Weapons: L'Etranger, Your Eternal Reward
 	if(iIDI == 223 && !EnabledForItem(224) && !EnabledForItem(225))return true;
 
-	// Sets without hats: hibernating_bear, experts_ordnance, medieval_medic
+	// Set: bonk_fan
+	// Hat: Bonk Boy
+	// Weapons: The Soda Popper, The Winger, The Atomizer
+	if(iIDI == 451 && !EnabledForItem(448) && !EnabledForItem(449) && !EnabledForItem(450))return true;
+
+	// Set: airborne_armaments
+	// Hat: Jumper's Jeepcap
+	// Weapons: The Liberty Launcher, The Reserve Shooter, The Market Gardener
+	if(iIDI == 417 && !EnabledForItem(414) && !EnabledForItem(415) && !EnabledForItem(416))return true;
+
+	// Set: polycount_soldier
+	// Hat: The Grenadier's Softcap
+	// Weapons: The Battalion's Backup, The Black Box
+	if(iIDI == 227 && !EnabledForItem(226) && !EnabledForItem(228))return true;
+
+	// Set: desert_sniper
+	// Hat: Desert Marauder
+	// Weapons: The Shahanshah, The Bazaar Bargain
+	if(iIDI == 400 && !EnabledForItem(401) && !EnabledForItem(402))return true;
+
+	// Set: desert_demo
+	// Hat: Sultan's Ceremonial
+	// Weapons: The Persian Persuader, Ali Baba's Wee Booties, The Splendid Screen
+	if(iIDI == 403 && !EnabledForItem(404) && !EnabledForItem(405) && !EnabledForItem(406))return true;
+
+	// Sets without hats: medieval_medic, rapid_repair, hibernating_bear, experts_ordnance
 	// Those will not be blocked even if sm_tnounlockspls_blocksets is enabled!
 
 	return false;

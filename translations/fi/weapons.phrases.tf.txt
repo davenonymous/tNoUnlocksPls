@@ -238,7 +238,7 @@
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"fi"	"Ristiretkeläisen varsijousi"
+		"fi"	"Vapahtajan varsijousi"
 	}
 	"TF_ULLAPOOLCABER"
 	{
@@ -292,6 +292,10 @@
 	{
 		"fi"	"Tähtitikku"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"fi"	"Sytytin"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"fi"	"Conchistadori"
@@ -308,6 +312,10 @@
 	{
 		"fi"	"Puolisokea Samurai"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"fi"	"Pikapiristys"
+	}
 	"TF_SAXXY"
 	{
 		"fi"	"Saxxy"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"fi"	"Kolmen riimun säilä"
+	}
+	"TF_RFAHAMMER"
+	{
+		"fi"	"Mahtimoukari"
 	}
 }

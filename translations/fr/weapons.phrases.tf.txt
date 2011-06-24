@@ -174,7 +174,7 @@
 	}
 	"TF_MADMILK"
 	{
-		"fr"	"Mad Milk"
+		"fr"	"Lait Frelaté"
 	}
 	"TF_LETRANGER"
 	{
@@ -182,7 +182,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"fr"	"Votre Récompense Éternelle"
+		"fr"	"Ton Éternelle Récompense"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -194,7 +194,7 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"fr"	"Le Sydney Sleeper"
+		"fr"	"La Sarbacane de Sydney"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -292,6 +292,10 @@
 	{
 		"fr"	"Le Soleil-sur-un-Bâton"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"fr"	"Le Détonateur"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"fr"	"Conque-érant"
@@ -308,6 +312,10 @@
 	{
 		"fr"	"Demi-Zatoichi"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"fr"	"Le Secou'rapide"
+	}
 	"TF_SAXXY"
 	{
 		"fr"	"Le Saxxy"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"fr"	"Lame à Trois Runes"
+	}
+	"TF_RFAHAMMER"
+	{
+		"fr"	"La Masse"
 	}
 }

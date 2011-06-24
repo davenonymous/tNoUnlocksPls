@@ -292,6 +292,10 @@
 	{
 		"ru"	"Солнце на палочке"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"ru"	"Детонатор"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"ru"	"Завоеватель"
@@ -308,6 +312,10 @@
 	{
 		"ru"	"Полузатойчи"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"ru"	"Быстроправ"
+	}
 	"TF_SAXXY"
 	{
 		"ru"	"Сакси"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"ru"	"Трехрунный меч"
+	}
+	"TF_RFAHAMMER"
+	{
+		"ru"	"Молот"
 	}
 }

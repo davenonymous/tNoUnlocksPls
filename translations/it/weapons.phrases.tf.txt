@@ -292,6 +292,10 @@
 	{
 		"it"	"Il Sole-su-un-Bastone"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"it"	"Il Detonatore"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"it"	"Strombozzatore"
@@ -308,6 +312,10 @@
 	{
 		"it"	"Lo Spadaccino Mancato"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"it"	"La Soluzione Rapida"
+	}
 	"TF_SAXXY"
 	{
 		"it"	"Il Saxxy"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"it"	"Spada delle Tre Rune"
+	}
+	"TF_RFAHAMMER"
+	{
+		"it"	"Il Maglio"
 	}
 }

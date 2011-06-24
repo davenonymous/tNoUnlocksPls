@@ -234,7 +234,7 @@
 	}
 	"TF_AMPUTATOR"
 	{
-		"es"	"Amputador"
+		"es"	"El Amputador"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
@@ -292,6 +292,10 @@
 	{
 		"es"	"Sol-en-un-Palo"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"es"	"El Detonador"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"es"	"Conchistador"
@@ -308,6 +312,10 @@
 	{
 		"es"	"Katana del Medio Zatoichi"
 	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"es"	"Apañador"
+	}
 	"TF_SAXXY"
 	{
 		"es"	"Saxxy"
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"es"	"Hoja Trirrúnica"
+	}
+	"TF_RFAHAMMER"
+	{
+		"es"	"El Mutilador"
 	}
 }

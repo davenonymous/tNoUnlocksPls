@@ -280,6 +280,14 @@
 	{
 		"da"	"Solen-på-en-Pind"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"da"	"Detonatoren"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"da"	"Konkylien"
+	}
 	"TF_GUNBAI"
 	{
 		"da"	"Krigsviften"
@@ -287,5 +295,13 @@
 	"TF_KUNAI"
 	{
 		"da"	"Kynikerens Kunai"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"da"	"Halv-Zatoichi"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"da"	"Det Hurtige Fix"
 	}
 }

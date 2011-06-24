@@ -292,6 +292,10 @@
 	{
 		"sv"	"Solstickan"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"sv"	"Detonatorn"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"sv"	"Trumpetsnäcka"
@@ -302,11 +306,15 @@
 	}
 	"TF_KUNAI"
 	{
-		"sv"	"Konspiratorns Kunai"
+		"sv"	"Konspiratörens Kunai"
 	}
 	"TF_SOLDIERKATANA"
 	{
 		"sv"	"Halv-Zatoichi"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"sv"	"Snabbfixaren"
 	}
 	"TF_SAXXY"
 	{
@@ -319,5 +327,9 @@
 	"TF_SCOUTSWORD"
 	{
 		"sv"	"Treruns-svärd"
+	}
+	"TF_RFAHAMMER"
+	{
+		"sv"	"Lemlästaren"
 	}
 }
