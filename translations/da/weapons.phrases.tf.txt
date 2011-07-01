@@ -304,4 +304,8 @@
 	{
 		"da"	"Det Hurtige Fix"
 	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"da"	"Fiskekage"
+	}
 }

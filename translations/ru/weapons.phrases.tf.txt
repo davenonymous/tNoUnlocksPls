@@ -312,21 +312,101 @@
 	{
 		"ru"	"Полузатойчи"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"ru"	"Шаханшах"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"ru"	"Базарная безделушка"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"ru"	"Персидский заклинатель"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"ru"	"Ботиночки Али-Бабы"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"ru"	"Роскошное прикрытие"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"ru"	"Быстроправ"
+	}
+	"TF_OVERDOSE"
+	{
+		"ru"	"Передоз"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"ru"	"Священная клятва"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"ru"	"Миротворец"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"ru"	"Офицер запаса"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"ru"	"Землекоп"
 	}
 	"TF_SAXXY"
 	{
 		"ru"	"Сакси"
 	}
+	"TF_TOMISLAV"
+	{
+		"ru"	"Томислав"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"ru"	"Семейное дело"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"ru"	"С вещами на выход"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"ru"	"Рыбный батончик"
 	}
+	"TF_MANTREADS"
+	{
+		"ru"	"Гусеницы"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"ru"	"Дисциплинарное взыскание"
+	}
+	"TF_SODAPOPPER"
+	{
+		"ru"	"Газировщик"
+	}
+	"TF_WINGER"
+	{
+		"ru"	"Окрыленный"
+	}
+	"TF_ATOMIZER"
+	{
+		"ru"	"Расщепитель"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"ru"	"Трехрунный меч"
+	}
+	"TF_ENFORCER"
+	{
+		"ru"	"Принудитель"
+	}
+	"TF_BIGEARNER"
+	{
+		"ru"	"Главный делец"
 	}
 	"TF_RFAHAMMER"
 	{

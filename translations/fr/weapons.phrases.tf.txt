@@ -312,21 +312,97 @@
 	{
 		"fr"	"Demi-Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"fr"	"Le Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"fr"	"Le Négociateur"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"fr"	"La Persuasion Persane"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"fr"	"Les Alibobottes"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"fr"	"Le Mirage Éblouissant"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"fr"	"Le Secou'rapide"
+	}
+	"TF_OVERDOSE"
+	{
+		"fr"	"L'Overdose"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"fr"	"Le Vœu Solennel"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"fr"	"Le Libérateur"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"fr"	"Le Tireur Réserviste"
 	}
 	"TF_SAXXY"
 	{
 		"fr"	"Le Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"fr"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"fr"	"L'Entreprise Familiale"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"fr"	"L'Avis d'Expulsion"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"fr"	"Bâtonnet de Poisson"
 	}
+	"TF_MANTREADS"
+	{
+		"fr"	"Les Bottes de Combat"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"fr"	"L'Action Disciplinaire"
+	}
+	"TF_SODAPOPPER"
+	{
+		"fr"	"Le Rafraîchisseur"
+	}
+	"TF_WINGER"
+	{
+		"fr"	"L'Ailier"
+	}
+	"TF_ATOMIZER"
+	{
+		"fr"	"L'Atomiseur"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"fr"	"Lame à Trois Runes"
+	}
+	"TF_ENFORCER"
+	{
+		"fr"	"Le Coerciteur"
+	}
+	"TF_BIGEARNER"
+	{
+		"fr"	"Le Grand Gagnant"
 	}
 	"TF_RFAHAMMER"
 	{

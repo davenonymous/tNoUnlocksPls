@@ -312,21 +312,101 @@
 	{
 		"it"	"Lo Spadaccino Mancato"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"it"	"Il Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"it"	"Il Contratto del Bazaar"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"it"	"Il Persuasore Persiano"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"it"	"Babbucce Piccine di Alì Babà"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"it"	"La Barriera Splendida"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"it"	"La Soluzione Rapida"
+	}
+	"TF_OVERDOSE"
+	{
+		"it"	"L'Overdose"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"it"	"Il Giuramento Solenne"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"it"	"Il Lanciarazzi della Libertà"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"it"	"Il Tiratore di Riserva"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"it"	"L'Orticoltore"
 	}
 	"TF_SAXXY"
 	{
 		"it"	"Il Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"it"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"it"	"L'Affare di Famiglia"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"it"	"L'Avviso di Sfratto"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"it"	"Tortina di Pesce"
 	}
+	"TF_MANTREADS"
+	{
+		"it"	"I Passi d'Uomo"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"it"	"L'Azione Disciplinare"
+	}
+	"TF_SODAPOPPER"
+	{
+		"it"	"Lo Stappa Bottiglie"
+	}
+	"TF_WINGER"
+	{
+		"it"	"L'Ala"
+	}
+	"TF_ATOMIZER"
+	{
+		"it"	"L'Atomizzatore"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"it"	"Spada delle Tre Rune"
+	}
+	"TF_ENFORCER"
+	{
+		"it"	"Il Vigilante"
+	}
+	"TF_BIGEARNER"
+	{
+		"it"	"Il Buon Salariato"
 	}
 	"TF_RFAHAMMER"
 	{

@@ -312,21 +312,97 @@
 	{
 		"fi"	"Puolisokea Samurai"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"fi"	"Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"fi"	"Toritarjous"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"fi"	"Persialainen pieksentä"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"fi"	"Ali Baban pikku poposet"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"fi"	"Suotuisa suoja"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"fi"	"Pikapiristys"
+	}
+	"TF_OVERDOSE"
+	{
+		"fi"	"Yliannostus"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"fi"	"Vakava vala"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"fi"	"Vapaudenheitin"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"fi"	"Reserviräiskijä"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"fi"	"Joukkohaudankaivaja"
 	}
 	"TF_SAXXY"
 	{
 		"fi"	"Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"fi"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"fi"	"Perheyritys"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"fi"	"Häätöilmoitus"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"fi"	"Kalakakku"
 	}
+	"TF_MANTREADS"
+	{
+		"fi"	"Miehenpolkijat"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"fi"	"Kuritoimenpide"
+	}
+	"TF_WINGER"
+	{
+		"fi"	"Siipeilijä"
+	}
+	"TF_ATOMIZER"
+	{
+		"fi"	"Atomisoija"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"fi"	"Kolmen riimun säilä"
+	}
+	"TF_ENFORCER"
+	{
+		"fi"	"Luottomies"
+	}
+	"TF_BIGEARNER"
+	{
+		"fi"	"Palkkapussin kasvattaja"
 	}
 	"TF_RFAHAMMER"
 	{

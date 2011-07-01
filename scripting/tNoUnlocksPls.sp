@@ -595,15 +595,15 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Eyelander, Scotsman's Skullcutter, HHH's Headtaker, Ullapool Caber, Claidheamohmor, Persian Persuader
-	if(iIDI == 132 || iIDI == 172 || iIDI == 266 || iIDI == 307 || iIDI == 327 || iIDI == 404) {
+	// Replace Eyelander, Scotsman's Skullcutter, HHH's Headtaker, Ullapool Caber, Claidheamohmor, Persian Persuader, Nessie's Nine Iron
+	if(iIDI == 132 || iIDI == 172 || iIDI == 266 || iIDI == 307 || iIDI == 327 || iIDI == 404 || iIDI == 482) {
 		strcopy(sClass, size, "tf_weapon_bottle");
 		replacement = 1;
 		return true;
 	}
 
-	// Replace Axtinguisher, Homewrecker, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Maul
-	if(iIDI == 38 || iIDI == 153 || iIDI == 214 || iIDI == 326 || iIDI == 348 || iIDI == 466) {
+	// Replace Axtinguisher, Homewrecker, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Postal Pummeler, Maul
+	if(iIDI == 38 || iIDI == 153 || iIDI == 214 || iIDI == 326 || iIDI == 348 || iIDI == 457 || iIDI == 466) {
 		strcopy(sClass, size, "tf_weapon_fireaxe");
 		replacement = 2;
 		return true;

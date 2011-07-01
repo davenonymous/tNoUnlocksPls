@@ -312,21 +312,85 @@
 	{
 		"es"	"Katana del Medio Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"es"	"El Shahanshah"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"es"	"Babuchas de Alí Babá"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"es"	"El Escudo Espléndido"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"es"	"Apañador"
+	}
+	"TF_OVERDOSE"
+	{
+		"es"	"La Sobredosis"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"es"	"El Juramento Solemne"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"es"	"El Libertador"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"es"	"El Jardinero"
 	}
 	"TF_SAXXY"
 	{
 		"es"	"Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"es"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"es"	"El Negocio Familiar"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"es"	"La Orden de Desahucio"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"es"	"Barrita de Pescado"
 	}
+	"TF_MANTREADS"
+	{
+		"es"	"Las Aplastacabezas"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"es"	"La Acción Disciplinaria"
+	}
+	"TF_SODAPOPPER"
+	{
+		"es"	"La Refrescopeta"
+	}
+	"TF_WINGER"
+	{
+		"es"	"La Aeropistola"
+	}
+	"TF_ATOMIZER"
+	{
+		"es"	"El Atomizador"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"es"	"Hoja Trirrúnica"
+	}
+	"TF_ENFORCER"
+	{
+		"es"	"El Ejecutor"
 	}
 	"TF_RFAHAMMER"
 	{

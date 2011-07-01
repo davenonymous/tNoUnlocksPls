@@ -400,6 +400,10 @@
 	{
 		"en"	"Three-Rune Blade"
 	}
+	"TF_MAILBOX"
+	{
+		"en"	"Postal Pummeler"
+	}
 	"TF_ENFORCER"
 	{
 		"en"	"Enforcer"
@@ -411,5 +415,9 @@
 	"TF_RFAHAMMER"
 	{
 		"en"	"Maul"
+	}
+	"TF_NINEIRON"
+	{
+		"en"	"Nessie's Nine Iron"
 	}
 }

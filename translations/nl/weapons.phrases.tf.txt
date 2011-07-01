@@ -42,7 +42,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"nl"	"De Kracht-van-de-Natuur"
+		"nl"	"De Kracht-der-Natuur"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -294,7 +294,7 @@
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"nl"	"Detonator"
+		"nl"	"De Ontsteker"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
@@ -312,21 +312,77 @@
 	{
 		"nl"	"Half-Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"nl"	"De Shahanshah"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"nl"	"De Ottomaanse Overtuiger"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"nl"	"Ali Baba's Kleine Schoentjes"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"nl"	"Het Schitterende Scherm"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"nl"	"De Snelle Herstelling"
+	}
+	"TF_OVERDOSE"
+	{
+		"nl"	"De Overdosis"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"nl"	"De Plechtige Belofte"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"nl"	"De Reserveschieter"
 	}
 	"TF_SAXXY"
 	{
 		"nl"	"De Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"nl"	"Tomislav"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"nl"	"Het Uitzettingsbevel"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"nl"	"Viskoek"
 	}
+	"TF_MANTREADS"
+	{
+		"nl"	"De Manzolen"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"nl"	"De Disciplinaire Actie"
+	}
+	"TF_WINGER"
+	{
+		"nl"	"De Flanker"
+	}
+	"TF_ATOMIZER"
+	{
+		"nl"	"De Atoomeerder"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"nl"	"Drie-Runenzwaard"
+	}
+	"TF_ENFORCER"
+	{
+		"nl"	"De Bekrachtiger"
 	}
 	"TF_RFAHAMMER"
 	{

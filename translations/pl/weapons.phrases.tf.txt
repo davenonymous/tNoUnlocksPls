@@ -312,21 +312,101 @@
 	{
 		"pl"	"Prawie-Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"pl"	"Szachinszach"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"pl"	"Bazarowa Okazja"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"pl"	"Perski Przekonywacz"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"pl"	"Malutkie Butki Ali Baby"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"pl"	"Prześwietny Puklerz"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"pl"	"Szybki Lek"
+		"pl"	"Quick-Fix"
+	}
+	"TF_OVERDOSE"
+	{
+		"pl"	"Końska Dawka"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"pl"	"Uroczysta Przysięga"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"pl"	"Wyrzutnia Wolności"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"pl"	"Rezerwista"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"pl"	"Ogrodnik z Arnhem"
 	}
 	"TF_SAXXY"
 	{
 		"pl"	"Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"pl"	"Tomisław"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"pl"	"Rodzinny Interes"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"pl"	"Nakaz Eksmisji"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"pl"	"Ciastko Rybne"
 	}
+	"TF_MANTREADS"
+	{
+		"pl"	"Miażdżyciele"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"pl"	"Postępowanie Dyscyplinarne"
+	}
+	"TF_SODAPOPPER"
+	{
+		"pl"	"Buzownik"
+	}
+	"TF_WINGER"
+	{
+		"pl"	"Skrzydłowy"
+	}
+	"TF_ATOMIZER"
+	{
+		"pl"	"Atomizer"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"pl"	"Trójruniczne Ostrze"
+	}
+	"TF_ENFORCER"
+	{
+		"pl"	"Egzekutor"
+	}
+	"TF_BIGEARNER"
+	{
+		"pl"	"Gruba Ryba"
 	}
 	"TF_RFAHAMMER"
 	{

@@ -312,21 +312,101 @@
 	{
 		"de"	"Halb-Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"de"	"Der Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"de"	"Das Basar-Schnäppchen"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"de"	"Der Persische Säbel"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"de"	"Ali Babas Schühchen"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"de"	"Die Stattliche Schutzwand"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"de"	"Der Notarzt"
+	}
+	"TF_OVERDOSE"
+	{
+		"de"	"Die Überdosis"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"de"	"The Eidliche Gelübde"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"de"	"Der Freiheitswerfer"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"de"	"Der Reserveschießer"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"de"	"Der Gemüsebauer"
 	}
 	"TF_SAXXY"
 	{
 		"de"	"Der Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"de"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"de"	"Das Familiengeschäft"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"de"	"Der Räumungsbescheid"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"de"	"Fischkuchen"
 	}
+	"TF_MANTREADS"
+	{
+		"de"	"Die Mannestreter"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"de"	"Die Erzieherische Maßnahme"
+	}
+	"TF_SODAPOPPER"
+	{
+		"de"	"Der Soda-Popper"
+	}
+	"TF_WINGER"
+	{
+		"de"	"Der Flügelstürmer"
+	}
+	"TF_ATOMIZER"
+	{
+		"de"	"Der Atomisierer"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"de"	"Drei-Runen-Klinge"
+	}
+	"TF_ENFORCER"
+	{
+		"de"	"Der Vollstrecker"
+	}
+	"TF_BIGEARNER"
+	{
+		"de"	"Der Großverdiener"
 	}
 	"TF_RFAHAMMER"
 	{

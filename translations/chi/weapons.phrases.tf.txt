@@ -288,6 +288,10 @@
 	{
 		"chi"	"太阳之杖"
 	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"chi"	"起爆者"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
 		"chi"	"征服者战旗"
@@ -304,17 +308,101 @@
 	{
 		"chi"	"座头市之刀"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"chi"	"诸王之王"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"chi"	"市场还价者"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"chi"	"波斯弯刀"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"chi"	"阿里巴巴的尖头靴"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"chi"	"辉煌护盾"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"chi"	"快速医疗枪"
+	}
+	"TF_OVERDOSE"
+	{
+		"chi"	"过载注射枪"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"chi"	"希波克拉底的塑像"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"chi"	"自由推进炮"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"chi"	"预备役射手"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"chi"	"市场花园铁锹"
+	}
 	"TF_SAXXY"
 	{
 		"chi"	"Saxxy"
+	}
+	"TF_TOMISLAV"
+	{
+		"chi"	"汤姆斯拉夫"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"chi"	"家族运营枪"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"chi"	"驱逐警告"
 	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"chi"	"炸鱼饼"
 	}
+	"TF_MANTREADS"
+	{
+		"chi"	"踏步靴"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"chi"	"指挥官的军鞭"
+	}
+	"TF_SODAPOPPER"
+	{
+		"chi"	"苏打炮手"
+	}
+	"TF_WINGER"
+	{
+		"chi"	"边锋球员"
+	}
+	"TF_ATOMIZER"
+	{
+		"chi"	"原子能球棒"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"chi"	"符文剑"
+	}
+	"TF_ENFORCER"
+	{
+		"chi"	"执法者"
+	}
+	"TF_BIGEARNER"
+	{
+		"chi"	"暴利杀手"
 	}
 	"TF_RFAHAMMER"
 	{

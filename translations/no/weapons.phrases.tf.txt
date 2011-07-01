@@ -296,4 +296,8 @@
 	{
 		"no"	"Fiskekake"
 	}
+	"TF_RFAHAMMER"
+	{
+		"no"	"Sleggen"
+	}
 }
