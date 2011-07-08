@@ -316,4 +316,12 @@
 	{
 		"ro"	"Reparaţia Rapidă"
 	}
+	"TF_OVERDOSE"
+	{
+		"ro"	"Supradoza"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"ro"	"Acţiunea Disciplinară"
+	}
 }

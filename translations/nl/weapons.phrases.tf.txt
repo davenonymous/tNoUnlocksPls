@@ -316,6 +316,10 @@
 	{
 		"nl"	"De Shahanshah"
 	}
+	"TF_BAZAARBARGAIN"
+	{
+		"nl"	"Het Bazarenkoopje"
+	}
 	"TF_PERSIANPERSUADER"
 	{
 		"nl"	"De Ottomaanse Overtuiger"
@@ -340,9 +344,17 @@
 	{
 		"nl"	"De Plechtige Belofte"
 	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"nl"	"De Vrijheidswerper"
+	}
 	"TF_RESERVESHOOTER"
 	{
 		"nl"	"De Reserveschieter"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"nl"	"De Markttuinier"
 	}
 	"TF_SAXXY"
 	{
@@ -351,6 +363,10 @@
 	"TF_TOMISLAV"
 	{
 		"nl"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"nl"	"De Familiezaken"
 	}
 	"TF_EVICTIONNOTICE"
 	{
@@ -368,6 +384,10 @@
 	{
 		"nl"	"De Disciplinaire Actie"
 	}
+	"TF_SODAPOPPER"
+	{
+		"nl"	"De Frisdrankknaller"
+	}
 	"TF_WINGER"
 	{
 		"nl"	"De Flanker"
@@ -383,6 +403,10 @@
 	"TF_ENFORCER"
 	{
 		"nl"	"De Bekrachtiger"
+	}
+	"TF_BIGEARNER"
+	{
+		"nl"	"De Grote Verdiener"
 	}
 	"TF_RFAHAMMER"
 	{

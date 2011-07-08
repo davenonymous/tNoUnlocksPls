@@ -384,6 +384,10 @@
 	{
 		"fi"	"Kuritoimenpide"
 	}
+	"TF_SODAPOPPER"
+	{
+		"fi"	"Limulataus"
+	}
 	"TF_WINGER"
 	{
 		"fi"	"Siipeilijä"

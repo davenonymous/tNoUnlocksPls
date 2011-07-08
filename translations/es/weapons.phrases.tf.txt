@@ -316,6 +316,10 @@
 	{
 		"es"	"El Shahanshah"
 	}
+	"TF_BAZAARBARGAIN"
+	{
+		"es"	"La Ganga del Bazar"
+	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
 		"es"	"Babuchas de Alí Babá"

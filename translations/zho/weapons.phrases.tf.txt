@@ -294,7 +294,7 @@
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"zho"	"引爆器"
+		"zho"	"爆破信號槍"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
@@ -312,12 +312,104 @@
 	{
 		"zho"	"半盲劍俠"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"zho"	"王中之王"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"zho"	"巴剎長槍"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"zho"	"波斯使者"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"zho"	"阿里巴巴尖頭靴"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"zho"	"輝煌戰盾"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"zho"	"快治好"
+		"zho"	"快速治療者"
+	}
+	"TF_OVERDOSE"
+	{
+		"zho"	"超速注射槍"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"zho"	"神聖誓言"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"zho"	"自由推進者"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"zho"	"後勤防空員"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"zho"	"市場花園園丁"
+	}
+	"TF_SAXXY"
+	{
+		"zho"	"薩氏金像獎小金人"
+	}
+	"TF_TOMISLAV"
+	{
+		"zho"	"托米斯拉夫"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"zho"	"家族事業"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"zho"	"驅逐警告"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"zho"	"太空魚酥餅"
+	}
+	"TF_MANTREADS"
+	{
+		"zho"	"踏板戰靴"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"zho"	"紀律行動"
+	}
+	"TF_SODAPOPPER"
+	{
+		"zho"	"汽水槍手"
+	}
+	"TF_WINGER"
+	{
+		"zho"	"御風遊俠"
+	}
+	"TF_ATOMIZER"
+	{
+		"zho"	"原子棒"
 	}
 	"TF_SCOUTSWORD"
 	{
 		"zho"	"盧恩古刃"
+	}
+	"TF_ENFORCER"
+	{
+		"zho"	"脅威使"
+	}
+	"TF_BIGEARNER"
+	{
+		"zho"	"暴利之刃"
+	}
+	"TF_RFAHAMMER"
+	{
+		"zho"	"巨型釘錘"
 	}
 }

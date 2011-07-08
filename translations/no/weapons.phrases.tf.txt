@@ -288,6 +288,10 @@
 	{
 		"no"	"Kvikk-fiks"
 	}
+	"TF_RESERVESHOOTER"
+	{
+		"no"	"Reserveskyteren"
+	}
 	"TF_SAXXY"
 	{
 		"no"	"Saxxy"

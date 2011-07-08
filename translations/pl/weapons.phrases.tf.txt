@@ -14,7 +14,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"pl"	"Gasiekiera"
+		"pl"	"Poskramiacz Płomieni"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
@@ -202,7 +202,7 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"pl"	"Partyzant"
+		"pl"	"Bandyta z Buszu"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
@@ -298,7 +298,7 @@
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"pl"	"Concheror"
+		"pl"	"Sashimono Straceńca"
 	}
 	"TF_GUNBAI"
 	{
@@ -318,7 +318,7 @@
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"pl"	"Bazarowa Okazja"
+		"pl"	"Dalekosiężny Dżezail"
 	}
 	"TF_PERSIANPERSUADER"
 	{

@@ -312,17 +312,57 @@
 	{
 		"sv"	"Halv-Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"sv"	"Shahanshahen"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"sv"	"Basarfyndet"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"sv"	"Österländska Övertalaren"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"sv"	"Ali Babas Lilla Stövlar"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"sv"	"Det Strålande Skyddet"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"sv"	"Snabbfixaren"
+	}
+	"TF_OVERDOSE"
+	{
+		"sv"	"Överdoseringen"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"sv"	"Det Högtidliga Löftet"
 	}
 	"TF_SAXXY"
 	{
 		"sv"	"Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"sv"	"Tomislav"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"sv"	"Vräkningsbeskedet"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"sv"	"Fiskkaka"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"sv"	"Disciplinåtgärden"
 	}
 	"TF_SCOUTSWORD"
 	{

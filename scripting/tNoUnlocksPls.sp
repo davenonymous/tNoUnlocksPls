@@ -791,21 +791,6 @@ stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 	// Weapons: The Powerjack, The Degreaser
 	if(iIDI == 213 && !EnabledForItem(214) && !EnabledForItem(215))return true;
 
-	// Set: gangland_spy
-	// Hat: The Made Man
-	// Weapons: The Enforcer, The Big Earner
-	if(iIDI == 462 && !EnabledForItem(460) && !EnabledForItem(461))return true;
-
-	// Set: general_suit
-	// Hat: Fancy Dress Uniform
-	// Weapons: The Mantreads, The Disciplinary Action
-	if(iIDI == 446 && !EnabledForItem(444) && !EnabledForItem(447))return true;
-
-	// Set: black_market
-	// Hat: Capone's Capper
-	// Weapons: Tomislav, The Family Business, The Eviction Notice
-	if(iIDI == 427 && !EnabledForItem(424) && !EnabledForItem(425) && !EnabledForItem(426))return true;
-
 	// Set: polycount_scout
 	// Hat: The Milkman
 	// Weapons: The Shortstop, The Holy Mackerel, Mad Milk
@@ -816,33 +801,14 @@ stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 	// Weapons: L'Etranger, Your Eternal Reward
 	if(iIDI == 223 && !EnabledForItem(224) && !EnabledForItem(225))return true;
 
-	// Set: bonk_fan
-	// Hat: Bonk Boy
-	// Weapons: The Soda Popper, The Winger, The Atomizer
-	if(iIDI == 451 && !EnabledForItem(448) && !EnabledForItem(449) && !EnabledForItem(450))return true;
-
-	// Set: airborne_armaments
-	// Hat: Jumper's Jeepcap
-	// Weapons: The Liberty Launcher, The Reserve Shooter, The Market Gardener
-	if(iIDI == 417 && !EnabledForItem(414) && !EnabledForItem(415) && !EnabledForItem(416))return true;
-
 	// Set: polycount_soldier
 	// Hat: The Grenadier's Softcap
 	// Weapons: The Battalion's Backup, The Black Box
 	if(iIDI == 227 && !EnabledForItem(226) && !EnabledForItem(228))return true;
 
-	// Set: desert_sniper
-	// Hat: Desert Marauder
-	// Weapons: The Shahanshah, The Bazaar Bargain
-	if(iIDI == 400 && !EnabledForItem(401) && !EnabledForItem(402))return true;
-
-	// Set: desert_demo
-	// Hat: Sultan's Ceremonial
-	// Weapons: The Persian Persuader, Ali Baba's Wee Booties, The Splendid Screen
-	if(iIDI == 403 && !EnabledForItem(404) && !EnabledForItem(405) && !EnabledForItem(406))return true;
-
+	// The following sets won't be blocked even if sm_tnounlockspls_blocksets is enabled!
 	// Sets without hats: medieval_medic, rapid_repair, hibernating_bear, experts_ordnance
-	// Those will not be blocked even if sm_tnounlockspls_blocksets is enabled!
+	// Sets without attributes: gangland_spy, general_suit, black_market, bonk_fan, airborne_armaments, desert_sniper, desert_demo
 
 	return false;
 }

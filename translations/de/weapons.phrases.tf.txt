@@ -342,7 +342,7 @@
 	}
 	"TF_SOLEMNVOW"
 	{
-		"de"	"The Eidliche Gelübde"
+		"de"	"Das Eidliche Gelübde"
 	}
 	"TF_LIBERTYLAUNCHER"
 	{
@@ -354,7 +354,7 @@
 	}
 	"TF_MARKETGARDENER"
 	{
-		"de"	"Der Gemüsebauer"
+		"de"	"Der Market Gardener"
 	}
 	"TF_SAXXY"
 	{

@@ -10,7 +10,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"fr"	"L'Ubersaw"
+		"fr"	"L'Überscie"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
@@ -326,7 +326,7 @@
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
-		"fr"	"Les Alibobottes"
+		"fr"	"Les Alibabouches"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
@@ -351,6 +351,10 @@
 	"TF_RESERVESHOOTER"
 	{
 		"fr"	"Le Tireur Réserviste"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"fr"	"Le Jardinier"
 	}
 	"TF_SAXXY"
 	{
