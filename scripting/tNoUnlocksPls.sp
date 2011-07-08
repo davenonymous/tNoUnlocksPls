@@ -47,6 +47,11 @@ enum Item {
 new g_xItems[MAXITEMS][Item];
 new g_iWeaponCount = 0;
 
+#if defined USE_GIVEITEM_TIMER
+new Handle:g_xReplaceTrie = INVALID_HANDLE;
+new g_iNextIndex = 0;
+#endif
+
 public OnPluginStart() {
 	CreateConVar("sm_tnounlockspls_version", VERSION, "[TF2] tNoUnlocksPls", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
@@ -63,6 +68,10 @@ public OnPluginStart() {
 	HookConVarChange(g_hCvarBlockSetHats, Cvar_Changed);
 	HookConVarChange(g_hCvarFile, Cvar_Changed);
 	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
+
+	#if defined USE_GIVEITEM_TIMER
+	g_xReplaceTrie = CreateTrie();
+	#endif
 
 	decl String:translationPath[PLATFORM_MAX_PATH];
 	BuildPath(Path_SM, translationPath, PLATFORM_MAX_PATH, "translations/weapons.phrases.tf.txt");
@@ -353,11 +362,17 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 		}
 
 #if defined USE_GIVEITEM_TIMER
-		new Handle:hDataPack = CreateDataPack();
-		CreateDataTimer(0.3, Timer_EquipWeapon, hDataPack);
-		WritePackCell(hDataPack, iClient);
-		WritePackCell(hDataPack, idToBe);
-		WritePackString(hDataPack, sClass);
+		new Handle:xReplacementInstructionsTrie = CreateTrie();
+		SetTrieValue(xReplacementInstructionsTrie, "client", iClient);
+		SetTrieValue(xReplacementInstructionsTrie, "idToBe", idToBe);
+		SetTrieString(xReplacementInstructionsTrie, "class", sClass);
+
+		new String:sTrieIndex[5];
+		Format(sTrieIndex, sizeof(sTrieIndex), "%i", g_iNextIndex);
+		SetTrieValue(g_xReplaceTrie, sTrieIndex, xReplacementInstructionsTrie);
+
+		CreateTimer(0.3, Timer_EquipWeapon, g_iNextIndex);
+		g_iNextIndex++; if(g_iNextIndex > 1024)g_iNextIndex = 0;
 
 		return Plugin_Handled;
 #else
@@ -376,13 +391,21 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 }
 
 #if defined USE_GIVEITEM_TIMER
-public Action:Timer_EquipWeapon(Handle:timer, Handle:hDataPack) {
-	ResetPack(hDataPack);
-	new iClient = ReadPackCell(hDataPack);
-	new idToBe = ReadPackCell(hDataPack);
+public Action:Timer_EquipWeapon(Handle:timer, any:iTrieIndex) {
+	new String:sTrieIndex[6];
+	Format(sTrieIndex, sizeof(sTrieIndex), "%i", iTrieIndex);
+
+	new Handle:xReplacementInstructionsTrie = INVALID_HANDLE;
+	GetTrieValue(g_xReplaceTrie, sTrieIndex, xReplacementInstructionsTrie);
+	if(xReplacementInstructionsTrie == INVALID_HANDLE)return;
+
 	new String:sClass[64];
-	ReadPackString(hDataPack, sClass, sizeof(sClass));
-	//CloseHandle(hDataPack);
+	new idToBe; new iClient;
+	GetTrieString(xReplacementInstructionsTrie, "class", sClass, sizeof(sClass));
+	GetTrieValue(xReplacementInstructionsTrie, "idToBe", idToBe);
+	GetTrieValue(xReplacementInstructionsTrie, "client", iClient);
+	RemoveFromTrie(g_xReplaceTrie, sTrieIndex);
+	CloseHandle(xReplacementInstructionsTrie);
 
 	new Handle:hTest = TF2Items_CreateItem(OVERRIDE_CLASSNAME | OVERRIDE_ITEM_DEF | OVERRIDE_ITEM_LEVEL | OVERRIDE_ITEM_QUALITY | OVERRIDE_ATTRIBUTES);
 	TF2Items_SetClassname(hTest, sClass);
