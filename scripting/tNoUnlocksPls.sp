@@ -14,6 +14,7 @@
 new bool:g_bAnnounce;
 new bool:g_bEnabled;
 new bool:g_bBlockSetHats;
+new bool:g_bBlockUpgradeableWeapons;
 new bool:g_bDefault;		//true == replace weapons by default, unless told so with sm_toggleunlock <iIDI>
 new bool:g_bAlwaysReplace;	//true == dont strip, always replace weapons
 new String:g_sCfgFile[255];
@@ -24,6 +25,7 @@ new Handle:g_hCvarBlockSetHats;
 new Handle:g_hCvarAlwaysReplace;
 new Handle:g_hCvarFile;
 new Handle:g_hCvarAnnounce;
+new Handle:g_hCvarBlockUpgradeableWeapons;
 
 new Handle:g_hTopMenu = INVALID_HANDLE;
 
@@ -58,6 +60,7 @@ public OnPluginStart() {
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockSetHats = CreateConVar("sm_tnounlockspls_blocksets", "0", "If all weapons of a certain set are allowed, block the hat if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+	g_hCvarBlockUpgradeableWeapons = CreateConVar("sm_tnounlockspls_blockupgrades", "0", "Block upgradeable weapons (renamed & strange).", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarAlwaysReplace = CreateConVar("sm_tnounlockspls_alwaysreplace", "0", "If set to 1 strippable weapons will be replaced nonetheless", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
@@ -110,6 +113,7 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 		g_bDefault = GetConVarBool(g_hCvarDefault);
 		g_bEnabled = GetConVarBool(g_hCvarEnabled);
 		g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
+		g_bBlockUpgradeableWeapons = GetConVarBool(g_hCvarBlockUpgradeableWeapons);
 		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 		g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
 	}
@@ -119,6 +123,7 @@ public OnConfigsExecuted() {
 	g_bDefault = GetConVarBool(g_hCvarDefault);
 	g_bEnabled = GetConVarBool(g_hCvarEnabled);
 	g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
+	g_bBlockUpgradeableWeapons = GetConVarBool(g_hCvarBlockUpgradeableWeapons);
 	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 
 	g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
@@ -332,8 +337,7 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 		return Plugin_Handled;
 	}
 
-
-	if(!EnabledForItem(iItemDefinitionIndex))
+	if(!EnabledForItem(iItemDefinitionIndex) && !(g_bBlockUpgradeableWeapons && IsUpgradeableWeapon(iItemDefinitionIndex)))
 		return Plugin_Continue;
 
 	//PrintToChat(iClient, "treating item %i", iItemDefinitionIndex);
