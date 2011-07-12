@@ -422,57 +422,57 @@ public Action:Timer_EquipWeapon(Handle:timer, any:iTrieIndex) {
 #endif
 
 stock IsStripable(iIDI) {
-	if(
-			iIDI == 35	||	//Kritzkrieg
-			iIDI == 36	||	//Blutsauger
-			iIDI == 37	||	//Ubersaw
-			iIDI == 38	||	//Axtinguisher
-			iIDI == 40	||	//Backburner
-			iIDI == 41	||	//Natascha
-			iIDI == 43	||	//Killing Gloves of Boxing
-			iIDI == 44	||	//Sandman
-			//iIDI == 45	||	//Force-A-Nature			//Animations are totally borked
-			iIDI == 59	||	//Dead Ringer
-			iIDI == 60	||	//Cloak and Dagger
-			iIDI == 61	||	//Ambassador
-			iIDI == 127	||	//Direct Hit
-			iIDI == 128	||	//Equalizer
-			iIDI == 130	||	//Scottish Resistance
-			//iIDI == 141	||	//Frontier Justice			//Reported by Boylee to be broken, players still get Revenge crits. Thanks.
-			iIDI == 153	||	//Homewrecker
-			iIDI == 154	||	//Pain Train
-			iIDI == 171	||	//Tribalman\'s Shiv
-			iIDI == 172	||	//Scotsman\'s Skullcutter
-			iIDI == 173	||	//TF_Unique_BattleSaw
-			iIDI == 214	||	//TF_ThePowerjack
-			iIDI == 215	||	//TF_TheDegreaser
-			iIDI == 221	||	//TF_TheHolyMackerel
-			iIDI == 224	||	//TF_LEtranger
-			iIDI == 225	||	//TF_EternalReward
-			iIDI == 228	||	//TF_TheBlackBox
-			iIDI == 230	||	//TF_SydneySleeper
-			iIDI == 232	||	//TF_TheBushwacka
-			iIDI == 237	||	//TF_Weapon_RocketLauncher_Jump
-			iIDI == 239	||	//TF_Unique_Gloves_of_Running_Urgently
-			iIDI == 264	||	//TF_UNIQUE_FRYINGPAN
-			iIDI == 265	||	//TF_WEAPON_STICKYBOMB_JUMP
-			iIDI == 266	||	//TF_HALLOWEENBOSS_AXE
-			iIDI == 297 ||	//TF_TTG_WATCH
-			iIDI == 298 ||	//TF_IRON_CURTAIN
-			iIDI == 304 ||  //TF_Amputator
-			//iIDI == 307 ||	//TF_UllapoolCaber		// Nope, still explodes
-			iIDI == 308 || 	//TF_LochNLoad
-			iIDI == 310 ||	//TF_WarriorsSpirit
-			iIDI == 312 ||	//TF_GatlingGun
-			iIDI == 317 ||	//TF_CandyCane
-			iIDI == 325 ||	//TF_BostonBasher
-			iIDI == 326	||	//TF_BackScratcher
-			iIDI == 327 ||	//TF_Claidheamohmor
-			iIDI == 329 ||	//TF_Jag
-			iIDI == 331		//TF_FistsOfSteel
+	switch(iIDI) {
+		case	 35,	//Kritzkrieg
+				 36,	//Blutsauger
+				 37,	//Ubersaw
+				 38,	//Axtinguisher
+				 40,	//Backburner
+				 41,	//Natascha
+				 43,	//Killing Gloves of Boxing
+				 44,	//Sandman
+				 59,	//Dead Ringer
+				 60,	//Cloak and Dagger
+				 61,	//Ambassador
+				127,	//Direct Hit
+				128,	//Equalizer
+				130,	//Scottish Resistance
+				153,	//Homewrecker
+				154,	//Pain Train
+				171,	//Tribalman's Shiv
+				172,	//Scotsman's Skullcutter
+				173,	//TF_Unique_BattleSaw
+				214,	//TF_ThePowerjack
+				215,	//TF_TheDegreaser
+				221,	//TF_TheHolyMackerel
+				224,	//TF_LEtranger
+				225,	//TF_EternalReward
+				228,	//TF_TheBlackBox
+				230,	//TF_SydneySleeper
+				232,	//TF_TheBushwacka
+				237,	//TF_Weapon_RocketLauncher_Jump
+				239,	//TF_Unique_Gloves_of_Running_Urgently
+				264,	//TF_UNIQUE_FRYINGPAN
+				265,	//TF_WEAPON_STICKYBOMB_JUMP
+				266,	//TF_HALLOWEENBOSS_AXE
+				297,	//TF_TTG_WATCH
+				298,	//TF_IRON_CURTAIN
+				304,	//TF_Amputator
+				308,	//TF_LochNLoad
+				310,	//TF_WarriorsSpirit
+				312,	//TF_GatlingGun
+				317,	//TF_CandyCane
+				325,	//TF_BostonBasher
+				326,	//TF_BackScratcher
+				327,	//TF_Claidheamohmor
+				329,	//TF_Jag
+				331		//TF_FistsOfSteel
+				//45,	//Force-A-Nature		// Animations are totally borked
+				//141,	//Frontier Justice		// Reported by Boylee to be broken, players still get Revenge crits. Thanks.
+				//307,	//TF_UllapoolCaber		// Nope, still explodes
+				: return true;
+	}
 
-							)
-								return true;
 	return false;
 }
 
