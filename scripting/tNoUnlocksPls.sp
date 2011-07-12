@@ -510,6 +510,48 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
+	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Pyro)
+	if(iIDI == 199 && class == TFClass_Pyro) {
+		strcopy(sClass, size, "tf_weapon_flamethrower");
+		replacement = 21;
+		return true;
+	}
+
+	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Soldier)
+	if(iIDI == 199 && class == TFClass_Soldier) {
+		strcopy(sClass, size, "tf_weapon_rocketlauncher");
+		replacement = 18;
+		return true;
+	}
+
+	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Engineer)
+	if(iIDI == 199 && class == TFClass_Engineer) {
+		strcopy(sClass, size, "tf_weapon_shotgun_primary");
+		replacement = 9;
+		return true;
+	}
+
+	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Heavy)
+	if(iIDI == 199 && class == TFClass_Heavy) {
+		strcopy(sClass, size, "tf_weapon_minigun");
+		replacement = 15;
+		return true;
+	}
+
+	// Replace Upgradeable TF_WEAPON_PISTOL (TFClass_Engineer)
+	if(iIDI == 209 && class == TFClass_Engineer) {
+		strcopy(sClass, size, "tf_weapon_pistol");
+		replacement = 22;
+		return true;
+	}
+
+	// Replace Upgradeable TF_WEAPON_PISTOL (TFClass_Scout)
+	if(iIDI == 209 && class == TFClass_Scout) {
+		strcopy(sClass, size, "tf_weapon_pistol_scout");
+		replacement = 23;
+		return true;
+	}
+
 	// Replace Frying Pan (TFClass_Soldier)
 	if(iIDI == 264 && class == TFClass_Soldier) {
 		strcopy(sClass, size, "tf_weapon_shovel");
@@ -615,64 +657,64 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Sandman, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Atomizer, Three-Rune Blade
-	if(iIDI == 44 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355 || iIDI == 450 || iIDI == 452) {
+	// Replace Sandman, Upgradeable TF_WEAPON_BAT, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Atomizer, Three-Rune Blade
+	if(iIDI == 44 || iIDI == 190 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355 || iIDI == 450 || iIDI == 452) {
 		strcopy(sClass, size, "tf_weapon_bat");
 		replacement = 0;
 		return true;
 	}
 
-	// Replace Eyelander, Scotsman's Skullcutter, HHH's Headtaker, Ullapool Caber, Claidheamohmor, Persian Persuader, Nessie's Nine Iron
-	if(iIDI == 132 || iIDI == 172 || iIDI == 266 || iIDI == 307 || iIDI == 327 || iIDI == 404 || iIDI == 482) {
+	// Replace Eyelander, Scotsman's Skullcutter, Upgradeable TF_WEAPON_BOTTLE, HHH's Headtaker, Ullapool Caber, Claidheamohmor, Persian Persuader, Nessie's Nine Iron
+	if(iIDI == 132 || iIDI == 172 || iIDI == 191 || iIDI == 266 || iIDI == 307 || iIDI == 327 || iIDI == 404 || iIDI == 482) {
 		strcopy(sClass, size, "tf_weapon_bottle");
 		replacement = 1;
 		return true;
 	}
 
-	// Replace Axtinguisher, Homewrecker, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Postal Pummeler, Maul
-	if(iIDI == 38 || iIDI == 153 || iIDI == 214 || iIDI == 326 || iIDI == 348 || iIDI == 457 || iIDI == 466) {
+	// Replace Axtinguisher, Homewrecker, Upgradeable TF_WEAPON_FIREAXE, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Postal Pummeler, Maul
+	if(iIDI == 38 || iIDI == 153 || iIDI == 192 || iIDI == 214 || iIDI == 326 || iIDI == 348 || iIDI == 457 || iIDI == 466) {
 		strcopy(sClass, size, "tf_weapon_fireaxe");
 		replacement = 2;
 		return true;
 	}
 
-	// Replace Tribalman's Shiv, Bushwacka, Shahanshah
-	if(iIDI == 171 || iIDI == 232 || iIDI == 401) {
+	// Replace Tribalman's Shiv, Upgradeable TF_WEAPON_CLUB, Bushwacka, Shahanshah
+	if(iIDI == 171 || iIDI == 193 || iIDI == 232 || iIDI == 401) {
 		strcopy(sClass, size, "tf_weapon_club");
 		replacement = 3;
 		return true;
 	}
 
-	// Replace Your Eternal Reward, Conniver's Kunai, Big Earner
-	if(iIDI == 225 || iIDI == 356 || iIDI == 461) {
+	// Replace Upgradeable TF_WEAPON_KNIFE, Your Eternal Reward, Conniver's Kunai, Big Earner
+	if(iIDI == 194 || iIDI == 225 || iIDI == 356 || iIDI == 461) {
 		strcopy(sClass, size, "tf_weapon_knife");
 		replacement = 4;
 		return true;
 	}
 
-	// Replace Killing Gloves of Boxing, Gloves of Running Urgently, Warrior's Spirit, Fists of Steel, Eviction Notice
-	if(iIDI == 43 || iIDI == 239 || iIDI == 310 || iIDI == 331 || iIDI == 426) {
+	// Replace Killing Gloves of Boxing, Upgradeable TF_WEAPON_FISTS, Gloves of Running Urgently, Warrior's Spirit, Fists of Steel, Eviction Notice
+	if(iIDI == 43 || iIDI == 195 || iIDI == 239 || iIDI == 310 || iIDI == 331 || iIDI == 426) {
 		strcopy(sClass, size, "tf_weapon_fists");
 		replacement = 5;
 		return true;
 	}
 
-	// Replace Equalizer, Market Gardener, Disciplinary Action
-	if(iIDI == 128 || iIDI == 416 || iIDI == 447) {
+	// Replace Equalizer, Upgradeable TF_WEAPON_SHOVEL, Market Gardener, Disciplinary Action
+	if(iIDI == 128 || iIDI == 196 || iIDI == 416 || iIDI == 447) {
 		strcopy(sClass, size, "tf_weapon_shovel");
 		replacement = 6;
 		return true;
 	}
 
-	// Replace Gunslinger, Southern Hospitality, Golden Wrench, Jag
-	if(iIDI == 142 || iIDI == 155 || iIDI == 169 || iIDI == 329) {
+	// Replace Gunslinger, Southern Hospitality, Golden Wrench, Upgradeable TF_WEAPON_WRENCH, Jag
+	if(iIDI == 142 || iIDI == 155 || iIDI == 169 || iIDI == 197 || iIDI == 329) {
 		strcopy(sClass, size, "tf_weapon_wrench");
 		replacement = 7;
 		return true;
 	}
 
-	// Replace Ubersaw, Vita-Saw, Amputator, Solemn Vow
-	if(iIDI == 37 || iIDI == 173 || iIDI == 304 || iIDI == 413) {
+	// Replace Ubersaw, Vita-Saw, Upgradeable TF_WEAPON_BONESAW, Amputator, Solemn Vow
+	if(iIDI == 37 || iIDI == 173 || iIDI == 198 || iIDI == 304 || iIDI == 413) {
 		strcopy(sClass, size, "tf_weapon_bonesaw");
 		replacement = 8;
 		return true;
@@ -706,64 +748,64 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Force-a-Nature, Shortstop, Soda Popper
-	if(iIDI == 45 || iIDI == 220 || iIDI == 448) {
+	// Replace Force-a-Nature, Upgradeable TF_WEAPON_SCATTERGUN, Shortstop, Soda Popper
+	if(iIDI == 45 || iIDI == 200 || iIDI == 220 || iIDI == 448) {
 		strcopy(sClass, size, "tf_weapon_scattergun");
 		replacement = 13;
 		return true;
 	}
 
-	// Replace Huntsman, Sydney Sleeper, Bazaar Bargain
-	if(iIDI == 56 || iIDI == 230 || iIDI == 402) {
+	// Replace Huntsman, Upgradeable TF_WEAPON_SNIPERRIFLE, Sydney Sleeper, Bazaar Bargain
+	if(iIDI == 56 || iIDI == 201 || iIDI == 230 || iIDI == 402) {
 		strcopy(sClass, size, "tf_weapon_sniperrifle");
 		replacement = 14;
 		return true;
 	}
 
-	// Replace Natascha, Iron Curtain, Brass Beast, Tomislav
-	if(iIDI == 41 || iIDI == 298 || iIDI == 312 || iIDI == 424) {
+	// Replace Natascha, Upgradeable TF_WEAPON_MINIGUN, Iron Curtain, Brass Beast, Tomislav
+	if(iIDI == 41 || iIDI == 202 || iIDI == 298 || iIDI == 312 || iIDI == 424) {
 		strcopy(sClass, size, "tf_weapon_minigun");
 		replacement = 15;
 		return true;
 	}
 
-	// Replace Razorback, Jarate, Darwin's Danger Shield
-	if(iIDI == 57 || iIDI == 58 || iIDI == 231) {
+	// Replace Razorback, Jarate, Upgradeable TF_WEAPON_SMG, Darwin's Danger Shield
+	if(iIDI == 57 || iIDI == 58 || iIDI == 203 || iIDI == 231) {
 		strcopy(sClass, size, "tf_weapon_smg");
 		replacement = 16;
 		return true;
 	}
 
-	// Replace Blutsauger, Crusader's Crossbow, Overdose
-	if(iIDI == 36 || iIDI == 305 || iIDI == 412) {
+	// Replace Blutsauger, Upgradeable TF_WEAPON_SYRINGEGUN_MEDIC, Crusader's Crossbow, Overdose
+	if(iIDI == 36 || iIDI == 204 || iIDI == 305 || iIDI == 412) {
 		strcopy(sClass, size, "tf_weapon_syringegun_medic");
 		replacement = 17;
 		return true;
 	}
 
-	// Replace Direct Hit, Black Box, Rocket Jumper, Liberty Launcher
-	if(iIDI == 127 || iIDI == 228 || iIDI == 237 || iIDI == 414) {
+	// Replace Direct Hit, Upgradeable TF_WEAPON_ROCKETLAUNCHER, Black Box, Rocket Jumper, Liberty Launcher
+	if(iIDI == 127 || iIDI == 205 || iIDI == 228 || iIDI == 237 || iIDI == 414) {
 		strcopy(sClass, size, "tf_weapon_rocketlauncher");
 		replacement = 18;
 		return true;
 	}
 
-	// Replace Loch-n-Load, Ali Baba's Wee Booties
-	if(iIDI == 308 || iIDI == 405) {
+	// Replace Upgradeable TF_WEAPON_GRENADELAUNCHER, Loch-n-Load, Ali Baba's Wee Booties
+	if(iIDI == 206 || iIDI == 308 || iIDI == 405) {
 		strcopy(sClass, size, "tf_weapon_grenadelauncher");
 		replacement = 19;
 		return true;
 	}
 
-	// Replace Scottish Resistance, Chargin' Targe, Stickybomb Jumper, Splendid Screen
-	if(iIDI == 130 || iIDI == 131 || iIDI == 265 || iIDI == 406) {
+	// Replace Scottish Resistance, Chargin' Targe, Upgradeable TF_WEAPON_PIPEBOMBLAUNCHER, Stickybomb Jumper, Splendid Screen
+	if(iIDI == 130 || iIDI == 131 || iIDI == 207 || iIDI == 265 || iIDI == 406) {
 		strcopy(sClass, size, "tf_weapon_pipebomblauncher");
 		replacement = 20;
 		return true;
 	}
 
-	// Replace Backburner, Degreaser
-	if(iIDI == 40 || iIDI == 215) {
+	// Replace Backburner, Upgradeable TF_WEAPON_FLAMETHROWER, Degreaser
+	if(iIDI == 40 || iIDI == 208 || iIDI == 215) {
 		strcopy(sClass, size, "tf_weapon_flamethrower");
 		replacement = 21;
 		return true;
@@ -783,25 +825,55 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Ambassador, TTG Sam Revolver, L'Etranger, Enforcer
-	if(iIDI == 61 || iIDI == 161 || iIDI == 224 || iIDI == 460) {
+	// Replace Ambassador, TTG Sam Revolver, Upgradeable TF_WEAPON_REVOLVER, L'Etranger, Enforcer
+	if(iIDI == 61 || iIDI == 161 || iIDI == 210 || iIDI == 224 || iIDI == 460) {
 		strcopy(sClass, size, "tf_weapon_revolver");
 		replacement = 24;
 		return true;
 	}
 
-	// Replace Kritzkrieg, Quick-Fix
-	if(iIDI == 35 || iIDI == 411) {
+	// Replace Kritzkrieg, Upgradeable TF_WEAPON_MEDIGUN, Quick-Fix
+	if(iIDI == 35 || iIDI == 211 || iIDI == 411) {
 		strcopy(sClass, size, "tf_weapon_medigun");
 		replacement = 29;
 		return true;
 	}
 
-	// Replace Dead Ringer, Cloak and Dagger, TTG Watch
-	if(iIDI == 59 || iIDI == 60 || iIDI == 297) {
+	// Replace Dead Ringer, Cloak and Dagger, Upgradeable TF_WEAPON_INVIS, TTG Watch
+	if(iIDI == 59 || iIDI == 60 || iIDI == 212 || iIDI == 297) {
 		strcopy(sClass, size, "tf_weapon_invis");
 		replacement = 30;
 		return true;
+	}
+
+	return false;
+}
+
+stock bool:IsUpgradeableWeapon(iIDI) {
+	switch(iIDI) {
+		case	190,
+			191,
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212: return true;
 	}
 
 	return false;
