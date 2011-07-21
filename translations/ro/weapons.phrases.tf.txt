@@ -312,6 +312,10 @@
 	{
 		"ro"	"Zatoichi-njumătăţit"
 	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"ro"	"Papuceii lui Ali Baba"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"ro"	"Reparaţia Rapidă"
@@ -323,5 +327,9 @@
 	"TF_DISCIPLINARYACTION"
 	{
 		"ro"	"Acţiunea Disciplinară"
+	}
+	"TF_ATOMIZER"
+	{
+		"ro"	"Pulverizatorul"
 	}
 }

@@ -266,7 +266,7 @@
 	}
 	"TF_BOSTONBASHER"
 	{
-		"nl"	"De Boston Beuker"
+		"nl"	"De Bostonbeuker"
 	}
 	"TF_BACKSCRATCHER"
 	{
@@ -400,6 +400,10 @@
 	{
 		"nl"	"Drie-Runenzwaard"
 	}
+	"TF_MAILBOX"
+	{
+		"nl"	"De Brievenbeuker"
+	}
 	"TF_ENFORCER"
 	{
 		"nl"	"De Bekrachtiger"
@@ -411,5 +415,9 @@
 	"TF_RFAHAMMER"
 	{
 		"nl"	"De Strijdhamer"
+	}
+	"TF_NINEIRON"
+	{
+		"nl"	"Nessie's Negen IJzer"
 	}
 }

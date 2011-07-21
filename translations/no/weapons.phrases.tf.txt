@@ -296,12 +296,32 @@
 	{
 		"no"	"Saxxy"
 	}
+	"TF_TOMISLAV"
+	{
+		"no"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"no"	"Familieforretningen"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"no"	"Utkastelsesadvarselen"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"no"	"Fiskekake"
 	}
+	"TF_MAILBOX"
+	{
+		"no"	"Posthamreren"
+	}
 	"TF_RFAHAMMER"
 	{
 		"no"	"Sleggen"
+	}
+	"TF_NINEIRON"
+	{
+		"no"	"Nessies 9-jern"
 	}
 }

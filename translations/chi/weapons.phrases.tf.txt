@@ -396,6 +396,10 @@
 	{
 		"chi"	"符文剑"
 	}
+	"TF_MAILBOX"
+	{
+		"chi"	"明信片打手"
+	}
 	"TF_ENFORCER"
 	{
 		"chi"	"执法者"

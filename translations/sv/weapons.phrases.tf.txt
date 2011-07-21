@@ -344,6 +344,14 @@
 	{
 		"sv"	"Det Högtidliga Löftet"
 	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"sv"	"Frihetsgeväret"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"sv"	"Tradgårdsmästaren"
+	}
 	"TF_SAXXY"
 	{
 		"sv"	"Saxxy"
@@ -351,6 +359,10 @@
 	"TF_TOMISLAV"
 	{
 		"sv"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"sv"	"Familjens Ensak"
 	}
 	"TF_EVICTIONNOTICE"
 	{
@@ -360,13 +372,25 @@
 	{
 		"sv"	"Fiskkaka"
 	}
+	"TF_MANTREADS"
+	{
+		"sv"	"Manstövlarna"
+	}
 	"TF_DISCIPLINARYACTION"
 	{
 		"sv"	"Disciplinåtgärden"
 	}
+	"TF_SODAPOPPER"
+	{
+		"sv"	"Läskpopparen"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"sv"	"Treruns-svärd"
+	}
+	"TF_MAILBOX"
+	{
+		"sv"	"Postpucklaren"
 	}
 	"TF_RFAHAMMER"
 	{

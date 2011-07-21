@@ -14,7 +14,6 @@
 new bool:g_bAnnounce;
 new bool:g_bEnabled;
 new bool:g_bBlockSetHats;
-new bool:g_bBlockUpgradeableWeapons;
 new bool:g_bDefault;		//true == replace weapons by default, unless told so with sm_toggleunlock <iIDI>
 new bool:g_bAlwaysReplace;	//true == dont strip, always replace weapons
 new String:g_sCfgFile[255];
@@ -25,7 +24,6 @@ new Handle:g_hCvarBlockSetHats;
 new Handle:g_hCvarAlwaysReplace;
 new Handle:g_hCvarFile;
 new Handle:g_hCvarAnnounce;
-new Handle:g_hCvarBlockUpgradeableWeapons;
 
 new Handle:g_hTopMenu = INVALID_HANDLE;
 
@@ -60,7 +58,6 @@ public OnPluginStart() {
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockSetHats = CreateConVar("sm_tnounlockspls_blocksets", "0", "If all weapons of a certain set are allowed, block the hat if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
-	g_hCvarBlockUpgradeableWeapons = CreateConVar("sm_tnounlockspls_blockupgrades", "0", "Block upgradeable weapons (renamed & strange).", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarAlwaysReplace = CreateConVar("sm_tnounlockspls_alwaysreplace", "0", "If set to 1 strippable weapons will be replaced nonetheless", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
@@ -113,7 +110,6 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 		g_bDefault = GetConVarBool(g_hCvarDefault);
 		g_bEnabled = GetConVarBool(g_hCvarEnabled);
 		g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
-		g_bBlockUpgradeableWeapons = GetConVarBool(g_hCvarBlockUpgradeableWeapons);
 		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 		g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
 	}
@@ -123,7 +119,6 @@ public OnConfigsExecuted() {
 	g_bDefault = GetConVarBool(g_hCvarDefault);
 	g_bEnabled = GetConVarBool(g_hCvarEnabled);
 	g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
-	g_bBlockUpgradeableWeapons = GetConVarBool(g_hCvarBlockUpgradeableWeapons);
 	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 
 	g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
@@ -337,7 +332,8 @@ public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefi
 		return Plugin_Handled;
 	}
 
-	if(!EnabledForItem(iItemDefinitionIndex) && !(g_bBlockUpgradeableWeapons && IsUpgradeableWeapon(iItemDefinitionIndex)))
+
+	if(!EnabledForItem(iItemDefinitionIndex))
 		return Plugin_Continue;
 
 	//PrintToChat(iClient, "treating item %i", iItemDefinitionIndex);
@@ -727,8 +723,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Buff Banner, Gunboats, Battalion's Backup, Concheror, Reserve Shooter, Mantreads
-	if(iIDI == 129 || iIDI == 133 || iIDI == 226 || iIDI == 354 || iIDI == 415 || iIDI == 444) {
+	// Replace Buff Banner, Gunboats, Battalion's Backup, Concheror, Reserve Shooter, Righteous Bison, Mantreads
+	if(iIDI == 129 || iIDI == 133 || iIDI == 226 || iIDI == 354 || iIDI == 415 || iIDI == 442 || iIDI == 444) {
 		strcopy(sClass, size, "tf_weapon_shotgun_soldier");
 		replacement = 10;
 		return true;
@@ -783,8 +779,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Direct Hit, Upgradeable TF_WEAPON_ROCKETLAUNCHER, Black Box, Rocket Jumper, Liberty Launcher
-	if(iIDI == 127 || iIDI == 205 || iIDI == 228 || iIDI == 237 || iIDI == 414) {
+	// Replace Direct Hit, Upgradeable TF_WEAPON_ROCKETLAUNCHER, Black Box, Rocket Jumper, Liberty Launcher, Cow Mangler 5000
+	if(iIDI == 127 || iIDI == 205 || iIDI == 228 || iIDI == 237 || iIDI == 414 || iIDI == 441) {
 		strcopy(sClass, size, "tf_weapon_rocketlauncher");
 		replacement = 18;
 		return true;
@@ -907,7 +903,7 @@ stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 
 	// The following sets won't be blocked even if sm_tnounlockspls_blocksets is enabled!
 	// Sets without hats: medieval_medic, rapid_repair, hibernating_bear, experts_ordnance
-	// Sets without attributes: gangland_spy, general_suit, black_market, bonk_fan, airborne_armaments, desert_sniper, desert_demo
+	// Sets without attributes: gangland_spy, general_suit, drg_victory, black_market, bonk_fan, airborne_armaments, desert_sniper, desert_demo
 
 	return false;
 }

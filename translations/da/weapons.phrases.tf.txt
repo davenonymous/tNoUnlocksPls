@@ -300,12 +300,48 @@
 	{
 		"da"	"Halv-Zatoichi"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"da"	"Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"da"	"Røverkøbet"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"da"	"Den Persiske Frister"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"da"	"Det Hurtige Fix"
 	}
+	"TF_SOLEMNVOW"
+	{
+		"da"	"Det Højtidelige Løfte"
+	}
+	"TF_TOMISLAV"
+	{
+		"da"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"da"	"Familieærindet"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"da"	"Udsættelsesvarslet"
+	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"da"	"Fiskekage"
+	}
+	"TF_ENFORCER"
+	{
+		"da"	"Gennemtvingeren"
+	}
+	"TF_BIGEARNER"
+	{
+		"da"	"Den Store Indtjener"
 	}
 }

@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"es"	"Kritzkrieg"
+		"es"	"La Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"es"	"Blutsauger"
+		"es"	"La Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"es"	"Ubersaw"
+		"es"	"La Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"es"	"Hacherminador"
+		"es"	"El Hacherminador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"es"	"Pistola de Bengalas"
+		"es"	"La Pistola de Bengalas"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"es"	"Dragón"
+		"es"	"El Dragón"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,31 +30,31 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"es"	"Focata"
+		"es"	"El Focata"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"es"	"Kañeros Guantes de Boxeo"
+		"es"	"Los Kañeros Guantes de Boxeo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"es"	"Somnífero"
+		"es"	"El Somnífero"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"es"	"Dispensadora de Caña"
+		"es"	"La Dispensadora de Caña"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"es"	"¡Plonk! La Bebida Salvavidas"
+		"es"	"¡Bonk! La Bebida Salvavidas"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"es"	"Cazador"
+		"es"	"El Cazador"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"es"	"Caparazumbador"
+		"es"	"El Caparazumbador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,79 +62,79 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"es"	"Duplicante"
+		"es"	"El Duplicante"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"es"	"Embozador"
+		"es"	"El Embozador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"es"	"Embajadora"
+		"es"	"La Embajadora"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"es"	"Impacto Directo"
+		"es"	"El Impacto Directo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"es"	"Ecualizador"
+		"es"	"El Ecualizador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"es"	"Estandarte de Ánimo"
+		"es"	"El Estandarte de Ánimo"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"es"	"Resistencia Escocesa"
+		"es"	"La Resistencia Escocesa"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"es"	"Targe de Carga"
+		"es"	"El Targe de Carga"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"es"	"Intuertal"
+		"es"	"La Intuertal"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"es"	"Botas Blindadas"
+		"es"	"Las Botas Blindadas"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"es"	"Arreo"
+		"es"	"El Arreo"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"es"	"Justiciera"
+		"es"	"La Justiciera"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"es"	"Forajido"
+		"es"	"El Forajido"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"es"	"Demoledor"
+		"es"	"El Demoledor"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"es"	"Tren del Dolor"
+		"es"	"El Tren del Dolor"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"es"	"Hospitalidad Sureña"
+		"es"	"La Hospitalidad Sureña"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"es"	"Chocolatina Dalokohs"
+		"es"	"La Chocolatina Dalokohs"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"es"	"Lugermorfa"
+		"es"	"La Lugermorfa"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"es"	"Pistolón"
+		"es"	"El Pistolón"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -146,11 +146,11 @@
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"es"	"Cuchilla Tribal"
+		"es"	"La Cuchilla Tribal"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"es"	"Cortacráneos Escocés"
+		"es"	"El Cortacráneos Escocés"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -210,7 +210,7 @@
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"es"	"Guantes de Rapidez Ultraterrena"
+		"es"	"Los Guantes de Rapidez Ultraterrena"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
@@ -226,11 +226,11 @@
 	}
 	"TF_TTG_WATCH"
 	{
-		"es"	"Reloj del Coleccionista"
+		"es"	"El Reloj del Coleccionista"
 	}
 	"TF_IRON_CURTAIN"
 	{
-		"es"	"Telón de Acero"
+		"es"	"El Telón de Acero"
 	}
 	"TF_AMPUTATOR"
 	{
@@ -238,51 +238,51 @@
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"es"	"Ballesta del Cruzado"
+		"es"	"La Ballesta del Cruzado"
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"es"	"Cáber de Ullapool"
+		"es"	"El Cáber de Ullapool"
 	}
 	"TF_LOCHNLOAD"
 	{
-		"es"	"Bombstruo del Lago Ness"
+		"es"	"El Bombstruo del Lago Ness"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"es"	"Zarpas del Guerrero"
+		"es"	"Las Zarpas del Guerrero"
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"es"	"Focata de Filete de Búfalo"
+		"es"	"El Focata de Filete de Búfalo"
 	}
 	"TF_GATLINGGUN"
 	{
-		"es"	"Titán de Latón"
+		"es"	"El Titán de Latón"
 	}
 	"TF_CANDYCANE"
 	{
-		"es"	"Bastón de Caramelo"
+		"es"	"El Bastón de Caramelo"
 	}
 	"TF_BOSTONBASHER"
 	{
-		"es"	"Machacador de Boston"
+		"es"	"El Machacador de Boston"
 	}
 	"TF_BACKSCRATCHER"
 	{
-		"es"	"Rascaespaldas"
+		"es"	"El Rascaespaldas"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"es"	"Claidheamh Mòr"
+		"es"	"La Claidheamh Mòr"
 	}
 	"TF_JAG"
 	{
-		"es"	"Manitas"
+		"es"	"El Manitas"
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"es"	"Puños de Acero"
+		"es"	"Los Puños de Acero"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
@@ -290,7 +290,7 @@
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"es"	"Sol-en-un-Palo"
+		"es"	"El Sol en un Palo"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
@@ -320,6 +320,10 @@
 	{
 		"es"	"La Ganga del Bazar"
 	}
+	"TF_PERSIANPERSUADER"
+	{
+		"es"	"El Persa Persuasivo"
+	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
 		"es"	"Babuchas de Alí Babá"
@@ -330,7 +334,7 @@
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"es"	"Apañador"
+		"es"	"El Apañador"
 	}
 	"TF_OVERDOSE"
 	{
@@ -344,13 +348,17 @@
 	{
 		"es"	"El Libertador"
 	}
+	"TF_RESERVESHOOTER"
+	{
+		"es"	"El Tirador de Reserva"
+	}
 	"TF_MARKETGARDENER"
 	{
 		"es"	"El Jardinero"
 	}
 	"TF_SAXXY"
 	{
-		"es"	"Saxxy"
+		"es"	"El Saxxy"
 	}
 	"TF_TOMISLAV"
 	{
@@ -392,12 +400,24 @@
 	{
 		"es"	"Hoja Trirrúnica"
 	}
+	"TF_MAILBOX"
+	{
+		"es"	"La Paliza Postal"
+	}
 	"TF_ENFORCER"
 	{
 		"es"	"El Ejecutor"
 	}
+	"TF_BIGEARNER"
+	{
+		"es"	"El Cabeza de Familia"
+	}
 	"TF_RFAHAMMER"
 	{
 		"es"	"El Mutilador"
+	}
+	"TF_NINEIRON"
+	{
+		"es"	"Hierro del Nueve de Nessie"
 	}
 }

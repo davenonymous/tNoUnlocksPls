@@ -290,7 +290,7 @@
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"pl"	"Gwiazda Poranna"
+		"pl"	"Słońce na Patyku"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
@@ -400,6 +400,10 @@
 	{
 		"pl"	"Trójruniczne Ostrze"
 	}
+	"TF_MAILBOX"
+	{
+		"pl"	"Pocztowy Pogromca"
+	}
 	"TF_ENFORCER"
 	{
 		"pl"	"Egzekutor"
@@ -411,5 +415,9 @@
 	"TF_RFAHAMMER"
 	{
 		"pl"	"Maul"
+	}
+	"TF_NINEIRON"
+	{
+		"pl"	"Żelazna Nessie"
 	}
 }

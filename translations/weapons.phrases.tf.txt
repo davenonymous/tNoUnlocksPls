@@ -376,6 +376,14 @@
 	{
 		"en"	"Fishcake"
 	}
+	"TF_COWMANGLER"
+	{
+		"en"	"Cow Mangler 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"en"	"Righteous Bison"
+	}
 	"TF_MANTREADS"
 	{
 		"en"	"Mantreads"

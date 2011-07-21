@@ -400,6 +400,10 @@
 	{
 		"de"	"Drei-Runen-Klinge"
 	}
+	"TF_MAILBOX"
+	{
+		"de"	"Der Postprügler"
+	}
 	"TF_ENFORCER"
 	{
 		"de"	"Der Vollstrecker"
@@ -411,5 +415,9 @@
 	"TF_RFAHAMMER"
 	{
 		"de"	"Der Spalthammer"
+	}
+	"TF_NINEIRON"
+	{
+		"de"	"Nessies Neuner Eisen"
 	}
 }

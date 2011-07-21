@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"fr"	"Darwin's Danger Shield"
+		"fr"	"Le bouclier du risque Darwinien"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -400,6 +400,10 @@
 	{
 		"fr"	"Lame à Trois Runes"
 	}
+	"TF_MAILBOX"
+	{
+		"fr"	"Le Tabasseur Postal"
+	}
 	"TF_ENFORCER"
 	{
 		"fr"	"Le Coerciteur"
@@ -411,5 +415,9 @@
 	"TF_RFAHAMMER"
 	{
 		"fr"	"La Masse"
+	}
+	"TF_NINEIRON"
+	{
+		"fr"	"Fer N°9 de Nessie"
 	}
 }

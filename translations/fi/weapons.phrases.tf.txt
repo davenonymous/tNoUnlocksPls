@@ -118,7 +118,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"fi"	"Kipujuna"
+		"fi"	"Kipukynnys"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -266,7 +266,7 @@
 	}
 	"TF_BOSTONBASHER"
 	{
-		"fi"	"Piikkipaukuttaja"
+		"fi"	"Piikkipamppu"
 	}
 	"TF_BACKSCRATCHER"
 	{
@@ -400,6 +400,10 @@
 	{
 		"fi"	"Kolmen riimun säilä"
 	}
+	"TF_MAILBOX"
+	{
+		"fi"	"Postimiehen pahe"
+	}
 	"TF_ENFORCER"
 	{
 		"fi"	"Luottomies"
@@ -411,5 +415,9 @@
 	"TF_RFAHAMMER"
 	{
 		"fi"	"Mahtimoukari"
+	}
+	"TF_NINEIRON"
+	{
+		"fi"	"Riiviön rautaysi"
 	}
 }

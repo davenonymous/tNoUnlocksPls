@@ -400,6 +400,10 @@
 	{
 		"it"	"Spada delle Tre Rune"
 	}
+	"TF_MAILBOX"
+	{
+		"it"	"Il Pestatore Postale"
+	}
 	"TF_ENFORCER"
 	{
 		"it"	"Il Vigilante"
@@ -411,5 +415,9 @@
 	"TF_RFAHAMMER"
 	{
 		"it"	"Il Maglio"
+	}
+	"TF_NINEIRON"
+	{
+		"it"	"Ferro Nove di Nessie"
 	}
 }
