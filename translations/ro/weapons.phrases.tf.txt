@@ -324,6 +324,30 @@
 	{
 		"ro"	"Supradoza"
 	}
+	"TF_SOLEMNVOW"
+	{
+		"ro"	"Jurământul Solemn"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"ro"	"Lansatorul Libertăţii"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"ro"	"Grădinarul Pieţei"
+	}
+	"TF_TOMISLAV"
+	{
+		"ro"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"ro"	"Afacerea de Familie"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"ro"	"Nota de Evacuare"
+	}
 	"TF_DISCIPLINARYACTION"
 	{
 		"ro"	"Acţiunea Disciplinară"

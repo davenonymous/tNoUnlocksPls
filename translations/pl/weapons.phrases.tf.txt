@@ -376,6 +376,10 @@
 	{
 		"pl"	"Ciastko Rybne"
 	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"pl"	"Prawy Bizon"
+	}
 	"TF_MANTREADS"
 	{
 		"pl"	"Miażdżyciele"

@@ -312,13 +312,25 @@
 	{
 		"da"	"Den Persiske Frister"
 	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"da"	"Den Storslåede Skærm"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"da"	"Det Hurtige Fix"
 	}
+	"TF_OVERDOSE"
+	{
+		"da"	"Overdosen"
+	}
 	"TF_SOLEMNVOW"
 	{
 		"da"	"Det Højtidelige Løfte"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"da"	"Reserveskyderen"
 	}
 	"TF_TOMISLAV"
 	{
@@ -326,7 +338,7 @@
 	}
 	"TF_RUSSIANRIOT"
 	{
-		"da"	"Familieærindet"
+		"da"	"Familieforretningen"
 	}
 	"TF_EVICTIONNOTICE"
 	{
@@ -336,9 +348,13 @@
 	{
 		"da"	"Fiskekage"
 	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"da"	"Disciplinærsagen"
+	}
 	"TF_ENFORCER"
 	{
-		"da"	"Gennemtvingeren"
+		"da"	"Håndhæveren"
 	}
 	"TF_BIGEARNER"
 	{

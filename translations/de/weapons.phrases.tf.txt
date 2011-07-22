@@ -54,7 +54,7 @@
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"de"	"Der Razorback"
+		"de"	"Der Stammesschild"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -66,7 +66,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"de"	"Der Cloak and Dagger"
+		"de"	"Die Standuhr"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"de"	"Darwin's Danger Shield"
+		"de"	"Darwins Gefahrenschild"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -375,6 +375,14 @@
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"de"	"Fischkuchen"
+	}
+	"TF_COWMANGLER"
+	{
+		"de"	"Der Kuhmetzler 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"de"	"Der Rechtschaffende Bison"
 	}
 	"TF_MANTREADS"
 	{

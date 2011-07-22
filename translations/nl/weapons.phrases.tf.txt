@@ -376,6 +376,14 @@
 	{
 		"nl"	"Viskoek"
 	}
+	"TF_COWMANGLER"
+	{
+		"nl"	"De Koeienverscheurder 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"nl"	"De Rechtvaardige Bizon"
+	}
 	"TF_MANTREADS"
 	{
 		"nl"	"De Manzolen"

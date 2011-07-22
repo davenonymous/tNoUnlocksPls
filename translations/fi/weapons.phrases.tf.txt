@@ -376,6 +376,14 @@
 	{
 		"fi"	"Kalakakku"
 	}
+	"TF_COWMANGLER"
+	{
+		"fi"	"Karjankäristin 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"fi"	"Biisoninpaimennin"
+	}
 	"TF_MANTREADS"
 	{
 		"fi"	"Miehenpolkijat"

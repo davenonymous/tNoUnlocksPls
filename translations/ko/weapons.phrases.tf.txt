@@ -264,4 +264,84 @@
 	{
 		"ko"	"강철 주먹"
 	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"ko"	"정복자"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"ko"	"벼룩 시장품"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"ko"	"페르시아식 설득 도구"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"ko"	"알리 바바의 조막만한 부츠"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"ko"	"경이로운 차폐막"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"ko"	"응급처치"
+	}
+	"TF_OVERDOSE"
+	{
+		"ko"	"약물 과입기"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"ko"	"장엄 서원상"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"ko"	"조력총"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"ko"	"모종삽"
+	}
+	"TF_TOMISLAV"
+	{
+		"ko"	"토미슬라프"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"ko"	"계승 사업"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"ko"	"퇴거 통보"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"ko"	"어육 완자"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"ko"	"징계 조치"
+	}
+	"TF_WINGER"
+	{
+		"ko"	"윙거"
+	}
+	"TF_ATOMIZER"
+	{
+		"ko"	"원자 뿌리개"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"ko"	"삼룬검"
+	}
+	"TF_MAILBOX"
+	{
+		"ko"	"미친 우편함"
+	}
+	"TF_ENFORCER"
+	{
+		"ko"	"집행자"
+	}
 }
