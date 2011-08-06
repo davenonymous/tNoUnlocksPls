@@ -22,9 +22,10 @@ new String:g_sCfgFile[255];
 new Handle:g_hCvarDefault;
 new Handle:g_hCvarEnabled;
 new Handle:g_hCvarBlockSetHats;
+new Handle:g_hCvarBlockStrange;
 
 new Handle:g_hCvarFile;
-new Handle:g_hCvarAnnounce;
+//new Handle:g_hCvarAnnounce;
 
 new Handle:g_hTopMenu = INVALID_HANDLE;
 
@@ -55,6 +56,7 @@ public OnPluginStart() {
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockSetHats = CreateConVar("sm_tnounlockspls_blocksets", "0", "If all weapons of a certain set are allowed, block the hat if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+	g_hCvarBlockStrange = CreateConVar("sm_tnounlockspls_blockstrange", "0", "Block all strange weapons if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 //	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
 
@@ -62,6 +64,7 @@ public OnPluginStart() {
 	HookConVarChange(g_hCvarEnabled, Cvar_Changed);
 	HookConVarChange(g_hCvarBlockSetHats, Cvar_Changed);
 	HookConVarChange(g_hCvarFile, Cvar_Changed);
+	HookConVarChange(g_hCvarBlockStrange, Cvar_Changed);
 //	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
 
 	decl String:translationPath[PLATFORM_MAX_PATH];
@@ -101,6 +104,7 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 		g_bDefault = GetConVarBool(g_hCvarDefault);
 		g_bEnabled = GetConVarBool(g_hCvarEnabled);
 		g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
+		g_bBlockStrangeWeapons = GetConVarBool(g_hCvarBlockStrange);
 //		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 	}
 }
@@ -109,6 +113,7 @@ public OnConfigsExecuted() {
 	g_bDefault = GetConVarBool(g_hCvarDefault);
 	g_bEnabled = GetConVarBool(g_hCvarEnabled);
 	g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
+	g_bBlockStrangeWeapons = GetConVarBool(g_hCvarBlockStrange);
 //	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 
 	GetConVarString(g_hCvarFile, g_sCfgFile, sizeof(g_sCfgFile));
