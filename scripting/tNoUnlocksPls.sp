@@ -62,7 +62,7 @@ public OnPluginStart() {
 	HookConVarChange(g_hCvarEnabled, Cvar_Changed);
 	HookConVarChange(g_hCvarBlockSetHats, Cvar_Changed);
 	HookConVarChange(g_hCvarFile, Cvar_Changed);
-	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
+//	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
 
 	decl String:translationPath[PLATFORM_MAX_PATH];
 	BuildPath(Path_SM, translationPath, PLATFORM_MAX_PATH, "translations/weapons.phrases.tf.txt");
