@@ -1,27 +1,28 @@
 #pragma semicolon 1
 #include <sourcemod>
 #include <tf2_stocks>
-#include <tf2items>
+#include <unlockblock>
 #include <adminmenu>
 #include <colors>
 
-#define VERSION	"0.1.3"
-#define MAXITEMS	128
+#define VERSION	"0.2.0"
+#define MAXITEMS	192
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
-#define USE_GIVEITEM_TIMER
+#define QUALITY_STRANGE 11
 
-new bool:g_bAnnounce;
+//new bool:g_bAnnounce;
 new bool:g_bEnabled;
 new bool:g_bBlockSetHats;
+new bool:g_bBlockStrangeWeapons;
 new bool:g_bDefault;		//true == replace weapons by default, unless told so with sm_toggleunlock <iIDI>
-new bool:g_bAlwaysReplace;	//true == dont strip, always replace weapons
+
 new String:g_sCfgFile[255];
 
 new Handle:g_hCvarDefault;
 new Handle:g_hCvarEnabled;
 new Handle:g_hCvarBlockSetHats;
-new Handle:g_hCvarAlwaysReplace;
+
 new Handle:g_hCvarFile;
 new Handle:g_hCvarAnnounce;
 
@@ -30,10 +31,11 @@ new Handle:g_hTopMenu = INVALID_HANDLE;
 new bool:g_bSomethingChanged = false;
 
 
+
 public Plugin:myinfo = {
 	name        = "tNoUnlocksPls",
 	author      = "Thrawn",
-	description = "Removes attributes from weapons or replaces them with the original.",
+	description = "Replaces unlocks with their original.",
 	version     = VERSION,
 	url         = "http://forums.alliedmods.net/showthread.php?t=140045"
 };
@@ -47,31 +49,20 @@ enum Item {
 new g_xItems[MAXITEMS][Item];
 new g_iWeaponCount = 0;
 
-#if defined USE_GIVEITEM_TIMER
-new Handle:g_xReplaceTrie = INVALID_HANDLE;
-new g_iNextIndex = 0;
-#endif
-
 public OnPluginStart() {
 	CreateConVar("sm_tnounlockspls_version", VERSION, "[TF2] tNoUnlocksPls", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockSetHats = CreateConVar("sm_tnounlockspls_blocksets", "0", "If all weapons of a certain set are allowed, block the hat if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
-	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
-	g_hCvarAlwaysReplace = CreateConVar("sm_tnounlockspls_alwaysreplace", "0", "If set to 1 strippable weapons will be replaced nonetheless", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+//	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
 
-	HookConVarChange(g_hCvarAlwaysReplace, Cvar_Changed);
 	HookConVarChange(g_hCvarDefault, Cvar_Changed);
 	HookConVarChange(g_hCvarEnabled, Cvar_Changed);
 	HookConVarChange(g_hCvarBlockSetHats, Cvar_Changed);
 	HookConVarChange(g_hCvarFile, Cvar_Changed);
 	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
-
-	#if defined USE_GIVEITEM_TIMER
-	g_xReplaceTrie = CreateTrie();
-	#endif
 
 	decl String:translationPath[PLATFORM_MAX_PATH];
 	BuildPath(Path_SM, translationPath, PLATFORM_MAX_PATH, "translations/weapons.phrases.tf.txt");
@@ -110,8 +101,7 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 		g_bDefault = GetConVarBool(g_hCvarDefault);
 		g_bEnabled = GetConVarBool(g_hCvarEnabled);
 		g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
-		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
-		g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
+//		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 	}
 }
 
@@ -119,9 +109,7 @@ public OnConfigsExecuted() {
 	g_bDefault = GetConVarBool(g_hCvarDefault);
 	g_bEnabled = GetConVarBool(g_hCvarEnabled);
 	g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
-	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
-
-	g_bAlwaysReplace = GetConVarBool(g_hCvarAlwaysReplace);
+//	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 
 	GetConVarString(g_hCvarFile, g_sCfgFile, sizeof(g_sCfgFile));
 	BuildPath(Path_SM, g_sCfgFile, sizeof(g_sCfgFile), "configs/%s", g_sCfgFile);
@@ -315,566 +303,36 @@ public EnabledForItem(iIDI) {
 	return false;
 }
 
-
-public Action:TF2Items_OnGiveNamedItem(iClient, String:strClassName[], iItemDefinitionIndex, &Handle:hItemOverride) {
-
-	//PrintToChat(iClient, "giving item %i", iItemDefinitionIndex);
+public Action:UnlockBlock_ItemHasBeenUpdated(iQuality, iItemDefinitionIndex) {
 	if(!g_bEnabled)
 		return Plugin_Continue;
 
-	if (hItemOverride != INVALID_HANDLE)
-		return Plugin_Continue;
+//	new id = FindItemWithID(iItemDefinitionIndex);
 
-	if(g_bBlockSetHats && IsSetHatAndShouldBeBlocked(iItemDefinitionIndex)) {
-		if(g_bAnnounce)
-			CPrintToChat(iClient, "Removed your {olive}%s{default} to prevent set bonuses.", "hat");
+	if(g_bBlockStrangeWeapons && iQuality == QUALITY_STRANGE) {
+//		if(g_bAnnounce)
+//			CPrintToChat(iClient, "Removed your {olive}%s{default} because it is strange.", g_xItems[id][trans]);
 
 		return Plugin_Handled;
 	}
 
+	if(g_bBlockSetHats && IsSetHatAndShouldBeBlocked(iItemDefinitionIndex)) {
+//		if(g_bAnnounce)
+//			CPrintToChat(iClient, "Removed your {olive}%s{default} to prevent set bonuses.", "hat");
+
+		return Plugin_Handled;
+	}
 
 	if(!EnabledForItem(iItemDefinitionIndex))
 		return Plugin_Continue;
 
-	//PrintToChat(iClient, "treating item %i", iItemDefinitionIndex);
+//	if(g_bAnnounce)
+//		CPrintToChat(iClient, "Replaced your '{olive}%T{default}'", g_xItems[id][trans], iClient);
 
-	if (IsStripable(iItemDefinitionIndex) && !g_bAlwaysReplace) {
-		new id = FindItemWithID(iItemDefinitionIndex);
-		if(id != -1) {
-			new Handle:hTest = TF2Items_CreateItem(OVERRIDE_ATTRIBUTES);
-			TF2Items_SetNumAttributes(hTest, 0);
-			hItemOverride = hTest;
-
-			if(g_bAnnounce)
-				CPrintToChat(iClient, "Stripped attributes of your '{olive}%T{default}'", g_xItems[id][trans], iClient);
-
-			return Plugin_Changed;
-		}
-	}
-
-	new String:sClass[64];
-	new idToBe;
-	//PrintToChat(iClient, "replacing item %i", iItemDefinitionIndex);
-	if (GetReplacement(iItemDefinitionIndex, TF2_GetPlayerClass(iClient), sClass, sizeof(sClass), idToBe)) {
-		new idPrev = FindItemWithID(iItemDefinitionIndex);
-		if(idPrev != -1 && g_bAnnounce) {
-			CPrintToChat(iClient, "Replaced your '{olive}%T{default}'", g_xItems[idPrev][trans], iClient);
-		}
-
-#if defined USE_GIVEITEM_TIMER
-		new Handle:xReplacementInstructionsTrie = CreateTrie();
-		SetTrieValue(xReplacementInstructionsTrie, "client", iClient);
-		SetTrieValue(xReplacementInstructionsTrie, "idToBe", idToBe);
-		SetTrieString(xReplacementInstructionsTrie, "class", sClass);
-
-		new String:sTrieIndex[5];
-		Format(sTrieIndex, sizeof(sTrieIndex), "%i", g_iNextIndex);
-		SetTrieValue(g_xReplaceTrie, sTrieIndex, xReplacementInstructionsTrie);
-
-		CreateTimer(0.3, Timer_EquipWeapon, g_iNextIndex);
-		g_iNextIndex++; if(g_iNextIndex > 1024)g_iNextIndex = 0;
-
-		return Plugin_Handled;
-#else
-		new Handle:hTest = TF2Items_CreateItem(OVERRIDE_CLASSNAME | OVERRIDE_ITEM_DEF | OVERRIDE_ITEM_LEVEL | OVERRIDE_ITEM_QUALITY | OVERRIDE_ATTRIBUTES);
-		TF2Items_SetClassname(hTest, sClass);
-		TF2Items_SetItemIndex(hTest, idToBe);
-		TF2Items_SetLevel(hTest, 1);
-		TF2Items_SetQuality(hTest, 0);
-		TF2Items_SetNumAttributes(hTest, 0);
-		hItemOverride = hTest;
-		return Plugin_Changed;
-#endif
-	}
-
-	return Plugin_Continue;
-}
-
-#if defined USE_GIVEITEM_TIMER
-public Action:Timer_EquipWeapon(Handle:timer, any:iTrieIndex) {
-	new String:sTrieIndex[6];
-	Format(sTrieIndex, sizeof(sTrieIndex), "%i", iTrieIndex);
-
-	new Handle:xReplacementInstructionsTrie = INVALID_HANDLE;
-	GetTrieValue(g_xReplaceTrie, sTrieIndex, xReplacementInstructionsTrie);
-	if(xReplacementInstructionsTrie == INVALID_HANDLE)return;
-
-	new String:sClass[64];
-	new idToBe; new iClient;
-	GetTrieString(xReplacementInstructionsTrie, "class", sClass, sizeof(sClass));
-	GetTrieValue(xReplacementInstructionsTrie, "idToBe", idToBe);
-	GetTrieValue(xReplacementInstructionsTrie, "client", iClient);
-	RemoveFromTrie(g_xReplaceTrie, sTrieIndex);
-	CloseHandle(xReplacementInstructionsTrie);
-
-	new Handle:hTest = TF2Items_CreateItem(OVERRIDE_CLASSNAME | OVERRIDE_ITEM_DEF | OVERRIDE_ITEM_LEVEL | OVERRIDE_ITEM_QUALITY | OVERRIDE_ATTRIBUTES);
-	TF2Items_SetClassname(hTest, sClass);
-	TF2Items_SetItemIndex(hTest, idToBe);
-	TF2Items_SetLevel(hTest, 1);
-	TF2Items_SetQuality(hTest, 0);
-	TF2Items_SetNumAttributes(hTest, 0);
-
-	new entity = TF2Items_GiveNamedItem(iClient, hTest);
-	CloseHandle(hTest);
-
-	EquipPlayerWeapon(iClient, entity);
-}
-#endif
-
-stock IsStripable(iIDI) {
-	switch(iIDI) {
-		case	 35,	//Kritzkrieg
-				 36,	//Blutsauger
-				 37,	//Ubersaw
-				 38,	//Axtinguisher
-				 40,	//Backburner
-				 41,	//Natascha
-				 43,	//Killing Gloves of Boxing
-				 44,	//Sandman
-				 59,	//Dead Ringer
-				 60,	//Cloak and Dagger
-				 61,	//Ambassador
-				127,	//Direct Hit
-				128,	//Equalizer
-				130,	//Scottish Resistance
-				153,	//Homewrecker
-				154,	//Pain Train
-				171,	//Tribalman's Shiv
-				172,	//Scotsman's Skullcutter
-				173,	//TF_Unique_BattleSaw
-				214,	//TF_ThePowerjack
-				215,	//TF_TheDegreaser
-				221,	//TF_TheHolyMackerel
-				224,	//TF_LEtranger
-				225,	//TF_EternalReward
-				228,	//TF_TheBlackBox
-				230,	//TF_SydneySleeper
-				232,	//TF_TheBushwacka
-				237,	//TF_Weapon_RocketLauncher_Jump
-				239,	//TF_Unique_Gloves_of_Running_Urgently
-				264,	//TF_UNIQUE_FRYINGPAN
-				265,	//TF_WEAPON_STICKYBOMB_JUMP
-				266,	//TF_HALLOWEENBOSS_AXE
-				297,	//TF_TTG_WATCH
-				298,	//TF_IRON_CURTAIN
-				304,	//TF_Amputator
-				308,	//TF_LochNLoad
-				310,	//TF_WarriorsSpirit
-				312,	//TF_GatlingGun
-				317,	//TF_CandyCane
-				325,	//TF_BostonBasher
-				326,	//TF_BackScratcher
-				327,	//TF_Claidheamohmor
-				329,	//TF_Jag
-				331		//TF_FistsOfSteel
-				//45,	//Force-A-Nature		// Animations are totally borked
-				//141,	//Frontier Justice		// Reported by Boylee to be broken, players still get Revenge crits. Thanks.
-				//307,	//TF_UllapoolCaber		// Nope, still explodes
-				: return true;
-	}
-
-	return false;
+	return Plugin_Handled;
 }
 
 // %%START%%
-stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &replacement) {
-	// Replace Pain Train (TFClass_Soldier)
-	if(iIDI == 154 && class == TFClass_Soldier) {
-		strcopy(sClass, size, "tf_weapon_shovel");
-		replacement = 6;
-		return true;
-	}
-
-	// Replace Pain Train (TFClass_DemoMan)
-	if(iIDI == 154 && class == TFClass_DemoMan) {
-		strcopy(sClass, size, "tf_weapon_bottle");
-		replacement = 1;
-		return true;
-	}
-
-	// Replace TTG Max Pistol (TFClass_Engineer)
-	if(iIDI == 160 && class == TFClass_Engineer) {
-		strcopy(sClass, size, "tf_weapon_pistol");
-		replacement = 22;
-		return true;
-	}
-
-	// Replace TTG Max Pistol (TFClass_Scout)
-	if(iIDI == 160 && class == TFClass_Scout) {
-		strcopy(sClass, size, "tf_weapon_pistol_scout");
-		replacement = 23;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Pyro)
-	if(iIDI == 199 && class == TFClass_Pyro) {
-		strcopy(sClass, size, "tf_weapon_flamethrower");
-		replacement = 21;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Soldier)
-	if(iIDI == 199 && class == TFClass_Soldier) {
-		strcopy(sClass, size, "tf_weapon_rocketlauncher");
-		replacement = 18;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Engineer)
-	if(iIDI == 199 && class == TFClass_Engineer) {
-		strcopy(sClass, size, "tf_weapon_shotgun_primary");
-		replacement = 9;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_SHOTGUN_PRIMARY (TFClass_Heavy)
-	if(iIDI == 199 && class == TFClass_Heavy) {
-		strcopy(sClass, size, "tf_weapon_minigun");
-		replacement = 15;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_PISTOL (TFClass_Engineer)
-	if(iIDI == 209 && class == TFClass_Engineer) {
-		strcopy(sClass, size, "tf_weapon_pistol");
-		replacement = 22;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_PISTOL (TFClass_Scout)
-	if(iIDI == 209 && class == TFClass_Scout) {
-		strcopy(sClass, size, "tf_weapon_pistol_scout");
-		replacement = 23;
-		return true;
-	}
-
-	// Replace Frying Pan (TFClass_Soldier)
-	if(iIDI == 264 && class == TFClass_Soldier) {
-		strcopy(sClass, size, "tf_weapon_shovel");
-		replacement = 6;
-		return true;
-	}
-
-	// Replace Frying Pan (TFClass_DemoMan)
-	if(iIDI == 264 && class == TFClass_DemoMan) {
-		strcopy(sClass, size, "tf_weapon_bottle");
-		replacement = 1;
-		return true;
-	}
-
-	// Replace TTG Max Pistol - Poker Night (TFClass_Engineer)
-	if(iIDI == 294 && class == TFClass_Engineer) {
-		strcopy(sClass, size, "tf_weapon_pistol");
-		replacement = 22;
-		return true;
-	}
-
-	// Replace TTG Max Pistol - Poker Night (TFClass_Scout)
-	if(iIDI == 294 && class == TFClass_Scout) {
-		strcopy(sClass, size, "tf_weapon_pistol_scout");
-		replacement = 23;
-		return true;
-	}
-
-	// Replace Half-Zatoichi (TFClass_Soldier)
-	if(iIDI == 357 && class == TFClass_Soldier) {
-		strcopy(sClass, size, "tf_weapon_shovel");
-		replacement = 6;
-		return true;
-	}
-
-	// Replace Half-Zatoichi (TFClass_DemoMan)
-	if(iIDI == 357 && class == TFClass_DemoMan) {
-		strcopy(sClass, size, "tf_weapon_bottle");
-		replacement = 1;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Pyro)
-	if(iIDI == 423 && class == TFClass_Pyro) {
-		strcopy(sClass, size, "tf_weapon_fireaxe");
-		replacement = 2;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Medic)
-	if(iIDI == 423 && class == TFClass_Medic) {
-		strcopy(sClass, size, "tf_weapon_bonesaw");
-		replacement = 8;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Soldier)
-	if(iIDI == 423 && class == TFClass_Soldier) {
-		strcopy(sClass, size, "tf_weapon_shovel");
-		replacement = 6;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Spy)
-	if(iIDI == 423 && class == TFClass_Spy) {
-		strcopy(sClass, size, "tf_weapon_knife");
-		replacement = 4;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Scout)
-	if(iIDI == 423 && class == TFClass_Scout) {
-		strcopy(sClass, size, "tf_weapon_bat");
-		replacement = 0;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Heavy)
-	if(iIDI == 423 && class == TFClass_Heavy) {
-		strcopy(sClass, size, "tf_weapon_fists");
-		replacement = 5;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Sniper)
-	if(iIDI == 423 && class == TFClass_Sniper) {
-		strcopy(sClass, size, "tf_weapon_club");
-		replacement = 3;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_Engineer)
-	if(iIDI == 423 && class == TFClass_Engineer) {
-		strcopy(sClass, size, "tf_weapon_wrench");
-		replacement = 7;
-		return true;
-	}
-
-	// Replace Saxxy (TFClass_DemoMan)
-	if(iIDI == 423 && class == TFClass_DemoMan) {
-		strcopy(sClass, size, "tf_weapon_bottle");
-		replacement = 1;
-		return true;
-	}
-
-	// Replace Sandman, Upgradeable TF_WEAPON_BAT, Holy Mackerel, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Atomizer, Three-Rune Blade
-	if(iIDI == 44 || iIDI == 190 || iIDI == 221 || iIDI == 317 || iIDI == 325 || iIDI == 349 || iIDI == 355 || iIDI == 450 || iIDI == 452) {
-		strcopy(sClass, size, "tf_weapon_bat");
-		replacement = 0;
-		return true;
-	}
-
-	// Replace Eyelander, Scotsman's Skullcutter, Upgradeable TF_WEAPON_BOTTLE, HHH's Headtaker, Ullapool Caber, Claidheamohmor, Persian Persuader, Nessie's Nine Iron
-	if(iIDI == 132 || iIDI == 172 || iIDI == 191 || iIDI == 266 || iIDI == 307 || iIDI == 327 || iIDI == 404 || iIDI == 482) {
-		strcopy(sClass, size, "tf_weapon_bottle");
-		replacement = 1;
-		return true;
-	}
-
-	// Replace Axtinguisher, Homewrecker, Upgradeable TF_WEAPON_FIREAXE, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Postal Pummeler, Maul
-	if(iIDI == 38 || iIDI == 153 || iIDI == 192 || iIDI == 214 || iIDI == 326 || iIDI == 348 || iIDI == 457 || iIDI == 466) {
-		strcopy(sClass, size, "tf_weapon_fireaxe");
-		replacement = 2;
-		return true;
-	}
-
-	// Replace Tribalman's Shiv, Upgradeable TF_WEAPON_CLUB, Bushwacka, Shahanshah
-	if(iIDI == 171 || iIDI == 193 || iIDI == 232 || iIDI == 401) {
-		strcopy(sClass, size, "tf_weapon_club");
-		replacement = 3;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_KNIFE, Your Eternal Reward, Conniver's Kunai, Big Earner
-	if(iIDI == 194 || iIDI == 225 || iIDI == 356 || iIDI == 461) {
-		strcopy(sClass, size, "tf_weapon_knife");
-		replacement = 4;
-		return true;
-	}
-
-	// Replace Killing Gloves of Boxing, Upgradeable TF_WEAPON_FISTS, Gloves of Running Urgently, Warrior's Spirit, Fists of Steel, Eviction Notice
-	if(iIDI == 43 || iIDI == 195 || iIDI == 239 || iIDI == 310 || iIDI == 331 || iIDI == 426) {
-		strcopy(sClass, size, "tf_weapon_fists");
-		replacement = 5;
-		return true;
-	}
-
-	// Replace Equalizer, Upgradeable TF_WEAPON_SHOVEL, Market Gardener, Disciplinary Action
-	if(iIDI == 128 || iIDI == 196 || iIDI == 416 || iIDI == 447) {
-		strcopy(sClass, size, "tf_weapon_shovel");
-		replacement = 6;
-		return true;
-	}
-
-	// Replace Gunslinger, Southern Hospitality, Golden Wrench, Upgradeable TF_WEAPON_WRENCH, Jag
-	if(iIDI == 142 || iIDI == 155 || iIDI == 169 || iIDI == 197 || iIDI == 329) {
-		strcopy(sClass, size, "tf_weapon_wrench");
-		replacement = 7;
-		return true;
-	}
-
-	// Replace Ubersaw, Vita-Saw, Upgradeable TF_WEAPON_BONESAW, Amputator, Solemn Vow
-	if(iIDI == 37 || iIDI == 173 || iIDI == 198 || iIDI == 304 || iIDI == 413) {
-		strcopy(sClass, size, "tf_weapon_bonesaw");
-		replacement = 8;
-		return true;
-	}
-
-	// Replace Frontier Justice
-	if(iIDI == 141) {
-		strcopy(sClass, size, "tf_weapon_shotgun_primary");
-		replacement = 9;
-		return true;
-	}
-
-	// Replace Buff Banner, Gunboats, Battalion's Backup, Concheror, Reserve Shooter, Righteous Bison, Mantreads
-	if(iIDI == 129 || iIDI == 133 || iIDI == 226 || iIDI == 354 || iIDI == 415 || iIDI == 442 || iIDI == 444) {
-		strcopy(sClass, size, "tf_weapon_shotgun_soldier");
-		replacement = 10;
-		return true;
-	}
-
-	// Replace Sandvich, Dalokohs Bar, Buffalo Steak Sandvich, Family Business, Fishcake
-	if(iIDI == 42 || iIDI == 159 || iIDI == 311 || iIDI == 425 || iIDI == 433) {
-		strcopy(sClass, size, "tf_weapon_shotgun_hwg");
-		replacement = 11;
-		return true;
-	}
-
-	// Replace Flare Gun, Detonator
-	if(iIDI == 39 || iIDI == 351) {
-		strcopy(sClass, size, "tf_weapon_shotgun_pyro");
-		replacement = 12;
-		return true;
-	}
-
-	// Replace Force-a-Nature, Upgradeable TF_WEAPON_SCATTERGUN, Shortstop, Soda Popper
-	if(iIDI == 45 || iIDI == 200 || iIDI == 220 || iIDI == 448) {
-		strcopy(sClass, size, "tf_weapon_scattergun");
-		replacement = 13;
-		return true;
-	}
-
-	// Replace Huntsman, Upgradeable TF_WEAPON_SNIPERRIFLE, Sydney Sleeper, Bazaar Bargain
-	if(iIDI == 56 || iIDI == 201 || iIDI == 230 || iIDI == 402) {
-		strcopy(sClass, size, "tf_weapon_sniperrifle");
-		replacement = 14;
-		return true;
-	}
-
-	// Replace Natascha, Upgradeable TF_WEAPON_MINIGUN, Iron Curtain, Brass Beast, Tomislav
-	if(iIDI == 41 || iIDI == 202 || iIDI == 298 || iIDI == 312 || iIDI == 424) {
-		strcopy(sClass, size, "tf_weapon_minigun");
-		replacement = 15;
-		return true;
-	}
-
-	// Replace Razorback, Jarate, Upgradeable TF_WEAPON_SMG, Darwin's Danger Shield
-	if(iIDI == 57 || iIDI == 58 || iIDI == 203 || iIDI == 231) {
-		strcopy(sClass, size, "tf_weapon_smg");
-		replacement = 16;
-		return true;
-	}
-
-	// Replace Blutsauger, Upgradeable TF_WEAPON_SYRINGEGUN_MEDIC, Crusader's Crossbow, Overdose
-	if(iIDI == 36 || iIDI == 204 || iIDI == 305 || iIDI == 412) {
-		strcopy(sClass, size, "tf_weapon_syringegun_medic");
-		replacement = 17;
-		return true;
-	}
-
-	// Replace Direct Hit, Upgradeable TF_WEAPON_ROCKETLAUNCHER, Black Box, Rocket Jumper, Liberty Launcher, Cow Mangler 5000, Original
-	if(iIDI == 127 || iIDI == 205 || iIDI == 228 || iIDI == 237 || iIDI == 414 || iIDI == 441 || iIDI == 513) {
-		strcopy(sClass, size, "tf_weapon_rocketlauncher");
-		replacement = 18;
-		return true;
-	}
-
-	// Replace Upgradeable TF_WEAPON_GRENADELAUNCHER, Loch-n-Load, Ali Baba's Wee Booties
-	if(iIDI == 206 || iIDI == 308 || iIDI == 405) {
-		strcopy(sClass, size, "tf_weapon_grenadelauncher");
-		replacement = 19;
-		return true;
-	}
-
-	// Replace Scottish Resistance, Chargin' Targe, Upgradeable TF_WEAPON_PIPEBOMBLAUNCHER, Stickybomb Jumper, Splendid Screen
-	if(iIDI == 130 || iIDI == 131 || iIDI == 207 || iIDI == 265 || iIDI == 406) {
-		strcopy(sClass, size, "tf_weapon_pipebomblauncher");
-		replacement = 20;
-		return true;
-	}
-
-	// Replace Backburner, Upgradeable TF_WEAPON_FLAMETHROWER, Degreaser
-	if(iIDI == 40 || iIDI == 208 || iIDI == 215) {
-		strcopy(sClass, size, "tf_weapon_flamethrower");
-		replacement = 21;
-		return true;
-	}
-
-	// Replace Wrangler
-	if(iIDI == 140) {
-		strcopy(sClass, size, "tf_weapon_pistol");
-		replacement = 22;
-		return true;
-	}
-
-	// Replace Bonk! Atomic Punch, Crit-a-Cola, Mad Milk, Winger
-	if(iIDI == 46 || iIDI == 163 || iIDI == 222 || iIDI == 449) {
-		strcopy(sClass, size, "tf_weapon_pistol_scout");
-		replacement = 23;
-		return true;
-	}
-
-	// Replace Ambassador, TTG Sam Revolver, Upgradeable TF_WEAPON_REVOLVER, L'Etranger, Enforcer
-	if(iIDI == 61 || iIDI == 161 || iIDI == 210 || iIDI == 224 || iIDI == 460) {
-		strcopy(sClass, size, "tf_weapon_revolver");
-		replacement = 24;
-		return true;
-	}
-
-	// Replace Kritzkrieg, Upgradeable TF_WEAPON_MEDIGUN, Quick-Fix
-	if(iIDI == 35 || iIDI == 211 || iIDI == 411) {
-		strcopy(sClass, size, "tf_weapon_medigun");
-		replacement = 29;
-		return true;
-	}
-
-	// Replace Dead Ringer, Cloak and Dagger, Upgradeable TF_WEAPON_INVIS, TTG Watch
-	if(iIDI == 59 || iIDI == 60 || iIDI == 212 || iIDI == 297) {
-		strcopy(sClass, size, "tf_weapon_invis");
-		replacement = 30;
-		return true;
-	}
-
-	return false;
-}
-
-stock bool:IsUpgradeableWeapon(iIDI) {
-	switch(iIDI) {
-		case	190,
-			191,
-			192,
-			193,
-			194,
-			195,
-			196,
-			197,
-			198,
-			199,
-			200,
-			201,
-			202,
-			203,
-			204,
-			205,
-			206,
-			207,
-			208,
-			209,
-			210,
-			211,
-			212: return true;
-	}
-
-	return false;
-}
-
 stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 	// Set: polycount_sniper
 	// Hat: Ol' Snaggletooth
