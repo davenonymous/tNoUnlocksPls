@@ -298,7 +298,7 @@
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"fi"	"Conchistadori"
+		"fi"	"Näkinkeisari"
 	}
 	"TF_GUNBAI"
 	{

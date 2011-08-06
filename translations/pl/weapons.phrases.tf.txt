@@ -376,6 +376,10 @@
 	{
 		"pl"	"Ciastko Rybne"
 	}
+	"TF_COWMANGLER"
+	{
+		"pl"	"Wyżymaczka Krów 5000"
+	}
 	"TF_RIGHTEOUSBISON"
 	{
 		"pl"	"Prawy Bizon"

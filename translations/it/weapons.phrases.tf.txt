@@ -376,6 +376,14 @@
 	{
 		"it"	"Tortina di Pesce"
 	}
+	"TF_COWMANGLER"
+	{
+		"it"	"Il Mutila-Mucche 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"it"	"Il Bisonte Virtuoso"
+	}
 	"TF_MANTREADS"
 	{
 		"it"	"I Passi d'Uomo"

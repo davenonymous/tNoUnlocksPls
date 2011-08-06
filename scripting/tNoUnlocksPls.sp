@@ -779,8 +779,8 @@ stock bool:GetReplacement(iIDI, TFClassType:class, String:sClass[], size, &repla
 		return true;
 	}
 
-	// Replace Direct Hit, Upgradeable TF_WEAPON_ROCKETLAUNCHER, Black Box, Rocket Jumper, Liberty Launcher, Cow Mangler 5000
-	if(iIDI == 127 || iIDI == 205 || iIDI == 228 || iIDI == 237 || iIDI == 414 || iIDI == 441) {
+	// Replace Direct Hit, Upgradeable TF_WEAPON_ROCKETLAUNCHER, Black Box, Rocket Jumper, Liberty Launcher, Cow Mangler 5000, Original
+	if(iIDI == 127 || iIDI == 205 || iIDI == 228 || iIDI == 237 || iIDI == 414 || iIDI == 441 || iIDI == 513) {
 		strcopy(sClass, size, "tf_weapon_rocketlauncher");
 		replacement = 18;
 		return true;

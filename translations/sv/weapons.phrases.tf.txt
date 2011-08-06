@@ -396,4 +396,8 @@
 	{
 		"sv"	"Lemlästaren"
 	}
+	"TF_NINEIRON"
+	{
+		"sv"	"Nessies Järnnia"
+	}
 }

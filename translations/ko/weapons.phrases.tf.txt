@@ -320,6 +320,10 @@
 	{
 		"ko"	"어육 완자"
 	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"ko"	"정의의 들소"
+	}
 	"TF_DISCIPLINARYACTION"
 	{
 		"ko"	"징계 조치"
@@ -338,7 +342,7 @@
 	}
 	"TF_MAILBOX"
 	{
-		"ko"	"미친 우편함"
+		"ko"	"전사 통지"
 	}
 	"TF_ENFORCER"
 	{

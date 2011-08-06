@@ -362,7 +362,7 @@
 	}
 	"TF_TOMISLAV"
 	{
-		"zho"	"托米斯拉夫"
+		"zho"	"湯米斯拉夫"
 	}
 	"TF_RUSSIANRIOT"
 	{
@@ -375,6 +375,14 @@
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"zho"	"太空魚酥餅"
+	}
+	"TF_COWMANGLER"
+	{
+		"zho"	"要牛命5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"zho"	"正義狂牛"
 	}
 	"TF_MANTREADS"
 	{

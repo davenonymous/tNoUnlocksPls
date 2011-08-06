@@ -46,7 +46,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"de"	"Bonk! Atomic Punch"
+		"de"	"Bonk! Atomenergie-Drink"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
@@ -138,7 +138,7 @@
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"de"	"Krit-'n-Cola"
+		"de"	"Krit-a-Cola"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
@@ -182,7 +182,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"de"	"Your Eternal Reward"
+		"de"	"Deine Letzte Belohnung"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -254,7 +254,7 @@
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"de"	"Das Buffalo-Steak-Sandvich"
+		"de"	"Das Büffelsteak-Sandvich"
 	}
 	"TF_GATLINGGUN"
 	{
@@ -382,7 +382,7 @@
 	}
 	"TF_RIGHTEOUSBISON"
 	{
-		"de"	"Der Rechtschaffende Bison"
+		"de"	"Der Rechtschaffene Bison"
 	}
 	"TF_MANTREADS"
 	{

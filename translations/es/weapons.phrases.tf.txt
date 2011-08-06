@@ -376,6 +376,14 @@
 	{
 		"es"	"Barrita de Pescado"
 	}
+	"TF_COWMANGLER"
+	{
+		"es"	"El Exprimevacas 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"es"	"El Bisonte Justiciero"
+	}
 	"TF_MANTREADS"
 	{
 		"es"	"Las Aplastacabezas"

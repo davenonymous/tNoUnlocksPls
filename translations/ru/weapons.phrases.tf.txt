@@ -130,11 +130,11 @@
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"ru"	"Пистолет Макса"
+		"ru"	"Люгерморф"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"ru"	"Револьвер Сэма"
+		"ru"	"Грандиозный убийца"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -202,7 +202,7 @@
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"ru"	"Кусторез"
+		"ru"	"Кустолом"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
@@ -375,6 +375,10 @@
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"ru"	"Рыбный батончик"
+	}
+	"TF_COWMANGLER"
+	{
+		"ru"	"Линчеватель скота 5000"
 	}
 	"TF_RIGHTEOUSBISON"
 	{

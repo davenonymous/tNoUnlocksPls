@@ -372,6 +372,14 @@
 	{
 		"chi"	"炸鱼饼"
 	}
+	"TF_COWMANGLER"
+	{
+		"chi"	"绞牛机5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"chi"	"正义野牛"
+	}
 	"TF_MANTREADS"
 	{
 		"chi"	"踏步靴"
@@ -411,5 +419,9 @@
 	"TF_RFAHAMMER"
 	{
 		"chi"	"破坏锤"
+	}
+	"TF_NINEIRON"
+	{
+		"chi"	"Nessie的九号铁杆"
 	}
 }

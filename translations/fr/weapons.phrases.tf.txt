@@ -166,7 +166,7 @@
 	}
 	"TF_THESHORTSTOP"
 	{
-		"fr"	"Le Shortstop"
+		"fr"	"L'Arrêt-court"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
@@ -318,7 +318,7 @@
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"fr"	"Le Négociateur"
+		"fr"	"La Pétoire du Bazar"
 	}
 	"TF_PERSIANPERSUADER"
 	{
@@ -376,6 +376,14 @@
 	{
 		"fr"	"Bâtonnet de Poisson"
 	}
+	"TF_COWMANGLER"
+	{
+		"fr"	"Le Broyeur Bovin 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"fr"	"Le Bison Vertueux"
+	}
 	"TF_MANTREADS"
 	{
 		"fr"	"Les Bottes de Combat"
@@ -402,11 +410,11 @@
 	}
 	"TF_MAILBOX"
 	{
-		"fr"	"Le Tabasseur Postal"
+		"fr"	"Le Poutreur Postal"
 	}
 	"TF_ENFORCER"
 	{
-		"fr"	"Le Coerciteur"
+		"fr"	"L'Exécutant"
 	}
 	"TF_BIGEARNER"
 	{

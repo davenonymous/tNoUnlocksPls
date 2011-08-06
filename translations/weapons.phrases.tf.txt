@@ -428,4 +428,8 @@
 	{
 		"en"	"Nessie's Nine Iron"
 	}
+	"TF_THEORIGINAL"
+	{
+		"en"	"Original"
+	}
 }

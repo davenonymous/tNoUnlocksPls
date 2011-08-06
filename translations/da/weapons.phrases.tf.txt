@@ -310,11 +310,15 @@
 	}
 	"TF_PERSIANPERSUADER"
 	{
-		"da"	"Den Persiske Frister"
+		"da"	"Den Persiske Overtaler"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"da"	"Ali Babas Små Futter"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
-		"da"	"Den Storslåede Skærm"
+		"da"	"Den Pragtfulde Skærm"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
@@ -332,6 +336,14 @@
 	{
 		"da"	"Reserveskyderen"
 	}
+	"TF_MARKETGARDENER"
+	{
+		"da"	"Market Gartneren"
+	}
+	"TF_SAXXY"
+	{
+		"da"	"Saxxy'en"
+	}
 	"TF_TOMISLAV"
 	{
 		"da"	"Tomislav"
@@ -348,9 +360,41 @@
 	{
 		"da"	"Fiskekage"
 	}
+	"TF_COWMANGLER"
+	{
+		"da"	"Kokvæster 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"da"	"Den Retskafne Bison"
+	}
+	"TF_MANTREADS"
+	{
+		"da"	"Fodfæstet"
+	}
 	"TF_DISCIPLINARYACTION"
 	{
 		"da"	"Disciplinærsagen"
+	}
+	"TF_SODAPOPPER"
+	{
+		"da"	"Soda Popperen"
+	}
+	"TF_WINGER"
+	{
+		"da"	"Fløjspilleren"
+	}
+	"TF_ATOMIZER"
+	{
+		"da"	"Spraydåsen"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"da"	"Tri-Rune-Klinge"
+	}
+	"TF_MAILBOX"
+	{
+		"da"	"Postprygleren"
 	}
 	"TF_ENFORCER"
 	{
@@ -359,5 +403,9 @@
 	"TF_BIGEARNER"
 	{
 		"da"	"Den Store Indtjener"
+	}
+	"TF_NINEIRON"
+	{
+		"da"	"Nessies Nier-Jern"
 	}
 }

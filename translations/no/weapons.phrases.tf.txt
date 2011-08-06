@@ -284,6 +284,10 @@
 	{
 		"no"	"Detonatoren"
 	}
+	"TF_KUNAI"
+	{
+		"no"	"Konspirasjonens kunai"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"no"	"Kvikk-fiks"
@@ -311,6 +315,10 @@
 	"TF_SPACECHEM_FISHCAKE"
 	{
 		"no"	"Fiskekake"
+	}
+	"TF_COWMANGLER"
+	{
+		"no"	"Kumangler 5000"
 	}
 	"TF_MAILBOX"
 	{

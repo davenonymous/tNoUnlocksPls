@@ -336,6 +336,10 @@
 	{
 		"ro"	"Grădinarul Pieţei"
 	}
+	"TF_SAXXY"
+	{
+		"ro"	"Saxxy"
+	}
 	"TF_TOMISLAV"
 	{
 		"ro"	"Tomislav"
@@ -348,6 +352,10 @@
 	{
 		"ro"	"Nota de Evacuare"
 	}
+	"TF_MANTREADS"
+	{
+		"ro"	"Călcătorul"
+	}
 	"TF_DISCIPLINARYACTION"
 	{
 		"ro"	"Acţiunea Disciplinară"
@@ -355,5 +363,9 @@
 	"TF_ATOMIZER"
 	{
 		"ro"	"Pulverizatorul"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"ro"	"Sabia Trei-Rune"
 	}
 }
