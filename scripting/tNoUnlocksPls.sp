@@ -19,6 +19,8 @@ new bool:g_bDefault;		//true == replace weapons by default, unless told so with 
 
 new String:g_sCfgFile[255];
 
+new bool:g_bIgnoreNext[MAXPLAYERS+1] = {false, ...};
+
 new Handle:g_hCvarDefault;
 new Handle:g_hCvarEnabled;
 new Handle:g_hCvarBlockSetHats;
@@ -312,10 +314,16 @@ public bool:OnClientCanUseItem(iClient, iItemDefinitionIndex, slot, iQuality) {
 	if(!g_bEnabled)
 		return true;
 
+	if(GetClientTeam(iClient) != 0) {
+		g_bIgnoreNext[iClient] = !g_bIgnoreNext[iClient];
+	} else {
+		g_bIgnoreNext[iClient] = false;
+	}
+
 	new id = FindItemWithID(iItemDefinitionIndex);
 
 	if(g_bBlockStrangeWeapons && iQuality == QUALITY_STRANGE) {
-		if(g_bAnnounce) {
+		if(g_bAnnounce && !g_bIgnoreNext[iClient]) {
 			if(id != -1) {
 				CPrintToChat(iClient, "Blocked your {olive}%s{default} because it is strange.", g_xItems[id][trans]);
 			} else {
@@ -326,7 +334,7 @@ public bool:OnClientCanUseItem(iClient, iItemDefinitionIndex, slot, iQuality) {
 	}
 
 	if(g_bBlockSetHats && IsSetHatAndShouldBeBlocked(iItemDefinitionIndex)) {
-		if(g_bAnnounce)
+		if(g_bAnnounce && !g_bIgnoreNext[iClient])
 			CPrintToChat(iClient, "Blocked your {olive}%s{default} to prevent set bonuses.", "hat");
 
 		return false;
@@ -335,7 +343,7 @@ public bool:OnClientCanUseItem(iClient, iItemDefinitionIndex, slot, iQuality) {
 	if(!EnabledForItem(iItemDefinitionIndex))
 		return true;
 
-	if(g_bAnnounce)
+	if(g_bAnnounce && !g_bIgnoreNext[iClient])
 		CPrintToChat(iClient, "Blocked your '{olive}%T{default}'", g_xItems[id][trans], iClient);
 
 	return false;
