@@ -118,7 +118,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"ru"	"Дубина с гвоздем"
+		"ru"	"Костыль"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -427,5 +427,9 @@
 	"TF_NINEIRON"
 	{
 		"ru"	"Железная девятка Несси"
+	}
+	"TF_THEORIGINAL"
+	{
+		"ru"	"Прародитель"
 	}
 }

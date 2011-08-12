@@ -428,4 +428,8 @@
 	{
 		"fi"	"Riiviön rautaysi"
 	}
+	"TF_THEORIGINAL"
+	{
+		"fi"	"Alkuperäinen"
+	}
 }

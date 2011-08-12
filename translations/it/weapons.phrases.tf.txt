@@ -428,4 +428,8 @@
 	{
 		"it"	"Ferro Nove di Nessie"
 	}
+	"TF_THEORIGINAL"
+	{
+		"it"	"L'Originale"
+	}
 }

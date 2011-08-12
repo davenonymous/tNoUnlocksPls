@@ -428,4 +428,8 @@
 	{
 		"nl"	"Nessie's Negen IJzer"
 	}
+	"TF_THEORIGINAL"
+	{
+		"nl"	"De Original"
+	}
 }

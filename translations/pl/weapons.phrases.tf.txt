@@ -428,4 +428,8 @@
 	{
 		"pl"	"Żelazna Nessie"
 	}
+	"TF_THEORIGINAL"
+	{
+		"pl"	"Pierwowzór"
+	}
 }

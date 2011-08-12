@@ -428,4 +428,8 @@
 	{
 		"es"	"Hierro del Nueve de Nessie"
 	}
+	"TF_THEORIGINAL"
+	{
+		"es"	"El Original"
+	}
 }

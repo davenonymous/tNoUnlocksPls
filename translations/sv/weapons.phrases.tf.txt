@@ -372,6 +372,10 @@
 	{
 		"sv"	"Fiskkaka"
 	}
+	"TF_COWMANGLER"
+	{
+		"sv"	"Komanglaren 5000"
+	}
 	"TF_MANTREADS"
 	{
 		"sv"	"Manstövlarna"

@@ -428,4 +428,8 @@
 	{
 		"fr"	"Fer N°9 de Nessie"
 	}
+	"TF_THEORIGINAL"
+	{
+		"fr"	"L'Original"
+	}
 }

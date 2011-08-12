@@ -428,4 +428,8 @@
 	{
 		"de"	"Nessies Neuner Eisen"
 	}
+	"TF_THEORIGINAL"
+	{
+		"de"	"Das Original"
+	}
 }
