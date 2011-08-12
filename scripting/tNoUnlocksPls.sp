@@ -1,7 +1,7 @@
 #pragma semicolon 1
 #include <sourcemod>
 #include <tf2_stocks>
-#include <unlockblock>
+#include <vanillaweps>
 #include <adminmenu>
 #include <colors>
 
@@ -11,7 +11,7 @@
 
 #define QUALITY_STRANGE 11
 
-//new bool:g_bAnnounce;
+new bool:g_bAnnounce;
 new bool:g_bEnabled;
 new bool:g_bBlockSetHats;
 new bool:g_bBlockStrangeWeapons;
@@ -25,7 +25,7 @@ new Handle:g_hCvarBlockSetHats;
 new Handle:g_hCvarBlockStrange;
 
 new Handle:g_hCvarFile;
-//new Handle:g_hCvarAnnounce;
+new Handle:g_hCvarAnnounce;
 
 new Handle:g_hTopMenu = INVALID_HANDLE;
 
@@ -57,7 +57,7 @@ public OnPluginStart() {
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockSetHats = CreateConVar("sm_tnounlockspls_blocksets", "0", "If all weapons of a certain set are allowed, block the hat if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockStrange = CreateConVar("sm_tnounlockspls_blockstrange", "0", "Block all strange weapons if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
-//	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
 
 	HookConVarChange(g_hCvarDefault, Cvar_Changed);
@@ -65,7 +65,7 @@ public OnPluginStart() {
 	HookConVarChange(g_hCvarBlockSetHats, Cvar_Changed);
 	HookConVarChange(g_hCvarFile, Cvar_Changed);
 	HookConVarChange(g_hCvarBlockStrange, Cvar_Changed);
-//	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
+	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
 
 	decl String:translationPath[PLATFORM_MAX_PATH];
 	BuildPath(Path_SM, translationPath, PLATFORM_MAX_PATH, "translations/weapons.phrases.tf.txt");
@@ -105,7 +105,7 @@ public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValu
 		g_bEnabled = GetConVarBool(g_hCvarEnabled);
 		g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
 		g_bBlockStrangeWeapons = GetConVarBool(g_hCvarBlockStrange);
-//		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
+		g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 	}
 }
 
@@ -114,7 +114,7 @@ public OnConfigsExecuted() {
 	g_bEnabled = GetConVarBool(g_hCvarEnabled);
 	g_bBlockSetHats = GetConVarBool(g_hCvarBlockSetHats);
 	g_bBlockStrangeWeapons = GetConVarBool(g_hCvarBlockStrange);
-//	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
+	g_bAnnounce = GetConVarBool(g_hCvarAnnounce);
 
 	GetConVarString(g_hCvarFile, g_sCfgFile, sizeof(g_sCfgFile));
 	BuildPath(Path_SM, g_sCfgFile, sizeof(g_sCfgFile), "configs/%s", g_sCfgFile);
@@ -308,33 +308,37 @@ public EnabledForItem(iIDI) {
 	return false;
 }
 
-public Action:UnlockBlock_ItemHasBeenUpdated(iQuality, iItemDefinitionIndex) {
+public bool:OnClientCanUseItem(iClient, iItemDefinitionIndex, slot, iQuality) {
 	if(!g_bEnabled)
-		return Plugin_Continue;
+		return true;
 
-//	new id = FindItemWithID(iItemDefinitionIndex);
+	new id = FindItemWithID(iItemDefinitionIndex);
 
 	if(g_bBlockStrangeWeapons && iQuality == QUALITY_STRANGE) {
-//		if(g_bAnnounce)
-//			CPrintToChat(iClient, "Removed your {olive}%s{default} because it is strange.", g_xItems[id][trans]);
-
-		return Plugin_Handled;
+		if(g_bAnnounce) {
+			if(id != -1) {
+				CPrintToChat(iClient, "Blocked your {olive}%s{default} because it is strange.", g_xItems[id][trans]);
+			} else {
+				CPrintToChat(iClient, "Blocked your weapon because it is strange.");
+			}
+		}
+		return false;
 	}
 
 	if(g_bBlockSetHats && IsSetHatAndShouldBeBlocked(iItemDefinitionIndex)) {
-//		if(g_bAnnounce)
-//			CPrintToChat(iClient, "Removed your {olive}%s{default} to prevent set bonuses.", "hat");
+		if(g_bAnnounce)
+			CPrintToChat(iClient, "Blocked your {olive}%s{default} to prevent set bonuses.", "hat");
 
-		return Plugin_Handled;
+		return false;
 	}
 
 	if(!EnabledForItem(iItemDefinitionIndex))
-		return Plugin_Continue;
+		return true;
 
-//	if(g_bAnnounce)
-//		CPrintToChat(iClient, "Replaced your '{olive}%T{default}'", g_xItems[id][trans], iClient);
+	if(g_bAnnounce)
+		CPrintToChat(iClient, "Blocked your '{olive}%T{default}'", g_xItems[id][trans], iClient);
 
-	return Plugin_Handled;
+	return false;
 }
 
 // %%START%%
