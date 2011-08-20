@@ -432,4 +432,20 @@
 	{
 		"en"	"Original"
 	}
+	"TF_DEX_REVOLVER"
+	{
+		"en"	"Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"en"	"Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"en"	"Widowmaker"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"en"	"Short Circuit"
+	}
 }
