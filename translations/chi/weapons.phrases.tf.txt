@@ -194,7 +194,7 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"chi"	"悉尼懒鬼"
+		"chi"	"悉尼沉睡者"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -422,6 +422,34 @@
 	}
 	"TF_NINEIRON"
 	{
-		"chi"	"Nessie的九号铁杆"
+		"chi"	"尼斯的九号铁杆"
+	}
+	"TF_THEORIGINAL"
+	{
+		"chi"	"原型火箭发射器"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"chi"	"菱背响尾蛇"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"chi"	"机械大帝"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"chi"	"寡妇制造者"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"chi"	"短路发生器"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"chi"	"海盗头子的假腿"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"chi"	"苏格兰式握手"
 	}
 }

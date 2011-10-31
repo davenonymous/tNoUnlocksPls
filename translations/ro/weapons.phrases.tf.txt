@@ -352,6 +352,14 @@
 	{
 		"ro"	"Nota de Evacuare"
 	}
+	"TF_COWMANGLER"
+	{
+		"ro"	"Devoratorul de Vaci 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"ro"	"Bizonul Cinstit"
+	}
 	"TF_MANTREADS"
 	{
 		"ro"	"Călcătorul"
@@ -360,6 +368,14 @@
 	{
 		"ro"	"Acţiunea Disciplinară"
 	}
+	"TF_SODAPOPPER"
+	{
+		"ro"	"Desfăcătorul de Sucuri"
+	}
+	"TF_WINGER"
+	{
+		"ro"	"Winger"
+	}
 	"TF_ATOMIZER"
 	{
 		"ro"	"Pulverizatorul"
@@ -367,5 +383,33 @@
 	"TF_SCOUTSWORD"
 	{
 		"ro"	"Sabia Trei-Rune"
+	}
+	"TF_MAILBOX"
+	{
+		"ro"	"Maiul Poștal"
+	}
+	"TF_ENFORCER"
+	{
+		"ro"	"Enforcer"
+	}
+	"TF_BIGEARNER"
+	{
+		"ro"	"Marele Câștigător"
+	}
+	"TF_NINEIRON"
+	{
+		"ro"	"Crosa de Golf a lui Nessie"
+	}
+	"TF_THEORIGINAL"
+	{
+		"ro"	"Originalul"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"ro"	"Spatele de Diamant"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"ro"	"Scurt Circuitul"
 	}
 }

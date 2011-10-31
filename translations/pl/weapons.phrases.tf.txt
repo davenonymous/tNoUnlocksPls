@@ -310,7 +310,7 @@
 	}
 	"TF_SOLDIERKATANA"
 	{
-		"pl"	"Prawie-Zatoichi"
+		"pl"	"Prawie Zatoichi"
 	}
 	"TF_SHAHANSHAH"
 	{
@@ -322,7 +322,7 @@
 	}
 	"TF_PERSIANPERSUADER"
 	{
-		"pl"	"Perski Przekonywacz"
+		"pl"	"Perska Perswazja"
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
@@ -431,5 +431,29 @@
 	"TF_THEORIGINAL"
 	{
 		"pl"	"Pierwowzór"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"pl"	"Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"pl"	"Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"pl"	"Widowmaker"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"pl"	"Krótkie Spięcie"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"pl"	"Kuternoga"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"pl"	"Szkocki Uścisk Dłoni"
 	}
 }

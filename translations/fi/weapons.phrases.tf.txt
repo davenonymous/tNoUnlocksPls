@@ -58,7 +58,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"fi"	"Nestekarate"
+		"fi"	"Jarate"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
@@ -431,5 +431,29 @@
 	"TF_THEORIGINAL"
 	{
 		"fi"	"Alkuperäinen"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"fi"	"Teräsniska"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"fi"	"Lävistäjä"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"fi"	"Leskenluoja"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"fi"	"Pallosalama"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"fi"	"Piraatin puujalka"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"fi"	"Skottilainen kättely"
 	}
 }

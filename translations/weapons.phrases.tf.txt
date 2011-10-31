@@ -448,4 +448,20 @@
 	{
 		"en"	"Short Circuit"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"en"	"Unarmed Combat"
+	}
+	"TF_VOODOOPIN"
+	{
+		"en"	"Wanga Prick"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"en"	"Bootlegger"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"en"	"Scottish Handshake"
+	}
 }

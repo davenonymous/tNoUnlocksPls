@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"nl"	"Paardloze Hoofdloze Paardmanns Hoofdnemer"
+		"nl"	"De Paardloze Hoofdloze Paardmanns Hoofdnemer"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -431,5 +431,29 @@
 	"TF_THEORIGINAL"
 	{
 		"nl"	"De Original"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"nl"	"De Diamantrug"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"nl"	"De Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"nl"	"De Weduwemaker"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"nl"	"De Kortsluiter"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"nl"	"De Smokkelaar"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"nl"	"De Schotse Handdruk"
 	}
 }

@@ -82,7 +82,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"fr"	"Le Buff drapeau"
+		"fr"	"Le drapeau Buff"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
@@ -154,7 +154,7 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"fr"	"Vita-Saw"
+		"fr"	"La Vita-Scie"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -186,7 +186,7 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"fr"	"Le Bataillon de soutien"
+		"fr"	"Le Soutien du Bataillon"
 	}
 	"TF_THEBLACKBOX"
 	{
@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"fr"	"Le décapiteur du Cavalier sans Tête et sans Cheval"
+		"fr"	"Le Décapiteur du Cavalier sans Tête et sans Cheval"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -431,5 +431,29 @@
 	"TF_THEORIGINAL"
 	{
 		"fr"	"L'Original"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"fr"	"Le Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"fr"	"La Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"fr"	"Le Faiseur de Veuves"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"fr"	"Le Court-Circuit"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"fr"	"Le contrebandier"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"fr"	"La poignée de main écossaise"
 	}
 }

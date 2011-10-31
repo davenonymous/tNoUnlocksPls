@@ -356,29 +356,29 @@ stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 	// Weapons: The Sydney Sleeper, Darwin's Danger Shield, The Bushwacka
 	if(iIDI == 229 && !EnabledForItem(230) && !EnabledForItem(231) && !EnabledForItem(232))return true;
 
-	// Set: polycount_pyro
-	// Hat: The Attendant
-	// Weapons: The Powerjack, The Degreaser
-	if(iIDI == 213 && !EnabledForItem(214) && !EnabledForItem(215))return true;
-
 	// Set: polycount_scout
 	// Hat: The Milkman
 	// Weapons: The Shortstop, The Holy Mackerel, Mad Milk
 	if(iIDI == 219 && !EnabledForItem(220) && !EnabledForItem(221) && !EnabledForItem(222))return true;
-
-	// Set: polycount_spy
-	// Hat: The Familiar Fez
-	// Weapons: L'Etranger, Your Eternal Reward
-	if(iIDI == 223 && !EnabledForItem(224) && !EnabledForItem(225))return true;
 
 	// Set: polycount_soldier
 	// Hat: The Grenadier's Softcap
 	// Weapons: The Battalion's Backup, The Black Box
 	if(iIDI == 227 && !EnabledForItem(226) && !EnabledForItem(228))return true;
 
+	// Set: polycount_pyro
+	// Hat: The Attendant
+	// Weapons: The Powerjack, The Degreaser
+	if(iIDI == 213 && !EnabledForItem(214) && !EnabledForItem(215))return true;
+
+	// Set: polycount_spy
+	// Hat: The Familiar Fez
+	// Weapons: L'Etranger, Your Eternal Reward
+	if(iIDI == 223 && !EnabledForItem(224) && !EnabledForItem(225))return true;
+
 	// The following sets won't be blocked even if sm_tnounlockspls_blocksets is enabled!
 	// Sets without hats: medieval_medic, rapid_repair, hibernating_bear, experts_ordnance
-	// Sets without attributes: gangland_spy, general_suit, drg_victory, black_market, bonk_fan, airborne_armaments, desert_sniper, desert_demo
+	// Sets without attributes: drg_victory, black_market, bonk_fan, gangland_spy, general_suit, swashbucklers_swag, airborne_armaments, desert_sniper, desert_demo
 
 	return false;
 }

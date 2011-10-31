@@ -432,4 +432,20 @@
 	{
 		"it"	"L'Originale"
 	}
+	"TF_DEX_REVOLVER"
+	{
+		"it"	"Il Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"it"	"La Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"it"	"Il Fabbricavedove"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"it"	"Il Corto Circuito"
+	}
 }

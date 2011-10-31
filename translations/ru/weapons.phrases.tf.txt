@@ -34,7 +34,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"ru"	"Феноменальная Сила Боксера"
+		"ru"	"Кулаки Грозного Боксера"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
@@ -154,7 +154,7 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"ru"	"Спаситель"
+		"ru"	"Вита-пила"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -210,7 +210,7 @@
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"ru"	"Кулаки Грозного Бегуна"
+		"ru"	"Горящие Рукавицы Ускорения"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
@@ -431,5 +431,29 @@
 	"TF_THEORIGINAL"
 	{
 		"ru"	"Прародитель"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"ru"	"Алмазный змей"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"ru"	"Махина"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"ru"	"Овдовитель"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"ru"	"Короткое замыкание"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"ru"	"Бутлегер"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"ru"	"Шотландское рукобитие"
 	}
 }

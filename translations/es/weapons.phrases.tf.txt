@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"es"	"Decapitador del Jinete Decapitado Sin Montura"
+		"es"	"El Decapitador del Jinete Decapitado Sin Montura"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -431,5 +431,29 @@
 	"TF_THEORIGINAL"
 	{
 		"es"	"El Original"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"es"	"El Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"es"	"La Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"es"	"La Enviudadora"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"es"	"El Cortocircuitador"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"es"	"El Patapalo"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"es"	"El Saludo Escocés"
 	}
 }

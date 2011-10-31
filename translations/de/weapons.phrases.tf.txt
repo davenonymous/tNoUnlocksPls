@@ -314,7 +314,7 @@
 	}
 	"TF_SHAHANSHAH"
 	{
-		"de"	"Der Shahanshah"
+		"de"	"Der Schahanschah"
 	}
 	"TF_BAZAARBARGAIN"
 	{
@@ -431,5 +431,29 @@
 	"TF_THEORIGINAL"
 	{
 		"de"	"Das Original"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"de"	"Der Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"de"	"Die Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"de"	"Der Witwenmacher"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"de"	"Der Kurzschluss"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"de"	"Der Schwarzhändler"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"de"	"Der Schottische Händedruck"
 	}
 }

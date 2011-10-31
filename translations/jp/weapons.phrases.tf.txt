@@ -1,5 +1,9 @@
 ﻿"Phrases"
 {
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"jp"	"ナターシャ"
+	}
 	"TF_UNIQUE_BATTLESAW"
 	{
 		"jp"	"Vita-Saw"
@@ -59,5 +63,13 @@
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
 		"jp"	"Gloves of Running Urgently"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"jp"	"ホースレス・ヘッドレス・ホースマンズ・ヘッドテイカー"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"jp"	"半分座頭一"
 	}
 }

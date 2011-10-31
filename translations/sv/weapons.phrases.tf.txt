@@ -38,7 +38,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"sv"	"Sandman"
+		"sv"	"John Blund"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
@@ -50,7 +50,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"sv"	"Huntsman"
+		"sv"	"Jägaren"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
@@ -94,7 +94,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"sv"	"Eyelander"
+		"sv"	"Ögländaren"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
@@ -118,7 +118,7 @@
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"sv"	"Ägaren"
+		"sv"	"Plågtåget"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -348,13 +348,17 @@
 	{
 		"sv"	"Frihetsgeväret"
 	}
+	"TF_RESERVESHOOTER"
+	{
+		"sv"	"Reservskjutaren"
+	}
 	"TF_MARKETGARDENER"
 	{
-		"sv"	"Tradgårdsmästaren"
+		"sv"	"Trädgårdsmästaren"
 	}
 	"TF_SAXXY"
 	{
-		"sv"	"Saxxy"
+		"sv"	"Saxxyn"
 	}
 	"TF_TOMISLAV"
 	{
@@ -376,6 +380,10 @@
 	{
 		"sv"	"Komanglaren 5000"
 	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"sv"	"Rättskaffens Bison"
+	}
 	"TF_MANTREADS"
 	{
 		"sv"	"Manstövlarna"
@@ -388,6 +396,14 @@
 	{
 		"sv"	"Läskpopparen"
 	}
+	"TF_WINGER"
+	{
+		"sv"	"Yttern"
+	}
+	"TF_ATOMIZER"
+	{
+		"sv"	"Atomiseraren"
+	}
 	"TF_SCOUTSWORD"
 	{
 		"sv"	"Treruns-svärd"
@@ -396,12 +412,48 @@
 	{
 		"sv"	"Postpucklaren"
 	}
+	"TF_ENFORCER"
+	{
+		"sv"	"Verkställaren"
+	}
+	"TF_BIGEARNER"
+	{
+		"sv"	"Den Stora Löntagaren"
+	}
 	"TF_RFAHAMMER"
 	{
-		"sv"	"Lemlästaren"
+		"sv"	"Släggan"
 	}
 	"TF_NINEIRON"
 	{
 		"sv"	"Nessies Järnnia"
+	}
+	"TF_THEORIGINAL"
+	{
+		"sv"	"Originalet"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"sv"	"Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"sv"	"Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"sv"	"Änkmakaren"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"sv"	"Kortslutningen"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"sv"	"Spritsmugglaren"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"sv"	"Skotska Handslaget"
 	}
 }

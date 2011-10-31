@@ -42,7 +42,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"no"	"Naturkraft"
+		"no"	"Naturkraften"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -284,9 +284,21 @@
 	{
 		"no"	"Detonatoren"
 	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"no"	"Erobreren"
+	}
+	"TF_GUNBAI"
+	{
+		"no"	"Krigsvifte"
+	}
 	"TF_KUNAI"
 	{
 		"no"	"Konspirasjonens kunai"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"no"	"Halv-Zatoichi"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
@@ -320,6 +332,10 @@
 	{
 		"no"	"Kumangler 5000"
 	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"no"	"Rettskaffen bison"
+	}
 	"TF_MAILBOX"
 	{
 		"no"	"Posthamreren"
@@ -331,5 +347,17 @@
 	"TF_NINEIRON"
 	{
 		"no"	"Nessies 9-jern"
+	}
+	"TF_THEORIGINAL"
+	{
+		"no"	"Orginalen"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"no"	"Enkemakeren"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"no"	"Kortslutningen"
 	}
 }

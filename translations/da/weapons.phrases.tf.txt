@@ -10,7 +10,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"da"	"Ubersawen"
+		"da"	"Ubersaven"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
@@ -46,7 +46,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"da"	"Bonk! Atomic Punch læskedrik"
+		"da"	"Bonk! Atomslag"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
@@ -78,7 +78,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"da"	"Equalizeren"
+		"da"	"Udligneren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
@@ -222,7 +222,7 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"da"	"Hesteløse Hovedløse Hestemands Hovedtager"
+		"da"	"Den Hesteløse Hovedløse Hestemands Hovedtager"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -332,6 +332,10 @@
 	{
 		"da"	"Det Højtidelige Løfte"
 	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"da"	"Frihedsfordreren"
+	}
 	"TF_RESERVESHOOTER"
 	{
 		"da"	"Reserveskyderen"
@@ -386,7 +390,7 @@
 	}
 	"TF_ATOMIZER"
 	{
-		"da"	"Spraydåsen"
+		"da"	"Smutteren"
 	}
 	"TF_SCOUTSWORD"
 	{
@@ -404,8 +408,36 @@
 	{
 		"da"	"Den Store Indtjener"
 	}
+	"TF_RFAHAMMER"
+	{
+		"da"	"Muggerten"
+	}
 	"TF_NINEIRON"
 	{
 		"da"	"Nessies Nier-Jern"
+	}
+	"TF_THEORIGINAL"
+	{
+		"da"	"Originalen"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"da"	"Diamantryggen"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"da"	"Machinaen"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"da"	"Enkemageren"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"da"	"Kortslutningen"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"da"	"Det skotske håndtryk"
 	}
 }

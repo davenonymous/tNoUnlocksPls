@@ -2,7 +2,7 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"zho"	"暴擊製造者"
+		"zho"	"爆擊製造者"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
@@ -362,7 +362,7 @@
 	}
 	"TF_TOMISLAV"
 	{
-		"zho"	"湯米斯拉夫"
+		"zho"	"托米斯拉夫"
 	}
 	"TF_RUSSIANRIOT"
 	{
@@ -427,5 +427,33 @@
 	"TF_NINEIRON"
 	{
 		"zho"	"尼斯九號鐵桿"
+	}
+	"TF_THEORIGINAL"
+	{
+		"zho"	"原型雷神火炮"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"zho"	"鑽紋響尾蛇"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"zho"	"神授貫殺獵槍"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"zho"	"黑寡夫"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"zho"	"脈衝電場放射儀"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"zho"	"私藏海盜靴"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"zho"	"蘇格蘭式握手禮"
 	}
 }

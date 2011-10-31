@@ -86,7 +86,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"ko"	"스코티쉬 레지스탕스"
+		"ko"	"스코티시 레지스탕스"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
@@ -268,6 +268,18 @@
 	{
 		"ko"	"정복자"
 	}
+	"TF_GUNBAI"
+	{
+		"ko"	"죽음의 부채"
+	}
+	"TF_KUNAI"
+	{
+		"ko"	"간자의 수리검"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"ko"	"반쯤 자토이치"
+	}
 	"TF_BAZAARBARGAIN"
 	{
 		"ko"	"벼룩 시장품"
@@ -290,11 +302,11 @@
 	}
 	"TF_OVERDOSE"
 	{
-		"ko"	"약물 과입기"
+		"ko"	"약물 남용"
 	}
 	"TF_SOLEMNVOW"
 	{
-		"ko"	"장엄 서원상"
+		"ko"	"엄숙한 맹세"
 	}
 	"TF_RESERVESHOOTER"
 	{
@@ -347,5 +359,17 @@
 	"TF_ENFORCER"
 	{
 		"ko"	"집행자"
+	}
+	"TF_RFAHAMMER"
+	{
+		"ko"	"몰"
+	}
+	"TF_THEORIGINAL"
+	{
+		"ko"	"원조"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"ko"	"다이아몬드백"
 	}
 }
