@@ -4,8 +4,12 @@
 #include <vanillaweps>
 #include <adminmenu>
 #include <colors>
+#undef REQUIRE_PLUGIN
+#include <updater>
 
-#define VERSION	"0.2.2"
+#define UPDATE_URL    "http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.cfg"
+
+#define VERSION	"0.2.3"
 #define MAXITEMS	192
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
@@ -53,6 +57,10 @@ new g_xItems[MAXITEMS][Item];
 new g_iWeaponCount = 0;
 
 public OnPluginStart() {
+	if (LibraryExists("updater")) {
+		Updater_AddPlugin(UPDATE_URL);
+	}
+
 	CreateConVar("sm_tnounlockspls_version", VERSION, "[TF2] tNoUnlocksPls", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
@@ -94,6 +102,10 @@ public OnPluginStart() {
 	}
 
 	AutoExecConfig();
+}
+
+public OnLibraryAdded(const String:name[]) {
+    if (StrEqual(name, "updater"))Updater_AddPlugin(UPDATE_URL);
 }
 
 public Cvar_Changed(Handle:convar, const String:oldValue[], const String:newValue[]) {
