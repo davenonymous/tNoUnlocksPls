@@ -448,6 +448,10 @@
 	{
 		"fr"	"Le Court-Circuit"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"fr"	"Combat à main nue"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"fr"	"Le contrebandier"

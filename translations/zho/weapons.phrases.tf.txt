@@ -138,7 +138,7 @@
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"zho"	"暴擊可樂"
+		"zho"	"爆擊可樂"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
@@ -447,6 +447,14 @@
 	"TF_DEX_PISTOL"
 	{
 		"zho"	"脈衝電場放射儀"
+	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"zho"	"一臂之力"
+	}
+	"TF_VOODOOPIN"
+	{
+		"zho"	"巫毒咒錐"
 	}
 	"TF_BOOTLEGGER"
 	{

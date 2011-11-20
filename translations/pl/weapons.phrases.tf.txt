@@ -448,6 +448,18 @@
 	{
 		"pl"	"Krótkie Spięcie"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"pl"	"Rękodzieło"
+	}
+	"TF_VOODOOPIN"
+	{
+		"pl"	"Kłujka Voodoo"
+	}
+	"TF_APOCOFISTS"
+	{
+		"pl"	"Piąchokalipsa"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"pl"	"Kuternoga"

@@ -456,6 +456,10 @@
 	{
 		"en"	"Wanga Prick"
 	}
+	"TF_APOCOFISTS"
+	{
+		"en"	"Apoco-Fists"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"en"	"Bootlegger"

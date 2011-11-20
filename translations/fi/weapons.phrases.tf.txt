@@ -448,6 +448,14 @@
 	{
 		"fi"	"Pallosalama"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"fi"	"Käsittämätön ase"
+	}
+	"TF_VOODOOPIN"
+	{
+		"fi"	"Mustan magian piikki"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"fi"	"Piraatin puujalka"

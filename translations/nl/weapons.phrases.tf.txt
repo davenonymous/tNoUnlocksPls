@@ -448,6 +448,18 @@
 	{
 		"nl"	"De Kortsluiter"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"nl"	"Ontarmd Gevecht"
+	}
+	"TF_VOODOOPIN"
+	{
+		"nl"	"De Wanga-Steek"
+	}
+	"TF_APOCOFISTS"
+	{
+		"nl"	"Apoco-Vuisten"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"nl"	"De Smokkelaar"

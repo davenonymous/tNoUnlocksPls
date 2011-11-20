@@ -448,6 +448,18 @@
 	{
 		"es"	"El Cortocircuitador"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"es"	"Combate Desarmado"
+	}
+	"TF_VOODOOPIN"
+	{
+		"es"	"El Aguijón Wanga"
+	}
+	"TF_APOCOFISTS"
+	{
+		"es"	"Puños Cataclísmicos"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"es"	"El Patapalo"

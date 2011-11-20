@@ -312,9 +312,21 @@
 	{
 		"ro"	"Zatoichi-njumătăţit"
 	}
+	"TF_SHAHANSHAH"
+	{
+		"ro"	"Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"ro"	"Afacerea din Bazar"
+	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
 		"ro"	"Papuceii lui Ali Baba"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"ro"	"Scutul Splendid"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
@@ -331,6 +343,10 @@
 	"TF_LIBERTYLAUNCHER"
 	{
 		"ro"	"Lansatorul Libertăţii"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"ro"	"Pușca de Rezervă"
 	}
 	"TF_MARKETGARDENER"
 	{
@@ -351,6 +367,10 @@
 	"TF_EVICTIONNOTICE"
 	{
 		"ro"	"Nota de Evacuare"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"ro"	"Prăjitura din Pește"
 	}
 	"TF_COWMANGLER"
 	{
@@ -407,6 +427,14 @@
 	"TF_DEX_REVOLVER"
 	{
 		"ro"	"Spatele de Diamant"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"ro"	"Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"ro"	"Văduvitorul"
 	}
 	"TF_DEX_PISTOL"
 	{

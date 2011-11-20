@@ -448,6 +448,18 @@
 	{
 		"ru"	"Короткое замыкание"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"ru"	"Голая рука"
+	}
+	"TF_VOODOOPIN"
+	{
+		"ru"	"Иголка вуду"
+	}
+	"TF_APOCOFISTS"
+	{
+		"ru"	"Кулако-покалипсис"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"ru"	"Бутлегер"

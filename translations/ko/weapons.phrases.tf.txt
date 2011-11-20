@@ -42,7 +42,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"ko"	"포스-어-네이쳐"
+		"ko"	"포스-어-네이처"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"ko"	"다윈의 회로판"
+		"ko"	"다윈의 차단막"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -252,21 +252,29 @@
 	{
 		"ko"	"지팡이 사탕"
 	}
+	"TF_BOSTONBASHER"
+	{
+		"ko"	"보스턴 깡패"
+	}
 	"TF_BACKSCRATCHER"
 	{
 		"ko"	"효자손"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"ko"	"클레이모어"
+		"ko"	"클레이뎀 모어"
 	}
 	"TF_FISTSOFSTEEL"
 	{
 		"ko"	"강철 주먹"
 	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"ko"	"선-온-어-스틱"
+	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"ko"	"정복자"
+		"ko"	"전복자"
 	}
 	"TF_GUNBAI"
 	{
@@ -279,6 +287,10 @@
 	"TF_SOLDIERKATANA"
 	{
 		"ko"	"반쯤 자토이치"
+	}
+	"TF_SHAHANSHAH"
+	{
+		"ko"	"샤한샤"
 	}
 	"TF_BAZAARBARGAIN"
 	{
@@ -322,7 +334,7 @@
 	}
 	"TF_RUSSIANRIOT"
 	{
-		"ko"	"계승 사업"
+		"ko"	"가족 사업"
 	}
 	"TF_EVICTIONNOTICE"
 	{
@@ -360,6 +372,10 @@
 	{
 		"ko"	"집행자"
 	}
+	"TF_BIGEARNER"
+	{
+		"ko"	"재력가"
+	}
 	"TF_RFAHAMMER"
 	{
 		"ko"	"몰"
@@ -371,5 +387,13 @@
 	"TF_DEX_REVOLVER"
 	{
 		"ko"	"다이아몬드백"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"ko"	"마키나"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"ko"	"과부 제조기"
 	}
 }

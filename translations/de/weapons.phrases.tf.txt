@@ -448,6 +448,18 @@
 	{
 		"de"	"Der Kurzschluss"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"de"	"Freihändiger Nahkampf"
+	}
+	"TF_VOODOOPIN"
+	{
+		"de"	"Die Wanga-Nadel"
+	}
+	"TF_APOCOFISTS"
+	{
+		"de"	"Apoka-Fäuste"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"de"	"Der Schwarzhändler"

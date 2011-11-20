@@ -448,6 +448,10 @@
 	{
 		"sv"	"Kortslutningen"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"sv"	"Obeväpnad Strid"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"sv"	"Spritsmugglaren"

@@ -434,7 +434,7 @@
 	}
 	"TF_DEX_RIFLE"
 	{
-		"chi"	"机械大帝"
+		"chi"	"鬼械神狙"
 	}
 	"TF_DEX_SHOTGUN"
 	{
@@ -443,6 +443,14 @@
 	"TF_DEX_PISTOL"
 	{
 		"chi"	"短路发生器"
+	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"chi"	"一臂之力"
+	}
+	"TF_VOODOOPIN"
+	{
+		"chi"	"巫毒刺钉"
 	}
 	"TF_BOOTLEGGER"
 	{

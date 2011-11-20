@@ -436,6 +436,10 @@
 	{
 		"da"	"Kortslutningen"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"da"	"Ubevæbnet kamp"
+	}
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"da"	"Det skotske håndtryk"
