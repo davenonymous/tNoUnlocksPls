@@ -3,8 +3,11 @@
 #include <tf2_stocks>
 #include <tNoUnlocksPls>
 #include <smlib>
+#undef REQUIRE_PLUGIN
+#include <updater>
 
 #define VERSION			"0.3.0"
+#define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.noext.cfg"
 
 #define WEIGHT			10
 
@@ -22,6 +25,10 @@ public Plugin:myinfo = {
 public OnPluginStart() {
 	CreateConVar("sm_tnounlockspls_noext_version", VERSION, "[TF2] tNoUnlocksPls - NoExtension", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
+	if (LibraryExists("updater")) {
+		Updater_AddPlugin(UPDATE_URL);
+	}
+
 	if (LibraryExists("tNoUnlocksPls")) {
 		tNUP_ReportWeight(WEIGHT);
 		g_bCoreAvailable = true;
@@ -35,6 +42,8 @@ public OnLibraryAdded(const String:name[]) {
     	tNUP_ReportWeight(WEIGHT);
     	g_bCoreAvailable = true;
     }
+
+    if (StrEqual(name, "updater"))Updater_AddPlugin(UPDATE_URL);
 }
 
 public OnLibraryRemoved(const String:name[]) {

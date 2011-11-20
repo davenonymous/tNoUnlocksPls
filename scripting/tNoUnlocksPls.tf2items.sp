@@ -4,8 +4,11 @@
 #include <tNoUnlocksPls>
 #include <smlib>
 #include <tf2items>
+#undef REQUIRE_PLUGIN
+#include <updater>
 
 #define VERSION			"0.3.0"
+#define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.tf2items.cfg"
 
 #define WEIGHT			50
 
@@ -22,6 +25,10 @@ public Plugin:myinfo = {
 public OnPluginStart() {
 	CreateConVar("sm_tnounlockspls_tf2items_version", VERSION, "[TF2] tNoUnlocksPls - TF2Items", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
+	if (LibraryExists("updater")) {
+		Updater_AddPlugin(UPDATE_URL);
+	}
+
 	if (LibraryExists("tNoUnlocksPls")) {
 		tNUP_ReportWeight(WEIGHT);
 		g_bCoreAvailable = true;
@@ -33,6 +40,8 @@ public OnLibraryAdded(const String:name[]) {
     	tNUP_ReportWeight(WEIGHT);
     	g_bCoreAvailable = true;
     }
+
+    if (StrEqual(name, "updater"))Updater_AddPlugin(UPDATE_URL);
 }
 
 public OnLibraryRemoved(const String:name[]) {
