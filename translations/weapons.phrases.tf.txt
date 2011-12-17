@@ -1,4 +1,4 @@
-﻿"Phrases"
+"Phrases"
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
