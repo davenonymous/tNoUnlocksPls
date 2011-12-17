@@ -6,7 +6,7 @@
 #include <updater>
 
 #define VERSION			"0.4.0"
-#define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.menu.basic.cfg"
+#define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.menu.cfg"
 
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
