@@ -424,6 +424,10 @@
 	{
 		"fi"	"Mahtimoukari"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"fi"	"Aseistakieltäytyjä"
+	}
 	"TF_NINEIRON"
 	{
 		"fi"	"Riiviön rautaysi"

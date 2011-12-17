@@ -424,6 +424,10 @@
 	{
 		"en"	"Maul"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"en"	"Conscientious Objector"
+	}
 	"TF_NINEIRON"
 	{
 		"en"	"Nessie's Nine Iron"

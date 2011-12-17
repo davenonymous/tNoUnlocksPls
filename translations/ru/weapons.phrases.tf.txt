@@ -424,6 +424,10 @@
 	{
 		"ru"	"Молот"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"ru"	"Идейный уклонист"
+	}
 	"TF_NINEIRON"
 	{
 		"ru"	"Железная девятка Несси"

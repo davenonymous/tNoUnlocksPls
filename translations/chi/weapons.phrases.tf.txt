@@ -420,6 +420,10 @@
 	{
 		"chi"	"破坏锤"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"chi"	"有良心的示威者标志牌"
+	}
 	"TF_NINEIRON"
 	{
 		"chi"	"尼斯的九号铁杆"

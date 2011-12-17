@@ -424,6 +424,10 @@
 	{
 		"pl"	"Maul"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"pl"	"Obdżektor"
+	}
 	"TF_NINEIRON"
 	{
 		"pl"	"Żelazna Nessie"

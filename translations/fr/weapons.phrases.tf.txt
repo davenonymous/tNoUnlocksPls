@@ -424,6 +424,10 @@
 	{
 		"fr"	"La Masse"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"fr"	"L'objecteur de conscience"
+	}
 	"TF_NINEIRON"
 	{
 		"fr"	"Fer N°9 de Nessie"

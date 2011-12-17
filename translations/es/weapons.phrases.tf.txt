@@ -424,6 +424,10 @@
 	{
 		"es"	"El Mutilador"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"es"	"El Manifestante Concienzudo"
+	}
 	"TF_NINEIRON"
 	{
 		"es"	"Hierro del Nueve de Nessie"

@@ -2,478 +2,478 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"nl"	"De Kritzkrieg"
+		"hu"	"A Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"nl"	"De Blutsauger"
+		"hu"	"A Vérszivattyú"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"nl"	"De Überzaag"
+		"hu"	"Az Agyonfűrész"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"nl"	"De Bijlblusser"
+		"hu"	"A Fejhasogató"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"nl"	"Het Lichtpistool"
+		"hu"	"A Jelzőpisztoly"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"nl"	"De Rugbrander"
+		"hu"	"A Beégető"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"nl"	"Natascha"
+		"hu"	"Natasa"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"nl"	"De Sandvich"
+		"hu"	"A Szendvics"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"nl"	"De Moordende Handschoenen van het Boksen"
+		"hu"	"A Gyilkos Bokszkesztyűk"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"nl"	"De Klaas Vaak"
+		"hu"	"A Testápoló"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"nl"	"De Kracht-der-Natuur"
+		"hu"	"Az Elsöprögető"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"nl"	"Bonk! Atomische Stoot"
+		"hu"	"Poff! Atompuncs"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"nl"	"De Jachtman"
+		"hu"	"A Levadász"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"nl"	"De Scheermesrug"
+		"hu"	"A Visszavágó"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"nl"	"Jarate"
+		"hu"	"Vizelharc"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"nl"	"De Doodse Gelijkenis"
+		"hu"	"A Haláli Ketyegő"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"nl"	"De Verhul en Dolk"
+		"hu"	"Az Állvaálca"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"nl"	"De Ambassadeur"
+		"hu"	"A Nagykövet"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"nl"	"De Directe Inslag"
+		"hu"	"A Telibe Találat"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"nl"	"De Gelijkmaker"
+		"hu"	"Az egyenlítő"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"nl"	"Het Versterkende Banier"
+		"hu"	"A Lázító Lobogó"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"nl"	"De Schotse Weerstand"
+		"hu"	"A Skót Ellenállás"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"nl"	"Het Stormende Schild"
+		"hu"	"A Rohamozó Paizs"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"nl"	"De Ooglander"
+		"hu"	"Az Egyetlen"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"nl"	"De Kanonneerboten"
+		"hu"	"Az Acélbetétes"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"nl"	"De Beteugelaar"
+		"hu"	"Az Idomító"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"nl"	"De Grensgerechtigheid"
+		"hu"	"Az Önbíráskodó"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"nl"	"De Geweerslinger"
+		"hu"	"A Fegyverforgató"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"nl"	"De Huizenbreker"
+		"hu"	"A Laklerendező"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"nl"	"De Pijntrein"
+		"hu"	"A Szúró Fájdalom"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"nl"	"De Zuiderse Gastvrijheid"
+		"hu"	"A Délvidéki Vendégszeretet"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"nl"	"De Dalokohsreep"
+		"hu"	"A Dalokohs Szelet"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"nl"	"De Lugermorph"
+		"hu"	"A Lugerszerűség"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"nl"	"De Grote Dood"
+		"hu"	"A Nagy Gyilok"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"nl"	"Crit-de-Cola"
+		"hu"	"Krit-a-Kóla"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"nl"	"De Gouden Moersleutel"
+		"hu"	"Az Arany franciakulcs"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"nl"	"De Stammenmannenshiv"
+		"hu"	"A Törzsi Bökő"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"nl"	"De Schotse Schedelhouwer"
+		"hu"	"A Skót Fejtörő"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"nl"	"De Vita-Zaag"
+		"hu"	"Az Életbe-Vágó"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"nl"	"De Krachtkrik"
+		"hu"	"Az Életerő-emelő"
 	}
 	"TF_THEDEGREASER"
 	{
-		"nl"	"De Ontvetter"
+		"hu"	"A Zsíroldó"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"nl"	"De Korte Stop"
+		"hu"	"A Megállító"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"nl"	"De Heilige Makreel"
+		"hu"	"A Magasságos Makréla"
 	}
 	"TF_MADMILK"
 	{
-		"nl"	"Maffe Melk"
+		"hu"	"Kerge Tej"
 	}
 	"TF_LETRANGER"
 	{
-		"nl"	"L'Étranger"
+		"hu"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"nl"	"Je Eeuwige Beloning"
+		"hu"	"Örökké tartó jutalmad"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"nl"	"Back-up van het Bataljon"
+		"hu"	"Az Ezred Erősítése"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"nl"	"De Zwarte Doos"
+		"hu"	"Fekete Doboz"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"nl"	"De Sydney Slaper"
+		"hu"	"A Sydney-i Pisi-Puska"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"nl"	"Darwins Gevaarschild"
+		"hu"	"Darwin Dacos Pajzsa"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"nl"	"De Bushwacka"
+		"hu"	"A Bozótverő"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"nl"	"De Raketspringer"
+		"hu"	"A Rakétaugró"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"nl"	"De Haastige Handschoenen"
+		"hu"	"A Sürgős Sprintelés Bokszkesztyűi"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"nl"	"De Braadpan"
+		"hu"	"A Serpenyő"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"nl"	"De Kleefbomspringer"
+		"hu"	"A Tapadóbomba-ugró"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"nl"	"De Paardloze Hoofdloze Paardmanns Hoofdnemer"
+		"hu"	"A Lovatlan Fejetlen Lovas Fejvevője"
 	}
 	"TF_TTG_WATCH"
 	{
-		"nl"	"Het Enthousiastelingenuurwerk"
+		"hu"	"A Fanatikus Időmérője"
 	}
 	"TF_IRON_CURTAIN"
 	{
-		"nl"	"Het IJzeren Gordijn"
+		"hu"	"A Vasfüggöny"
 	}
 	"TF_AMPUTATOR"
 	{
-		"nl"	"De Amputeerder"
+		"hu"	"Az Amputáló"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"nl"	"De Kruisvaarders Kruisboog"
+		"hu"	"A Szamaritánus Számszeríja"
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"nl"	"De Suizende Schotsman"
+		"hu"	"A Kot-Nyeles Gránát"
 	}
 	"TF_LOCHNLOAD"
 	{
-		"nl"	"De Loch-n-Laad"
+		"hu"	"A Loch-nesze-szörny"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"nl"	"De Krijgersgeest"
+		"hu"	"A Harci Szellem"
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"nl"	"De Buffelbiefstuksandvich"
+		"hu"	"A Bivaly Bélszín Szendvics"
 	}
 	"TF_GATLINGGUN"
 	{
-		"nl"	"Het Messingen Monster"
+		"hu"	"A Bronz Bestia"
 	}
 	"TF_CANDYCANE"
 	{
-		"nl"	"De Zuurstok"
+		"hu"	"A Cukorpálca"
 	}
 	"TF_BOSTONBASHER"
 	{
-		"nl"	"De Bostonbeuker"
+		"hu"	"A Bostoni Beverő"
 	}
 	"TF_BACKSCRATCHER"
 	{
-		"nl"	"De Ruggenkrabber"
+		"hu"	"A Hátvakaró"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"nl"	"De Claidheamh Mòr"
+		"hu"	"A Claidheamh Mòr"
 	}
 	"TF_JAG"
 	{
-		"nl"	"De Kartel"
+		"hu"	"A Sürgető"
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"nl"	"De Vuisten van Staal"
+		"hu"	"A Vasöklök"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
-		"nl"	"Geslepen Vulkaanfragment"
+		"hu"	"Tűéles Tűzhányó Töredék"
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"nl"	"De Zon-op-een-Stok"
+		"hu"	"A Nappálca"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"nl"	"De Ontsteker"
+		"hu"	"A Detonátor"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"nl"	"Veroveraarsschelp"
+		"hu"	"Kürt-ölő"
 	}
 	"TF_GUNBAI"
 	{
-		"nl"	"Oorlogswaaier"
+		"hu"	"Haláli Legyező"
 	}
 	"TF_KUNAI"
 	{
-		"nl"	"Complotteerders Kunai"
+		"hu"	"Kétszínű Kunai"
 	}
 	"TF_SOLDIERKATANA"
 	{
-		"nl"	"Half-Zatoichi"
+		"hu"	"Fél-Zatoichi"
 	}
 	"TF_SHAHANSHAH"
 	{
-		"nl"	"De Shahanshah"
+		"hu"	"A Sahinsah"
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"nl"	"Het Bazarenkoopje"
+		"hu"	"A Bazári Bizsu"
 	}
 	"TF_PERSIANPERSUADER"
 	{
-		"nl"	"De Ottomaanse Overtuiger"
+		"hu"	"A Perzsa Penge"
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
-		"nl"	"Ali Baba's Kleine Schoentjes"
+		"hu"	"Ali Baba Mesés Csizmái"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
-		"nl"	"Het Schitterende Scherm"
+		"hu"	"A Pompás Pajzs"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"nl"	"De Snelle Herstelling"
+		"hu"	"A Gyorsbeavatkozás"
 	}
 	"TF_OVERDOSE"
 	{
-		"nl"	"De Overdosis"
+		"hu"	"A Túladagoló"
 	}
 	"TF_SOLEMNVOW"
 	{
-		"nl"	"De Plechtige Belofte"
+		"hu"	"Az Ünnepi Fogadalom"
 	}
 	"TF_LIBERTYLAUNCHER"
 	{
-		"nl"	"De Vrijheidswerper"
+		"hu"	"A Szabadságvető"
 	}
 	"TF_RESERVESHOOTER"
 	{
-		"nl"	"De Reserveschieter"
+		"hu"	"A Tartalékos Sörétes"
 	}
 	"TF_MARKETGARDENER"
 	{
-		"nl"	"De Markttuinier"
+		"hu"	"A Gerillakertész"
 	}
 	"TF_SAXXY"
 	{
-		"nl"	"De Saxxy"
+		"hu"	"A Saxxy"
 	}
 	"TF_TOMISLAV"
 	{
-		"nl"	"Tomislav"
+		"hu"	"Tomiszlav"
 	}
 	"TF_RUSSIANRIOT"
 	{
-		"nl"	"De Familiezaken"
+		"hu"	"A Családi Vállakozás"
 	}
 	"TF_EVICTIONNOTICE"
 	{
-		"nl"	"Het Uitzettingsbevel"
+		"hu"	"A Kilakoltatási Felszólítás"
 	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
-		"nl"	"Viskoek"
+		"hu"	"Halpogácsa"
 	}
 	"TF_COWMANGLER"
 	{
-		"nl"	"De Koeienverscheurder 5000"
+		"hu"	"A Tehéncsonkító 5000"
 	}
 	"TF_RIGHTEOUSBISON"
 	{
-		"nl"	"De Rechtvaardige Bizon"
+		"hu"	"Az Igaz Bölény"
 	}
 	"TF_MANTREADS"
 	{
-		"nl"	"De Manzolen"
+		"hu"	"Az Arctaposó"
 	}
 	"TF_DISCIPLINARYACTION"
 	{
-		"nl"	"De Disciplinaire Actie"
+		"hu"	"A Fegyelmi Eljárás"
 	}
 	"TF_SODAPOPPER"
 	{
-		"nl"	"De Frisdrankknaller"
+		"hu"	"Az Üdítő Ürítő"
 	}
 	"TF_WINGER"
 	{
-		"nl"	"De Flanker"
+		"hu"	"A Szárny-segéd"
 	}
 	"TF_ATOMIZER"
 	{
-		"nl"	"De Atoomeerder"
+		"hu"	"Az Atomizáló"
 	}
 	"TF_SCOUTSWORD"
 	{
-		"nl"	"Drie-Runenzwaard"
+		"hu"	"Háromrúnás penge"
 	}
 	"TF_MAILBOX"
 	{
-		"nl"	"De Brievenbeuker"
+		"hu"	"A Postai Püfölő"
 	}
 	"TF_ENFORCER"
 	{
-		"nl"	"De Bekrachtiger"
+		"hu"	"A Behajtó"
 	}
 	"TF_BIGEARNER"
 	{
-		"nl"	"De Grote Verdiener"
+		"hu"	"A Nagy Hal"
 	}
 	"TF_RFAHAMMER"
 	{
-		"nl"	"De Strijdhamer"
+		"hu"	"A Samu"
 	}
 	"TF_CONSCIENTIOUSOBJECTOR"
 	{
-		"nl"	"De Gewetenrijke Bezwaarder"
+		"hu"	"A Lelkiismeretes Ellenző"
 	}
 	"TF_NINEIRON"
 	{
-		"nl"	"Nessie's Negen IJzer"
+		"hu"	"A Küklopsz Kilences Vasa"
 	}
 	"TF_THEORIGINAL"
 	{
-		"nl"	"De Original"
+		"hu"	"Az Eredeti"
 	}
 	"TF_DEX_REVOLVER"
 	{
-		"nl"	"De Diamantrug"
+		"hu"	"A Diamondback"
 	}
 	"TF_DEX_RIFLE"
 	{
-		"nl"	"De Machina"
+		"hu"	"A Machina"
 	}
 	"TF_DEX_SHOTGUN"
 	{
-		"nl"	"De Weduwemaker"
+		"hu"	"A Widowmaker"
 	}
 	"TF_DEX_PISTOL"
 	{
-		"nl"	"De Kortsluiter"
+		"hu"	"A Rövidzárlat"
 	}
 	"TF_UNARMEDCOMBAT"
 	{
-		"nl"	"Ontarmd Gevecht"
+		"hu"	"Kézzelharc"
 	}
 	"TF_VOODOOPIN"
 	{
-		"nl"	"De Wanga-Steek"
+		"hu"	"A Wanga Tövis"
 	}
 	"TF_APOCOFISTS"
 	{
-		"nl"	"Apoco-Vuisten"
+		"hu"	"Végütélet"
 	}
 	"TF_BOOTLEGGER"
 	{
-		"nl"	"De Smokkelaar"
+		"hu"	"A Félfaláb"
 	}
 	"TF_SCOTTISHHANDSHAKE"
 	{
-		"nl"	"De Schotse Handdruk"
+		"hu"	"A Skót Kézfogás"
 	}
 	"TF_SHARPDRESSER"
 	{
-		"nl"	"De Scherp Geklede"
+		"hu"	"A Jóvágású"
 	}
 }

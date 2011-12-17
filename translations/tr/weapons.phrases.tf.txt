@@ -2,478 +2,478 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"nl"	"De Kritzkrieg"
+		"tr"	"KRITZKRIEG"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"nl"	"De Blutsauger"
+		"tr"	"KAN EMİCİ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"nl"	"De Überzaag"
+		"tr"	"ÜBERTESTERE"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"nl"	"De Bijlblusser"
+		"tr"	"YANGIN ÖLDÜRÜCÜ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"nl"	"Het Lichtpistool"
+		"tr"	"İŞARET FİŞEĞİ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"nl"	"De Rugbrander"
+		"tr"	"SIRTYAKAR"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"nl"	"Natascha"
+		"tr"	"NATAŞA"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"nl"	"De Sandvich"
+		"tr"	"SANDVİÇ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"nl"	"De Moordende Handschoenen van het Boksen"
+		"tr"	"KİTLE GEBERTİCİ BOKS ELDİVENLERİ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"nl"	"De Klaas Vaak"
+		"tr"	"UYKU PERİSİ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"nl"	"De Kracht-der-Natuur"
+		"tr"	"KONTROLSÜZ GÜÇ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"nl"	"Bonk! Atomische Stoot"
+		"tr"	"BONK! ATOMİK KUVVET"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"nl"	"De Jachtman"
+		"tr"	"AVCI"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"nl"	"De Scheermesrug"
+		"tr"	"JİLETSIRT"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"nl"	"Jarate"
+		"tr"	"KAVATE"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"nl"	"De Doodse Gelijkenis"
+		"tr"	"KUSURSUZ KOPYA"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"nl"	"De Verhul en Dolk"
+		"tr"	"PELERİN VE HANÇER"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"nl"	"De Ambassadeur"
+		"tr"	"ELÇİ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"nl"	"De Directe Inslag"
+		"tr"	"DİREKT VURUŞ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"nl"	"De Gelijkmaker"
+		"tr"	"DENGELEYİCİ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"nl"	"Het Versterkende Banier"
+		"tr"	"DESTEK SANCAĞI"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"nl"	"De Schotse Weerstand"
+		"tr"	"İSKOÇ DİRENCİ"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"nl"	"Het Stormende Schild"
+		"tr"	"HÜCUM KALKANI"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"nl"	"De Ooglander"
+		"tr"	"GÖZ PARLATAN"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"nl"	"De Kanonneerboten"
+		"tr"	"KORUYUCU BOTLAR"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"nl"	"De Beteugelaar"
+		"tr"	"KOVBOY"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"nl"	"De Grensgerechtigheid"
+		"tr"	"YARGISIZ İNFAZ"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"nl"	"De Geweerslinger"
+		"tr"	"SİLAHŞÖR"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"nl"	"De Huizenbreker"
+		"tr"	"YUVAYIKAN"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"nl"	"De Pijntrein"
+		"tr"	"ACI DENEYİM"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"nl"	"De Zuiderse Gastvrijheid"
+		"tr"	"GÜNEY MİSAFİRPERVERLİĞİ"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"nl"	"De Dalokohsreep"
+		"tr"	"DALOKOH ÇİKOLATASI"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"nl"	"De Lugermorph"
+		"tr"	"LUGERMORPH"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"nl"	"De Grote Dood"
+		"tr"	"BIG KILL"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"nl"	"Crit-de-Cola"
+		"tr"	"KRİTİK KOLA"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"nl"	"De Gouden Moersleutel"
+		"tr"	"ALTIN İNGİLİZ ANAHTARI"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"nl"	"De Stammenmannenshiv"
+		"tr"	"KABİLE SUSTALISI"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"nl"	"De Schotse Schedelhouwer"
+		"tr"	"İSKOÇ KELLE KESERİ"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"nl"	"De Vita-Zaag"
+		"tr"	"VİTATESTERE"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"nl"	"De Krachtkrik"
+		"tr"	"AKÜLÜ KRİKOLYOZ"
 	}
 	"TF_THEDEGREASER"
 	{
-		"nl"	"De Ontvetter"
+		"tr"	"YAĞYAKAR"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"nl"	"De Korte Stop"
+		"tr"	"KISA FREN"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"nl"	"De Heilige Makreel"
+		"tr"	"KUTSAL PALAMUT"
 	}
 	"TF_MADMILK"
 	{
-		"nl"	"Maffe Melk"
+		"tr"	"BOZUK SÜT"
 	}
 	"TF_LETRANGER"
 	{
-		"nl"	"L'Étranger"
+		"tr"	"YABANCI"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"nl"	"Je Eeuwige Beloning"
+		"tr"	"EBEDİ ÖDÜLÜN"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"nl"	"Back-up van het Bataljon"
+		"tr"	"TÜMEN DESTEĞİ"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"nl"	"De Zwarte Doos"
+		"tr"	"KARA KUTU"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"nl"	"De Sydney Slaper"
+		"tr"	"SİDNEY UYKUCUSU"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"nl"	"Darwins Gevaarschild"
+		"tr"	"DARWIN'İN TEHLİKE KALKANI"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"nl"	"De Bushwacka"
+		"tr"	"ÇALIBİÇER"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"nl"	"De Raketspringer"
+		"tr"	"ROKET ZIPLATICISI"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"nl"	"De Haastige Handschoenen"
+		"tr"	"GERÇEK RANDIMANA ULAŞTIRICILAR"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"nl"	"De Braadpan"
+		"tr"	"KIZARTMA TAVASI"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"nl"	"De Kleefbomspringer"
+		"tr"	"YAPIŞKAN ZIPLATICISI"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"nl"	"De Paardloze Hoofdloze Paardmanns Hoofdnemer"
+		"tr"	"HORSELESS HEADLESS HORSEMANN'İN KELLE ALICISI"
 	}
 	"TF_TTG_WATCH"
 	{
-		"nl"	"Het Enthousiastelingenuurwerk"
+		"tr"	"KOLEKSİYONCUNUN SAATİ"
 	}
 	"TF_IRON_CURTAIN"
 	{
-		"nl"	"Het IJzeren Gordijn"
+		"tr"	"DEMİR PERDE"
 	}
 	"TF_AMPUTATOR"
 	{
-		"nl"	"De Amputeerder"
+		"tr"	"CERRAH"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"nl"	"De Kruisvaarders Kruisboog"
+		"tr"	"AKINCININ ARBALETİ"
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"nl"	"De Suizende Schotsman"
+		"tr"	"ULLAPOOL OYUN SIRIĞI"
 	}
 	"TF_LOCHNLOAD"
 	{
-		"nl"	"De Loch-n-Laad"
+		"tr"	"İSKOÇ CANAVARI"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"nl"	"De Krijgersgeest"
+		"tr"	"SAVAŞÇININ RUHU"
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"nl"	"De Buffelbiefstuksandvich"
+		"tr"	"BİZON BİFTEKLİ SANDVİÇ"
 	}
 	"TF_GATLINGGUN"
 	{
-		"nl"	"Het Messingen Monster"
+		"tr"	"PİRİNÇ CANAVAR"
 	}
 	"TF_CANDYCANE"
 	{
-		"nl"	"De Zuurstok"
+		"tr"	"ŞEKER KAMIŞI"
 	}
 	"TF_BOSTONBASHER"
 	{
-		"nl"	"De Bostonbeuker"
+		"tr"	"BOSTON'LI VURUCU"
 	}
 	"TF_BACKSCRATCHER"
 	{
-		"nl"	"De Ruggenkrabber"
+		"tr"	"SIRT KAŞIYICI"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"nl"	"De Claidheamh Mòr"
+		"tr"	"MEŞHUR İSKOÇ KILICI"
 	}
 	"TF_JAG"
 	{
-		"nl"	"De Kartel"
+		"tr"	"ÇENTİK"
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"nl"	"De Vuisten van Staal"
+		"tr"	"DEMİR YUMRUK"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
-		"nl"	"Geslepen Vulkaanfragment"
+		"tr"	"SİVRELTİLMİŞ VOLKAN PARÇASI"
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"nl"	"De Zon-op-een-Stok"
+		"tr"	"GÜNEŞ ASASI"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"nl"	"De Ontsteker"
+		"tr"	"PATLATICI"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"nl"	"Veroveraarsschelp"
+		"tr"	"FATİH"
 	}
 	"TF_GUNBAI"
 	{
-		"nl"	"Oorlogswaaier"
+		"tr"	"HARP MÜPTELASI"
 	}
 	"TF_KUNAI"
 	{
-		"nl"	"Complotteerders Kunai"
+		"tr"	"İŞBİRLİKÇİNİN KUNAISİ"
 	}
 	"TF_SOLDIERKATANA"
 	{
-		"nl"	"Half-Zatoichi"
+		"tr"	"YARIM ZATOICHI"
 	}
 	"TF_SHAHANSHAH"
 	{
-		"nl"	"De Shahanshah"
+		"tr"	"ŞAHANŞAH"
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"nl"	"Het Bazarenkoopje"
+		"tr"	"ÇARŞI KELEPİRİ"
 	}
 	"TF_PERSIANPERSUADER"
 	{
-		"nl"	"De Ottomaanse Overtuiger"
+		"tr"	"PERS CAYDIRICI"
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
-		"nl"	"Ali Baba's Kleine Schoentjes"
+		"tr"	"ALİ BABA'NIN MİNİK GALOŞLARI"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
-		"nl"	"Het Schitterende Scherm"
+		"tr"	"GÖRKEMLİ KALKAN"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"nl"	"De Snelle Herstelling"
+		"tr"	"HIZLI ÇÖZÜM"
 	}
 	"TF_OVERDOSE"
 	{
-		"nl"	"De Overdosis"
+		"tr"	"AŞIRI DOZ"
 	}
 	"TF_SOLEMNVOW"
 	{
-		"nl"	"De Plechtige Belofte"
+		"tr"	"HEYBETLİ TEPKİ"
 	}
 	"TF_LIBERTYLAUNCHER"
 	{
-		"nl"	"De Vrijheidswerper"
+		"tr"	"ÖZGÜRLÜK ATEŞLEYİCİ"
 	}
 	"TF_RESERVESHOOTER"
 	{
-		"nl"	"De Reserveschieter"
+		"tr"	"YEDEK ATIŞÇI"
 	}
 	"TF_MARKETGARDENER"
 	{
-		"nl"	"De Markttuinier"
+		"tr"	"BOSTANCI"
 	}
 	"TF_SAXXY"
 	{
-		"nl"	"De Saxxy"
+		"tr"	"Saxxy"
 	}
 	"TF_TOMISLAV"
 	{
-		"nl"	"Tomislav"
+		"tr"	"TOMISLAV"
 	}
 	"TF_RUSSIANRIOT"
 	{
-		"nl"	"De Familiezaken"
+		"tr"	"AİLE ŞİRKETİ"
 	}
 	"TF_EVICTIONNOTICE"
 	{
-		"nl"	"Het Uitzettingsbevel"
+		"tr"	"TAHLİYE İHBARI"
 	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
-		"nl"	"Viskoek"
+		"tr"	"BALIKKEK"
 	}
 	"TF_COWMANGLER"
 	{
-		"nl"	"De Koeienverscheurder 5000"
+		"tr"	"İNEK MENGENESİ 5000"
 	}
 	"TF_RIGHTEOUSBISON"
 	{
-		"nl"	"De Rechtvaardige Bizon"
+		"tr"	"DÜRÜST BİZON"
 	}
 	"TF_MANTREADS"
 	{
-		"nl"	"De Manzolen"
+		"tr"	"TABANLAR"
 	}
 	"TF_DISCIPLINARYACTION"
 	{
-		"nl"	"De Disciplinaire Actie"
+		"tr"	"DİSİPLİN CEZASI"
 	}
 	"TF_SODAPOPPER"
 	{
-		"nl"	"De Frisdrankknaller"
+		"tr"	"SODA PATLANGACI"
 	}
 	"TF_WINGER"
 	{
-		"nl"	"De Flanker"
+		"tr"	"KANAT"
 	}
 	"TF_ATOMIZER"
 	{
-		"nl"	"De Atoomeerder"
+		"tr"	"PÜSKÜRTÜCÜ"
 	}
 	"TF_SCOUTSWORD"
 	{
-		"nl"	"Drie-Runenzwaard"
+		"tr"	"ÜÇ SEMBOLLÜ KILIÇ"
 	}
 	"TF_MAILBOX"
 	{
-		"nl"	"De Brievenbeuker"
+		"tr"	"KARTPOSTAL ZIMBALAYICI"
 	}
 	"TF_ENFORCER"
 	{
-		"nl"	"De Bekrachtiger"
+		"tr"	"İNFAZCI"
 	}
 	"TF_BIGEARNER"
 	{
-		"nl"	"De Grote Verdiener"
+		"tr"	"PARA BABASI"
 	}
 	"TF_RFAHAMMER"
 	{
-		"nl"	"De Strijdhamer"
+		"tr"	"TOKMAK"
 	}
 	"TF_CONSCIENTIOUSOBJECTOR"
 	{
-		"nl"	"De Gewetenrijke Bezwaarder"
+		"tr"	"BİLİNÇLİ MUHALİF"
 	}
 	"TF_NINEIRON"
 	{
-		"nl"	"Nessie's Negen IJzer"
+		"tr"	"NESSIE'NİN DOKUZ NUMARASI"
 	}
 	"TF_THEORIGINAL"
 	{
-		"nl"	"De Original"
+		"tr"	"ORİJİNAL"
 	}
 	"TF_DEX_REVOLVER"
 	{
-		"nl"	"De Diamantrug"
+		"tr"	"SU YILANI"
 	}
 	"TF_DEX_RIFLE"
 	{
-		"nl"	"De Machina"
+		"tr"	"MAKİNE"
 	}
 	"TF_DEX_SHOTGUN"
 	{
-		"nl"	"De Weduwemaker"
+		"tr"	"KRİZ TETİKLEYİCİ"
 	}
 	"TF_DEX_PISTOL"
 	{
-		"nl"	"De Kortsluiter"
+		"tr"	"KISA DEVRE"
 	}
 	"TF_UNARMEDCOMBAT"
 	{
-		"nl"	"Ontarmd Gevecht"
+		"tr"	"SİLAHSIZ DÖVÜŞ"
 	}
 	"TF_VOODOOPIN"
 	{
-		"nl"	"De Wanga-Steek"
+		"tr"	"WANGA DİKENİ"
 	}
 	"TF_APOCOFISTS"
 	{
-		"nl"	"Apoco-Vuisten"
+		"tr"	"KIYAMET YUMRUKLARI"
 	}
 	"TF_BOOTLEGGER"
 	{
-		"nl"	"De Smokkelaar"
+		"tr"	"KAÇAKÇI"
 	}
 	"TF_SCOTTISHHANDSHAKE"
 	{
-		"nl"	"De Schotse Handdruk"
+		"tr"	"İSKOÇ SELAMLAŞMASI"
 	}
 	"TF_SHARPDRESSER"
 	{
-		"nl"	"De Scherp Geklede"
+		"tr"	"JİLET GİBİ GİYİNEN"
 	}
 }

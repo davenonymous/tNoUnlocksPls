@@ -424,6 +424,10 @@
 	{
 		"it"	"Il Maglio"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"it"	"L'Obiettore di Coscienza"
+	}
 	"TF_NINEIRON"
 	{
 		"it"	"Ferro Nove di Nessie"

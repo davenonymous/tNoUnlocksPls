@@ -424,6 +424,10 @@
 	{
 		"sv"	"Släggan"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"sv"	"Vapenvägraren"
+	}
 	"TF_NINEIRON"
 	{
 		"sv"	"Nessies Järnnia"

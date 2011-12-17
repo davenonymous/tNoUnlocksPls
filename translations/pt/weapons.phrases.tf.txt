@@ -2,478 +2,450 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"zho"	"爆擊製造者"
+		"pt"	"A Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"zho"	"嗜血針槍"
+		"pt"	"A Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"zho"	"超能骨鋸"
+		"pt"	"A Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"zho"	"火斧"
+		"pt"	"O Axtinguisher"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"zho"	"信號槍"
+		"pt"	"A Flare Gun"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"zho"	"背後火焰發射器"
+		"pt"	"O Backburner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"zho"	"娜塔莎"
+		"pt"	"Natascha"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"zho"	"三明治"
+		"pt"	"O Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"zho"	"殺人拳套"
+		"pt"	"As Killing Gloves of Boxing"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"zho"	"睡魔"
+		"pt"	"O Sandman"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"zho"	"自然之力"
+		"pt"	"A Force-A-Nature"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"zho"	"Bonk! 原子能量飲料"
+		"pt"	"Bonk! Atomic Punch"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"zho"	"獵人長弓"
+		"pt"	"O Huntsman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"zho"	"劍脊野豬盾"
+		"pt"	"O Razorback"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"zho"	"瓶手道"
+		"pt"	"Jarate"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"zho"	"死亡送終者"
+		"pt"	"O Dead Ringer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"zho"	"隱身匕首"
+		"pt"	"O Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"zho"	"全能大使"
+		"pt"	"O Ambassador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"zho"	"直擊火箭"
+		"pt"	"O Direct Hit"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"zho"	"傷害均衡十字鎬"
+		"pt"	"A Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"zho"	"增幅旗幟"
+		"pt"	"A Buff Banner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"zho"	"蘇格蘭式防禦黏彈"
+		"pt"	"A Scottish Resistance"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"zho"	"衝擊刺盾"
+		"pt"	"O Chargin' Targe"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"zho"	"魔眼闊劍"
+		"pt"	"A Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"zho"	"鐵砲護靴"
+		"pt"	"As Gunboats"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"zho"	"牧馬者遙控器"
+		"pt"	"O Wrangler"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"zho"	"邊疆正義"
+		"pt"	"A Frontier Justice"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"zho"	"機械槍手"
+		"pt"	"O Gunslinger"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"zho"	"家用破壞者"
+		"pt"	"A Homewrecker"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"zho"	"天堂路"
+		"pt"	"O Pain Train"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"zho"	"南方盛情"
+		"pt"	"A Southern Hospitality"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"zho"	"美味巧克力"
+		"pt"	"A Dalokohs Bar"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"zho"	"魯格變形式"
+		"pt"	"A Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"zho"	"大屠殺"
+		"pt"	"O Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"zho"	"爆擊可樂"
+		"pt"	"Crit-a-Cola"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"zho"	"黃金扳手"
+		"pt"	"A Golden Wrench"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"zho"	"部落戰刀"
+		"pt"	"A Tribalman's Shiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"zho"	"蘇格蘭骨頭切割者"
+		"pt"	"O Scotsman's Skullcutter"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"zho"	"還魂鋸"
+		"pt"	"A Vita-Saw"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"zho"	"強力千斤頂"
+		"pt"	"A Powerjack"
 	}
 	"TF_THEDEGREASER"
 	{
-		"zho"	"除油者"
-	}
-	"TF_THESHORTSTOP"
-	{
-		"zho"	"游擊手"
+		"pt"	"O Degreaser"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"zho"	"尚方寶鯖"
+		"pt"	"O Holy Mackerel"
 	}
 	"TF_MADMILK"
 	{
-		"zho"	"瘋狂牛奶"
+		"pt"	"Mad Milk"
 	}
 	"TF_LETRANGER"
 	{
-		"zho"	"局外人左輪"
+		"pt"	"L'Etranger"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"zho"	"您的永恆獎賞"
+		"pt"	"Your Eternal Reward"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"zho"	"營隊後援"
+		"pt"	"A Battalion's Backup"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"zho"	"黑盒子"
+		"pt"	"A Black Box"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"zho"	"雪梨沉睡者"
+		"pt"	"O Sydney Sleeper"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"zho"	"達爾文市的危險護盾"
+		"pt"	"Darwin's Danger Shield"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"zho"	"布伊刀"
+		"pt"	"A Bushwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"zho"	"火箭跳躍者"
+		"pt"	"O Rocket Jumper"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"zho"	"狂奔手套"
+		"pt"	"As Gloves of Running Urgently"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"zho"	"油炸平底鍋"
+		"pt"	"A Frying Pan"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"zho"	"黏彈跳躍者"
+		"pt"	"O Sticky Jumper"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"zho"	"連馬都沒有的無頭騎士斬首斧"
+		"pt"	"O Horseless Headless Horsemann's Headtaker"
 	}
 	"TF_TTG_WATCH"
 	{
-		"zho"	"熱衷粉絲的手錶"
+		"pt"	"O Enthusiast's Timepiece"
 	}
 	"TF_IRON_CURTAIN"
 	{
-		"zho"	"鐵幕"
+		"pt"	"A Iron Curtain"
 	}
 	"TF_AMPUTATOR"
 	{
-		"zho"	"截肢鋸"
+		"pt"	"O Amputator"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"zho"	"聖十字弩弓"
+		"pt"	"A Crusader's Crossbow"
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"zho"	"阿勒浦木製手榴彈"
+		"pt"	"O Ullapool Caber"
 	}
 	"TF_LOCHNLOAD"
 	{
-		"zho"	"Loch-n-Load"
+		"pt"	"O Loch-n-Load"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"zho"	"戰士之魂"
+		"pt"	"O Warrior's Spirit"
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"zho"	"水牛排三明治"
+		"pt"	"O Buffalo Steak Sandvich"
 	}
 	"TF_GATLINGGUN"
 	{
-		"zho"	"黃銅野獸"
+		"pt"	"A Brass Beast"
 	}
 	"TF_CANDYCANE"
 	{
-		"zho"	"拐杖糖"
+		"pt"	"O Candy Cane"
 	}
 	"TF_BOSTONBASHER"
 	{
-		"zho"	"波士頓狼牙棒"
+		"pt"	"O Boston Basher"
 	}
 	"TF_BACKSCRATCHER"
 	{
-		"zho"	"不求人"
+		"pt"	"O Back Scratcher"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"zho"	"蓋爾巨劍"
+		"pt"	"A Claidheamh Mòr"
 	}
 	"TF_JAG"
 	{
-		"zho"	"鉤爪扳手"
+		"pt"	"A Jag"
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"zho"	"鐵拳"
+		"pt"	"Os Fists of Steel"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
-		"zho"	"熔岩巨斧"
+		"pt"	"Sharpened Volcano Fragment"
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"zho"	"炎日法杖"
+		"pt"	"O Sun-on-a-Stick"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"zho"	"爆破信號槍"
+		"pt"	"O Detonator"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"zho"	"家徽旗"
+		"pt"	"Concheror"
 	}
 	"TF_GUNBAI"
 	{
-		"zho"	"鐵軍扇"
+		"pt"	"Fan O'War"
 	}
 	"TF_KUNAI"
 	{
-		"zho"	"陰謀苦無"
+		"pt"	"Conniver's Kunai"
 	}
 	"TF_SOLDIERKATANA"
 	{
-		"zho"	"半盲劍俠"
+		"pt"	"Half-Zatoichi"
 	}
 	"TF_SHAHANSHAH"
 	{
-		"zho"	"王中之王"
+		"pt"	"A Shahanshah"
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"zho"	"巴剎長槍"
+		"pt"	"A Bazaar Bargain"
 	}
 	"TF_PERSIANPERSUADER"
 	{
-		"zho"	"波斯使者"
+		"pt"	"O Persian Persuader"
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
-		"zho"	"阿里巴巴尖頭靴"
+		"pt"	"Ali Baba's Wee Booties"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
-		"zho"	"輝煌戰盾"
+		"pt"	"O Splendid Screen"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"zho"	"快速治療者"
+		"pt"	"A Quick-Fix"
 	}
 	"TF_OVERDOSE"
 	{
-		"zho"	"超速注射槍"
+		"pt"	"A Overdose"
 	}
 	"TF_SOLEMNVOW"
 	{
-		"zho"	"神聖誓言"
+		"pt"	"O Solemn Vow"
 	}
 	"TF_LIBERTYLAUNCHER"
 	{
-		"zho"	"自由推進者"
+		"pt"	"O Liberty Launcher"
 	}
 	"TF_RESERVESHOOTER"
 	{
-		"zho"	"後勤防空員"
+		"pt"	"O Reserve Shooter"
 	}
 	"TF_MARKETGARDENER"
 	{
-		"zho"	"市場花園園丁"
+		"pt"	"O Market Gardener"
 	}
 	"TF_SAXXY"
 	{
-		"zho"	"薩氏金像獎小金人"
+		"pt"	"O Saxxy"
 	}
 	"TF_TOMISLAV"
 	{
-		"zho"	"托米斯拉夫"
+		"pt"	"Tomislav"
 	}
 	"TF_RUSSIANRIOT"
 	{
-		"zho"	"家族事業"
+		"pt"	"O Family Business"
 	}
 	"TF_EVICTIONNOTICE"
 	{
-		"zho"	"驅逐警告"
+		"pt"	"A Eviction Notice"
 	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
-		"zho"	"太空魚酥餅"
+		"pt"	"Fishcake"
 	}
 	"TF_COWMANGLER"
 	{
-		"zho"	"要牛命5000"
+		"pt"	"O Cow Mangler 5000"
 	}
 	"TF_RIGHTEOUSBISON"
 	{
-		"zho"	"正義狂牛"
+		"pt"	"O Righteous Bison"
 	}
 	"TF_MANTREADS"
 	{
-		"zho"	"踏板戰靴"
+		"pt"	"As Mantreads"
 	}
 	"TF_DISCIPLINARYACTION"
 	{
-		"zho"	"紀律行動"
+		"pt"	"A Disciplinary Action"
 	}
 	"TF_SODAPOPPER"
 	{
-		"zho"	"汽水槍手"
+		"pt"	"O Soda Popper"
 	}
 	"TF_WINGER"
 	{
-		"zho"	"御風遊俠"
+		"pt"	"A Winger"
 	}
 	"TF_ATOMIZER"
 	{
-		"zho"	"原子棒"
+		"pt"	"O Atomizer"
 	}
 	"TF_SCOUTSWORD"
 	{
-		"zho"	"盧恩古刃"
+		"pt"	"Three-Rune Blade"
 	}
 	"TF_MAILBOX"
 	{
-		"zho"	"掛號專員"
+		"pt"	"O Postal Pummeler"
 	}
 	"TF_ENFORCER"
 	{
-		"zho"	"脅威使"
+		"pt"	"A Enforcer"
 	}
 	"TF_BIGEARNER"
 	{
-		"zho"	"暴利之刃"
+		"pt"	"O Big Earner"
 	}
 	"TF_RFAHAMMER"
 	{
-		"zho"	"巨型釘錘"
-	}
-	"TF_CONSCIENTIOUSOBJECTOR"
-	{
-		"zho"	"良心反對者的舉牌"
+		"pt"	"A Maul"
 	}
 	"TF_NINEIRON"
 	{
-		"zho"	"尼斯九號鐵桿"
+		"pt"	"Nessie's Nine Iron"
 	}
 	"TF_THEORIGINAL"
 	{
-		"zho"	"原型雷神火炮"
+		"pt"	"O Original"
 	}
 	"TF_DEX_REVOLVER"
 	{
-		"zho"	"鑽紋響尾蛇"
+		"pt"	"O Diamondback"
 	}
 	"TF_DEX_RIFLE"
 	{
-		"zho"	"神授貫殺獵槍"
+		"pt"	"O Machina"
 	}
 	"TF_DEX_SHOTGUN"
 	{
-		"zho"	"黑寡夫"
+		"pt"	"A Widowmaker"
 	}
 	"TF_DEX_PISTOL"
 	{
-		"zho"	"脈衝電場放射儀"
-	}
-	"TF_UNARMEDCOMBAT"
-	{
-		"zho"	"一臂之力"
-	}
-	"TF_VOODOOPIN"
-	{
-		"zho"	"巫毒咒錐"
+		"pt"	"O Short Circuit"
 	}
 	"TF_APOCOFISTS"
 	{
-		"zho"	"末世戰拳"
-	}
-	"TF_BOOTLEGGER"
-	{
-		"zho"	"私藏海盜靴"
-	}
-	"TF_SCOTTISHHANDSHAKE"
-	{
-		"zho"	"蘇格蘭式握手禮"
-	}
-	"TF_SHARPDRESSER"
-	{
-		"zho"	"刺客袖劍"
+		"pt"	"Apoco-Fists"
 	}
 }

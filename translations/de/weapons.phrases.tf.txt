@@ -424,6 +424,10 @@
 	{
 		"de"	"Der Spalthammer"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"de"	"Der Kriegsdienstverweigerer"
+	}
 	"TF_NINEIRON"
 	{
 		"de"	"Nessies Neuner Eisen"
