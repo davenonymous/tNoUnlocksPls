@@ -330,7 +330,7 @@ public Native_IsEnabled(Handle:hPlugin, iNumParams) {
 }
 
 public Native_BlockByDefault(Handle:hPlugin, iNumParams) {
-	return g_bDefault;
+	return !g_bDefault;
 }
 
 public Native_BlockStrangeWeapons(Handle:hPlugin, iNumParams) {
@@ -488,8 +488,6 @@ public Native_GetWeaponSlotByIDI(Handle:hPlugin, iNumParams) {
 }
 
 public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max) {
-	RegPluginLibrary("tNoUnlocksPls");
-
 	CreateNative("tNUP_IsEnabled", Native_IsEnabled);
 	CreateNative("tNUP_BlockByDefault", Native_BlockByDefault);
 
@@ -517,6 +515,8 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max) 
 
 	CreateNative("tNUP_GetWeaponSlotByIDI", Native_GetWeaponSlotByIDI);
 
+
+	RegPluginLibrary("tNoUnlocksPls");
 	return APLRes_Success;
 }
 
@@ -544,6 +544,7 @@ public IsItemBlocked(iItemDefinitionIndex) {
 		new bool:bResult = g_bDefault;
 		if(bIsToggled)bResult = !bResult;
 
+		LogMessage("Item %i is blocked: %i", iItemDefinitionIndex, bResult);
 		return bResult;
 	}
 

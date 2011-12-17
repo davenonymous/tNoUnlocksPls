@@ -1,9 +1,9 @@
 #pragma semicolon 1
 #include <sourcemod>
-#include <tNoUnlocksPls>
 #include <vanillaweps>
 #undef REQUIRE_PLUGIN
 #include <updater>
+#include <tNoUnlocksPls>
 
 #define VERSION			"0.3.0"
 #define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.vanillaweps.cfg"

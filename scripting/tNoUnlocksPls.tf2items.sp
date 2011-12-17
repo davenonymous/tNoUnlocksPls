@@ -1,10 +1,10 @@
 #pragma semicolon 1
 #include <sourcemod>
 #include <tf2_stocks>
-#include <tNoUnlocksPls>
 #include <smlib>
 #include <tf2items>
 #undef REQUIRE_PLUGIN
+#include <tNoUnlocksPls>
 #include <updater>
 
 #define VERSION			"0.3.0"

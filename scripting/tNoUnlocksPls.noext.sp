@@ -1,10 +1,10 @@
 #pragma semicolon 1
 #include <sourcemod>
 #include <tf2_stocks>
-#include <tNoUnlocksPls>
 #include <smlib>
 #undef REQUIRE_PLUGIN
 #include <updater>
+#include <tNoUnlocksPls>
 
 #define VERSION			"0.3.0"
 #define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.noext.cfg"

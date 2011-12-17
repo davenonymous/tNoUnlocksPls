@@ -1,4 +1,6 @@
-#if !defined _TNUP_INC_
+#if defined _TNUP_INC_
+  #endinput
+#endif
 #define _TNUP_INC_
 
 #define QUALITY_STRANGE 		11
@@ -27,3 +29,15 @@ native bool:tNUP_GetWeaponTranslationString(iItemDefinitionIndex, String:sResult
 native bool:tNUP_GetPrettyName(iItemDefinitionIndex, iClient, String:sResult[], iMaxLen);
 
 forward tNUP_OnAnnounce(iClient, iItemDefinitionIndex, Handle:hTrieItem);
+
+
+public SharedPlugin:__pl_tnup =
+{
+	name = "tNoUnlocksPls",
+	file = "tNoUnlocksPls.smx",
+#if defined REQUIRE_PLUGIN
+	required = 1,
+#else
+	required = 0,
+#endif
+};
