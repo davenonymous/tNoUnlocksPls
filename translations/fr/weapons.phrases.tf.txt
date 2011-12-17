@@ -452,6 +452,14 @@
 	{
 		"fr"	"Combat à main nue"
 	}
+	"TF_VOODOOPIN"
+	{
+		"fr"	"L’Aiguille de Wanga"
+	}
+	"TF_APOCOFISTS"
+	{
+		"fr"	"Apoco-Poings"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"fr"	"Le contrebandier"
@@ -459,5 +467,9 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"fr"	"La poignée de main écossaise"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"fr"	"Le Stylet Aiguisé"
 	}
 }

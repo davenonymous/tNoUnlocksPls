@@ -456,6 +456,10 @@
 	{
 		"fi"	"Mustan magian piikki"
 	}
+	"TF_APOCOFISTS"
+	{
+		"fi"	"Tuomiopäivän luuvitoset"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"fi"	"Piraatin puujalka"
@@ -463,5 +467,9 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"fi"	"Skottilainen kättely"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"fi"	"Pisteliäs pukeutuja"
 	}
 }

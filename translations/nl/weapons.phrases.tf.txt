@@ -468,4 +468,8 @@
 	{
 		"nl"	"De Schotse Handdruk"
 	}
+	"TF_SHARPDRESSER"
+	{
+		"nl"	"De Scherp Geklede"
+	}
 }

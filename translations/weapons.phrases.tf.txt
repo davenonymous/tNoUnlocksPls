@@ -460,6 +460,26 @@
 	{
 		"en"	"Apoco-Fists"
 	}
+	"TF_POMSON"
+	{
+		"en"	"Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"en"	"Eureka Effect"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"en"	"Third Degree"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"en"	"Phlogistinator"
+	}
+	"TF_MANMELTER"
+	{
+		"en"	"Manmelter"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"en"	"Bootlegger"
@@ -467,5 +487,21 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"en"	"Scottish Handshake"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"en"	"Sharp Dresser"
+	}
+	"TF_BALLBUSTER"
+	{
+		"en"	"Wrap Assassin"
+	}
+	"TF_SPYCICLE"
+	{
+		"en"	"Spy-cicle"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"en"	"Holiday Punch"
 	}
 }

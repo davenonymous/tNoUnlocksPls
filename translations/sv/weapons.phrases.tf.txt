@@ -452,6 +452,14 @@
 	{
 		"sv"	"Obeväpnad Strid"
 	}
+	"TF_VOODOOPIN"
+	{
+		"sv"	"Wangasticket"
+	}
+	"TF_APOCOFISTS"
+	{
+		"sv"	"Apoka-Nävar"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"sv"	"Spritsmugglaren"
@@ -459,5 +467,9 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"sv"	"Skotska Handslaget"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"sv"	"Den Prydliga Klingan"
 	}
 }

@@ -182,7 +182,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"ko"	"천국의 구원"
+		"ko"	"영원한 상급"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -230,7 +230,7 @@
 	}
 	"TF_AMPUTATOR"
 	{
-		"ko"	"의료톱"
+		"ko"	"절단기"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
@@ -322,7 +322,7 @@
 	}
 	"TF_RESERVESHOOTER"
 	{
-		"ko"	"조력총"
+		"ko"	"부사수"
 	}
 	"TF_MARKETGARDENER"
 	{
@@ -380,6 +380,10 @@
 	{
 		"ko"	"몰"
 	}
+	"TF_NINEIRON"
+	{
+		"ko"	"네시의 9번 아이언"
+	}
 	"TF_THEORIGINAL"
 	{
 		"ko"	"원조"
@@ -395,5 +399,13 @@
 	"TF_DEX_SHOTGUN"
 	{
 		"ko"	"과부 제조기"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"ko"	"밀주업자"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"ko"	"스코틀랜드식 악수"
 	}
 }

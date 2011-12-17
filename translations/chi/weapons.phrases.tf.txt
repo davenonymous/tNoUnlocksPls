@@ -452,6 +452,10 @@
 	{
 		"chi"	"巫毒刺钉"
 	}
+	"TF_APOCOFISTS"
+	{
+		"chi"	"天灾之拳"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"chi"	"海盗头子的假腿"

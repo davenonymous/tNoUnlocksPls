@@ -434,7 +434,7 @@
 	}
 	"TF_DEX_REVOLVER"
 	{
-		"pl"	"Diamondback"
+		"pl"	"Grzechotnik"
 	}
 	"TF_DEX_RIFLE"
 	{
@@ -442,7 +442,7 @@
 	}
 	"TF_DEX_SHOTGUN"
 	{
-		"pl"	"Widowmaker"
+		"pl"	"Likwidator"
 	}
 	"TF_DEX_PISTOL"
 	{
@@ -467,5 +467,9 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"pl"	"Szkocki Uścisk Dłoni"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"pl"	"Zabójcza Elegancja"
 	}
 }

@@ -468,4 +468,8 @@
 	{
 		"de"	"Der Schottische Händedruck"
 	}
+	"TF_SHARPDRESSER"
+	{
+		"de"	"Der schnittig Gekleidete"
+	}
 }

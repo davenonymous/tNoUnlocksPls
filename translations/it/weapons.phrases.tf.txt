@@ -448,4 +448,24 @@
 	{
 		"it"	"Il Corto Circuito"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"it"	"Combattimento Disarmato"
+	}
+	"TF_VOODOOPIN"
+	{
+		"it"	"Lo Spillo Wanga"
+	}
+	"TF_APOCOFISTS"
+	{
+		"it"	"Gli Apocazzotti."
+	}
+	"TF_BOOTLEGGER"
+	{
+		"it"	"Il Contrabbandiere"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"it"	"La Stretta di Mano Scozzese"
+	}
 }

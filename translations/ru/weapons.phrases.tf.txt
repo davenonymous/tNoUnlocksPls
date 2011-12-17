@@ -458,7 +458,7 @@
 	}
 	"TF_APOCOFISTS"
 	{
-		"ru"	"Кулако-покалипсис"
+		"ru"	"Кулакопокалипсис"
 	}
 	"TF_BOOTLEGGER"
 	{
@@ -467,5 +467,9 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"ru"	"Шотландское рукобитие"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"ru"	"Одетый с иголочки"
 	}
 }

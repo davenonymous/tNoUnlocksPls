@@ -9,7 +9,7 @@
 #define UPDATE_URL    			"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.cfg"
 #define PATH_ITEMS_GAME			"scripts/items/items_game.txt"
 
-#define VERSION		"0.3.1"
+#define VERSION		"0.3.2"
 #define MAXITEMS	255
 #define TOGGLE_FLAG	ADMFLAG_ROOT
 
@@ -688,7 +688,7 @@ stock bool:IsSetHatAndShouldBeBlocked(iIDI) {
 
 	// The following sets won't be blocked even if sm_tnounlockspls_blocksets is enabled!
 	// Sets without hats: medieval_medic, rapid_repair, hibernating_bear, experts_ordnance
-	// Sets without attributes: drg_victory, black_market, bonk_fan, gangland_spy, general_suit, swashbucklers_swag, airborne_armaments, desert_sniper, desert_demo
+	// Sets without attributes: drg_moonman, drg_victory, black_market, bonk_fan, winter2011_scout_elf, gangland_spy, swashbucklers_swag, general_suit, airborne_armaments, drg_brainiac, desert_sniper, desert_demo
 
 	return false;
 }

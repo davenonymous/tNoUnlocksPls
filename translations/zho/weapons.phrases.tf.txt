@@ -150,7 +150,7 @@
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"zho"	"蘇格蘭頭骨切割者"
+		"zho"	"蘇格蘭骨頭切割者"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
@@ -456,6 +456,10 @@
 	{
 		"zho"	"巫毒咒錐"
 	}
+	"TF_APOCOFISTS"
+	{
+		"zho"	"末世戰拳"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"zho"	"私藏海盜靴"
@@ -463,5 +467,9 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"zho"	"蘇格蘭式握手禮"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"zho"	"刺客袖劍"
 	}
 }

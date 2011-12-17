@@ -468,4 +468,8 @@
 	{
 		"es"	"El Saludo Escocés"
 	}
+	"TF_SHARPDRESSER"
+	{
+		"es"	"La Manga Afilada"
+	}
 }
