@@ -7,7 +7,7 @@
 #include <tNoUnlocksPls>
 #include <updater>
 
-#define VERSION			"0.3.0"
+#define VERSION			"0.4.0"
 #define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.tf2items.cfg"
 
 #define WEIGHT			50

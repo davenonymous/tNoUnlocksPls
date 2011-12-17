@@ -6,7 +6,7 @@
 #include <updater>
 #include <tNoUnlocksPls>
 
-#define VERSION			"0.3.0"
+#define VERSION			"0.4.0"
 #define UPDATE_URL    	"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.noext.cfg"
 
 #define WEIGHT			10
