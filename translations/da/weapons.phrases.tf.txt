@@ -444,4 +444,8 @@
 	{
 		"da"	"Det skotske håndtryk"
 	}
+	"TF_T_NT"
+	{
+		"da"	"Navneskilt"
+	}
 }

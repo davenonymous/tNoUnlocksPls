@@ -360,4 +360,8 @@
 	{
 		"no"	"Kortslutningen"
 	}
+	"TF_T_NT"
+	{
+		"no"	"Navnelapp"
+	}
 }

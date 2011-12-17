@@ -476,4 +476,8 @@
 	{
 		"hu"	"A Jóvágású"
 	}
+	"TF_T_NT"
+	{
+		"hu"	"Névcédula"
+	}
 }

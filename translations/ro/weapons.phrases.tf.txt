@@ -440,4 +440,8 @@
 	{
 		"ro"	"Scurt Circuitul"
 	}
+	"TF_T_NT"
+	{
+		"ro"	"Etichetă de Nume"
+	}
 }

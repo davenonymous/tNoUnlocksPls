@@ -476,4 +476,8 @@
 	{
 		"fr"	"Le Stylet Aiguisé"
 	}
+	"TF_T_NT"
+	{
+		"fr"	"Étiquette"
+	}
 }

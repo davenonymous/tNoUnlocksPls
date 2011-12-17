@@ -476,4 +476,8 @@
 	{
 		"de"	"Der schnittig Gekleidete"
 	}
+	"TF_T_NT"
+	{
+		"de"	"Namensschild"
+	}
 }

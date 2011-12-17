@@ -476,4 +476,8 @@
 	{
 		"pl"	"Zabójcza Elegancja"
 	}
+	"TF_T_NT"
+	{
+		"pl"	"Etykieta z nazwą"
+	}
 }

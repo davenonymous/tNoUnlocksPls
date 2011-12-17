@@ -476,4 +476,8 @@
 	{
 		"nl"	"De Scherp Geklede"
 	}
+	"TF_T_NT"
+	{
+		"nl"	"Naamplaat"
+	}
 }

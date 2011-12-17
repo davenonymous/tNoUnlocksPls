@@ -476,4 +476,8 @@
 	{
 		"sv"	"Den Prydliga Klingan"
 	}
+	"TF_T_NT"
+	{
+		"sv"	"Namnlapp"
+	}
 }

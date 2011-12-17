@@ -472,4 +472,8 @@
 	{
 		"it"	"La Stretta di Mano Scozzese"
 	}
+	"TF_T_NT"
+	{
+		"it"	"Etichetta Nome"
+	}
 }

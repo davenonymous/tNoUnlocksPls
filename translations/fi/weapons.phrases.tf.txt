@@ -476,4 +476,8 @@
 	{
 		"fi"	"Pisteliäs pukeutuja"
 	}
+	"TF_T_NT"
+	{
+		"fi"	"Nimitunniste"
+	}
 }

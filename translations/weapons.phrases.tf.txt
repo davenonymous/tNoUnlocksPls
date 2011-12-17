@@ -504,8 +504,52 @@
 	{
 		"en"	"Spy-cicle"
 	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"en"	"Festive Minigun"
+	}
 	"TF_MASCULINEMITTENS"
 	{
 		"en"	"Holiday Punch"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"en"	"Festive Rocket Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"en"	"Festive Flame Thrower"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"en"	"Festive Bat"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"en"	"Festive Stickybomb Launcher"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"en"	"Festive Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"en"	"Festive Medi Gun"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"en"	"Festive Sniper Rifle"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"en"	"Festive Knife"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"en"	"Festive Scattergun"
+	}
+	"TF_T_NT"
+	{
+		"en"	"Name Tag"
 	}
 }

@@ -476,4 +476,8 @@
 	{
 		"es"	"La Manga Afilada"
 	}
+	"TF_T_NT"
+	{
+		"es"	"Etiqueta del nombre"
+	}
 }

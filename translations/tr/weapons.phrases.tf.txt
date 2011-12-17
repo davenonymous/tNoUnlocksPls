@@ -476,4 +476,8 @@
 	{
 		"tr"	"JİLET GİBİ GİYİNEN"
 	}
+	"TF_T_NT"
+	{
+		"tr"	"İSİM ETİKETİ"
+	}
 }
