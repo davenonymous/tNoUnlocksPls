@@ -1,8 +1,6 @@
 #pragma semicolon 1
 #include <sourcemod>
 #include <tf2_stocks>
-#include <adminmenu>
-#include <colors>
 #undef REQUIRE_PLUGIN
 #include <updater>
 
@@ -10,8 +8,6 @@
 #define PATH_ITEMS_GAME			"scripts/items/items_game.txt"
 
 #define VERSION		"0.3.2"
-#define MAXITEMS	255
-#define TOGGLE_FLAG	ADMFLAG_ROOT
 
 #define QUALITY_STRANGE 11
 
@@ -31,13 +27,16 @@ new Handle:g_hCvarBlockStrange;
 new Handle:g_hCvarFile;
 new Handle:g_hCvarAnnounce;
 
-new Handle:g_hTopMenu = INVALID_HANDLE;
-
 new bool:g_bSomethingChanged = false;
 
 new g_iMaxWeight = 0;
 new Handle:g_hModuleToUse = INVALID_HANDLE;
+
 new Handle:g_hSlotMap = INVALID_HANDLE;
+new Handle:g_hWeapons = INVALID_HANDLE;
+new Handle:g_hTranslatable = INVALID_HANDLE;
+
+new Handle:g_hForwardAnnounce = INVALID_HANDLE;
 
 public Plugin:myinfo = {
 	name        = "tNoUnlocksPls - Core",
@@ -46,15 +45,6 @@ public Plugin:myinfo = {
 	version     = VERSION,
 	url         = "http://forums.alliedmods.net/showthread.php?t=140045"
 };
-
-enum Item {
-	iIDX,
-	String:trans[256],
-	toggled
-}
-
-new g_xItems[MAXITEMS][Item];
-new g_iWeaponCount = 0;
 
 public OnPluginStart() {
 	if (LibraryExists("updater")) {
@@ -66,8 +56,6 @@ public OnPluginStart() {
 		return;
 	}
 
-	g_hSlotMap = GetWeaponSlotMap();
-
 	CreateConVar("sm_tnounlockspls_version", VERSION, "[TF2] tNoUnlocksPls", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
 	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
@@ -77,6 +65,8 @@ public OnPluginStart() {
 	g_hCvarAnnounce = CreateConVar("sm_tnounlockspls_announce", "1", "Announces the removal of weapons/attributes", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarFile = CreateConVar("sm_tnounlockspls_cfgfile", "tNoUnlocksPls.cfg", "File to store configuration in", FCVAR_PLUGIN);
 
+	g_hForwardAnnounce = CreateGlobalForward("tNUP_OnAnnounce", ET_Ignore, Param_Cell, Param_Cell, Param_Cell);
+
 	HookConVarChange(g_hCvarDefault, Cvar_Changed);
 	HookConVarChange(g_hCvarEnabled, Cvar_Changed);
 	HookConVarChange(g_hCvarBlockSetHats, Cvar_Changed);
@@ -84,26 +74,11 @@ public OnPluginStart() {
 	HookConVarChange(g_hCvarBlockStrange, Cvar_Changed);
 	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
 
-	decl String:translationPath[PLATFORM_MAX_PATH];
-	BuildPath(Path_SM, translationPath, PLATFORM_MAX_PATH, "translations/weapons.phrases.tf.txt");
-
-	if(FileExists(translationPath)) {
-		LoadTranslations("weapons.phrases.tf.txt");
-	} else {
-		SetFailState("No translation file found.");
-	}
-
 	decl String:sWeaponsCfgPath[PLATFORM_MAX_PATH];
 	BuildPath(Path_SM, sWeaponsCfgPath, PLATFORM_MAX_PATH, "configs/weapons.cfg");
 
 	if(!FileExists(sWeaponsCfgPath)) {
 		SetFailState("File does not exist: configs/weapons.cfg");
-	}
-
-	/* Account for late loading */
-	new Handle:topmenu;
-	if (LibraryExists("adminmenu") && ((topmenu = GetAdminTopMenu()) != INVALID_HANDLE)) {
-		OnAdminMenuReady(topmenu);
 	}
 
 	AutoExecConfig();
@@ -138,176 +113,213 @@ public OnConfigsExecuted() {
 	GetConVarString(g_hCvarFile, g_sCfgFile, sizeof(g_sCfgFile));
 	BuildPath(Path_SM, g_sCfgFile, sizeof(g_sCfgFile), "configs/%s", g_sCfgFile);
 
-	PopulateItemsArray();
-}
-
-public OnAdminMenuReady(Handle:topmenu)
-{
-	/* Block us from being called twice*/
-	if (topmenu == g_hTopMenu) {
-		return;
-	}
-
-	/* Save the Handle */
-	g_hTopMenu = topmenu;
-
-	new TopMenuObject:topMenuServerCommands = FindTopMenuCategory(g_hTopMenu, ADMINMENU_SERVERCOMMANDS);
-	AddToTopMenu(g_hTopMenu, "sm_toggleunlock", TopMenuObject_Item, AdminMenu_Unlocks, topMenuServerCommands, "sm_toggleunlock", TOGGLE_FLAG);
-}
-
-public AdminMenu_Unlocks(Handle:topmenu, TopMenuAction:action, TopMenuObject:object_id, param, String:buffer[], maxlength) {
-    if (action == TopMenuAction_DisplayOption) {
-        Format(buffer, maxlength, "Unlocks");
-    } else if (action == TopMenuAction_SelectOption) {
-        BuildUnlockMenu(param);
-    }
-}
-
-public BuildUnlockMenu(iClient) {
-	new Handle:menu = CreateMenu(ChooserMenu_Handler);
-
-	if(g_bDefault) {
- 		SetMenuTitle(menu, "Enabled:");
- 	} else {
- 		SetMenuTitle(menu, "Disabled:");
- 	}
-	SetMenuExitBackButton(menu, true);
-
-	new cnt = 0;
-	for(new i = 0; i < g_iWeaponCount; i++) {
-		new String:sName[128];
-		Format(sName, sizeof(sName), "%T (%s)", g_xItems[i][trans], iClient, g_xItems[i][toggled] == 1 ? "yes" : "no");
-
-		new String:sIdx[4];
-		IntToString(g_xItems[i][iIDX], sIdx, 4);
-
-		AddMenuItem(menu, sIdx, sName);
-		cnt++;
-	}
-
-	if(cnt == 0) {
-		PrintToChat(iClient, "No weapons found - something must be configured incorrectly.");
-		DisplayTopMenu(g_hTopMenu, iClient, TopMenuPosition_LastCategory);
-	} else {
-		DisplayMenu(menu, iClient, 0);
-	}
-}
-
-public ChooserMenu_Handler(Handle:menu, MenuAction:action, param1, param2) {
-	//param1:: client
-	//param2:: item
-
-	if(action == MenuAction_Select) {
-		new String:sIdx[4];
-
-		/* Get item info */
-		GetMenuItem(menu, param2, sIdx, sizeof(sIdx));
-		new iIdx = StringToInt(sIdx);
-		ToggleItem(iIdx);
-
-		if (IsClientInGame(param1) && !IsClientInKickQueue(param1))
-			BuildUnlockMenu(param1);
-	} else if (action == MenuAction_Cancel) {
-		if (param2 == MenuCancel_ExitBack && g_hTopMenu != INVALID_HANDLE) {
-			DisplayTopMenu(g_hTopMenu, param1, TopMenuPosition_LastCategory);
-		}
-	} else if (action == MenuAction_End) {
-		CloseHandle(menu);
-	}
-}
-
-public PopulateItemsArray() {
-	new String:path[255];
-	BuildPath(Path_SM, path, sizeof(path), "configs/weapons.cfg");
-	new Handle:hKvWeaponT = CreateKeyValues("WeaponNames");
-	FileToKeyValues(hKvWeaponT, path);
-	KvGotoFirstSubKey(hKvWeaponT, false);
-
-	new Handle:kv = CreateKeyValues("WeaponToggles");
-	FileToKeyValues(kv, g_sCfgFile);
-	KvGotoFirstSubKey(kv, true);
-
-	g_iWeaponCount = 0;
-	new iToggledCount = 0;
-	do {
-		new String:sIDI[255];
-		KvGetSectionName(hKvWeaponT, sIDI, sizeof(sIDI));
-		new iIDI = StringToInt(sIDI);
-		g_xItems[g_iWeaponCount][iIDX] = iIDI;
-
-
-		new String:sTrans[255];
-		KvGetString(hKvWeaponT, "", sTrans, sizeof(sTrans));
-		strcopy(g_xItems[g_iWeaponCount][trans], 255, sTrans);
-
-		new iState = KvGetNum(kv, sIDI, 0);
-		g_xItems[g_iWeaponCount][toggled] = iState;
-
-		//PrintToServer("Found item %T (%i) (%i)", g_xItems[g_iWeaponCount][trans], 0, g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
-		//PrintToServer("Found item %s (%i) (%i)", g_xItems[g_iWeaponCount][trans], g_xItems[g_iWeaponCount][iIDX], g_xItems[g_iWeaponCount][toggled]);
-		if(iState != 0)iToggledCount++;
-		g_iWeaponCount++;
-	} while (KvGotoNextKey(hKvWeaponT, false));
-
-	LogMessage("By default all items are %s", g_bDefault ? "blocked" : "allowed");
-	LogMessage("Found %i items in your config. %i of them are %s.", g_iWeaponCount, iToggledCount, g_bDefault ? "allowed" : "blocked");
-
-	CloseHandle(hKvWeaponT);
-	CloseHandle(kv);
+	g_hTranslatable = LoadTranslationList();
+	GetWeaponSlotMap(g_hSlotMap, g_hWeapons);
+	LoadWeaponConfig();
 }
 
 public OnMapEnd() {
 	if(g_bSomethingChanged) {
 		//We need to save our changes
-		new Handle:kv = CreateKeyValues("WeaponToggles");
+		SaveWeaponConfig();
+	}
+}
 
-		for(new i = 0; i < g_iWeaponCount; i++) {
-			new String:sIDX[4];
-			IntToString(g_xItems[i][iIDX], sIDX, sizeof(sIDX));
-			KvSetNum(kv, sIDX, g_xItems[i][toggled]);
-		}
+/////////////////
+//   D A T A   //
+/////////////////
+public Handle:LoadTranslationList() {
+	decl String:translationPath[PLATFORM_MAX_PATH];
+	BuildPath(Path_SM, translationPath, PLATFORM_MAX_PATH, "translations/weapons.phrases.tf.txt");
 
-		KeyValuesToFile(kv, g_sCfgFile);
+	new Handle:hHasTranslation = CreateArray(128);
+	if(FileExists(translationPath)) {
+		LoadTranslations("weapons.phrases.tf.txt");
+
+		new Handle:kv = CreateKeyValues("Phrases");
+		FileToKeyValues(kv, translationPath);
+		KvGotoFirstSubKey(kv, true);
+
+		do {
+			new String:sTranslationString[128];
+			KvGetSectionName(kv, sTranslationString, sizeof(sTranslationString));
+
+			PushArrayString(hHasTranslation, sTranslationString);
+		} while (KvGotoNextKey(kv, true));
+
 		CloseHandle(kv);
 	}
+
+	return hHasTranslation;
 }
 
-public ToggleItem(iIDI) {
-	new id = FindItemWithID(iIDI);
-	if(id != -1) {
-		if(g_xItems[id][toggled] == 1)
-			g_xItems[id][toggled] = 0;
-		else
-			g_xItems[id][toggled] = 1;
+public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
+	if(hSlotMap != INVALID_HANDLE)return;
+	if(hWeapons != INVALID_HANDLE)return;
 
-		g_bSomethingChanged = true;
+
+	new Handle:hKvItems = CreateKeyValues("");
+	if (!FileToKeyValues(hKvItems, PATH_ITEMS_GAME)) {
+		SetFailState("Could not parse items_game.txt. Something is seriously wrong!");
+		return;
 	}
+
+	hSlotMap = CreateTrie();
+	hWeapons = CreateArray(4);
+
+	new Handle:hArrayPrefabs = CreateArray(64);
+	new Handle:hTriePrefab = CreateTrie();
+	KvRewind(hKvItems);
+	if(KvJumpToKey(hKvItems, "prefabs")) {
+		// There is a prefabs section
+
+		KvGotoFirstSubKey(hKvItems, false);
+		do {
+			decl String:sPFName[64];
+			KvGetSectionName(hKvItems, sPFName, sizeof(sPFName));
+
+			new Handle:hTriePrefabItem = CreateTrie();
+
+			new String:sItemSlot[16];
+			KvGetString(hKvItems, "item_slot", sItemSlot, sizeof(sItemSlot), "");
+			SetTrieString(hTriePrefabItem, "item_slot", sItemSlot);
+
+			new String:sItemClass[16];
+			KvGetString(hKvItems, "item_class", sItemClass, sizeof(sItemClass), "");
+			SetTrieString(hTriePrefabItem, "item_class", sItemClass);
+
+			SetTrieValue(hTriePrefab, sPFName, hTriePrefabItem);
+			PushArrayString(hArrayPrefabs, sPFName);
+		} while (KvGotoNextKey(hKvItems, false));
+	}
+
+	new String:sDefaultSlot[16] = "melee";
+	new String:sDefaultName[128] = "#TF_Default_ItemDef";
+	new String:sDefaultClass[16] = "tf_wearable";
+	KvRewind(hKvItems);
+	KvJumpToKey(hKvItems, "items");
+	if(KvJumpToKey(hKvItems, "default")) {
+		KvGetString(hKvItems, "item_slot", sDefaultSlot, sizeof(sDefaultSlot));
+		KvGetString(hKvItems, "item_name", sDefaultName, sizeof(sDefaultName));
+		KvGetString(hKvItems, "item_class", sDefaultClass, sizeof(sDefaultClass));
+	}
+
+
+	KvRewind(hKvItems);
+	KvJumpToKey(hKvItems, "items");
+	KvGotoFirstSubKey(hKvItems, false);
+
+	new String:sIndex[8];
+	do {
+		KvGetSectionName(hKvItems, sIndex, sizeof(sIndex));
+
+		//Skip item with id 'default'
+		if(StrEqual(sIndex, "default"))continue;
+
+		new iItemDefinitionIndex = StringToInt(sIndex);
+		if(iItemDefinitionIndex < 31)continue;
+
+		// Get the english name for the item
+		new String:sEng[128];
+		KvGetString(hKvItems, "name", sEng, sizeof(sEng), "");
+
+		// Skip upgradeable weapons
+		if(strncmp(sEng, "Upgradeable ", 12) == 0)continue;
+
+		// Get the prefab for the item
+		new String:sPrefab[64];
+		KvGetString(hKvItems, "prefab", sPrefab, sizeof(sPrefab), "");
+
+		new Handle:hTriePrefabItem = INVALID_HANDLE;
+		if(strlen(sPrefab) > 0) {
+			GetTrieValue(hTriePrefab, sPrefab, hTriePrefabItem);
+		}
+
+		// Initialize with the default slot
+		new String:sItemSlot[16];
+		strcopy(sItemSlot, sizeof(sItemSlot), sDefaultSlot);
+
+		// Overwrite if a prefab is set
+		if(hTriePrefabItem != INVALID_HANDLE)GetTrieString(hTriePrefabItem, "item_slot", sItemSlot, sizeof(sItemSlot));
+
+		// Overwrite if set directly
+		KvGetString(hKvItems, "item_slot", sItemSlot, sizeof(sItemSlot), sItemSlot);
+
+		// Get the weapon slot, skip otherwise.
+		new iWeaponSlot = IsWeaponSlot(sItemSlot);
+		if(iWeaponSlot == -1)continue;
+
+		// Get the item_class, use the same procedure as for the item_slot
+		new String:sItemClass[16];
+		strcopy(sItemClass, sizeof(sItemClass), sDefaultClass);
+		if(hTriePrefabItem != INVALID_HANDLE)GetTrieString(hTriePrefabItem, "item_class", sItemClass, sizeof(sItemClass));
+		KvGetString(hKvItems, "item_class", sItemClass, sizeof(sItemClass), sItemClass);
+		if(IsUnrelatedItemClass(sItemClass))continue;
+
+
+		new String:sItemName[128];
+		strcopy(sItemName, sizeof(sItemName), sDefaultName);
+		KvGetString(hKvItems, "item_name", sItemName, sizeof(sItemName), sItemName);
+		strcopy(sItemName, sizeof(sItemName), sItemName[1]);
+		StrToUpper(sItemName, sItemName, sizeof(sItemName));
+
+		new Handle:hItemTrie = CreateTrie();
+		SetTrieValue(hItemTrie, "item_slot", iWeaponSlot);
+		SetTrieString(hItemTrie, "item_class", sItemClass);
+		SetTrieString(hItemTrie, "item_name", sItemName);
+		SetTrieString(hItemTrie, "name", sEng);
+		SetTrieValue(hItemTrie, "translatable", FindStringInArray(g_hTranslatable, sItemName));
+
+		PushArrayCell(hWeapons, StringToInt(sIndex));
+		SetTrieValue(hSlotMap, sIndex, hItemTrie);
+	} while (KvGotoNextKey(hKvItems, false));
+
+
+	CloseTrieHandlesByArray(hTriePrefab, hArrayPrefabs);
+	CloseHandle(hKvItems);
 }
 
-public FindItemWithID(iIDI) {
-	for(new i = 0; i < g_iWeaponCount; i++) {
-		if(g_xItems[i][iIDX] == iIDI)
-			return i;
-	}
+public LoadWeaponConfig() {
+	new Handle:kv = CreateKeyValues("WeaponToggles");
+	FileToKeyValues(kv, g_sCfgFile);
+	KvGotoFirstSubKey(kv, false);
 
-	return -1;
+	new iToggledCount = 0;
+	do {
+		new String:sIDI[255];
+		KvGetSectionName(kv, sIDI, sizeof(sIDI));
+		new iState = KvGetNum(kv, NULL_STRING, 0);
+
+		new Handle:hTrieItem = INVALID_HANDLE;
+		GetTrieValue(g_hSlotMap, sIDI, hTrieItem);
+		SetTrieValue(hTrieItem, "toggled", iState);
+
+		if(iState != 0)iToggledCount++;
+	} while (KvGotoNextKey(kv, false));
+
+	LogMessage("By default all items are %s", g_bDefault ? "blocked" : "allowed");
+	LogMessage("There are %i weapons in total. %i of them are %s.", GetArraySize(g_hWeapons), iToggledCount, g_bDefault ? "allowed" : "blocked");
+
+	CloseHandle(kv);
 }
 
-public IsItemBlocked(iIDI) {
-	new id = FindItemWithID(iIDI);
-	if(id != -1) {
-		new bool:bIsToggled = false;
-		if(g_xItems[id][toggled] == 1)
-			bIsToggled = true;
+public SaveWeaponConfig() {
+	new Handle:kv = CreateKeyValues("WeaponToggles");
 
-		new bool:bResult = g_bDefault;
-		if(bIsToggled)
-			bResult = !bResult;
+	for(new i = 0; i < GetArraySize(g_hWeapons); i++) {
+		new iItemDefinitionIndex = GetArrayCell(g_hWeapons, i);
+		new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
 
-		return bResult;
+		new iState = 0;
+		GetTrieValue(hTrieItem, "toggled", iState);
+
+		new String:sIDX[4];
+		IntToString(iItemDefinitionIndex, sIDX, sizeof(sIDX));
+		KvSetNum(kv, sIDX, iState);
 	}
 
-	return false;
+	KeyValuesToFile(kv, g_sCfgFile);
+	CloseHandle(kv);
 }
 
 /////////////////
@@ -337,25 +349,72 @@ public Native_ToggleItem(Handle:hPlugin, iNumParams) {
 
 public Native_IsItemToggled(Handle:hPlugin, iNumParams) {
 	new iItemDefinitionIndex = GetNativeCell(1);
-	new id = FindItemWithID(iItemDefinitionIndex);
-	if(id != -1) {
-		return g_xItems[id][toggled];
+	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
+	if(hTrieItem != INVALID_HANDLE) {
+		new iState = 0;
+		GetTrieValue(hTrieItem, "toggled", iState);
+
+		return bool:iState;
 	}
 
 	return false;
 }
 
-public Native_GetWeaponCount(Handle:hPlugin, iNumParams) {
-	return g_iWeaponCount;
+public Native_GetItemTrie(Handle:hPlugin, iNumParams) {
+	new iItemDefinitionIndex = GetNativeCell(1);
+	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
+
+	SetNativeCellRef(2, hTrieItem);
+	return true;
+}
+
+public Native_GetPrettyName(Handle:hPlugin, iNumParams) {
+	new iItemDefinitionIndex = GetNativeCell(1);
+	new iClient = GetNativeCell(2);
+
+	new iMaxLen = GetNativeCell(4);
+
+	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
+	if(hTrieItem != INVALID_HANDLE) {
+		new String:sItemName[128];
+		GetTrieString(hTrieItem, "item_name", sItemName, sizeof(sItemName));
+
+		new String:sName[128];
+		GetTrieString(hTrieItem, "name", sName, sizeof(sName));
+
+		new bool:bTranslatable = false;
+		GetTrieValue(hTrieItem, "translatable", bTranslatable);
+
+		decl String:sAnnounce[255];
+		if(bTranslatable) {
+			Format(sAnnounce, sizeof(sAnnounce), "%T", sItemName, iClient);
+		} else {
+			strcopy(sAnnounce, sizeof(sAnnounce), sName);
+		}
+
+		SetNativeString(3, sAnnounce, iMaxLen, false);
+		return true;
+	}
+
+	return false;
+}
+
+
+public Native_GetWeaponArray(Handle:hPlugin, iNumParams) {
+	SetNativeCellRef(1, g_hWeapons);
+	return true;
 }
 
 public Native_GetTransString(Handle:hPlugin, iNumParams) {
 	new iItemDefinitionIndex = GetNativeCell(1);
 	new iMaxLen = GetNativeCell(3);
 
-	new id = FindItemWithID(iItemDefinitionIndex);
-	if(id != -1) {
-		SetNativeString(2, g_xItems[id][trans], iMaxLen, false);
+	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
+	if(hTrieItem != INVALID_HANDLE) {
+		new String:sItemName[128];
+		GetTrieString(hTrieItem, "item_name", sItemName, sizeof(sItemName));
+
+		SetNativeString(2, sItemName, iMaxLen, false);
 		return true;
 	}
 
@@ -370,19 +429,15 @@ public Native_IsItemBlocked(Handle:hPlugin, iNumParams) {
 
 public Native_AnnounceBlock(Handle:hPlugin, iNumParams) {
 	if(!g_bAnnounce)return;
-
 	new iClient = GetNativeCell(1);
 	new iItemDefinitionIndex = GetNativeCell(2);
 
-	new id = FindItemWithID(iItemDefinitionIndex);
-
-	if(id != -1) {
-		CPrintToChat(iClient, "Blocked your '{olive}%T{default}'", g_xItems[id][trans], iClient);
-	} else {
-		CPrintToChat(iClient, "Blocked one of your items.");
-	}
-
-	return;
+	//forward tNUP_OnAnnounce(iClient, iItemDefinitionIndex, Handle:hTrieItem);
+	Call_StartForward(g_hForwardAnnounce);
+	Call_PushCell(iClient);
+	Call_PushCell(iItemDefinitionIndex);
+	Call_PushCell(GetItemTrie(iItemDefinitionIndex));
+	Call_Finish();
 }
 
 public Native_ReportWeight(Handle:hPlugin, iNumParams) {
@@ -445,8 +500,11 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max) 
 
 	CreateNative("tNUP_IsItemBlocked", Native_IsItemBlocked);
 	CreateNative("tNUP_GetWeaponToggleState", Native_IsItemToggled);
+
+	CreateNative("tNUP_GetPrettyName", Native_GetPrettyName);
 	CreateNative("tNUP_GetWeaponTranslationString", Native_GetTransString);
-	CreateNative("tNUP_GetWeaponCount", Native_GetWeaponCount);
+	CreateNative("tNUP_GetWeaponArray", Native_GetWeaponArray);
+	CreateNative("tNUP_GetItemTrie", Native_GetItemTrie);
 
 	CreateNative("tNUP_IsSetHatAndShouldBeBlocked", Native_IsSetHatAndShouldBeBlocked);
 	CreateNative("tNUP_UseThisModule", Native_UseThisModule);
@@ -466,89 +524,88 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max) 
 /////////////////
 //H E L P E R S//
 /////////////////
-public GetWeaponSlot(iItemDefinitionIndex) {
-	decl String:sIndex[8];
-	Format(sIndex, sizeof(sIndex), "%i", iItemDefinitionIndex);
+public ToggleItem(iItemDefinitionIndex) {
+	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
+	if(hTrieItem != INVALID_HANDLE) {
+		new iState = 0;
+		GetTrieValue(hTrieItem, "toggled", iState);
+		SetTrieValue(hTrieItem, "toggled", !iState);
+		g_bSomethingChanged = true;
+	}
+}
 
+public IsItemBlocked(iItemDefinitionIndex) {
+	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
+	if(hTrieItem != INVALID_HANDLE) {
+		new iState = 0;
+		GetTrieValue(hTrieItem, "toggled", iState);
+
+		new bool:bIsToggled = (iState == 1);
+		new bool:bResult = g_bDefault;
+		if(bIsToggled)bResult = !bResult;
+
+		return bResult;
+	}
+
+	return false;
+}
+
+public Handle:GetItemTrie(iItemDefinitionIndex) {
+	new Handle:hItemPrefab = INVALID_HANDLE;
+
+	new String:sKey[8];
+	Format(sKey, sizeof(sKey), "%i", iItemDefinitionIndex);
+	GetTrieValue(g_hSlotMap, sKey, hItemPrefab);
+
+	return hItemPrefab;
+}
+
+public GetWeaponSlot(iItemDefinitionIndex) {
 	new iSlot = -1;
-	GetTrieValue(g_hSlotMap, sIndex, iSlot);
+	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
+	if(hTrieItem != INVALID_HANDLE)GetTrieValue(hTrieItem, "item_slot", iSlot);
 
 	return iSlot;
 }
 
-public Handle:GetWeaponSlotMap() {
-	new Handle:hKvItems = CreateKeyValues("");
-	if (!FileToKeyValues(hKvItems, PATH_ITEMS_GAME)) {
-		SetFailState("Could not parse items_game.txt. Something is seriously wrong!");
-		return INVALID_HANDLE;
+stock CloseTrieHandlesByArray(Handle:hTrie, Handle:hArray, iArrayElementSize = 64) {
+	for(new i = 0; i < GetArraySize(hArray); i++) {
+		new String:sEntry[iArrayElementSize];
+		GetArrayString(hArray, i, sEntry, iArrayElementSize);
+
+		new Handle:hResultPart = INVALID_HANDLE;
+		GetTrieValue(hTrie, sEntry, hResultPart);
+		CloseHandle(hResultPart);
 	}
 
-	new Handle:hSlotMap = CreateTrie();
+	CloseHandle(hTrie);
+	CloseHandle(hArray);
+}
 
-	new Handle:hTriePrefab = CreateTrie();
-	KvRewind(hKvItems);
-	if(KvJumpToKey(hKvItems, "prefabs")) {
-		// There is a prefabs section
-
-		KvGotoFirstSubKey(hKvItems, false);
-		do {
-			decl String:sPFName[64];
-			KvGetSectionName(hKvItems, sPFName, sizeof(sPFName));
-
-			new String:sItemSlot[16];
-			KvGetString(hKvItems, "item_slot", sItemSlot, sizeof(sItemSlot));
-
-			SetTrieString(hTriePrefab, sPFName, sItemSlot);
-		} while (KvGotoNextKey(hKvItems, false));
+stock StrToUpper(const String:str[], String:buffer[], bufsize) {
+	new n=0, x=0;
+	while (str[n] != '\0' && x < (bufsize-1)) {
+		new char = str[n++];
+		if (IsCharLower(char))char = CharToUpper(char);
+		buffer[x++] = char;
 	}
 
-	new String:sDefaultSlot[16] = "melee";
-	KvRewind(hKvItems);
-	KvJumpToKey(hKvItems, "items");
-	if(KvJumpToKey(hKvItems, "default")) {
-		KvGetString(hKvItems, "item_slot", sDefaultSlot, sizeof(sDefaultSlot));
-	}
+	buffer[x++] = '\0';
+
+	return x;
+}
 
 
-	KvRewind(hKvItems);
-	KvJumpToKey(hKvItems, "items");
-	KvGotoFirstSubKey(hKvItems, false);
-
-	new String:sIndex[8];
-	do {
-		KvGetSectionName(hKvItems, sIndex, sizeof(sIndex));
-
-		//Skip item with id 'default'
-		if(StrEqual(sIndex, "default"))continue;
-
-		// Initialize with the default slot
-		new String:sItemSlot[16];
-		strcopy(sItemSlot, sizeof(sItemSlot), sDefaultSlot);
-
-		// Overwrite if a prefab is set
-		new String:sPrefab[64];
-		KvGetString(hKvItems, "prefab", sPrefab, sizeof(sPrefab));
-		GetTrieString(hTriePrefab, sPrefab, sItemSlot, sizeof(sItemSlot));
-
-		// Overwrite if set directly
-		KvGetString(hKvItems, "item_slot", sItemSlot, sizeof(sItemSlot), sItemSlot);
-
-		new String:sItemClass[16];
-		KvGetString(hKvItems, "item_class", sItemClass, sizeof(sItemClass), "bundle");
-		if(IsUnrelatedItemClass(sItemClass))continue;
-
-
-		if(StrEqual(sItemSlot, "primary"))SetTrieValue(hSlotMap, sIndex, 0);
-		if(StrEqual(sItemSlot, "secondary"))SetTrieValue(hSlotMap, sIndex, 1);
-		if(StrEqual(sItemSlot, "melee"))SetTrieValue(hSlotMap, sIndex, 2);
-		if(StrEqual(sItemSlot, "pda"))SetTrieValue(hSlotMap, sIndex, 3);
-		if(StrEqual(sItemSlot, "pda2"))SetTrieValue(hSlotMap, sIndex, 4);
-	} while (KvGotoNextKey(hKvItems, false));
-
-	CloseHandle(hTriePrefab);
-	CloseHandle(hKvItems);
-
-	return hSlotMap;
+/////////////////
+// STATIC DATA //
+/////////////////
+public IsWeaponSlot(String:sItemSlot[]) {
+	if(StrEqual(sItemSlot, "primary"))return 0;
+	if(StrEqual(sItemSlot, "secondary"))return 1;
+	if(StrEqual(sItemSlot, "melee"))return 2;
+	if(StrEqual(sItemSlot, "pda"))return 3;
+	if(StrEqual(sItemSlot, "pda2"))return 4;
+	return -1;
 }
 
 public bool:IsUnrelatedItemClass(String:sItemClass[]) {

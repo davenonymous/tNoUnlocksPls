@@ -20,6 +20,10 @@ native tNUP_GetDefaultIDIForClass(TFClassType:xClass, iSlot);
 native tNUP_ReportWeight(iWeight);
 native tNUP_AnnounceBlock(iClient, iItemDefinitionIndex);
 
-native tNUP_GetWeaponCount();
+native tNUP_GetWeaponArray(&Handle:hWeapons);
+native tNUP_GetItemTrie(iItemDefinitionIndex, &Handle:hTrie);
 native bool:tNUP_GetWeaponToggleState(iItemDefinitionIndex);
 native bool:tNUP_GetWeaponTranslationString(iItemDefinitionIndex, String:sResult[], iMaxLen);
+native bool:tNUP_GetPrettyName(iItemDefinitionIndex, iClient, String:sResult[], iMaxLen);
+
+forward tNUP_OnAnnounce(iClient, iItemDefinitionIndex, Handle:hTrieItem);
