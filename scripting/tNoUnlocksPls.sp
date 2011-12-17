@@ -317,12 +317,49 @@ public Native_IsEnabled(Handle:hPlugin, iNumParams) {
 	return g_bEnabled;
 }
 
+public Native_BlockByDefault(Handle:hPlugin, iNumParams) {
+	return g_bDefault;
+}
+
 public Native_BlockStrangeWeapons(Handle:hPlugin, iNumParams) {
 	return g_bBlockStrangeWeapons;
 }
 
 public Native_BlockSetHats(Handle:hPlugin, iNumParams) {
 	return g_bBlockSetHats;
+}
+
+public Native_ToggleItem(Handle:hPlugin, iNumParams) {
+	new iItemDefinitionIndex = GetNativeCell(1);
+
+	ToggleItem(iItemDefinitionIndex);
+}
+
+public Native_IsItemToggled(Handle:hPlugin, iNumParams) {
+	new iItemDefinitionIndex = GetNativeCell(1);
+	new id = FindItemWithID(iItemDefinitionIndex);
+	if(id != -1) {
+		return g_xItems[id][toggled];
+	}
+
+	return false;
+}
+
+public Native_GetWeaponCount(Handle:hPlugin, iNumParams) {
+	return g_iWeaponCount;
+}
+
+public Native_GetTransString(Handle:hPlugin, iNumParams) {
+	new iItemDefinitionIndex = GetNativeCell(1);
+	new iMaxLen = GetNativeCell(3);
+
+	new id = FindItemWithID(iItemDefinitionIndex);
+	if(id != -1) {
+		SetNativeString(2, g_xItems[id][trans], iMaxLen, false);
+		return true;
+	}
+
+	return false;
 }
 
 public Native_IsItemBlocked(Handle:hPlugin, iNumParams) {
@@ -399,10 +436,17 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max) 
 	RegPluginLibrary("tNoUnlocksPls");
 
 	CreateNative("tNUP_IsEnabled", Native_IsEnabled);
+	CreateNative("tNUP_BlockByDefault", Native_BlockByDefault);
+
+	CreateNative("tNUP_ToggleItem", Native_ToggleItem);
 
 	CreateNative("tNUP_BlockStrangeWeapons", Native_BlockStrangeWeapons);
 	CreateNative("tNUP_BlockSetHats", Native_BlockSetHats);
+
 	CreateNative("tNUP_IsItemBlocked", Native_IsItemBlocked);
+	CreateNative("tNUP_GetWeaponToggleState", Native_IsItemToggled);
+	CreateNative("tNUP_GetWeaponTranslationString", Native_GetTransString);
+	CreateNative("tNUP_GetWeaponCount", Native_GetWeaponCount);
 
 	CreateNative("tNUP_IsSetHatAndShouldBeBlocked", Native_IsSetHatAndShouldBeBlocked);
 	CreateNative("tNUP_UseThisModule", Native_UseThisModule);
