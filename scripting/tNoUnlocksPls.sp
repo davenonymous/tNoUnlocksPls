@@ -74,13 +74,6 @@ public OnPluginStart() {
 	HookConVarChange(g_hCvarBlockStrange, Cvar_Changed);
 	HookConVarChange(g_hCvarAnnounce, Cvar_Changed);
 
-	decl String:sWeaponsCfgPath[PLATFORM_MAX_PATH];
-	BuildPath(Path_SM, sWeaponsCfgPath, PLATFORM_MAX_PATH, "configs/weapons.cfg");
-
-	if(!FileExists(sWeaponsCfgPath)) {
-		SetFailState("File does not exist: configs/weapons.cfg");
-	}
-
 	AutoExecConfig();
 }
 
