@@ -7,7 +7,7 @@
 #define UPDATE_URL    			"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.cfg"
 #define PATH_ITEMS_GAME			"scripts/items/items_game.txt"
 
-#define VERSION			"0.4.1"
+#define VERSION			"0.4.2"
 
 #define QUALITY_STRANGE 11
 
@@ -273,6 +273,10 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 }
 
 public LoadWeaponConfig() {
+	if(!FileExists(g_sCfgFile)) {
+		return;
+	}
+
 	new Handle:kv = CreateKeyValues("WeaponToggles");
 	FileToKeyValues(kv, g_sCfgFile);
 	KvGotoFirstSubKey(kv, false);
@@ -537,7 +541,6 @@ public IsItemBlocked(iItemDefinitionIndex) {
 		new bool:bResult = g_bDefault;
 		if(bIsToggled)bResult = !bResult;
 
-		LogMessage("Item %i is blocked: %i", iItemDefinitionIndex, bResult);
 		return bResult;
 	}
 
