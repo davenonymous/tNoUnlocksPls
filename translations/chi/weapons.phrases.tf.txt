@@ -460,6 +460,26 @@
 	{
 		"chi"	"天灾之拳"
 	}
+	"TF_POMSON"
+	{
+		"chi"	"歼灭者 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"chi"	"传送扳手"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"chi"	"三度烧伤"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"chi"	"燃素喷射器"
+	}
+	"TF_MANMELTER"
+	{
+		"chi"	"熔人枪"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"chi"	"海盗头子的假腿"
@@ -468,8 +488,64 @@
 	{
 		"chi"	"苏格兰式握手"
 	}
-	"TF_T_NT"
+	"TF_SHARPDRESSER"
 	{
-		"chi"	"名称标签"
+		"chi"	"袖藏剑"
+	}
+	"TF_BALLBUSTER"
+	{
+		"chi"	"用剩的礼物包装纸"
+	}
+	"TF_SPYCICLE"
+	{
+		"chi"	"神奇的冰柱"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"chi"	"节日转轮机枪"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"chi"	"欢乐拳套"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"chi"	"节日火箭发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"chi"	"节日火焰喷射器"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"chi"	"节日球棒"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"chi"	"节日黏性炸弹发射器"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"chi"	"节日扳手"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"chi"	"节日医疗枪"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"chi"	"节日狙击步枪"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"chi"	"节日刀子"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"chi"	"节日霰弹枪"
+	}
+	"TF_BLACKROSE"
+	{
+		"chi"	"黑玫瑰"
 	}
 }

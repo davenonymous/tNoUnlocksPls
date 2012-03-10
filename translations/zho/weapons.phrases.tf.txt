@@ -464,6 +464,26 @@
 	{
 		"zho"	"末世戰拳"
 	}
+	"TF_POMSON"
+	{
+		"zho"	"潘森 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"zho"	"靈光乍現"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"zho"	"三度灼傷"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"zho"	"燃素噴射器"
+	}
+	"TF_MANMELTER"
+	{
+		"zho"	"要人命死光槍"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"zho"	"私藏海盜靴"
@@ -476,8 +496,60 @@
 	{
 		"zho"	"刺客袖劍"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"zho"	"名稱標籤"
+		"zho"	"包裝紙殺手"
+	}
+	"TF_SPYCICLE"
+	{
+		"zho"	"寒冽冰錐"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"zho"	"聖誕格林機槍"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"zho"	"快樂拳"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"zho"	"聖誕火箭發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"zho"	"聖誕火焰噴射器"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"zho"	"聖誕球棒"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"zho"	"聖誕黏性炸彈發射器"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"zho"	"聖誕扳手"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"zho"	"聖誕醫療槍"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"zho"	"聖誕狙擊槍"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"zho"	"聖誕刀子"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"zho"	"聖誕雙管散彈槍"
+	}
+	"TF_BLACKROSE"
+	{
+		"zho"	"黑玫瑰"
 	}
 }

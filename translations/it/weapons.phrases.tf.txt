@@ -472,8 +472,12 @@
 	{
 		"it"	"La Stretta di Mano Scozzese"
 	}
-	"TF_T_NT"
+	"TF_SHARPDRESSER"
 	{
-		"it"	"Etichetta Nome"
+		"it"	"L'abito Distinto"
+	}
+	"TF_BALLBUSTER"
+	{
+		"it"	"L'Incarto Assassino"
 	}
 }

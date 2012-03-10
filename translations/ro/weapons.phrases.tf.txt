@@ -2,107 +2,107 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"ro"	"Kritzkrieg-ul"
+		"ro"	"The Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"ro"	"Blutsauger-ul"
+		"ro"	"The Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"ro"	"Über Fierăstrăul"
+		"ro"	"The Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"ro"	"Extinctoporul"
+		"ro"	"The Axtinguisher"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"ro"	"Pistolul de Semnalizare"
+		"ro"	"The Flare Gun"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"ro"	"Arzătorul de Spate"
+		"ro"	"The Backburner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
-		"ro"	"Nataşa"
+		"ro"	"Natascha"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"ro"	"Sandvich-ul"
+		"ro"	"The Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"ro"	"Manuşile Mortale de Box (KGB)"
+		"ro"	"The Killing Gloves of Boxing"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"ro"	"Moş Ene"
+		"ro"	"The Sandman"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"ro"	"Forţ-A-Naturii"
+		"ro"	"The Force-A-Nature"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"ro"	"Bonk! Energizantul Atomic"
+		"ro"	"Bonk! Atomic Punch"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"ro"	"Vânătorul de Oameni"
+		"ro"	"The Huntsman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"ro"	"Razorback-ul"
+		"ro"	"The Razorback"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"ro"	"Karate la Borcan"
+		"ro"	"Jarate"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"ro"	"Ceasul Morţii"
+		"ro"	"The Dead Ringer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"ro"	"Pelerina şi Pumnalul"
+		"ro"	"The Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"ro"	"Ambasadorul"
+		"ro"	"The Ambassador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"ro"	"Lovitura Directă"
+		"ro"	"The Direct Hit"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"ro"	"Egalizatorul"
+		"ro"	"The Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"ro"	"Steguleţul"
+		"ro"	"The Buff Banner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"ro"	"Rezistenţa Scoţiană"
+		"ro"	"The Scottish Resistance"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"ro"	"Scutul Şarjator"
+		"ro"	"The Chargin' Targe"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"ro"	"Ochiolander"
+		"ro"	"The Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"ro"	"Cizmele Blindate"
+		"ro"	"The Gunboats"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"ro"	"Controlorul"
+		"ro"	"The Wrangler"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
@@ -114,11 +114,11 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"ro"	"Homewrecker-ul"
+		"ro"	"The Homewrecker"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"ro"	"Trenul Durerii"
+		"ro"	"The Pain Train"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
@@ -126,15 +126,15 @@
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"ro"	"Ciocolata Dalokohs"
+		"ro"	"The Dalokohs Bar"
 	}
 	"TF_TTG_MAXGUN"
 	{
-		"ro"	"Lugermorph-ul"
+		"ro"	"The Lugermorph"
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"ro"	"Big Kill-ul"
+		"ro"	"The Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -146,35 +146,35 @@
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"ro"	"Cuţitul Nativului"
+		"ro"	"The Tribalman's Shiv"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"ro"	"Călăul Scoţianului"
+		"ro"	"The Scotsman's Skullcutter"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"ro"	"Vita-Fierăstrăul"
+		"ro"	"The Vita-Saw"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"ro"	"Supercric"
+		"ro"	"The Powerjack"
 	}
 	"TF_THEDEGREASER"
 	{
-		"ro"	"Degresatorul"
+		"ro"	"The Degreaser"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"ro"	"Oprirea Scurtă"
+		"ro"	"The Shortstop"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"ro"	"Macroul Sfânt"
+		"ro"	"The Holy Mackerel"
 	}
 	"TF_MADMILK"
 	{
-		"ro"	"Lapte Nebun"
+		"ro"	"Mad Milk"
 	}
 	"TF_LETRANGER"
 	{
@@ -182,43 +182,43 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"ro"	"Recompensa Ta Eternă"
+		"ro"	"Your Eternal Reward"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"ro"	"Sprijinul Batalionului"
+		"ro"	"The Battalion's Backup"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"ro"	"Cutia Neagră"
+		"ro"	"The Black Box"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"ro"	"Tranchilizantorul din Sydney"
+		"ro"	"The Sydney Sleeper"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"ro"	"Scutul pentru Pericol al lui Darwin"
+		"ro"	"Darwin's Danger Shield"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"ro"	"Bushwacka-ul"
+		"ro"	"The Bushwacka"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"ro"	"Săritorul cu Rachete"
+		"ro"	"The Rocket Jumper"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"ro"	"Mănușile pentru Alergare Urgentă"
+		"ro"	"The Gloves of Running Urgently"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"ro"	"Tigaia"
+		"ro"	"The Frying Pan"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"ro"	"Săritorul Lipicios"
+		"ro"	"The Sticky Jumper"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
@@ -226,63 +226,63 @@
 	}
 	"TF_TTG_WATCH"
 	{
-		"ro"	"Ceasul Entuziastului"
+		"ro"	"The Enthusiast's Timepiece"
 	}
 	"TF_IRON_CURTAIN"
 	{
-		"ro"	"Cortina de Fier"
+		"ro"	"The Iron Curtain"
 	}
 	"TF_AMPUTATOR"
 	{
-		"ro"	"Amputatorul"
+		"ro"	"The Amputator"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"ro"	"Arbaleta Cruciatului"
+		"ro"	"The Crusader's Crossbow"
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"ro"	"Cabrul Ullapool"
+		"ro"	"The Ullapool Caber"
 	}
 	"TF_LOCHNLOAD"
 	{
-		"ro"	"Țintește și-ncarcă"
+		"ro"	"The Loch-n-Load"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"ro"	"Spiritul Războinicului"
+		"ro"	"The Warrior's Spirit"
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"ro"	"Sandvich din Friptură de Bivol"
+		"ro"	"The Buffalo Steak Sandvich"
 	}
 	"TF_GATLINGGUN"
 	{
-		"ro"	"Bestia de Aramă"
+		"ro"	"The Brass Beast"
 	}
 	"TF_CANDYCANE"
 	{
-		"ro"	"Bastonul de Zahăr"
+		"ro"	"The Candy Cane"
 	}
 	"TF_BOSTONBASHER"
 	{
-		"ro"	"Izbitorul din Boston"
+		"ro"	"The Boston Basher"
 	}
 	"TF_BACKSCRATCHER"
 	{
-		"ro"	"Scărpinătorul de Spate"
+		"ro"	"The Back Scratcher"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"ro"	"Mareaţa Sabie"
+		"ro"	"The Claidheamh Mòr"
 	}
 	"TF_JAG"
 	{
-		"ro"	"Colţul"
+		"ro"	"The Jag"
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"ro"	"Pumnii de Oţel"
+		"ro"	"The Fists of Steel"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
@@ -290,23 +290,23 @@
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"ro"	"Soarele-pe-Băț"
+		"ro"	"The Sun-on-a-Stick"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"ro"	"Detonatorul"
+		"ro"	"The Detonator"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"ro"	"Cotropitor"
+		"ro"	"Concheror"
 	}
 	"TF_GUNBAI"
 	{
-		"ro"	"Gunbai"
+		"ro"	"Fan O'War"
 	}
 	"TF_KUNAI"
 	{
-		"ro"	"Kunai-ul Conspiratorului"
+		"ro"	"Conniver's Kunai"
 	}
 	"TF_SOLDIERKATANA"
 	{
@@ -314,19 +314,23 @@
 	}
 	"TF_SHAHANSHAH"
 	{
-		"ro"	"Shahanshah"
+		"ro"	"The Shahanshah"
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"ro"	"Afacerea din Bazar"
+		"ro"	"The Bazaar Bargain"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"ro"	"The Persian Persuader"
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
-		"ro"	"Papuceii lui Ali Baba"
+		"ro"	"Ali Baba's Wee Booties"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
-		"ro"	"Scutul Splendid"
+		"ro"	"The Splendid Screen"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
@@ -334,23 +338,23 @@
 	}
 	"TF_OVERDOSE"
 	{
-		"ro"	"Supradoza"
+		"ro"	"The Overdose"
 	}
 	"TF_SOLEMNVOW"
 	{
-		"ro"	"Jurământul Solemn"
+		"ro"	"The Solemn Vow"
 	}
 	"TF_LIBERTYLAUNCHER"
 	{
-		"ro"	"Lansatorul Libertăţii"
+		"ro"	"The Liberty Launcher"
 	}
 	"TF_RESERVESHOOTER"
 	{
-		"ro"	"Pușca de Rezervă"
+		"ro"	"The Reserve Shooter"
 	}
 	"TF_MARKETGARDENER"
 	{
-		"ro"	"Grădinarul Pieţei"
+		"ro"	"The Market Gardener"
 	}
 	"TF_SAXXY"
 	{
@@ -362,19 +366,19 @@
 	}
 	"TF_RUSSIANRIOT"
 	{
-		"ro"	"Afacerea de Familie"
+		"ro"	"The Family Business"
 	}
 	"TF_EVICTIONNOTICE"
 	{
-		"ro"	"Nota de Evacuare"
+		"ro"	"The Eviction Notice"
 	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
-		"ro"	"Prăjitura din Pește"
+		"ro"	"Fishcake"
 	}
 	"TF_COWMANGLER"
 	{
-		"ro"	"Devoratorul de Vaci 5000"
+		"ro"	"The Cow Mangler 5000"
 	}
 	"TF_RIGHTEOUSBISON"
 	{
@@ -382,15 +386,15 @@
 	}
 	"TF_MANTREADS"
 	{
-		"ro"	"Călcătorul"
+		"ro"	"The Mantreads"
 	}
 	"TF_DISCIPLINARYACTION"
 	{
-		"ro"	"Acţiunea Disciplinară"
+		"ro"	"The Disciplinary Action"
 	}
 	"TF_SODAPOPPER"
 	{
-		"ro"	"Desfăcătorul de Sucuri"
+		"ro"	"The Soda Popper"
 	}
 	"TF_WINGER"
 	{
@@ -398,15 +402,15 @@
 	}
 	"TF_ATOMIZER"
 	{
-		"ro"	"Pulverizatorul"
+		"ro"	"The Atomizer"
 	}
 	"TF_SCOUTSWORD"
 	{
-		"ro"	"Sabia Trei-Rune"
+		"ro"	"Three-Rune Blade"
 	}
 	"TF_MAILBOX"
 	{
-		"ro"	"Maiul Poștal"
+		"ro"	"The Postal Pummeler"
 	}
 	"TF_ENFORCER"
 	{
@@ -414,11 +418,19 @@
 	}
 	"TF_BIGEARNER"
 	{
-		"ro"	"Marele Câștigător"
+		"ro"	"The Big Earner"
+	}
+	"TF_RFAHAMMER"
+	{
+		"ro"	"The Maul"
+	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"ro"	"The Conscientious Objector"
 	}
 	"TF_NINEIRON"
 	{
-		"ro"	"Crosa de Golf a lui Nessie"
+		"ro"	"Nessie's Nine Iron"
 	}
 	"TF_THEORIGINAL"
 	{
@@ -426,22 +438,106 @@
 	}
 	"TF_DEX_REVOLVER"
 	{
-		"ro"	"Spatele de Diamant"
+		"ro"	"The Diamondback"
 	}
 	"TF_DEX_RIFLE"
 	{
-		"ro"	"Machina"
+		"ro"	"The Machina"
 	}
 	"TF_DEX_SHOTGUN"
 	{
-		"ro"	"Văduvitorul"
+		"ro"	"The Widowmaker"
 	}
 	"TF_DEX_PISTOL"
 	{
-		"ro"	"Scurt Circuitul"
+		"ro"	"The Short Circuit"
 	}
-	"TF_T_NT"
+	"TF_VOODOOPIN"
 	{
-		"ro"	"Etichetă de Nume"
+		"ro"	"The Wanga Prick"
+	}
+	"TF_APOCOFISTS"
+	{
+		"ro"	"The Apoco-Fists"
+	}
+	"TF_POMSON"
+	{
+		"ro"	"The Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"ro"	"The Eureka Effect"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"ro"	"The Third Degree"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"ro"	"The Phlogistinator"
+	}
+	"TF_MANMELTER"
+	{
+		"ro"	"The Manmelter"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"ro"	"The Bootlegger"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"ro"	"The Scottish Handshake"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"ro"	"The Sharp Dresser"
+	}
+	"TF_BALLBUSTER"
+	{
+		"ro"	"The Wrap Assassin"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"ro"	"Festive Minigun"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"ro"	"The Holiday Punch"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"ro"	"Festive Rocket Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"ro"	"Festive Flame Thrower"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"ro"	"Festive Bat"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"ro"	"Festive Stickybomb Launcher"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"ro"	"Festive Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"ro"	"Festive Medi Gun"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"ro"	"Festive Sniper Rifle"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"ro"	"Festive Knife"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"ro"	"Festive Scattergun"
 	}
 }

@@ -98,7 +98,7 @@
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"ko"	"건부츠"
+		"ko"	"건보츠"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
@@ -114,7 +114,7 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"ko"	"홈레커"
+		"ko"	"가정파괴범"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
@@ -224,6 +224,10 @@
 	{
 		"ko"	"말도 없고 머리도 없는 기만병의 목따개"
 	}
+	"TF_TTG_WATCH"
+	{
+		"ko"	"열성자의 시계"
+	}
 	"TF_IRON_CURTAIN"
 	{
 		"ko"	"철의 장막"
@@ -235,6 +239,14 @@
 	"TF_CRUSADERSCROSSBOW"
 	{
 		"ko"	"십자군의 석궁"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"ko"	"얼러풀 막대"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"ko"	"로크 앤 로드"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
@@ -262,15 +274,23 @@
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"ko"	"클레이뎀 모어"
+		"ko"	"클레이브 모어"
 	}
 	"TF_FISTSOFSTEEL"
 	{
 		"ko"	"강철 주먹"
 	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"ko"	"날카로운 화산 파편"
+	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
 		"ko"	"선-온-어-스틱"
+	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"ko"	"기폭총"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
@@ -290,11 +310,11 @@
 	}
 	"TF_SHAHANSHAH"
 	{
-		"ko"	"샤한샤"
+		"ko"	"왕중왕"
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"ko"	"벼룩 시장품"
+		"ko"	"시장 흥정품"
 	}
 	"TF_PERSIANPERSUADER"
 	{
@@ -326,7 +346,7 @@
 	}
 	"TF_MARKETGARDENER"
 	{
-		"ko"	"모종삽"
+		"ko"	"마켓가든 모종삽"
 	}
 	"TF_TOMISLAV"
 	{
@@ -344,13 +364,25 @@
 	{
 		"ko"	"어육 완자"
 	}
+	"TF_COWMANGLER"
+	{
+		"ko"	"소도둑 5000"
+	}
 	"TF_RIGHTEOUSBISON"
 	{
 		"ko"	"정의의 들소"
 	}
+	"TF_MANTREADS"
+	{
+		"ko"	"인간딛개"
+	}
 	"TF_DISCIPLINARYACTION"
 	{
 		"ko"	"징계 조치"
+	}
+	"TF_SODAPOPPER"
+	{
+		"ko"	"탄산총"
 	}
 	"TF_WINGER"
 	{
@@ -358,7 +390,7 @@
 	}
 	"TF_ATOMIZER"
 	{
-		"ko"	"원자 뿌리개"
+		"ko"	"인수분해"
 	}
 	"TF_SCOUTSWORD"
 	{
@@ -380,6 +412,10 @@
 	{
 		"ko"	"몰"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"ko"	"양심적 병역 기피자"
+	}
 	"TF_NINEIRON"
 	{
 		"ko"	"네시의 9번 아이언"
@@ -400,6 +436,38 @@
 	{
 		"ko"	"과부 제조기"
 	}
+	"TF_DEX_PISTOL"
+	{
+		"ko"	"합선기"
+	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"ko"	"비무장 전투"
+	}
+	"TF_APOCOFISTS"
+	{
+		"ko"	"아포코 주먹"
+	}
+	"TF_POMSON"
+	{
+		"ko"	"폼슨 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"ko"	"유레카 효과"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"ko"	"3도 화상"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"ko"	"플로지스티네이터"
+	}
+	"TF_MANMELTER"
+	{
+		"ko"	"인간 융해 장치"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"ko"	"밀주업자"
@@ -408,8 +476,16 @@
 	{
 		"ko"	"스코틀랜드식 악수"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"ko"	"이름표"
+		"ko"	"포장지 암살자"
+	}
+	"TF_SPYCICLE"
+	{
+		"ko"	"스파이 고드름"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"ko"	"휴일빵"
 	}
 }

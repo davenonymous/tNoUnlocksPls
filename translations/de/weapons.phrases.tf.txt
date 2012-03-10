@@ -464,6 +464,26 @@
 	{
 		"de"	"Apoka-Fäuste"
 	}
+	"TF_POMSON"
+	{
+		"de"	"Der Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"de"	"Der Aha-Effekt"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"de"	"Der Dritte Grad"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"de"	"Der Phlogistinator"
+	}
+	"TF_MANMELTER"
+	{
+		"de"	"Der Menschenschmelzer"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"de"	"Der Schwarzhändler"
@@ -476,8 +496,60 @@
 	{
 		"de"	"Der schnittig Gekleidete"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"de"	"Namensschild"
+		"de"	"Der Geschenkpapier-Meuchler"
+	}
+	"TF_SPYCICLE"
+	{
+		"de"	"Der Spys-zapfen"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"de"	"Festliche Minigun"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"de"	"Der Weihnachtsgruß"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"de"	"Festlicher Raketenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"de"	"Festlicher Flammenwerfer"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"de"	"Festlicher Schläger"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"de"	"Festlicher Haftbombenwerfer"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"de"	"Festlicher Schraubenschlüssel"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"de"	"Festliche Medigun"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"de"	"Festliches Scharfschützengewehr"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"de"	"Festliches Messer"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"de"	"Festliche Scattergun"
+	}
+	"TF_BLACKROSE"
+	{
+		"de"	"Die schwarze Rose"
 	}
 }

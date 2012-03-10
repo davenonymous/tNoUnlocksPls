@@ -464,6 +464,26 @@
 	{
 		"fi"	"Tuomiopäivän luuvitoset"
 	}
+	"TF_POMSON"
+	{
+		"fi"	"Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"fi"	"Ahaa-elämys"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"fi"	"Kolmannen asteen palokirves"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"fi"	"Flogistonaattori"
+	}
+	"TF_MANMELTER"
+	{
+		"fi"	"Miestennielijä"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"fi"	"Piraatin puujalka"
@@ -476,8 +496,60 @@
 	{
 		"fi"	"Pisteliäs pukeutuja"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"fi"	"Nimitunniste"
+		"fi"	"Paketointipalvelu"
+	}
+	"TF_SPYCICLE"
+	{
+		"fi"	"Jääpuukko"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"fi"	"Juhlava konekivääri"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"fi"	"Jouluiset rähinärukkaset"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"fi"	"Juhlava raketinheitin"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"fi"	"Juhlava liekinheitin"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"fi"	"Juhlava pesäpallomaila"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"fi"	"Juhlava tahmapomminheitin"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"fi"	"Juhlava jakoavain"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"fi"	"Juhlava lääkintäase"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"fi"	"Juhlava tarkkuuskivääri"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"fi"	"Juhlava puukko"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"fi"	"Juhlava haulikko"
+	}
+	"TF_BLACKROSE"
+	{
+		"fi"	"Musta ruusu"
 	}
 }

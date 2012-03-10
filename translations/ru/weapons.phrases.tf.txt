@@ -464,6 +464,26 @@
 	{
 		"ru"	"Кулакопокалипсис"
 	}
+	"TF_POMSON"
+	{
+		"ru"	"Помсон 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"ru"	"Озарение"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"ru"	"Третья степень"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"ru"	"Флогистонатор"
+	}
+	"TF_MANMELTER"
+	{
+		"ru"	"Людоплав"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"ru"	"Бутлегер"
@@ -476,8 +496,60 @@
 	{
 		"ru"	"Одетый с иголочки"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"ru"	"Именной ярлык"
+		"ru"	"Оберточный убийца"
+	}
+	"TF_SPYCICLE"
+	{
+		"ru"	"Сосулька"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"ru"	"Праздничный пулемет"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"ru"	"Праздничный удар"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"ru"	"Праздничный ракетомет"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"ru"	"Праздничный огнемет"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"ru"	"Праздничная бита"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"ru"	"Праздничный липучкомет"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"ru"	"Праздничный гаечный ключ"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"ru"	"Праздничная лечебная пушка"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"ru"	"Праздничная снайперская винтовка"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"ru"	"Праздничный нож"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"ru"	"Праздничный обрез"
+	}
+	"TF_BLACKROSE"
+	{
+		"ru"	"Черная роза"
 	}
 }

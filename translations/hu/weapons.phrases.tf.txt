@@ -406,7 +406,7 @@
 	}
 	"TF_SCOUTSWORD"
 	{
-		"hu"	"Háromrúnás penge"
+		"hu"	"Háromrúnás Penge"
 	}
 	"TF_MAILBOX"
 	{
@@ -464,6 +464,26 @@
 	{
 		"hu"	"Végütélet"
 	}
+	"TF_POMSON"
+	{
+		"hu"	"A Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"hu"	"A Heuréka-hatás"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"hu"	"A Harmadfokú"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"hu"	"A Flogisztonizáló"
+	}
+	"TF_MANMELTER"
+	{
+		"hu"	"Az Emberolvasztó"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"hu"	"A Félfaláb"
@@ -476,8 +496,60 @@
 	{
 		"hu"	"A Jóvágású"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"hu"	"Névcédula"
+		"hu"	"A Csomagolós Gyilkos"
+	}
+	"TF_SPYCICLE"
+	{
+		"hu"	"A Kém-csap"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Gépágyú"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"hu"	"Az Ünnepi Felütés"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Rakétavető"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Lángszóró"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Ütő"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Tapadóbomba-vető"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Franciakulcs"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Gyógypuska"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Mesterlövészpuska"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Kés"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"hu"	"Ünnepi Repeszpuska"
+	}
+	"TF_BLACKROSE"
+	{
+		"hu"	"A Fekete Rózsa"
 	}
 }

@@ -464,6 +464,26 @@
 	{
 		"sv"	"Apoka-Nävar"
 	}
+	"TF_POMSON"
+	{
+		"sv"	"Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"sv"	"Aha-upplevelsen"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"sv"	"Tredje Graden"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"sv"	"Flogistoneraren"
+	}
+	"TF_MANMELTER"
+	{
+		"sv"	"Människosmältaren"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"sv"	"Spritsmugglaren"
@@ -476,8 +496,60 @@
 	{
 		"sv"	"Den Prydliga Klingan"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"sv"	"Namnlapp"
+		"sv"	"Omslagsmördaren"
+	}
+	"TF_SPYCICLE"
+	{
+		"sv"	"Smygtappen"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"sv"	"Festlig Minigun"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"sv"	"Julklappen"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"sv"	"Festligt Raketgevär"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"sv"	"Festlig Eldkastare"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"sv"	"Festligt Slagträ"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"sv"	"Festlig Klisterbombskastare"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"sv"	"Festlig Skiftnyckel"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"sv"	"Festligt Hälsovapen"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"sv"	"Festligt Krypskyttegevär"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"sv"	"Festlig Kniv"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"sv"	"Festlig Hagelbössa"
+	}
+	"TF_BLACKROSE"
+	{
+		"sv"	"Den svarta rosen"
 	}
 }

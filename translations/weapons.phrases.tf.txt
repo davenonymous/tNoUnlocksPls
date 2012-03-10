@@ -548,8 +548,8 @@
 	{
 		"en"	"Festive Scattergun"
 	}
-	"TF_T_NT"
+	"TF_BLACKROSE"
 	{
-		"en"	"Name Tag"
+		"en"	"Black Rose"
 	}
 }

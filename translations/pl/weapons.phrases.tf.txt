@@ -464,6 +464,26 @@
 	{
 		"pl"	"Piąchokalipsa"
 	}
+	"TF_POMSON"
+	{
+		"pl"	"Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"pl"	"Efekt Eureki"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"pl"	"Trzeci Stopień"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"pl"	"Flogistynator"
+	}
+	"TF_MANMELTER"
+	{
+		"pl"	"Człekoroztapiacz"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"pl"	"Kuternoga"
@@ -476,8 +496,60 @@
 	{
 		"pl"	"Zabójcza Elegancja"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"pl"	"Etykieta z nazwą"
+		"pl"	"Pakujący Zabójca"
+	}
+	"TF_SPYCICLE"
+	{
+		"pl"	"Zamrożony Agent"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"pl"	"Świąteczny minigun"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"pl"	"Świąteczny Wigor"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"pl"	"Świąteczna wyrzutnia rakiet"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"pl"	"Świąteczny miotacz ognia"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"pl"	"Świąteczny kij"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"pl"	"Świąteczna wyrzutnia bomb samoprzylepnych"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"pl"	"Świąteczny klucz"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"pl"	"Świąteczny Medigun"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"pl"	"Świąteczny karabin snajperski"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"pl"	"Świąteczny nóż"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"pl"	"Świąteczna dubeltówka"
+	}
+	"TF_BLACKROSE"
+	{
+		"pl"	"Czarna Róża"
 	}
 }

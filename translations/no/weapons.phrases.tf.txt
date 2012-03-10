@@ -304,6 +304,10 @@
 	{
 		"no"	"Kvikk-fiks"
 	}
+	"TF_OVERDOSE"
+	{
+		"no"	"Overdosen"
+	}
 	"TF_RESERVESHOOTER"
 	{
 		"no"	"Reserveskyteren"
@@ -360,8 +364,12 @@
 	{
 		"no"	"Kortslutningen"
 	}
-	"TF_T_NT"
+	"TF_APOCOFISTS"
 	{
-		"no"	"Navnelapp"
+		"no"	"Apoko-never"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"no"	"Eureka effekten"
 	}
 }

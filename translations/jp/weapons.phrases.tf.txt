@@ -4,6 +4,14 @@
 	{
 		"jp"	"ナターシャ"
 	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"jp"	"ジャラテ"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"jp"	"クリティコーラ"
+	}
 	"TF_UNIQUE_BATTLESAW"
 	{
 		"jp"	"Vita-Saw"
@@ -64,16 +72,20 @@
 	{
 		"jp"	"Gloves of Running Urgently"
 	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"jp"	"フライパン"
+	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"jp"	"ホースレス・ヘッドレス・ホースマンズ・ヘッドテイカー"
 	}
 	"TF_SOLDIERKATANA"
 	{
-		"jp"	"半分座頭一"
+		"jp"	"ハーフ座頭市"
 	}
-	"TF_T_NT"
+	"TF_SPACECHEM_FISHCAKE"
 	{
-		"jp"	"名前タグ"
+		"jp"	"フィッシュケーキ"
 	}
 }

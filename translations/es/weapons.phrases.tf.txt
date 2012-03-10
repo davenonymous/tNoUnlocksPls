@@ -142,7 +142,7 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"es"	"Llave Inglesa Dorada"
+		"es"	"La Llave Inglesa Dorada"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -154,27 +154,27 @@
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"es"	"Vitasierra"
+		"es"	"La Vitasierra"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"es"	"Batemartillo"
+		"es"	"El Batemartillo"
 	}
 	"TF_THEDEGREASER"
 	{
-		"es"	"Desengrasador"
+		"es"	"El Desengrasador"
 	}
 	"TF_THESHORTSTOP"
 	{
-		"es"	"Paratenseco"
+		"es"	"La Paratenseco"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"es"	"Arenque Sagrado"
+		"es"	"El Arenque Sagrado"
 	}
 	"TF_MADMILK"
 	{
-		"es"	"Leche loca"
+		"es"	"Leche Loca"
 	}
 	"TF_LETRANGER"
 	{
@@ -186,27 +186,27 @@
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"es"	"Refuerzo del Batallón"
+		"es"	"El Refuerzo del Batallón"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"es"	"La caja negra"
+		"es"	"La Caja Negra"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"es"	"Adormecedor de Sídney"
+		"es"	"El Adormecedor de Sídney"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"es"	"El escudo de Darwin"
+		"es"	"El Escudo de Darwin"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"es"	"Machetón"
+		"es"	"El Machetón"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"es"	"Saltacohetes"
+		"es"	"El Saltacohetes"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
@@ -214,11 +214,11 @@
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"es"	"Sartén"
+		"es"	"La Sartén"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"es"	"Saltagranadas"
+		"es"	"El Saltagranadas"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
@@ -462,7 +462,27 @@
 	}
 	"TF_APOCOFISTS"
 	{
-		"es"	"Puños Cataclísmicos"
+		"es"	"Los Puños Cataclísmicos"
+	}
+	"TF_POMSON"
+	{
+		"es"	"La Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"es"	"El Efecto Eureka"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"es"	"El Tercer Grado"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"es"	"El Flogistonador"
+	}
+	"TF_MANMELTER"
+	{
+		"es"	"El Derritegente"
 	}
 	"TF_BOOTLEGGER"
 	{
@@ -476,8 +496,60 @@
 	{
 		"es"	"La Manga Afilada"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"es"	"Etiqueta del nombre"
+		"es"	"El Asesino Envuelto"
+	}
+	"TF_SPYCICLE"
+	{
+		"es"	"El Apungelador"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"es"	"Ametralladora Festiva"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"es"	"El Puñetazo Festivo"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"es"	"Lanzacohetes Festivo"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"es"	"Lanzallamas Festivo"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"es"	"Bate Festivo"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"es"	"Lanzabombas Lapa Festivo"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"es"	"Llave Inglesa Festiva"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"es"	"Pistola Médica Festiva"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"es"	"Rifle de Francotirador Festivo"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"es"	"Mariposa Festiva"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"es"	"Escopeta Festiva"
+	}
+	"TF_BLACKROSE"
+	{
+		"es"	"La Rosa Negra"
 	}
 }

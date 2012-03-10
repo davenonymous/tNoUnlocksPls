@@ -462,11 +462,31 @@
 	}
 	"TF_APOCOFISTS"
 	{
-		"fr"	"Apoco-Poings"
+		"fr"	"A-poing-calypses"
+	}
+	"TF_POMSON"
+	{
+		"fr"	"Le Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"fr"	"L'effet Eurêka"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"fr"	"Le Troisième Degré"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"fr"	"Le Phlogistinateur"
+	}
+	"TF_MANMELTER"
+	{
+		"fr"	"Le Fissionneur"
 	}
 	"TF_BOOTLEGGER"
 	{
-		"fr"	"Le contrebandier"
+		"fr"	"Le Contrebandier"
 	}
 	"TF_SCOTTISHHANDSHAKE"
 	{
@@ -476,8 +496,60 @@
 	{
 		"fr"	"Le Stylet Aiguisé"
 	}
-	"TF_T_NT"
+	"TF_BALLBUSTER"
 	{
-		"fr"	"Étiquette"
+		"fr"	"L'Assassin Emballé"
+	}
+	"TF_SPYCICLE"
+	{
+		"fr"	"La Spy-lactite"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"fr"	"Minigun festif"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"fr"	"Le Punch des Vacances"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"fr"	"Lance-roquettes festif"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"fr"	"Lance-flammes festif"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"fr"	"Batte festive"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"fr"	"Lanceur de bombes collantes festif"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"fr"	"Clé festive"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"fr"	"Medigun festif"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"fr"	"Fusil de sniper festif"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"fr"	"Couteau festif"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"fr"	"Fusil à dispersion festif"
+	}
+	"TF_BLACKROSE"
+	{
+		"fr"	"La Rose Noire"
 	}
 }

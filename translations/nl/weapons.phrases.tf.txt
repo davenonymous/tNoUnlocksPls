@@ -46,7 +46,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"nl"	"Bonk! Atomische Stoot"
+		"nl"	"Bonk! Atomic Punch"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
@@ -138,7 +138,7 @@
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"nl"	"Crit-de-Cola"
+		"nl"	"Crit-a-Cola"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
@@ -238,7 +238,7 @@
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"nl"	"De Kruisvaarders Kruisboog"
+		"nl"	"De Kruisvaarderskruisboog"
 	}
 	"TF_ULLAPOOLCABER"
 	{
@@ -282,7 +282,7 @@
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"nl"	"De Vuisten van Staal"
+		"nl"	"De Stalen Vuisten"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
@@ -464,6 +464,26 @@
 	{
 		"nl"	"Apoco-Vuisten"
 	}
+	"TF_POMSON"
+	{
+		"nl"	"De Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"nl"	"Het Eureka-effect"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"nl"	"De Derde Graad"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"nl"	"De Phlogistonator"
+	}
+	"TF_MANMELTER"
+	{
+		"nl"	"De Mensensmelter"
+	}
 	"TF_BOOTLEGGER"
 	{
 		"nl"	"De Smokkelaar"
@@ -476,8 +496,56 @@
 	{
 		"nl"	"De Scherp Geklede"
 	}
-	"TF_T_NT"
+	"TF_SPYCICLE"
 	{
-		"nl"	"Naamplaat"
+		"nl"	"De Spy-spegel"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Minigun"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"nl"	"De Feestdagenstoot"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Raketwerper"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Vlammenwerper"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Knuppel"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Kleefbommenwerper"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Moersleutel"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Medigun"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"nl"	"Feestelijk Snipergeweer"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"nl"	"Feestelijk Mes"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"nl"	"Feestelijke Scattergun"
+	}
+	"TF_BLACKROSE"
+	{
+		"nl"	"De Zwarte Roos"
 	}
 }

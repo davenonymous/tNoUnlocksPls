@@ -448,8 +448,44 @@
 	{
 		"pt"	"Apoco-Fists"
 	}
-	"TF_T_NT"
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
 	{
-		"pt"	"Etiqueta de nome"
+		"pt"	"Metralhadora Giratória Festiva"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"pt"	"Lança-foguetes Festivo"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"pt"	"Lança-chamas Festivo"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"pt"	"Taco Festivo"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"pt"	"Lança-stickybombs Festivo"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"pt"	"Chave Inglesa Festiva"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"pt"	"Arma Médica Festiva"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"pt"	"Rifle de Sniper Festivo"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"pt"	"Faca Festiva"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"pt"	"Espingarda Festiva"
 	}
 }
