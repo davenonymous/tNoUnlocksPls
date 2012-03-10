@@ -261,7 +261,7 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 		SetTrieString(hItemTrie, "item_class", sItemClass);
 		SetTrieString(hItemTrie, "item_name", sItemName);
 		SetTrieString(hItemTrie, "name", sEng);
-		SetTrieValue(hItemTrie, "translatable", FindStringInArray(g_hTranslatable, sItemName));
+		SetTrieValue(hItemTrie, "translatable", FindStringInArray(g_hTranslatable, sItemName) != -1);
 
 		PushArrayCell(hWeapons, StringToInt(sIndex));
 		SetTrieValue(hSlotMap, sIndex, hItemTrie);
