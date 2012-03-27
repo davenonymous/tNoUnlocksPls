@@ -210,7 +210,8 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 		if(StrEqual(sIndex, "default"))continue;
 
 		new iItemDefinitionIndex = StringToInt(sIndex);
-		if(iItemDefinitionIndex < 31)continue;
+		if(iItemDefinitionIndex < 31)continue;			// Skip default weapons
+		if(iItemDefinitionIndex < 735)continue;			// The sapper is a default weapon as well
 
 		// Get the english name for the item
 		new String:sEng[128];
@@ -743,6 +744,7 @@ public GetDefaultIDIForClass(TFClassType:xClass, iSlot) {
 				case 0: { return 24; }
 				case 1: { return 4; }
 				case 2: { return 30; }
+				case 3: { return 735; }
 			}
 		}
 		case TFClass_Engineer: {
@@ -750,6 +752,7 @@ public GetDefaultIDIForClass(TFClassType:xClass, iSlot) {
 				case 0: { return 9; }
 				case 1: { return 22; }
 				case 2: { return 7; }
+				case 3: { return 25; }
 			}
 		}
 	}
