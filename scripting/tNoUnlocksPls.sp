@@ -211,7 +211,7 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 
 		new iItemDefinitionIndex = StringToInt(sIndex);
 		if(iItemDefinitionIndex < 31)continue;			// Skip default weapons
-		if(iItemDefinitionIndex < 735)continue;			// The sapper is a default weapon as well
+		if(iItemDefinitionIndex == 735)continue;			// The sapper is a default weapon as well
 
 		// Get the english name for the item
 		new String:sEng[128];
