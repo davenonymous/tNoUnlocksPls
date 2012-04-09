@@ -673,6 +673,7 @@ public bool:GetDefaultWeaponForClass(TFClassType:xClass, iSlot, String:sOutput[]
 				case 0: { Format(sOutput, maxlen, "tf_weapon_revolver"); return true; }
 				case 1: { Format(sOutput, maxlen, "tf_weapon_knife"); return true; }
 				case 2: { Format(sOutput, maxlen, "tf_weapon_invis"); return true; }
+				case 3: { Format(sOutput, maxlen, "tf_weapon_builder"); return true; }
 			}
 		}
 		case TFClass_Engineer: {
@@ -680,6 +681,7 @@ public bool:GetDefaultWeaponForClass(TFClassType:xClass, iSlot, String:sOutput[]
 				case 0: { Format(sOutput, maxlen, "tf_weapon_shotgun_primary"); return true; }
 				case 1: { Format(sOutput, maxlen, "tf_weapon_pistol"); return true; }
 				case 2: { Format(sOutput, maxlen, "tf_weapon_wrench"); return true; }
+				case 3: { Format(sOutput, maxlen, "tf_weapon_pda_engineer_build"); return true; }
 			}
 		}
 	}
