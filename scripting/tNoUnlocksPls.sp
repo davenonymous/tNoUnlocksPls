@@ -58,7 +58,7 @@ public OnPluginStart() {
 
 	CreateConVar("sm_tnounlockspls_version", VERSION, "[TF2] tNoUnlocksPls", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
-	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default, unless told so with sm_toggleunlock <iIDI>", FCVAR_PLUGIN, true, 0.0, true, 1.0);
+	g_hCvarDefault = CreateConVar("sm_tnounlockspls_default", "1", "1 == block weapons by default.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarEnabled = CreateConVar("sm_tnounlockspls_enable", "1", "Enable disable this plugin", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockSetHats = CreateConVar("sm_tnounlockspls_blocksets", "0", "If all weapons of a certain set are allowed, block the hat if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
 	g_hCvarBlockStrange = CreateConVar("sm_tnounlockspls_blockstrange", "0", "Block all strange weapons if this is set to 1.", FCVAR_PLUGIN, true, 0.0, true, 1.0);
@@ -670,10 +670,10 @@ public bool:GetDefaultWeaponForClass(TFClassType:xClass, iSlot, String:sOutput[]
 		}
 		case TFClass_Spy: {
 			switch(iSlot) {
-				case 0: { Format(sOutput, maxlen, "tf_weapon_revolver"); return true; }
-				case 1: { Format(sOutput, maxlen, "tf_weapon_knife"); return true; }
-				case 2: { Format(sOutput, maxlen, "tf_weapon_invis"); return true; }
-				case 3: { Format(sOutput, maxlen, "tf_weapon_builder"); return true; }
+				case 1: { Format(sOutput, maxlen, "tf_weapon_revolver"); return true; }
+				case 2: { Format(sOutput, maxlen, "tf_weapon_knife"); return true; }
+				case 4: { Format(sOutput, maxlen, "tf_weapon_invis"); return true; }
+				case 0: { Format(sOutput, maxlen, "tf_weapon_builder"); return true; }
 			}
 		}
 		case TFClass_Engineer: {
@@ -743,10 +743,10 @@ public GetDefaultIDIForClass(TFClassType:xClass, iSlot) {
 		}
 		case TFClass_Spy: {
 			switch(iSlot) {
-				case 0: { return 24; }
-				case 1: { return 4; }
-				case 2: { return 30; }
-				case 3: { return 735; }
+				case 1: { return 24; }
+				case 2: { return 4; }
+				case 4: { return 30; }
+				case 0: { return 735; }
 			}
 		}
 		case TFClass_Engineer: {
