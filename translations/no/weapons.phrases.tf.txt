@@ -300,6 +300,10 @@
 	{
 		"no"	"Halv-Zatoichi"
 	}
+	"TF_BAZAARBARGAIN"
+	{
+		"no"	"Basarkuppet"
+	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
 		"no"	"Kvikk-fiks"
@@ -307,6 +311,10 @@
 	"TF_OVERDOSE"
 	{
 		"no"	"Overdosen"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"no"	"Frihetsskyter"
 	}
 	"TF_RESERVESHOOTER"
 	{
@@ -371,5 +379,13 @@
 	"TF_WRENCHMOTRON"
 	{
 		"no"	"Eureka effekten"
+	}
+	"TF_MANMELTER"
+	{
+		"no"	"Mannsmelteren"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"no"	"Skotsk håndhilsen"
 	}
 }

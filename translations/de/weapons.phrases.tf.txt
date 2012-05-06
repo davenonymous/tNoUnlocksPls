@@ -496,6 +496,10 @@
 	{
 		"de"	"Der schnittig Gekleidete"
 	}
+	"TF_COZYCAMPER"
+	{
+		"de"	"Der Gemütliche Camper"
+	}
 	"TF_BALLBUSTER"
 	{
 		"de"	"Der Geschenkpapier-Meuchler"

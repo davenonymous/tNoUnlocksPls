@@ -322,7 +322,7 @@
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
-		"ko"	"알리 바바의 조막만한 부츠"
+		"ko"	"알리 바바의 조막만한 신발"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
@@ -487,5 +487,9 @@
 	"TF_MASCULINEMITTENS"
 	{
 		"ko"	"휴일빵"
+	}
+	"TF_BLACKROSE"
+	{
+		"ko"	"흑장미"
 	}
 }

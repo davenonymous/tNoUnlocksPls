@@ -6,7 +6,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"hu"	"A Vérszivattyú"
+		"hu"	"A Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
@@ -158,7 +158,7 @@
 	}
 	"TF_THEPOWERJACK"
 	{
-		"hu"	"Az Életerő-emelő"
+		"hu"	"Az Életerő-Emelő"
 	}
 	"TF_THEDEGREASER"
 	{
@@ -182,7 +182,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"hu"	"Örökké tartó jutalmad"
+		"hu"	"Örökké Tartó Jutalmad"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -218,7 +218,7 @@
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"hu"	"A Tapadóbomba-ugró"
+		"hu"	"A Tapadóbomba-Ugró"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
@@ -246,7 +246,7 @@
 	}
 	"TF_LOCHNLOAD"
 	{
-		"hu"	"A Loch-nesze-szörny"
+		"hu"	"A Loch-Nesze-Szörny"
 	}
 	"TF_WARRIORSSPIRIT"
 	{

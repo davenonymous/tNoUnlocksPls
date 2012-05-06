@@ -496,6 +496,10 @@
 	{
 		"sv"	"Den Prydliga Klingan"
 	}
+	"TF_COZYCAMPER"
+	{
+		"sv"	"Krypskyttens Krypin"
+	}
 	"TF_BALLBUSTER"
 	{
 		"sv"	"Omslagsmördaren"

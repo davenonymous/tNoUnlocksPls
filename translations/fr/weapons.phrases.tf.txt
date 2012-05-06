@@ -82,7 +82,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"fr"	"Le drapeau Buff"
+		"fr"	"Le Drapeau Buff"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
@@ -342,7 +342,7 @@
 	}
 	"TF_SOLEMNVOW"
 	{
-		"fr"	"Le Vœu Solennel"
+		"fr"	"Le Voeu Solennel"
 	}
 	"TF_LIBERTYLAUNCHER"
 	{
@@ -495,6 +495,10 @@
 	"TF_SHARPDRESSER"
 	{
 		"fr"	"Le Stylet Aiguisé"
+	}
+	"TF_COZYCAMPER"
+	{
+		"fr"	"Le Campeur Aisé"
 	}
 	"TF_BALLBUSTER"
 	{

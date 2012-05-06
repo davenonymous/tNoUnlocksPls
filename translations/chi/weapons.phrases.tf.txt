@@ -244,6 +244,10 @@
 	{
 		"chi"	"木柄手榴弹"
 	}
+	"TF_LOCHNLOAD"
+	{
+		"chi"	"双管榴弹发射器"
+	}
 	"TF_WARRIORSSPIRIT"
 	{
 		"chi"	"勇士之魂"
@@ -492,9 +496,13 @@
 	{
 		"chi"	"袖藏剑"
 	}
+	"TF_COZYCAMPER"
+	{
+		"chi"	"惬意蹲坑汉"
+	}
 	"TF_BALLBUSTER"
 	{
-		"chi"	"用剩的礼物包装纸"
+		"chi"	"包装纸杀手"
 	}
 	"TF_SPYCICLE"
 	{

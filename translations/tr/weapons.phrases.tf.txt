@@ -496,6 +496,10 @@
 	{
 		"tr"	"JİLET GİBİ GİYİNEN"
 	}
+	"TF_COZYCAMPER"
+	{
+		"tr"	"MİSKİN KAMPÇI"
+	}
 	"TF_BALLBUSTER"
 	{
 		"tr"	"PAKETLEYİCİ SUİKASTÇİ"

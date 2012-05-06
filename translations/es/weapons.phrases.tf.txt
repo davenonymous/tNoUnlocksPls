@@ -178,11 +178,11 @@
 	}
 	"TF_LETRANGER"
 	{
-		"es"	"El extranjero"
+		"es"	"El Extranjero"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"es"	"Tu eterna recompensa"
+		"es"	"Tu Eterna Recompensa"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -454,7 +454,7 @@
 	}
 	"TF_UNARMEDCOMBAT"
 	{
-		"es"	"Combate Desarmado"
+		"es"	"El Abrazo de la Muerte"
 	}
 	"TF_VOODOOPIN"
 	{
@@ -495,6 +495,10 @@
 	"TF_SHARPDRESSER"
 	{
 		"es"	"La Manga Afilada"
+	}
+	"TF_COZYCAMPER"
+	{
+		"es"	"El Camper Comodón"
 	}
 	"TF_BALLBUSTER"
 	{

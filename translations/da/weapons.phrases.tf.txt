@@ -66,7 +66,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"da"	"Cloak and Daggeren"
+		"da"	"Cloak-og-Daggeren"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
@@ -190,7 +190,7 @@
 	}
 	"TF_THEBLACKBOX"
 	{
-		"da"	"Den sorte boks"
+		"da"	"Den Sorte Boks"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
@@ -198,7 +198,7 @@
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"da"	"Darwins fareskjold"
+		"da"	"Darwins Fareskjold"
 	}
 	"TF_THEBUSHWACKA"
 	{
@@ -234,11 +234,19 @@
 	}
 	"TF_AMPUTATOR"
 	{
-		"da"	"Amputatoren"
+		"da"	"Amputatøren"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
 		"da"	"Korsridderens Armbrøst"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"da"	"Ullapool-caberen"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"da"	"Loch-og-Laderen"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
@@ -246,7 +254,7 @@
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"da"	"Bøffel Bøf Sandvichen"
+		"da"	"Bøffel Bøf-sandvichen"
 	}
 	"TF_GATLINGGUN"
 	{
@@ -258,11 +266,15 @@
 	}
 	"TF_BOSTONBASHER"
 	{
-		"da"	"Boston Baskeren"
+		"da"	"Boston-baskeren"
 	}
 	"TF_BACKSCRATCHER"
 	{
 		"da"	"Rygkradseren"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"da"	"Claidheamh Mòr-sværdet"
 	}
 	"TF_JAG"
 	{
@@ -274,7 +286,7 @@
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
-		"da"	"Skærpet vulkanfragment"
+		"da"	"Skærpet Vulkanfragment"
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
@@ -322,7 +334,7 @@
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"da"	"Det Hurtige Fix"
+		"da"	"Det Hurtige Fiks"
 	}
 	"TF_OVERDOSE"
 	{
@@ -374,7 +386,7 @@
 	}
 	"TF_MANTREADS"
 	{
-		"da"	"Fodfæstet"
+		"da"	"Mandtræderne"
 	}
 	"TF_DISCIPLINARYACTION"
 	{
@@ -382,7 +394,7 @@
 	}
 	"TF_SODAPOPPER"
 	{
-		"da"	"Soda Popperen"
+		"da"	"Soda-popperen"
 	}
 	"TF_WINGER"
 	{
@@ -394,7 +406,7 @@
 	}
 	"TF_SCOUTSWORD"
 	{
-		"da"	"Tri-Rune-Klinge"
+		"da"	"Tre-rune-klinge"
 	}
 	"TF_MAILBOX"
 	{
@@ -412,9 +424,13 @@
 	{
 		"da"	"Muggerten"
 	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"da"	"Militærnægteren"
+	}
 	"TF_NINEIRON"
 	{
-		"da"	"Nessies Nier-Jern"
+		"da"	"Nessies Nier-jern"
 	}
 	"TF_THEORIGINAL"
 	{
@@ -438,10 +454,98 @@
 	}
 	"TF_UNARMEDCOMBAT"
 	{
-		"da"	"Ubevæbnet kamp"
+		"da"	"Ubevæbnet Kamp"
+	}
+	"TF_VOODOOPIN"
+	{
+		"da"	"Voodo-prikket"
+	}
+	"TF_APOCOFISTS"
+	{
+		"da"	"Apoko-næverne"
+	}
+	"TF_POMSON"
+	{
+		"da"	"Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"da"	"Eureka-effekten"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"da"	"Den Tredje Grad"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"da"	"Phlogistinatoren"
+	}
+	"TF_MANMELTER"
+	{
+		"da"	"Mandesmelteren"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"da"	"Smugleren"
 	}
 	"TF_SCOTTISHHANDSHAKE"
 	{
-		"da"	"Det skotske håndtryk"
+		"da"	"Det Skotske Håndtryk"
+	}
+	"TF_BALLBUSTER"
+	{
+		"da"	"Gavepapirsmorderen"
+	}
+	"TF_SPYCICLE"
+	{
+		"da"	"Spy-cicle"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"da"	"Festlig Rullekanon"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"da"	"Helligdagsslaget"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"da"	"Festligt Raketstyr"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"da"	"Festlig Flammekaster"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"da"	"Festligt Bat"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"da"	"Festlig Klæbebombekaster"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"da"	"Festlig Skruenøgle"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"da"	"Festligt Medi-gevær"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"da"	"Festlig Snigskytteriffel"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"da"	"Festlig Kniv"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"da"	"Festlig Haglspreder"
+	}
+	"TF_BLACKROSE"
+	{
+		"da"	"Den Sorte Rose"
 	}
 }

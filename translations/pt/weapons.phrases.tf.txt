@@ -6,23 +6,23 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"pt"	"A Blutsauger"
+		"pt"	"A Sanguessuga"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"pt"	"A Ubersaw"
+		"pt"	"A Super Serra"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"pt"	"O Axtinguisher"
+		"pt"	"O Queimachado"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"pt"	"A Flare Gun"
+		"pt"	"A Pistola de Sinalização"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"pt"	"O Backburner"
+		"pt"	"O Queima-Costas"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,11 +30,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"pt"	"O Sandvich"
+		"pt"	"A Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"pt"	"As Killing Gloves of Boxing"
+		"pt"	"As Luvas de Boxe Mortais"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
@@ -42,91 +42,91 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"pt"	"A Force-A-Nature"
+		"pt"	"A Força-Da-Natureza"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
-		"pt"	"Bonk! Atomic Punch"
+		"pt"	"Bonk! Elixir Atómico"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"pt"	"O Huntsman"
+		"pt"	"O Arco de Caçador"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"pt"	"O Razorback"
+		"pt"	"A Carapaça"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
-		"pt"	"Jarate"
+		"pt"	"Jaraté"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"pt"	"O Dead Ringer"
+		"pt"	"O Toque da Morte"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"pt"	"O Cloak and Dagger"
+		"pt"	"A Capa e Punhal"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"pt"	"O Ambassador"
+		"pt"	"O Embaixador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"pt"	"O Direct Hit"
+		"pt"	"O Tiro Direto"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"pt"	"A Equalizer"
+		"pt"	"O Equalizador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"pt"	"A Buff Banner"
+		"pt"	"O Estandarte Incentivador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"pt"	"A Scottish Resistance"
+		"pt"	"A Resistência Escocesa"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"pt"	"O Chargin' Targe"
+		"pt"	"A Tarja de Investida"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"pt"	"A Eyelander"
+		"pt"	"O Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"pt"	"As Gunboats"
+		"pt"	"As Canhoneiras"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
-		"pt"	"O Wrangler"
+		"pt"	"O Controlador"
 	}
 	"TF_UNIQUE_SENTRY_SHOTGUN"
 	{
-		"pt"	"A Frontier Justice"
+		"pt"	"A Justiça Fronteira"
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"pt"	"O Gunslinger"
+		"pt"	"O Pistoleiro"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"pt"	"A Homewrecker"
+		"pt"	"O Destruidor de Lares"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"pt"	"O Pain Train"
+		"pt"	"O Comboio da Dor"
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"pt"	"A Southern Hospitality"
+		"pt"	"A Hospitalidade do Sul"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"pt"	"A Dalokohs Bar"
+		"pt"	"A Barra Dalokohs"
 	}
 	"TF_TTG_MAXGUN"
 	{
@@ -134,7 +134,7 @@
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"pt"	"O Big Kill"
+		"pt"	""
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -142,171 +142,175 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"pt"	"A Golden Wrench"
+		"pt"	"A Chave Inglesa Dourada"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
-		"pt"	"A Tribalman's Shiv"
+		"pt"	"A Faca do Homem Tribal"
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"pt"	"O Scotsman's Skullcutter"
+		"pt"	"O Corta-Crânios do Escocês"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
-		"pt"	"A Vita-Saw"
+		"pt"	"A Vita-Serra"
 	}
 	"TF_THEPOWERJACK"
 	{
-		"pt"	"A Powerjack"
+		"pt"	"O Powerjack"
 	}
 	"TF_THEDEGREASER"
 	{
-		"pt"	"O Degreaser"
+		"pt"	"O Desengordurante"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"pt"	"A Shortstop"
 	}
 	"TF_THEHOLYMACKEREL"
 	{
-		"pt"	"O Holy Mackerel"
+		"pt"	"A Santa Cavala"
 	}
 	"TF_MADMILK"
 	{
-		"pt"	"Mad Milk"
+		"pt"	"Leite Louco"
 	}
 	"TF_LETRANGER"
 	{
-		"pt"	"L'Etranger"
+		"pt"	"O Estrangeiro"
 	}
 	"TF_ETERNALREWARD"
 	{
-		"pt"	"Your Eternal Reward"
+		"pt"	"A Tua Eterna Recompensa"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
-		"pt"	"A Battalion's Backup"
+		"pt"	"O Suporte do Batalhão"
 	}
 	"TF_THEBLACKBOX"
 	{
-		"pt"	"A Black Box"
+		"pt"	"A Caixa Negra"
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"pt"	"O Sydney Sleeper"
+		"pt"	"Tranquilizador de Sydney"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
-		"pt"	"Darwin's Danger Shield"
+		"pt"	"Escudo de Perigo de Darwin"
 	}
 	"TF_THEBUSHWACKA"
 	{
-		"pt"	"A Bushwacka"
+		"pt"	"O Facalhão"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
 	{
-		"pt"	"O Rocket Jumper"
+		"pt"	"O Salta-Rockets"
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"pt"	"As Gloves of Running Urgently"
+		"pt"	"Luvas de Correr Urgentemente"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
-		"pt"	"A Frying Pan"
+		"pt"	"A Frigideira"
 	}
 	"TF_WEAPON_STICKYBOMB_JUMP"
 	{
-		"pt"	"O Sticky Jumper"
+		"pt"	"O Saltador Adesivo"
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"pt"	"O Horseless Headless Horsemann's Headtaker"
+		"pt"	"O Corta-Cabeças do Cavaleiro sem Cavalo nem Cabeça"
 	}
 	"TF_TTG_WATCH"
 	{
-		"pt"	"O Enthusiast's Timepiece"
+		"pt"	"O Relógio do Entusiasta"
 	}
 	"TF_IRON_CURTAIN"
 	{
-		"pt"	"A Iron Curtain"
+		"pt"	"A Cortina de Ferro"
 	}
 	"TF_AMPUTATOR"
 	{
-		"pt"	"O Amputator"
+		"pt"	"O Amputador"
 	}
 	"TF_CRUSADERSCROSSBOW"
 	{
-		"pt"	"A Crusader's Crossbow"
+		"pt"	"A Besta do Cruzado"
 	}
 	"TF_ULLAPOOLCABER"
 	{
-		"pt"	"O Ullapool Caber"
+		"pt"	"O Cabo de Ullapool"
 	}
 	"TF_LOCHNLOAD"
 	{
-		"pt"	"O Loch-n-Load"
+		"pt"	"O Rebenta-Granadas"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
-		"pt"	"O Warrior's Spirit"
+		"pt"	"O Espírito do Guerreiro"
 	}
 	"TF_BUFFALOSTEAK"
 	{
-		"pt"	"O Buffalo Steak Sandvich"
+		"pt"	"Sandvich de Bife de Búfalo"
 	}
 	"TF_GATLINGGUN"
 	{
-		"pt"	"A Brass Beast"
+		"pt"	"O Monstro de Latão"
 	}
 	"TF_CANDYCANE"
 	{
-		"pt"	"O Candy Cane"
+		"pt"	"A Bengala de Açúcar"
 	}
 	"TF_BOSTONBASHER"
 	{
-		"pt"	"O Boston Basher"
+		"pt"	"O Batedor de Boston"
 	}
 	"TF_BACKSCRATCHER"
 	{
-		"pt"	"O Back Scratcher"
+		"pt"	"O Coçador de Costas"
 	}
 	"TF_CLAIDHEAMOHMOR"
 	{
-		"pt"	"A Claidheamh Mòr"
+		"pt"	"Espada Celta"
 	}
 	"TF_JAG"
 	{
-		"pt"	"A Jag"
+		"pt"	"Chave Pontiaguda"
 	}
 	"TF_FISTSOFSTEEL"
 	{
-		"pt"	"Os Fists of Steel"
+		"pt"	"Punhos de Aço"
 	}
 	"TF_UNIQUE_RIFTFIREAXE"
 	{
-		"pt"	"Sharpened Volcano Fragment"
+		"pt"	"Fragmento Vulcânico Aguçado"
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"pt"	"O Sun-on-a-Stick"
+		"pt"	"O Sol-numa-Vara"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"pt"	"O Detonator"
+		"pt"	"O Detonador"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
-		"pt"	"Concheror"
+		"pt"	"Conchistador"
 	}
 	"TF_GUNBAI"
 	{
-		"pt"	"Fan O'War"
+		"pt"	"Leque de Guerra"
 	}
 	"TF_KUNAI"
 	{
-		"pt"	"Conniver's Kunai"
+		"pt"	"Kunai do Conspirador"
 	}
 	"TF_SOLDIERKATANA"
 	{
-		"pt"	"Half-Zatoichi"
+		"pt"	"Meio-Zatoichi"
 	}
 	"TF_SHAHANSHAH"
 	{
@@ -314,23 +318,23 @@
 	}
 	"TF_BAZAARBARGAIN"
 	{
-		"pt"	"A Bazaar Bargain"
+		"pt"	"A Barganha do Bazar"
 	}
 	"TF_PERSIANPERSUADER"
 	{
-		"pt"	"O Persian Persuader"
+		"pt"	"O Persuasor Persa"
 	}
 	"TF_ALI_BABAS_WEE_BOOTIES"
 	{
-		"pt"	"Ali Baba's Wee Booties"
+		"pt"	" Botinhas do Ali Babá"
 	}
 	"TF_SPLENDIDSCREEN"
 	{
-		"pt"	"O Splendid Screen"
+		"pt"	"A Barreira Esplêndida"
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"pt"	"A Quick-Fix"
+		"pt"	"O Desenrasca"
 	}
 	"TF_OVERDOSE"
 	{
@@ -338,19 +342,19 @@
 	}
 	"TF_SOLEMNVOW"
 	{
-		"pt"	"O Solemn Vow"
+		"pt"	"O Juramento Solene"
 	}
 	"TF_LIBERTYLAUNCHER"
 	{
-		"pt"	"O Liberty Launcher"
+		"pt"	"O Lançador da Liberdade"
 	}
 	"TF_RESERVESHOOTER"
 	{
-		"pt"	"O Reserve Shooter"
+		"pt"	"O Atirador de Reserva"
 	}
 	"TF_MARKETGARDENER"
 	{
-		"pt"	"O Market Gardener"
+		"pt"	"O Jardineiro do Mercado"
 	}
 	"TF_SAXXY"
 	{
@@ -362,15 +366,15 @@
 	}
 	"TF_RUSSIANRIOT"
 	{
-		"pt"	"O Family Business"
+		"pt"	"O Negócio da Família"
 	}
 	"TF_EVICTIONNOTICE"
 	{
-		"pt"	"A Eviction Notice"
+		"pt"	"O Aviso de Despejo"
 	}
 	"TF_SPACECHEM_FISHCAKE"
 	{
-		"pt"	"Fishcake"
+		"pt"	"Bolo de Peixe"
 	}
 	"TF_COWMANGLER"
 	{
@@ -382,47 +386,51 @@
 	}
 	"TF_MANTREADS"
 	{
-		"pt"	"As Mantreads"
+		"pt"	"As Esmaga-Homens"
 	}
 	"TF_DISCIPLINARYACTION"
 	{
-		"pt"	"A Disciplinary Action"
+		"pt"	"A Ação Disciplinária"
 	}
 	"TF_SODAPOPPER"
 	{
-		"pt"	"O Soda Popper"
+		"pt"	"A Gaseificante"
 	}
 	"TF_WINGER"
 	{
-		"pt"	"A Winger"
+		"pt"	"O Alado"
 	}
 	"TF_ATOMIZER"
 	{
-		"pt"	"O Atomizer"
+		"pt"	"O Atomizador"
 	}
 	"TF_SCOUTSWORD"
 	{
-		"pt"	"Three-Rune Blade"
+		"pt"	"Espada de Três Runas"
 	}
 	"TF_MAILBOX"
 	{
-		"pt"	"O Postal Pummeler"
+		"pt"	"O Espancador Postal"
 	}
 	"TF_ENFORCER"
 	{
-		"pt"	"A Enforcer"
+		"pt"	"O Coator"
 	}
 	"TF_BIGEARNER"
 	{
-		"pt"	"O Big Earner"
+		"pt"	"O Grande Ganhador"
 	}
 	"TF_RFAHAMMER"
 	{
-		"pt"	"A Maul"
+		"pt"	"O Maul"
+	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"pt"	"O Objetor de Consciência"
 	}
 	"TF_NINEIRON"
 	{
-		"pt"	"Nessie's Nine Iron"
+		"pt"	"Nono Ferro da Nessie"
 	}
 	"TF_THEORIGINAL"
 	{
@@ -430,11 +438,11 @@
 	}
 	"TF_DEX_REVOLVER"
 	{
-		"pt"	"O Diamondback"
+		"pt"	"A Diamondback"
 	}
 	"TF_DEX_RIFLE"
 	{
-		"pt"	"O Machina"
+		"pt"	"A Machina"
 	}
 	"TF_DEX_SHOTGUN"
 	{
@@ -442,23 +450,79 @@
 	}
 	"TF_DEX_PISTOL"
 	{
-		"pt"	"O Short Circuit"
+		"pt"	"O Curto Circuito"
+	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"pt"	"Combate Desarmado"
+	}
+	"TF_VOODOOPIN"
+	{
+		"pt"	"A Picada de Wanga"
 	}
 	"TF_APOCOFISTS"
 	{
 		"pt"	"Apoco-Fists"
 	}
+	"TF_POMSON"
+	{
+		"pt"	"O Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"pt"	"O Efeito Eureka"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"pt"	"O Terceiro Grau"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"pt"	"O Phlogistinator"
+	}
+	"TF_MANMELTER"
+	{
+		"pt"	"O Manmelter"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"pt"	"A Perna de Pau"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"pt"	"O Aperto de Mão Escocês"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"pt"	"O Corte de Alfaiate"
+	}
+	"TF_COZYCAMPER"
+	{
+		"pt"	"O Campista Confortável"
+	}
+	"TF_BALLBUSTER"
+	{
+		"pt"	""
+	}
+	"TF_SPYCICLE"
+	{
+		"pt"	"O Spy-cicle"
+	}
 	"TF_WEAPON_MINIGUN_FESTIVE2011"
 	{
-		"pt"	"Metralhadora Giratória Festiva"
+		"pt"	"Metralhadora Festiva"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"pt"	"O Soco Festivo"
 	}
 	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
 	{
-		"pt"	"Lança-foguetes Festivo"
+		"pt"	"Lança-Rockets Festivo"
 	}
 	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
 	{
-		"pt"	"Lança-chamas Festivo"
+		"pt"	"Lança-Chamas Festivo"
 	}
 	"TF_WEAPON_BAT_FESTIVE2011"
 	{
@@ -466,7 +530,7 @@
 	}
 	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
 	{
-		"pt"	"Lança-stickybombs Festivo"
+		"pt"	"Lança-Bombas Adesivas Festivo"
 	}
 	"TF_WEAPON_WRENCH_FESTIVE2011"
 	{
@@ -478,7 +542,7 @@
 	}
 	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
 	{
-		"pt"	"Rifle de Sniper Festivo"
+		"pt"	"Espingarda Sniper Festiva"
 	}
 	"TF_WEAPON_KNIFE_FESTIVE2011"
 	{
@@ -486,6 +550,10 @@
 	}
 	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
 	{
-		"pt"	"Espingarda Festiva"
+		"pt"	"Caçadeira Compacta Festiva"
+	}
+	"TF_BLACKROSE"
+	{
+		"pt"	"A Rosa Negra"
 	}
 }

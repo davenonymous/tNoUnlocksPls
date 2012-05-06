@@ -496,6 +496,10 @@
 	{
 		"nl"	"De Scherp Geklede"
 	}
+	"TF_COZYCAMPER"
+	{
+		"nl"	"De Knusse Kampeerder"
+	}
 	"TF_SPYCICLE"
 	{
 		"nl"	"De Spy-spegel"

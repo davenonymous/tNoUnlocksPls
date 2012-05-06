@@ -496,6 +496,10 @@
 	{
 		"pl"	"Zabójcza Elegancja"
 	}
+	"TF_COZYCAMPER"
+	{
+		"pl"	"Wygodnicki Wczasowicz"
+	}
 	"TF_BALLBUSTER"
 	{
 		"pl"	"Pakujący Zabójca"

@@ -496,6 +496,10 @@
 	{
 		"en"	"Sharp Dresser"
 	}
+	"TF_COZYCAMPER"
+	{
+		"en"	"Cozy Camper"
+	}
 	"TF_BALLBUSTER"
 	{
 		"en"	"Wrap Assassin"
