@@ -7,9 +7,7 @@
 #define UPDATE_URL    			"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.cfg"
 #define PATH_ITEMS_GAME			"scripts/items/items_game.txt"
 
-#define VERSION			"0.4.5"
-
-#define QUALITY_STRANGE 11
+#define VERSION			"0.4.6"
 
 new bool:g_bAnnounce;
 new bool:g_bEnabled;
