@@ -91,11 +91,13 @@ public Action:Timer_ReplaceWeapon(Handle:timer, any:hTrie) {
 	GetTrieValue(hTrie, "itemDefinitionIndex", iItemDefinitionIndex);
 	CloseHandle(hTrie);
 
-	RemovePlayerItem(client, entityIndex);
-	Entity_Kill(entityIndex, true);
+	if(IsValidEntity(entityIndex)) {
+		RemovePlayerItem(client, entityIndex);
+		Entity_Kill(entityIndex, true);
 
-	if(iItemDefinitionIndex != -1) {
-		GiveReplacementItem(client, iItemDefinitionIndex);
+		if(iItemDefinitionIndex != -1) {
+			GiveReplacementItem(client, iItemDefinitionIndex);
+		}
 	}
 }
 
