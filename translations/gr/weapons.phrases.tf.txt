@@ -1,0 +1,559 @@
+﻿"Phrases"
+{
+	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
+	{
+		"gr"	"Kritzkrieg"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
+	{
+		"gr"	"Blutsauger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
+	{
+		"gr"	"Ubersaw"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
+	{
+		"gr"	"Axtinguisher"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
+	{
+		"gr"	"Flare Gun"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
+	{
+		"gr"	"Backburner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
+	{
+		"gr"	"Natascha"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
+	{
+		"gr"	"Sandvich"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FISTS"
+	{
+		"gr"	"Killing Gloves of Boxing"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_BAT"
+	{
+		"gr"	"Sandman"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
+	{
+		"gr"	"Force-A-Nature"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
+	{
+		"gr"	"Bonk! Atomic Punch"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
+	{
+		"gr"	"Huntsman"
+	}
+	"TF_UNIQUE_BACKSTAB_SHIELD"
+	{
+		"gr"	"Razorback"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_JAR"
+	{
+		"gr"	"Jarate"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
+	{
+		"gr"	"Dead Ringer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
+	{
+		"gr"	"Cloak and Dagger"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
+	{
+		"gr"	"Ambassador"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
+	{
+		"gr"	"Direct Hit"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
+	{
+		"gr"	"Equalizer"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
+	{
+		"gr"	"Buff Banner"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
+	{
+		"gr"	"Scottish Resistance"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
+	{
+		"gr"	"Chargin' Targe"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_SWORD"
+	{
+		"gr"	"Eyelander"
+	}
+	"TF_UNIQUE_BLAST_BOOTS"
+	{
+		"gr"	"Gunboats"
+	}
+	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
+	{
+		"gr"	"Wrangler"
+	}
+	"TF_UNIQUE_SENTRY_SHOTGUN"
+	{
+		"gr"	"Frontier Justice"
+	}
+	"TF_UNIQUE_ROBOT_ARM"
+	{
+		"gr"	"Gunslinger"
+	}
+	"TF_UNIQUE_SLEDGEHAMMER"
+	{
+		"gr"	"Homewrecker"
+	}
+	"TF_UNIQUE_MAKESHIFTCLUB"
+	{
+		"gr"	"Pain Train"
+	}
+	"TF_UNIQUE_COMBAT_WRENCH"
+	{
+		"gr"	"Southern Hospitality"
+	}
+	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
+	{
+		"gr"	"Dalokohs Bar"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"gr"	"Lugermorph"
+	}
+	"TF_TTG_SAMREVOLVER"
+	{
+		"gr"	"Big Kill"
+	}
+	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
+	{
+		"gr"	"Crit-a-Cola"
+	}
+	"TF_UNIQUE_GOLDEN_WRENCH"
+	{
+		"gr"	"Golden Wrench"
+	}
+	"TF_UNIQUE_TRIBALMANKUKRI"
+	{
+		"gr"	"Tribalman's Shiv"
+	}
+	"TF_UNIQUE_BATTLEAXE"
+	{
+		"gr"	"Scotsman's Skullcutter"
+	}
+	"TF_UNIQUE_BATTLESAW"
+	{
+		"gr"	"Vita-Saw"
+	}
+	"TF_THEPOWERJACK"
+	{
+		"gr"	"Powerjack"
+	}
+	"TF_THEDEGREASER"
+	{
+		"gr"	"Degreaser"
+	}
+	"TF_THESHORTSTOP"
+	{
+		"gr"	"Shortstop"
+	}
+	"TF_THEHOLYMACKEREL"
+	{
+		"gr"	"Holy Mackerel"
+	}
+	"TF_MADMILK"
+	{
+		"gr"	"Mad Milk"
+	}
+	"TF_LETRANGER"
+	{
+		"gr"	"L'Etranger"
+	}
+	"TF_ETERNALREWARD"
+	{
+		"gr"	"Your Eternal Reward"
+	}
+	"TF_THEBATTALIONSBACKUP"
+	{
+		"gr"	"Battalion's Backup"
+	}
+	"TF_THEBLACKBOX"
+	{
+		"gr"	"Black Box"
+	}
+	"TF_SYDNEYSLEEPER"
+	{
+		"gr"	"Sydney Sleeper"
+	}
+	"TF_DARWINSDANGERSHIELD"
+	{
+		"gr"	"Darwin's Danger Shield"
+	}
+	"TF_THEBUSHWACKA"
+	{
+		"gr"	"Bushwacka"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_JUMP"
+	{
+		"gr"	"Rocket Jumper"
+	}
+	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
+	{
+		"gr"	"The Gloves of Running Urgently"
+	}
+	"TF_UNIQUE_FRYINGPAN"
+	{
+		"gr"	"Frying Pan"
+	}
+	"TF_WEAPON_STICKYBOMB_JUMP"
+	{
+		"gr"	"Sticky Jumper"
+	}
+	"TF_HALLOWEENBOSS_AXE"
+	{
+		"gr"	"Horseless Headless Horsemann's Headtaker"
+	}
+	"TF_TTG_WATCH"
+	{
+		"gr"	"Enthusiast's Timepiece"
+	}
+	"TF_IRON_CURTAIN"
+	{
+		"gr"	"Iron Curtain"
+	}
+	"TF_AMPUTATOR"
+	{
+		"gr"	"Amputator"
+	}
+	"TF_CRUSADERSCROSSBOW"
+	{
+		"gr"	"Crusader's Crossbow"
+	}
+	"TF_ULLAPOOLCABER"
+	{
+		"gr"	"Ullapool Caber"
+	}
+	"TF_LOCHNLOAD"
+	{
+		"gr"	"Loch-n-Load"
+	}
+	"TF_WARRIORSSPIRIT"
+	{
+		"gr"	"Warrior's Spirit"
+	}
+	"TF_BUFFALOSTEAK"
+	{
+		"gr"	"Buffalo Steak Sandvich"
+	}
+	"TF_GATLINGGUN"
+	{
+		"gr"	"Brass Beast"
+	}
+	"TF_CANDYCANE"
+	{
+		"gr"	"Candy Cane"
+	}
+	"TF_BOSTONBASHER"
+	{
+		"gr"	"Boston Basher"
+	}
+	"TF_BACKSCRATCHER"
+	{
+		"gr"	"Back Scratcher"
+	}
+	"TF_CLAIDHEAMOHMOR"
+	{
+		"gr"	"Claidheamh Mòr"
+	}
+	"TF_JAG"
+	{
+		"gr"	"Jag"
+	}
+	"TF_FISTSOFSTEEL"
+	{
+		"gr"	"Fists of Steel"
+	}
+	"TF_UNIQUE_RIFTFIREAXE"
+	{
+		"gr"	"Sharpened Volcano Fragment"
+	}
+	"TF_UNIQUE_RIFTFIREMACE"
+	{
+		"gr"	"Sun-on-a-Stick"
+	}
+	"TF_WEAPON_FLAREGUN_DETONATOR"
+	{
+		"gr"	"Detonator"
+	}
+	"TF_SOLDIERSASHIMONO"
+	{
+		"gr"	"Concheror"
+	}
+	"TF_GUNBAI"
+	{
+		"gr"	"Fan O'War"
+	}
+	"TF_KUNAI"
+	{
+		"gr"	"Conniver's Kunai"
+	}
+	"TF_SOLDIERKATANA"
+	{
+		"gr"	"Half-Zatoichi"
+	}
+	"TF_SHAHANSHAH"
+	{
+		"gr"	"Shahanshah"
+	}
+	"TF_BAZAARBARGAIN"
+	{
+		"gr"	"Bazaar Bargain"
+	}
+	"TF_PERSIANPERSUADER"
+	{
+		"gr"	"Persian Persuader"
+	}
+	"TF_ALI_BABAS_WEE_BOOTIES"
+	{
+		"gr"	"Ali Baba's Wee Booties"
+	}
+	"TF_SPLENDIDSCREEN"
+	{
+		"gr"	"Splendid Screen"
+	}
+	"TF_UNIQUE_MEDIGUN_QUICKFIX"
+	{
+		"gr"	"Quick-Fix"
+	}
+	"TF_OVERDOSE"
+	{
+		"gr"	"Overdose"
+	}
+	"TF_SOLEMNVOW"
+	{
+		"gr"	"Solemn Vow"
+	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"gr"	"Liberty Launcher"
+	}
+	"TF_RESERVESHOOTER"
+	{
+		"gr"	"Reserve Shooter"
+	}
+	"TF_MARKETGARDENER"
+	{
+		"gr"	"Market Gardener"
+	}
+	"TF_SAXXY"
+	{
+		"gr"	"Saxxy"
+	}
+	"TF_TOMISLAV"
+	{
+		"gr"	"Tomislav"
+	}
+	"TF_RUSSIANRIOT"
+	{
+		"gr"	"Family Business"
+	}
+	"TF_EVICTIONNOTICE"
+	{
+		"gr"	"Eviction Notice"
+	}
+	"TF_SPACECHEM_FISHCAKE"
+	{
+		"gr"	"Fishcake"
+	}
+	"TF_COWMANGLER"
+	{
+		"gr"	"Cow Mangler 5000"
+	}
+	"TF_RIGHTEOUSBISON"
+	{
+		"gr"	"Righteous Bison"
+	}
+	"TF_MANTREADS"
+	{
+		"gr"	"Mantreads"
+	}
+	"TF_DISCIPLINARYACTION"
+	{
+		"gr"	"Disciplinary Action"
+	}
+	"TF_SODAPOPPER"
+	{
+		"gr"	"Soda Popper"
+	}
+	"TF_WINGER"
+	{
+		"gr"	"Winger"
+	}
+	"TF_ATOMIZER"
+	{
+		"gr"	"Atomizer"
+	}
+	"TF_SCOUTSWORD"
+	{
+		"gr"	"Three-Rune Blade"
+	}
+	"TF_MAILBOX"
+	{
+		"gr"	"Postal Pummeler"
+	}
+	"TF_ENFORCER"
+	{
+		"gr"	"Enforcer"
+	}
+	"TF_BIGEARNER"
+	{
+		"gr"	"Big Earner"
+	}
+	"TF_RFAHAMMER"
+	{
+		"gr"	"Maul"
+	}
+	"TF_CONSCIENTIOUSOBJECTOR"
+	{
+		"gr"	"Conscientious Objector"
+	}
+	"TF_NINEIRON"
+	{
+		"gr"	"Nessie's Nine Iron"
+	}
+	"TF_THEORIGINAL"
+	{
+		"gr"	"Original"
+	}
+	"TF_DEX_REVOLVER"
+	{
+		"gr"	"Diamondback"
+	}
+	"TF_DEX_RIFLE"
+	{
+		"gr"	"Machina"
+	}
+	"TF_DEX_SHOTGUN"
+	{
+		"gr"	"Widowmaker"
+	}
+	"TF_DEX_PISTOL"
+	{
+		"gr"	"Short Circuit"
+	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"gr"	"Unarmed Combat"
+	}
+	"TF_VOODOOPIN"
+	{
+		"gr"	"Wanga Prick"
+	}
+	"TF_APOCOFISTS"
+	{
+		"gr"	"Apoco-Fists"
+	}
+	"TF_POMSON"
+	{
+		"gr"	"Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"gr"	"Eureka Effect"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"gr"	"Third Degree"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"gr"	"Phlogistinator"
+	}
+	"TF_MANMELTER"
+	{
+		"gr"	"Manmelter"
+	}
+	"TF_BOOTLEGGER"
+	{
+		"gr"	"Bootlegger"
+	}
+	"TF_SCOTTISHHANDSHAKE"
+	{
+		"gr"	"Scottish Handshake"
+	}
+	"TF_SHARPDRESSER"
+	{
+		"gr"	"Sharp Dresser"
+	}
+	"TF_COZYCAMPER"
+	{
+		"gr"	"Cozy Camper"
+	}
+	"TF_BALLBUSTER"
+	{
+		"gr"	"Wrap Assassin"
+	}
+	"TF_SPYCICLE"
+	{
+		"gr"	"Spy-cicle"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"gr"	"Festive Minigun"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"gr"	"Holiday Punch"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"gr"	"Festive Rocket Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"gr"	"Festive Flame Thrower"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"gr"	"Festive Bat"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"gr"	"Festive Stickybomb Launcher"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"gr"	"Festive Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"gr"	"Festive Medi Gun"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"gr"	"Festive Sniper Rifle"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"gr"	"Festive Knife"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"gr"	"Festive Scattergun"
+	}
+	"TF_BLACKROSE"
+	{
+		"gr"	"Black Rose"
+	}
+}
