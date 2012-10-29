@@ -156,6 +156,98 @@
 	{
 		"chi"	"维塔锯"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"chi"	"短棍"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"chi"	"瓶子"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"chi"	"消防斧"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"chi"	"反曲刀"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"chi"	"刀子"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"chi"	"拳头"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"chi"	"铁锹"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"chi"	"扳手"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"chi"	"骨锯"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"chi"	"霰弹枪"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"chi"	"霰弹枪"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"chi"	"狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"chi"	"转轮机枪"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"chi"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"chi"	"注射枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"chi"	"火箭发射器"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"chi"	"榴弹发射器"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"chi"	"黏性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"chi"	"火焰喷射器"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"chi"	"手枪"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"chi"	"左轮手枪"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"chi"	"医疗枪"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"chi"	"隐形手表"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"chi"	"强力千斤顶"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"chi"	"脱缰无头骑士的斩首斧"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"chi"	"鲁格尔手枪"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,309 @@
 	"TF_BLACKROSE"
 	{
 		"chi"	"黑玫瑰"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"chi"	"乞丐的火箭筒"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"chi"	"电子工兵"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"chi"	"建造工具"
+	}
+	"TF_LOLLICHOP"
+	{
+		"chi"	"锋利的波板糖"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"chi"	"焦化枪"
+	}
+	"TF_RAINBLOWER"
+	{
+		"chi"	"彩虹喷灯"
+	}
+	"TF_PRO_SMG"
+	{
+		"chi"	"扫荡者卡宾"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"chi"	"职业杀手的手感"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"chi"	"娃娃脸的冲击波"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"chi"	"帅气男孩的袖珍手枪"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"chi"	"逃生计划镐"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者转轮机枪"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者刀子"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者医疗枪"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者粘性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者火焰喷射器"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者霰弹枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"chi"	"白银机器人毁灭者火箭发射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者转轮机枪"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者刀子"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者医疗枪"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者粘性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者火焰喷射器"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者霰弹枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"chi"	"黄金机器人毁灭者火箭发射器"
+	}
+	"TF_SD_SAPPER"
+	{
+		"chi"	"官僚式录音机"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"chi"	"火龙转轮机枪"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"chi"	"混混的菜刀"
+	}
+	"TF_SD_SIGN"
+	{
+		"chi"	"霓虹杀手"
+	}
+	"TF_SD_SAPPER"
+	{
+		"chi"	"官僚式录音机"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"chi"	"火龙转轮机枪"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"chi"	"混混的菜刀"
+	}
+	"TF_SD_SIGN"
+	{
+		"chi"	"霓虹杀手"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"chi"	"反射者转轮机枪"
+	}
+	"TF_CSGO_AWP"
+	{
+		"chi"	"高手的 AWP"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"chi"	"机械三明治"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者转轮机枪"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者刀子"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者医疗枪"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者粘性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者火焰喷射器"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者霰弹枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"chi"	"锈铁机器人毁灭者火箭发射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者转轮机枪"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者刀子"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者医疗枪"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者粘性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者火焰喷射器"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者霰弹枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"chi"	"喋血机器人毁灭者火箭发射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者转轮机枪"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者刀子"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者医疗枪"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者粘性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者火焰喷射器"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者霰弹枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"chi"	"碳钢机器人毁灭者火箭发射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者狙击步枪"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者转轮机枪"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者刀子"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者医疗枪"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者粘性炸弹发射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者火焰喷射器"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者霰弹枪"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"chi"	"钻石机器人毁灭者火箭发射器"
 	}
 }

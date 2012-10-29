@@ -156,6 +156,98 @@
 	{
 		"zho"	"還魂鋸"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"zho"	"球棒"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"zho"	"瓶子"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"zho"	"消防斧"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"zho"	"喀爾克大彎刀"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"zho"	"刀子"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"zho"	"拳頭"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"zho"	"鐵鍬"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"zho"	"扳手"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"zho"	"鋸子"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"zho"	"散彈槍"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"zho"	"雙管霰彈槍"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"zho"	"狙擊槍"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"zho"	"格林機槍"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"zho"	"衝鋒槍"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"zho"	"注射槍"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"zho"	"火箭發射器"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"zho"	"榴彈發射器"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"zho"	"黏性炸彈發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"zho"	"火焰噴射器"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"zho"	"手槍"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"zho"	"左輪手槍"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"zho"	"醫療槍"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"zho"	"隱形手錶"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"zho"	"強力千斤頂"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"zho"	"連馬都沒有的無頭騎士斬首斧"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"zho"	"魯格變形式"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,313 @@
 	"TF_BLACKROSE"
 	{
 		"zho"	"黑玫瑰"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"zho"	"街友火箭炮"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"zho"	"電子破壞器"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"zho"	"建造工具"
+	}
+	"TF_LOLLICHOP"
+	{
+		"zho"	"棒棒斧"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"zho"	"灼熱信號槍"
+	}
+	"TF_RAINBLOWER"
+	{
+		"zho"	"彩虹放射器"
+	}
+	"TF_PRO_SMG"
+	{
+		"zho"	"湮滅者卡賓槍"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"zho"	"全面狙殺令"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"zho"	"型男霰彈槍"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"zho"	"俊男掌心雷"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"zho"	"速度均衡十字鎬"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者狙擊槍"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者格林機槍"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者刀子"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者醫療槍"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者黏性炸彈發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者火焰噴射器"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者雙管霰彈槍"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"zho"	"白銀破械者火箭發射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者狙擊槍"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者格林機槍"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者刀子"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者醫療槍"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者黏性炸彈發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者火焰噴射器"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者雙管霰彈槍"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"zho"	"黃金破械者火箭發射器"
+	}
+	"TF_SD_SAPPER"
+	{
+		"zho"	"倒轉錄音機"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"zho"	"龍火重機槍"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"zho"	"斷頭血刃"
+	}
+	"TF_SD_SIGN"
+	{
+		"zho"	"震電之寶"
+	}
+	"TF_SD_SAPPER"
+	{
+		"zho"	"倒轉錄音機"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"zho"	"龍火重機槍"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"zho"	"斷頭血刃"
+	}
+	"TF_SD_SIGN"
+	{
+		"zho"	"震電之寶"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"zho"	"反射式格林機槍"
+	}
+	"TF_CSGO_AWP"
+	{
+		"zho"	"AWP"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"zho"	"機械三明治"
+	}
+	"TF_TW_STAFF"
+	{
+		"zho"	"自由權杖"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者狙擊槍"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者格林機槍"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者刀子"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者醫療槍"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者黏性炸彈發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者火焰噴射器"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者雙管霰彈槍"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"zho"	"鏽蝕破械者火箭發射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者狙擊槍"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者格林機槍"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者刀子"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者醫療槍"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者黏性炸彈發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者火焰噴射器"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者雙管霰彈槍"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"zho"	"染血破械者火箭發射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者狙擊槍"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者格林機槍"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者刀子"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者醫療槍"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者黏性炸彈發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者火焰噴射器"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者雙管霰彈槍"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"zho"	"黑鑽破械者火箭發射器"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者狙擊槍"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者格林機槍"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者刀子"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者扳手"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者醫療槍"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者黏性炸彈發射器"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者火焰噴射器"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者雙管霰彈槍"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"zho"	"閃鑽破械者火箭發射器"
 	}
 }

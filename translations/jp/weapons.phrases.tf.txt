@@ -16,6 +16,98 @@
 	{
 		"jp"	"Vita-Saw"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"jp"	"バット"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"jp"	"ボトル"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"jp"	"消防斧"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"jp"	"ククリ刀"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"jp"	"ナイフ"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"jp"	"拳"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"jp"	"シャベル"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"jp"	"スパナ"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"jp"	"骨用電ノコ"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"jp"	"ショットガン"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"jp"	"散弾銃"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"jp"	"スナイパーライフル"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"jp"	"ミニガン"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"jp"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"jp"	"注射銃"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"jp"	"ロケットランチャー"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"jp"	"グレネードランチャー"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"jp"	"粘着爆弾ランチャー"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"jp"	"火炎放射器"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"jp"	"ピストル"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"jp"	"リボルバー"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"jp"	"メディガン"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"jp"	"透明ウォッチ"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"jp"	"Powerjack"

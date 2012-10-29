@@ -156,6 +156,98 @@
 	{
 		"nl"	"De Vita-Zaag"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"nl"	"Knuppel"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"nl"	"Fles"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"nl"	"Vuurbijl"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"nl"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"nl"	"Mes"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"nl"	"Vuisten"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"nl"	"Schep"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"nl"	"Moersleutel"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"nl"	"Bottenzaag"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"nl"	"Shotgun"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"nl"	"Scattergun"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"nl"	"Snipergeweer"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"nl"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"nl"	"Machinepistool"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"nl"	"Injectiepistool"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"nl"	"Raketwerper"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"nl"	"Granaatwerper"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"nl"	"Kleefbommenwerper"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"nl"	"Vlammenwerper"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"nl"	"Pistool"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"nl"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"nl"	"Medigun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"nl"	"Onzichtbaarheidshorloge"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"nl"	"De Krachtkrik"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"nl"	"De Paardloze Hoofdloze Paardmanns Hoofdnemer"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"nl"	"De Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -551,5 +647,85 @@
 	"TF_BLACKROSE"
 	{
 		"nl"	"De Zwarte Roos"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"nl"	"Bedelaars Bazooka"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"nl"	"Sapper"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"nl"	"Constructie-PDA"
+	}
+	"TF_LOLLICHOP"
+	{
+		"nl"	"De Lolly"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"nl"	"Het Schroeiende Schot"
+	}
+	"TF_RAINBLOWER"
+	{
+		"nl"	"De Regenblazer"
+	}
+	"TF_PRO_SMG"
+	{
+		"nl"	"Het Schoonmakersschiettuig"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"nl"	"De Ingehuurde Verhitter"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"nl"	"Kinderbakkesknaller"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"nl"	"Mooiboy's Zakpistool"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"nl"	"Het Ontsnappingsplan"
+	}
+	"TF_SD_SAPPER"
+	{
+		"nl"	"De Bureaucratische Bandrecorder"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"nl"	"Het Huo-Long Hangijzer"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"nl"	"De Vliegende Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"nl"	"De Neonuitschakelaar"
+	}
+	"TF_SD_SAPPER"
+	{
+		"nl"	"De Bureaucratische Bandrecorder"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"nl"	"Het Huo-Long Hangijzer"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"nl"	"De Vliegende Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"nl"	"De Neonuitschakelaar"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"nl"	"De Afweerder"
 	}
 }

@@ -10,7 +10,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"it"	"L'Ubersega"
+		"it"	"L'Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
@@ -142,7 +142,7 @@
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
-		"it"	"La Chiave d'Oro"
+		"it"	"La Chiave inglese Dorata"
 	}
 	"TF_UNIQUE_TRIBALMANKUKRI"
 	{
@@ -155,6 +155,98 @@
 	"TF_UNIQUE_BATTLESAW"
 	{
 		"it"	"Il Vita-Saw"
+	}
+	"TF_WEAPON_BAT"
+	{
+		"it"	"Mazza"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"it"	"Bottiglia"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"it"	"Accetta"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"it"	"Machete"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"it"	"Coltello"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"it"	"Pugni"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"it"	"Pala"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"it"	"Chiave inglese"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"it"	"Segaossa"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"it"	"Fucile"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"it"	"Fucile a corto raggio"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"it"	"Fucile da cecchino"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"it"	"Mitragliatrice pesante"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"it"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"it"	"Pistola spara-siringhe"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"it"	"Lanciarazzi"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"it"	"Lanciagranate"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"it"	"Mortaio a bombe adesive"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"it"	"Lanciafiamme"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"it"	"Pistola"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"it"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"it"	"Pistola medica"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"it"	"Orologio dell'invisibilità"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -210,7 +302,7 @@
 	}
 	"TF_UNIQUE_GLOVES_OF_RUNNING_URGENTLY"
 	{
-		"it"	"Guanti della Radicale Urgenza"
+		"it"	"I Guanti della Radicale Urgenza"
 	}
 	"TF_UNIQUE_FRYINGPAN"
 	{
@@ -222,7 +314,11 @@
 	}
 	"TF_HALLOWEENBOSS_AXE"
 	{
-		"it"	"Decapitatore del Cavaliere Senza Testa e Senza Cavallo"
+		"it"	"Decapitatrice del Cavaliere Senza Testa e Senza Cavallo"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"it"	"La Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -246,7 +342,7 @@
 	}
 	"TF_LOCHNLOAD"
 	{
-		"it"	"Il Lancia Granate del Loch"
+		"it"	"Il Lanciagranate del Loch"
 	}
 	"TF_WARRIORSSPIRIT"
 	{
@@ -462,7 +558,27 @@
 	}
 	"TF_APOCOFISTS"
 	{
-		"it"	"Gli Apocazzotti."
+		"it"	"Gli Apocazzotti"
+	}
+	"TF_POMSON"
+	{
+		"it"	"Il Pomson 6000"
+	}
+	"TF_WRENCHMOTRON"
+	{
+		"it"	"L'Effetto Eureka"
+	}
+	"TF_THIRDDEGREE"
+	{
+		"it"	"Il Terzo Grado"
+	}
+	"TF_PHLOGISTINATOR"
+	{
+		"it"	"Il Flogistinatore"
+	}
+	"TF_MANMELTER"
+	{
+		"it"	"Lo Sciogliuomini"
 	}
 	"TF_BOOTLEGGER"
 	{
@@ -474,10 +590,154 @@
 	}
 	"TF_SHARPDRESSER"
 	{
-		"it"	"L'abito Distinto"
+		"it"	"L'Abito Distinto"
+	}
+	"TF_COZYCAMPER"
+	{
+		"it"	"Il Kit da Campeggio"
 	}
 	"TF_BALLBUSTER"
 	{
 		"it"	"L'Incarto Assassino"
+	}
+	"TF_SPYCICLE"
+	{
+		"it"	"Lo Spia-cciolo"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"it"	"Mitragliatrice pesante Festiva"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"it"	"Il Pugno Festivo"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"it"	"Lanciarazzi Festivo"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"it"	"Lanciafiamme Festivo"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"it"	"Mazza Festiva"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"it"	"Mortaio a bombe adesive Festivo"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"it"	"Chiave inglese Festiva"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"it"	"Pistola medica Festiva"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"it"	"Fucile da cecchino Festivo"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"it"	"Coltello Festivo"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"it"	"Fucile a corto raggio Festivo"
+	}
+	"TF_BLACKROSE"
+	{
+		"it"	"La Rosa Nera"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"it"	"Bazooka dei Poveri"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"it"	"Sabotatore"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"it"	"PDA da Costruzione"
+	}
+	"TF_LOLLICHOP"
+	{
+		"it"	"Il Leccaffetta"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"it"	"Il Colpo Bruciante"
+	}
+	"TF_RAINBLOWER"
+	{
+		"it"	"Il Lanciarcobaleni"
+	}
+	"TF_PRO_SMG"
+	{
+		"it"	"La Carabina dello Spazzino"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"it"	"Lo Scaldateste del Sicario"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"it"	"Fucile di Baby Face"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"it"	"Pistola Tascabile di Pretty Boy"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"it"	"Il Piano di Fuga"
+	}
+	"TF_SD_SAPPER"
+	{
+		"it"	"Il Mangianastri Burocratico"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"it"	"Lo Scaldatore dell'Huo Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"it"	"La Ghigliottina Volante"
+	}
+	"TF_SD_SIGN"
+	{
+		"it"	"Il Neon Annientatore"
+	}
+	"TF_SD_SAPPER"
+	{
+		"it"	"Il Mangianastri Burocratico"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"it"	"Lo Scaldatore dell'Huo Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"it"	"La Ghigliottina Volante"
+	}
+	"TF_SD_SIGN"
+	{
+		"it"	"Il Neon Annientatore"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"it"	"Il Deflettore"
+	}
+	"TF_CSGO_AWP"
+	{
+		"it"	"La Mano dell'AWParo"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"it"	"Il Robo-Sandvich"
 	}
 }

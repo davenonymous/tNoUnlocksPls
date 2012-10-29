@@ -156,6 +156,98 @@
 	{
 		"de"	"Die Vitalsäge"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"de"	"Schläger"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"de"	"Flasche"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"de"	"Feueraxt"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"de"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"de"	"Messer"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"de"	"Fäuste"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"de"	"Schaufel"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"de"	"Schraubenschlüssel"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"de"	"Knochensäge"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"de"	"Schrotflinte"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"de"	"Scattergun"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"de"	"Scharfschützengewehr"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"de"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"de"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"de"	"Spritzen-MG"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"de"	"Raketenwerfer"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"de"	"Granatwerfer"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"de"	"Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"de"	"Flammenwerfer"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"de"	"Pistole"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"de"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"de"	"Medigun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"de"	"Unsichtbarkeitsuhr"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"de"	"Der Wagenheber"
@@ -174,7 +266,7 @@
 	}
 	"TF_MADMILK"
 	{
-		"de"	"Mad Milk"
+		"de"	"Saure Milch"
 	}
 	"TF_LETRANGER"
 	{
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"de"	"Kopfabreißer des Pferdlosen Kopflosen Reiters"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"de"	"Die Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -354,7 +450,7 @@
 	}
 	"TF_MARKETGARDENER"
 	{
-		"de"	"Der Market Gardener"
+		"de"	"Der Luftangriff"
 	}
 	"TF_SAXXY"
 	{
@@ -555,5 +651,313 @@
 	"TF_BLACKROSE"
 	{
 		"de"	"Die schwarze Rose"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"de"	"Des Bettlers Bazooka"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"de"	"Sapper"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"de"	"Konstruktions-PDA"
+	}
+	"TF_LOLLICHOP"
+	{
+		"de"	"Der Lolliklopp"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"de"	"Der Schmorschuss"
+	}
+	"TF_RAINBLOWER"
+	{
+		"de"	"Der Regenbogenwerfer"
+	}
+	"TF_PRO_SMG"
+	{
+		"de"	"Des Cleaners Karabiner"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"de"	"Des Profis Präzisionsgewehr"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"de"	"Babyfaces Ballermann"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"de"	"Pretty Boys Taschenpistole"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"de"	"Der Fluchtplan"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silbernes Botkiller-Scharfschützengewehr"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silberne Botkiller-Minigun"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silbernes Botkiller-Messer"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silberner Botkiller-Schraubenschlüssel"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silberne Botkiller-Medigun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silberner Botkiller-Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silberner Botkiller-Flammenwerfer"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silberne Botkiller-Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"de"	"Silberner Botkiller-Raketenwerfer"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldenes Botkiller-Scharfschützengewehr"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldene Botkiller-Minigun"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldenes Botkiller-Messer"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldener Botkiller-Schraubenschlüssel"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldene Botkiller-Medigun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldener Botkiller-Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldener Botkiller-Flammenwerfer"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldene Botkiller-Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"de"	"Goldener Botkiller-Raketenwerfer"
+	}
+	"TF_SD_SAPPER"
+	{
+		"de"	"Das Bürokraten-Bandgerät"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"de"	"Der Feuerdrache"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"de"	"Die Fliegende Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"de"	"Der Neon-Vernichter"
+	}
+	"TF_SD_SAPPER"
+	{
+		"de"	"Das Bürokraten-Bandgerät"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"de"	"Der Feuerdrache"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"de"	"Die Fliegende Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"de"	"Der Neon-Vernichter"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"de"	"Der Deflektor"
+	}
+	"TF_CSGO_AWP"
+	{
+		"de"	"Der AWP-Schütze"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"de"	"Das Robo-Sandvich"
+	}
+	"TF_TW_STAFF"
+	{
+		"de"	"Der Freiheitsstab"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostiges Botkiller-Scharfschützengewehr"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostige Botkiller-Minigun"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostiges Botkiller-Messer"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostiger Botkiller-Schraubenschlüssel"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostige Botkiller-Medigun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostiger Botkiller-Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostiger Botkiller-Flammenwerfer"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostige Botkiller-Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"de"	"Rostiger Botkiller-Raketenwerfer"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutiges Botkiller-Scharfschützengewehr"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutige Botkiller-Minigun"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutiges Botkiller-Messer"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutiger Botkiller-Schraubenschlüssel"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutige Botkiller-Medigun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutiger Botkiller-Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutiger Botkiller-Flammenwerfer"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutige Botkiller-Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"de"	"Blutiger Botkiller-Raketenwerfer"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Scharfschützengewehr"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Minigun"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Messer"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Schraubenschlüssel"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Medigun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Flammenwerfer"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"de"	"Carbonado-Botkiller-Raketenwerfer"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Scharfschützengewehr"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Minigun"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Messer"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Schraubenschlüssel"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Medigun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Haftbombenwerfer"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Flammenwerfer"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"de"	"Diamant-Botkiller-Raketenwerfer"
 	}
 }

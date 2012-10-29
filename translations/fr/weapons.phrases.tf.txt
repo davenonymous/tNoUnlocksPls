@@ -122,7 +122,7 @@
 	}
 	"TF_UNIQUE_COMBAT_WRENCH"
 	{
-		"fr"	"L'Hospitalité du Sud"
+		"fr"	"L'Hospitalité Sudiste"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
@@ -155,6 +155,98 @@
 	"TF_UNIQUE_BATTLESAW"
 	{
 		"fr"	"La Vita-Scie"
+	}
+	"TF_WEAPON_BAT"
+	{
+		"fr"	"Batte"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"fr"	"Bouteille"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"fr"	"Hache"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"fr"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"fr"	"Couteau"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"fr"	"Poings"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"fr"	"Pelle"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"fr"	"Clé"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"fr"	"Scie à amputation"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"fr"	"Fusil à pompe"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"fr"	"Fusil à dispersion"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"fr"	"Fusil de sniper"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"fr"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"fr"	"Mitraillette"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"fr"	"Pistolet à seringues"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"fr"	"Lance-roquettes"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"fr"	"Lance-grenades"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"fr"	"Lanceur de bombes collantes"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"fr"	"Lance-flammes"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"fr"	"Pistolet"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"fr"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"fr"	"Medigun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"fr"	"Montre d'invisibilité"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"fr"	"Le Décapiteur du Cavalier sans Tête et sans Cheval"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"fr"	"Le Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,313 @@
 	"TF_BLACKROSE"
 	{
 		"fr"	"La Rose Noire"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"fr"	"Bazooka du mendiant"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"fr"	"Saboteur"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"fr"	"PDA de Construction"
+	}
+	"TF_LOLLICHOP"
+	{
+		"fr"	"La Sussache"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"fr"	"La Torche rousse"
+	}
+	"TF_RAINBLOWER"
+	{
+		"fr"	"Le Chasse-nuages"
+	}
+	"TF_PRO_SMG"
+	{
+		"fr"	"La Carabine du Nettoyeur"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"fr"	"Le Brûleur à Gages"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"fr"	"L'Exploseur de Tête d'Ange"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"fr"	"Le Pistolet de Poche du Beau Gosse"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"fr"	"Le Plan d’Évasion"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Fusil de sniper d'argent tueur de robots"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Minigun d'argent tueur de robots"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Couteau d'argent tueur de robots"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Clé d'argent tueuse de robots"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Medigun d'argent tueur de robots"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Lanceur de bombes collantes d'argent tueur de robots"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Lance-flammes d'argent tueur de robots"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Fusil à dispersion d'argent tueur de robots"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"fr"	"Lance-roquettes d'argent tueur de robots"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Fusil de sniper d'or tueur de robots"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Minigun d'or tueur de robots"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Couteau d'or tueur de robots"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Clé d'or tueuse de robots"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Medigun d'or tueur de robots"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Lanceur de bombes collantes d'or tueur de robots"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Lance-flammes d'or tueur de robots"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Fusil à dispersion d'or tueur de robots"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"fr"	"Lance-roquettes d'or tueur de robots"
+	}
+	"TF_SD_SAPPER"
+	{
+		"fr"	"L'enregistreur de formalités"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"fr"	"Le Radiateur de Huo Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"fr"	"La guillotine volante"
+	}
+	"TF_SD_SIGN"
+	{
+		"fr"	"Le Néonhilateur"
+	}
+	"TF_SD_SAPPER"
+	{
+		"fr"	"L'enregistreur de formalités"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"fr"	"Le Radiateur de Huo Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"fr"	"La guillotine volante"
+	}
+	"TF_SD_SIGN"
+	{
+		"fr"	"Le Néonhilateur"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"fr"	"Le Déflecteur"
+	}
+	"TF_CSGO_AWP"
+	{
+		"fr"	"L'AWPantage"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"fr"	"Le Sandvich Robot"
+	}
+	"TF_TW_STAFF"
+	{
+		"fr"	"Le bâton de la liberté"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Fusil de sniper rouillé tueur de robots"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Minigun rouillé tueur de robots"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Couteau rouillé tueur de robots"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Clé rouillée tueuse de robots"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Medigun rouillé tueur de robots"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Lanceur de bombes collantes rouillé tueur de robots"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Lance-flammes rouillé tueur de robots"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Fusil à dispersion rouillé tueur de robots"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"fr"	"Lance-roquettes rouillé tueur de robots"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Fusil de sniper sanglant tueur de robots"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Minigun sanglant tueur de robots"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Couteau sanglant tueur de robots"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Clé sanglante tueuse de robots"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Medigun sanglant tueur de robots"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Lanceur de bombes collantes sanglant tueur de robots"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Lance-flammes sanglant tueur de robots"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Fusil à dispersion sanglant tueur de robots"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"fr"	"Lance-roquettes sanglant tueur de robots"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"fr"	"Fusil de sniper de carbone tueur de robots"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"fr"	"Minigun de carbone tueur de robots"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"fr"	"Couteau de carbone tueur de robots"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"fr"	"Clé de carbone tueuse de robots"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"fr"	"Medigun de carbone tueur de robots"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"fr"	"Lanceur de bombes collantes de carbone tueur de robots"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"fr"	"Lance-flammes de carbone tueur de robots"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"fr"	"Fusil à dispersion de carbone tueur de robots"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"fr"	"Lance-roquettes de carbone tueur de robots"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Fusil de sniper de diamant tueur de robots"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Minigun de diamant tueur de robots"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Couteau de diamant tueur de robots"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Clé de diamant tueuse de robots"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Medigun de diamant tueur de robots"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Lanceur de bombes collantes de diamant tueur de robots"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Lance-flammes de diamant tueur de robots"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Fusil à dispersion de diamant tueur de robots"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"fr"	"Lance-roquettes de diamant tueur de robots"
 	}
 }

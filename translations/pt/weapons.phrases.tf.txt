@@ -10,7 +10,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"pt"	"A Super Serra"
+		"pt"	"A Über Serra"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
@@ -156,6 +156,98 @@
 	{
 		"pt"	"A Vita-Serra"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"pt"	"Taco"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"pt"	"Garrafa"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"pt"	"Machado de Bombeiro"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"pt"	"Faca Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"pt"	"Faca"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"pt"	"Punhos"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"pt"	"Pá"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"pt"	"Chave Inglesa"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"pt"	"Serra de ossos"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"pt"	"Caçadeira"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"pt"	"Caçadeira Compacta"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"pt"	"Espingarda Sniper"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"pt"	"Metralhadora"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"pt"	"Pistola-Metralhadora"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"pt"	"Pistola de Seringas"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"pt"	"Lança-Rockets"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"pt"	"Lança-Granadas"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"pt"	"Lança-Bombas Adesivas"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"pt"	"Lança-chamas"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"pt"	"Pistola"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"pt"	"Revólver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"pt"	"Arma Médica"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"pt"	"Relógio de camuflagem"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"pt"	"O Powerjack"
@@ -224,6 +316,10 @@
 	{
 		"pt"	"O Corta-Cabeças do Cavaleiro sem Cavalo nem Cabeça"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"pt"	"A Lugermorph"
+	}
 	"TF_TTG_WATCH"
 	{
 		"pt"	"O Relógio do Entusiasta"
@@ -278,7 +374,7 @@
 	}
 	"TF_JAG"
 	{
-		"pt"	"Chave Pontiaguda"
+		"pt"	"Chave Dentada"
 	}
 	"TF_FISTSOFSTEEL"
 	{
@@ -354,7 +450,7 @@
 	}
 	"TF_MARKETGARDENER"
 	{
-		"pt"	"O Jardineiro do Mercado"
+		"pt"	"A Pá-raquedista"
 	}
 	"TF_SAXXY"
 	{
@@ -555,5 +651,105 @@
 	"TF_BLACKROSE"
 	{
 		"pt"	"A Rosa Negra"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"pt"	"Bazuca do Vagabundo"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"pt"	"Sapador"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"pt"	"PDA de Construção"
+	}
+	"TF_LOLLICHOP"
+	{
+		"pt"	"O Chupa-Corta"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"pt"	"O Queima-Roupa"
+	}
+	"TF_RAINBLOWER"
+	{
+		"pt"	"O Lança-Arco-Íris"
+	}
+	"TF_PRO_SMG"
+	{
+		"pt"	""
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"pt"	"O Tira-Cabeças do Atirador"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"pt"	"Blaster do Baby Face"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"pt"	"Pistola Portátil do Pretty Boy"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"pt"	"O Plano de Fuga"
+	}
+	"TF_SD_SAPPER"
+	{
+		"pt"	"O Rebobinador Implacável"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"pt"	"O Huo Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"pt"	"A Guilhotina Voadora"
+	}
+	"TF_SD_SIGN"
+	{
+		"pt"	"O Aniquilador de Néon"
+	}
+	"TF_SD_SAPPER"
+	{
+		"pt"	"O Rebobinador Implacável"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"pt"	"O Huo Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"pt"	"A Guilhotina Voadora"
+	}
+	"TF_SD_SIGN"
+	{
+		"pt"	"O Aniquilador de Néon"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"pt"	"O Defletor"
+	}
+	"TF_CSGO_AWP"
+	{
+		"pt"	"AWP"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"pt"	"A Robo-Sandvich"
+	}
+	"TF_TW_STAFF"
+	{
+		"pt"	"O Cetro da Liberdade"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"pt"	"Metralhadora Mata-Bots Enferrujada"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"pt"	"Chave Inglesa Mata-Bots de Diamante"
 	}
 }

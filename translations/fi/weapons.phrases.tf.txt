@@ -156,6 +156,98 @@
 	{
 		"fi"	"Vita-saha"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"fi"	"Maila"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"fi"	"Pullo"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"fi"	"Palokirves"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"fi"	"Kukri-veitsi"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"fi"	"Veitsi"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"fi"	"Nyrkit"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"fi"	"Lapio"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"fi"	"Jakoavain"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"fi"	"Luusaha"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"fi"	"Haulikko"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"fi"	"Haulikko"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"fi"	"Tarkkuuskivääri"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"fi"	"Konekivääri"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"fi"	"Konepistooli"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"fi"	"Ruiskuase"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"fi"	"Raketinheitin"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"fi"	"Kranaatinheitin"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"fi"	"Tahmapomminheitin"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"fi"	"Liekinheitin"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"fi"	"Pistooli"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"fi"	"Revolveri"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"fi"	"Lääkintäase"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"fi"	"Näkymättömyyskello"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"fi"	"Tunkki"
@@ -194,7 +286,7 @@
 	}
 	"TF_SYDNEYSLEEPER"
 	{
-		"fi"	"Sydney Sleeper -nukutuskivääri"
+		"fi"	"Nukutuskivääri"
 	}
 	"TF_DARWINSDANGERSHIELD"
 	{
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"fi"	"Ratsuttoman Päättömän Ratsumiehen Päänviejä"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"fi"	"Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,81 @@
 	"TF_BLACKROSE"
 	{
 		"fi"	"Musta ruusu"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"fi"	"Kerjäläisen kanuuna"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"fi"	"Tyhjentäjä"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"fi"	"Rakennustyökalu"
+	}
+	"TF_LOLLICHOP"
+	{
+		"fi"	"Karamättö"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"fi"	"Korvennuskanuuna"
+	}
+	"TF_RAINBLOWER"
+	{
+		"fi"	"Iloinen onnenpuhallin"
+	}
+	"TF_PRO_SMG"
+	{
+		"fi"	"Sarjatulisiivoaja"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"fi"	"Palkkamurhaajan Kuumotuskivääri"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"fi"	"Pikkupojan paukkurauta"
+	}
+	"TF_SD_SAPPER"
+	{
+		"fi"	"Punaisen nauhan nauhuri"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"fi"	"Kärvennyskivääri"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"fi"	"Lentävä giljotiini"
+	}
+	"TF_SD_SIGN"
+	{
+		"fi"	"Mainosvalomukiloija"
+	}
+	"TF_SD_SAPPER"
+	{
+		"fi"	"Punaisen nauhan nauhuri"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"fi"	"Kärvennyskivääri"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"fi"	"Lentävä giljotiini"
+	}
+	"TF_SD_SIGN"
+	{
+		"fi"	"Mainosvalomukiloija"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"fi"	"Torjuja"
+	}
+	"TF_CSGO_AWP"
+	{
+		"fi"	"Tarkka AWPuri"
 	}
 }

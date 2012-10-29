@@ -156,6 +156,98 @@
 	{
 		"ro"	"The Vita-Saw"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"ro"	"Bat"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"ro"	"Bottle"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"ro"	"Fire Axe"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"ro"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"ro"	"Knife"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"ro"	"Fists"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"ro"	"Shovel"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"ro"	"Wrench"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"ro"	"Bonesaw"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"ro"	"Shotgun"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"ro"	"Scattergun"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"ro"	"Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"ro"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"ro"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"ro"	"Syringe Gun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"ro"	"Rocket Launcher"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"ro"	"Grenade Launcher"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"ro"	"Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"ro"	"Flame Thrower"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"ro"	"Pistol"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"ro"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"ro"	"Medi Gun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"ro"	"Invis Watch"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"ro"	"The Powerjack"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"ro"	"Taietorul de Capete al Călărețul Fără Cap și Cal"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"ro"	"The Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -452,6 +548,10 @@
 	{
 		"ro"	"The Short Circuit"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"ro"	"Luptă fără arme"
+	}
 	"TF_VOODOOPIN"
 	{
 		"ro"	"The Wanga Prick"
@@ -492,9 +592,17 @@
 	{
 		"ro"	"The Sharp Dresser"
 	}
+	"TF_COZYCAMPER"
+	{
+		"ro"	"The Cozy Camper"
+	}
 	"TF_BALLBUSTER"
 	{
 		"ro"	"The Wrap Assassin"
+	}
+	"TF_SPYCICLE"
+	{
+		"ro"	"The Spy-cicle"
 	}
 	"TF_WEAPON_MINIGUN_FESTIVE2011"
 	{
@@ -543,5 +651,93 @@
 	"TF_BLACKROSE"
 	{
 		"ro"	"The Black Rose"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"ro"	"Beggar's Bazooka"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"ro"	"Sapper"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"ro"	"Construction PDA"
+	}
+	"TF_LOLLICHOP"
+	{
+		"ro"	"The Lollichop"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"ro"	"The Scorch Shot"
+	}
+	"TF_RAINBLOWER"
+	{
+		"ro"	"The Rainblower"
+	}
+	"TF_PRO_SMG"
+	{
+		"ro"	"The Cleaner's Carbine"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"ro"	"The Hitman's Heatmaker"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"ro"	"Baby Face's Blaster"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"ro"	"Pretty Boy's Pocket Pistol"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"ro"	"The Escape Plan"
+	}
+	"TF_SD_SAPPER"
+	{
+		"ro"	"The Red-Tape Recorder"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"ro"	"The Huo-Long Heater"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"ro"	"The Flying Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"ro"	"The Neon Annihilator"
+	}
+	"TF_SD_SAPPER"
+	{
+		"ro"	"The Red-Tape Recorder"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"ro"	"The Huo-Long Heater"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"ro"	"The Flying Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"ro"	"The Neon Annihilator"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"ro"	"The Deflector"
+	}
+	"TF_CSGO_AWP"
+	{
+		"ro"	"The AWPer Hand"
+	}
+	"TF_TW_STAFF"
+	{
+		"ro"	"The Freedom Staff"
 	}
 }

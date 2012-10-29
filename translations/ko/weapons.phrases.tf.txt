@@ -18,7 +18,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"ko"	"조명총"
+		"ko"	"조명탄 발사기"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
@@ -42,7 +42,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"ko"	"포스-어-네이처"
+		"ko"	"자연에 섭리"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -78,7 +78,7 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"ko"	"이퀄라이저"
+		"ko"	"등가교환기"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
@@ -86,11 +86,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"ko"	"스코티시 레지스탕스"
+		"ko"	"스코틀랜드식 저항운동"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"ko"	"돌격 타지"
+		"ko"	"돌격 방패"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
@@ -110,7 +110,7 @@
 	}
 	"TF_UNIQUE_ROBOT_ARM"
 	{
-		"ko"	"건슬링어"
+		"ko"	"총잡이"
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
@@ -138,7 +138,7 @@
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
-		"ko"	"크릿-어-콜라"
+		"ko"	"치명적인 콜라"
 	}
 	"TF_UNIQUE_GOLDEN_WRENCH"
 	{
@@ -150,11 +150,103 @@
 	}
 	"TF_UNIQUE_BATTLEAXE"
 	{
-		"ko"	"스코틀랜드인의 스컬커터"
+		"ko"	"스코틀랜드인의 머리따개"
 	}
 	"TF_UNIQUE_BATTLESAW"
 	{
 		"ko"	"비타쏘우"
+	}
+	"TF_WEAPON_BAT"
+	{
+		"ko"	"야구방망이"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"ko"	"술병"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"ko"	"소방 도끼"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"ko"	"쿠크리"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"ko"	"칼"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"ko"	"주먹"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"ko"	"야전삽"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"ko"	"렌치"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"ko"	"뼈톱"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"ko"	"산탄총"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"ko"	"스캐터건"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"ko"	"저격소총"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"ko"	"미니건"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"ko"	"기관단총"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"ko"	"주사기 총"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"ko"	"로켓 발사기"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"ko"	"유탄 발사기"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"ko"	"점착 폭탄 발사기"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"ko"	"화염 방사기"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"ko"	"권총"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"ko"	"리볼버"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"ko"	"메디 건"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"ko"	"투명 시계"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -182,7 +274,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"ko"	"영원한 상급"
+		"ko"	"영원한 안식"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"ko"	"말도 없고 머리도 없는 기만병의 목따개"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"ko"	"루거모프"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -276,6 +372,10 @@
 	{
 		"ko"	"클레이브 모어"
 	}
+	"TF_JAG"
+	{
+		"ko"	"뾰족 렌치"
+	}
 	"TF_FISTSOFSTEEL"
 	{
 		"ko"	"강철 주먹"
@@ -286,11 +386,11 @@
 	}
 	"TF_UNIQUE_RIFTFIREMACE"
 	{
-		"ko"	"선-온-어-스틱"
+		"ko"	"해를 품은 막대"
 	}
 	"TF_WEAPON_FLAREGUN_DETONATOR"
 	{
-		"ko"	"기폭총"
+		"ko"	"기폭 장치"
 	}
 	"TF_SOLDIERSASHIMONO"
 	{
@@ -330,7 +430,7 @@
 	}
 	"TF_UNIQUE_MEDIGUN_QUICKFIX"
 	{
-		"ko"	"응급처치"
+		"ko"	"응급조치"
 	}
 	"TF_OVERDOSE"
 	{
@@ -340,6 +440,10 @@
 	{
 		"ko"	"엄숙한 맹세"
 	}
+	"TF_LIBERTYLAUNCHER"
+	{
+		"ko"	"자유투사"
+	}
 	"TF_RESERVESHOOTER"
 	{
 		"ko"	"부사수"
@@ -347,6 +451,10 @@
 	"TF_MARKETGARDENER"
 	{
 		"ko"	"마켓가든 모종삽"
+	}
+	"TF_SAXXY"
+	{
+		"ko"	"색시"
 	}
 	"TF_TOMISLAV"
 	{
@@ -444,6 +552,10 @@
 	{
 		"ko"	"비무장 전투"
 	}
+	"TF_VOODOOPIN"
+	{
+		"ko"	"왕가 부족의 바늘"
+	}
 	"TF_APOCOFISTS"
 	{
 		"ko"	"아포코 주먹"
@@ -476,6 +588,14 @@
 	{
 		"ko"	"스코틀랜드식 악수"
 	}
+	"TF_SHARPDRESSER"
+	{
+		"ko"	"날카로운 옷차림"
+	}
+	"TF_COZYCAMPER"
+	{
+		"ko"	"편리한 야영 장비"
+	}
 	"TF_BALLBUSTER"
 	{
 		"ko"	"포장지 암살자"
@@ -484,12 +604,272 @@
 	{
 		"ko"	"스파이 고드름"
 	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"ko"	"축제장식 미니건"
+	}
 	"TF_MASCULINEMITTENS"
 	{
 		"ko"	"휴일빵"
 	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"ko"	"축제장식 로켓 발사기"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"ko"	"축제장식 화염방사기"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"ko"	"축제장식 야구방망이"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"ko"	"축제장식 점착 폭탄 발사기"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"ko"	"축제장식 렌치"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"ko"	"축제장식 메디건"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"ko"	"축제장식 저격소총"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"ko"	"축제장식 칼"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"ko"	"축제장식 스캐터건"
+	}
 	"TF_BLACKROSE"
 	{
 		"ko"	"흑장미"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"ko"	"거지의 바주카"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"ko"	"전자 교란기"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"ko"	"건설 도구"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"ko"	"그슬린 한 방"
+	}
+	"TF_PRO_SMG"
+	{
+		"ko"	"청소부의 단축형 소총"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"ko"	"살인 청부업자의 사건제조기"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"ko"	"동안의 총"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"ko"	"계집얘같은 사내의 소형 권총"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"ko"	"탈출 계획"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 저격소총"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 미니건"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 칼"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 렌치"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 메디건"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 점착 폭탄 발사기"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 화염 방사기"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 스캐터건"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"ko"	"은빛 봇 파괴용 로켓 발사기"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 저격소총"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 미니건"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 칼"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 렌치"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 메디건"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 점착 폭탄 발사기"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 화염 방사기"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 스캐터건"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"ko"	"금빛 봇 파괴용 로켓 발사기"
+	}
+	"TF_SD_SAPPER"
+	{
+		"ko"	"절차주의 녹음기"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"ko"	"화룡표 열기발생기"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"ko"	"혈적자"
+	}
+	"TF_SD_SIGN"
+	{
+		"ko"	"네온 전멸기"
+	}
+	"TF_SD_SAPPER"
+	{
+		"ko"	"절차주의 녹음기"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"ko"	"화룡표 열기발생기"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"ko"	"혈적자"
+	}
+	"TF_SD_SIGN"
+	{
+		"ko"	"네온 전멸기"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"ko"	"로봇 샌드비치"
+	}
+	"TF_TW_STAFF"
+	{
+		"ko"	"자유의 지팡이"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 저격소총"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 미니건"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 칼"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 렌치"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 메디건"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 점착 폭탄 발사기"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 화염 방사기"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 스캐터건"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"ko"	"흑금강석 봇 파괴용 로켓 발사기"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 저격소총"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 미니건"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 칼"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 렌치"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 메디건"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 점착 폭탄 발사기"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 화염 방사기"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 스캐터건"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"ko"	"금강석 봇 파괴용 로켓 발사기"
 	}
 }

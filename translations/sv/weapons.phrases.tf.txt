@@ -156,6 +156,98 @@
 	{
 		"sv"	"Vita-Sågen"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"sv"	"Slagträ"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"sv"	"Flaska"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"sv"	"Brandyxa"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"sv"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"sv"	"Kniv"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"sv"	"Knytnävar"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"sv"	"Skyffel"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"sv"	"Skiftnyckel"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"sv"	"Bensåg"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"sv"	"Hagelgevär"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"sv"	"Hagelbössa"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"sv"	"Krypskyttegevär"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"sv"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"sv"	"Kpist"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"sv"	"Sprutgevär"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"sv"	"Raketgevär"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"sv"	"Granatkastare"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"sv"	"Klisterbombskastare"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"sv"	"Eldkastare"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"sv"	"Pistol"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"sv"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"sv"	"Hälsovapen"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"sv"	"Osynlighetsklocka"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"sv"	"Eldomkraften"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"sv"	"Hästlöse Huvudlöse Horsemanns Halshuggare"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"sv"	"Lugermorphen"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,313 @@
 	"TF_BLACKROSE"
 	{
 		"sv"	"Den svarta rosen"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"sv"	"Den Ruinerades Raketgevär"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"sv"	"Sapper"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"sv"	"Bygg-PDA"
+	}
+	"TF_LOLLICHOP"
+	{
+		"sv"	"Slickepinan"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"sv"	"Svedskottet"
+	}
+	"TF_RAINBLOWER"
+	{
+		"sv"	"Regnblåsaren"
+	}
+	"TF_PRO_SMG"
+	{
+		"sv"	"Undanröjarens Umgänge"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"sv"	"Torpedens Trogna"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"sv"	"Barnansiktets Blästrare"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"sv"	"Snyggingens Pangpistol"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"sv"	"Flyktplanen"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Krypskyttegevär, Silver"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Minigun, Silver"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Kniv, Silver"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Skiftnyckel, Silver"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Hälsovapen, Silver"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Klisterbombskastare, Silver"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Eldkastare, Silver"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Hagelbössa, Silver"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"sv"	"Robotdödande Raketgevär, Silver"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Krypskyttegevär, Guld"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Minigun, Guld"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Kniv, Guld"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Skiftnyckel, Guld"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Hälsovapen, Guld"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Klisterbombskastare, Guld"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Eldkastare, Guld"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Hagelbössa, Guld"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Raketgevär, Guld"
+	}
+	"TF_SD_SAPPER"
+	{
+		"sv"	"Avvecklaren"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"sv"	"Elddraksvärmaren"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"sv"	"Flygande Giljotinen"
+	}
+	"TF_SD_SIGN"
+	{
+		"sv"	"Neonförintaren"
+	}
+	"TF_SD_SAPPER"
+	{
+		"sv"	"Avvecklaren"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"sv"	"Elddraksvärmaren"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"sv"	"Flygande Giljotinen"
+	}
+	"TF_SD_SIGN"
+	{
+		"sv"	"Neonförintaren"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"sv"	"Avledaren"
+	}
+	"TF_CSGO_AWP"
+	{
+		"sv"	"AWPekaren"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"sv"	"Robotsmörgosen"
+	}
+	"TF_TW_STAFF"
+	{
+		"sv"	"Frihetsstaven"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Krypskyttegevär, Rost"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Minigun, Rost"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Kniv, Rost"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Skiftnyckel, Rost"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Hälsovapen, Rost"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Klisterbombskastare, Rost"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Eldkastare, Rost"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Hagelbössa, Rost"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"sv"	"Robotdödande Raketgevär, Rost"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Krypskyttegevär, Blod"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Minigun, Blod"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Kniv, Blod"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Skiftnyckel, Blod"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Hälsovapen, Blod"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Klisterbombskastare, Blod"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Eldkastare, Blod"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Hagelbössa, Blod"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Raketgevär, Blod"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Krypskyttegevär, Svart Diamant"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Minigun, Svart Diamant"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Kniv, Svart Diamant"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Skiftnyckel, Svart Diamant"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Hälsovapen, Svart Diamant"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Klisterbombskastare, Svart Diamant"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Eldkastare, Svart Diamant"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Hagelbössa, Svart Diamant"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"sv"	"Robotdödande Raketgevär, Svart Diamant"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Krypskyttegevär, Diamant"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Minigun, Diamant"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Kniv, Diamant"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Skiftnyckel, Diamant"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Hälsovapen, Diamant"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Klisterbombskastare, Diamant"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Eldkastare, Diamant"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Hagelbössa, Diamant"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"sv"	"Robotdödande Raketgevär, Diamant"
 	}
 }

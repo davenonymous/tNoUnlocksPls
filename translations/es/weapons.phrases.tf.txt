@@ -156,6 +156,98 @@
 	{
 		"es"	"La Vitasierra"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"es"	"Bate"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"es"	"Botella"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"es"	"Hacha de Bombero"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"es"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"es"	"Mariposa"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"es"	"Puños"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"es"	"Pala"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"es"	"Llave Inglesa"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"es"	"Serrucho"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"es"	"Escopeta"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"es"	"Escopeta"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"es"	"Rifle de Francotirador"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"es"	"Ametralladora"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"es"	"Metralleta"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"es"	"Pistola de Jeringas"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"es"	"Lanzacohetes"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"es"	"Lanzagranadas"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"es"	"Lanzabombas Lapa"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"es"	"Lanzallamas"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"es"	"Pistola"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"es"	"Revólver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"es"	"Pistola Médica"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"es"	"Reloj de Invisibilidad"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"es"	"El Batemartillo"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"es"	"El Decapitador del Jinete Decapitado Sin Montura"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"es"	"La Lugermorfa"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,313 @@
 	"TF_BLACKROSE"
 	{
 		"es"	"La Rosa Negra"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"es"	"Bazooka del Mendigo"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"es"	"Zapador"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"es"	"PDA de Construcción"
+	}
+	"TF_LOLLICHOP"
+	{
+		"es"	"La Pyroleta"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"es"	"El Chamuscador"
+	}
+	"TF_RAINBLOWER"
+	{
+		"es"	"El Lanzarcoíris"
+	}
+	"TF_PRO_SMG"
+	{
+		"es"	"La Carabina del Limpiador"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"es"	"El Asesino a Sueldo"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"es"	"Devastadora del Imberbe"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"es"	"Pistola de Bolsillo del Guaperas"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"es"	"El Plan de Huida"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"es"	"Rifle de Francotirador Matabots de Plata"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"es"	"Ametralladora Matabots de Plata"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"es"	"Mariposa Matabots de Plata"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"es"	"Llave Inglesa Matabots de Plata"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"es"	"Pistola Médica Matabots de Plata"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"es"	"Lanzabombas Lapa Matabots de Plata"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"es"	"Lanzallamas Matabots de Plata"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"es"	"Escopeta Matabots de Plata"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"es"	"Lanzacohetes Matabots de Plata"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Rifle de Francotirador Matabots de Oro"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Ametralladora Matabots de Oro"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Mariposa Matabots de Oro"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Llave Inglesa Matabots de Oro"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Pistola Médica Matabots de Oro"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Lanzabombas Lapa Matabots de Oro"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Lanzallamas Matabots de Oro"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Escopeta Matabots de Oro"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"es"	"Lanzacohetes Matabots de Oro"
+	}
+	"TF_SD_SAPPER"
+	{
+		"es"	"La Grabadora Burocrática"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"es"	"La Achicharradora Huo-Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"es"	"La Guillotina Voladora"
+	}
+	"TF_SD_SIGN"
+	{
+		"es"	"El Aniquilador de Neón"
+	}
+	"TF_SD_SAPPER"
+	{
+		"es"	"La Grabadora Burocrática"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"es"	"La Achicharradora Huo-Long"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"es"	"La Guillotina Voladora"
+	}
+	"TF_SD_SIGN"
+	{
+		"es"	"El Aniquilador de Neón"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"es"	"La Deflectora"
+	}
+	"TF_CSGO_AWP"
+	{
+		"es"	"El AWPa Cabezas"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"es"	"El Robo-Focata"
+	}
+	"TF_TW_STAFF"
+	{
+		"es"	"El Bastón de la Libertad"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Rifle de Francotirador Matabots Oxidado"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Ametralladora Matabots Oxidada"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Mariposa Matabots Oxidada"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Llave Inglesa Matabots Oxidada"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Pistola Médica Matabots Oxidada"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Lanzabombas Lapa Matabots Oxidado"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Lanzallamas Matabots Oxidado"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Escopeta Matabots Oxidada"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"es"	"Lanzacohetes Matabots Oxidado"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Rifle de Francotirador Matabots Sangriento"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Ametralladora Matabots Sangrienta"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Mariposa Matabots Sangrienta"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Llave Inglesa Matabots Sangrienta"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Pistola Médica Matabots Sangrienta"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Lanzabombas Lapa Matabots Sangriento"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Lanzallamas Matabots Sangriento"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Escopeta Matabots Sangrienta"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"es"	"Lanzacohetes Matabots Sangriento"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"es"	"Rifle de Francotirador Matabots de Carbonado"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"es"	"Ametralladora Matabots de Carbonado"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"es"	"Mariposa Matabots de Carbonado"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"es"	"Llave Inglesa Matabots de Carbonado"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"es"	"Pistola Médica Matabots de Carbonado"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"es"	"Lanzabombas Lapa Matabots de Carbonado"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"es"	"Lanzallamas Matabots de Carbonado"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"es"	"Escopeta Matabots de Carbonado"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"es"	"Lanzacohetes Matabots de Carbonado"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"es"	"Rifle de Francotirador Matabots de Diamante"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"es"	"Ametralladora Matabots de Diamante"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"es"	"Mariposa Matabots de Diamante"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"es"	"Llave Inglesa Matabots de Diamante"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"es"	"Pistola Médica Matabots de Diamante"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"es"	"Lanzabombas Lapa Matabots de Diamante"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"es"	"Lanzallamas Matabots de Diamante"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"es"	"Escopeta Matabots de Diamante"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"es"	"Lanzacohetes Matabots de Diamante"
 	}
 }

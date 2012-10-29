@@ -156,6 +156,98 @@
 	{
 		"pl"	"Vita-Piła"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"pl"	"Kij"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"pl"	"Butelka"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"pl"	"Topór strażacki"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"pl"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"pl"	"Nóż"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"pl"	"Pięści"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"pl"	"Saperka"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"pl"	"Klucz"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"pl"	"Piła do kości"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"pl"	"Strzelba"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"pl"	"Dubeltówka"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"pl"	"Karabin snajperski"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"pl"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"pl"	"PM"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"pl"	"Karabin strzykawkowy"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"pl"	"Wyrzutnia rakiet"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"pl"	"Granatnik"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"pl"	"Wyrzutnia bomb samoprzylepnych"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"pl"	"Miotacz ognia"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"pl"	"Pistolet"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"pl"	"Rewolwer"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"pl"	"Medigun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"pl"	"Zegarek niewidzialności"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"pl"	"Lewarek"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"pl"	"Ścinacz Głów Bezkonnego Bezgłowego Jeźdźca"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"pl"	"Lugerczak"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,313 @@
 	"TF_BLACKROSE"
 	{
 		"pl"	"Czarna Róża"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"pl"	"Bazooka Biedaka"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"pl"	"Saper"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"pl"	"PDA budowy"
+	}
+	"TF_LOLLICHOP"
+	{
+		"pl"	"Lizasiek"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"pl"	"Paląca Palba"
+	}
+	"TF_RAINBLOWER"
+	{
+		"pl"	"Tęczomiot"
+	}
+	"TF_PRO_SMG"
+	{
+		"pl"	"Spluwa Sprzątacza"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"pl"	"Zabawka Zawodowca"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"pl"	"Browning Baby Face'a"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"pl"	"Poręczny Pistolet Pretty Boya"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"pl"	"Plan Ucieczki"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrny karabin snajperski Robobójcy"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrny minigun Robobójcy"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrny nóż Robobójcy"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrny klucz Robobójcy"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrny medigun Robobójcy"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrna wyrzutnia bomb samoprzylepnych Robobójcy"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrny miotacz ognia Robobójcy"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrna dubeltówka Robobójcy"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"pl"	"Srebrna wyrzutnia rakiet Robobójcy"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złoty karabin snajperski Robobójcy"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złoty minigun Robobójcy"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złoty nóż Robobójcy"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złoty klucz Robobójcy"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złoty medigun Robobójcy"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złota wyrzutnia bomb samoprzylepnych Robobójcy"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złoty miotacz ognia Robobójcy"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złota dubeltówka Robobójcy"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"pl"	"Złota wyrzutnia rakiet Robobójcy"
+	}
+	"TF_SD_SAPPER"
+	{
+		"pl"	"Magnetofon Urzędasa"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"pl"	"Wejście Smoka"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"pl"	"Latająca Gilotyna"
+	}
+	"TF_SD_SIGN"
+	{
+		"pl"	"Neonowy Niszczyciel"
+	}
+	"TF_SD_SAPPER"
+	{
+		"pl"	"Magnetofon Urzędasa"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"pl"	"Wejście Smoka"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"pl"	"Latająca Gilotyna"
+	}
+	"TF_SD_SIGN"
+	{
+		"pl"	"Neonowy Niszczyciel"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"pl"	"Deflektor"
+	}
+	"TF_CSGO_AWP"
+	{
+		"pl"	"Ale Wielka Pukawka"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"pl"	"Robokanapka"
+	}
+	"TF_TW_STAFF"
+	{
+		"pl"	"Kostur Wolności"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiały karabin snajperski Robobójcy"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiały minigun Robobójcy"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiały nóż Robobójcy"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiały klucz Robobójcy"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiały medigun Robobójcy"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiała wyrzutnia bomb samoprzylepnych Robobójcy"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiały miotacz ognia Robobójcy"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiała dubeltówka Robobójcy"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"pl"	"Zardzewiała wyrzutnia rakiet Robobójcy"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiony karabin snajperski Robobójcy"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiony minigun Robobójcy"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiony nóż Robobójcy"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiony klucz Robobójcy"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiony medigun Robobójcy"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiona wyrzutnia bomb samoprzylepnych Robobójcy"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiony miotacz ognia Robobójcy"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiona dubeltówka Robobójcy"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"pl"	"Zakrwawiona wyrzutnia rakiet Robobójcy"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowy karabin snajperski Robobójcy"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowy minigun Robobójcy"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowy nóż Robobójcy"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowy klucz Robobójcy"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowy medigun Robobójcy"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowa wyrzutnia bomb samoprzylepnych Robobójcy"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowy miotacz ognia Robobójcy"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowa dubeltówka Robobójcy"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"pl"	"Karbonadowa wyrzutnia rakiet Robobójcy"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowy karabin snajperski Robobójcy"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowy minigun Robobójcy"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowy nóż Robobójcy"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowy klucz Robobójcy"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowany medigun Robobójcy"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowa wyrzutnia bomb samoprzylepnych Robobójcy"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowy miotacz ognia Robobójcy"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowa dubeltówka Robobójcy"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"pl"	"Diamentowa wyrzutnia rakiet Robobójcy"
 	}
 }

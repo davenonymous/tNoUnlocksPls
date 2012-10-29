@@ -156,6 +156,98 @@
 	{
 		"hu"	"Az Életbe-Vágó"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"hu"	"ütő"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"hu"	"palack"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"hu"	"tűzoltófejsze"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"hu"	"kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"hu"	"kés"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"hu"	"ököl"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"hu"	"ásó"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"hu"	"franciakulcs"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"hu"	"csontfűrész"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"hu"	"sörétes puska"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"hu"	"repeszpuska"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"hu"	"mesterlövész-puska"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"hu"	"gépágyú"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"hu"	"géppisztoly"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"hu"	"oltópisztoly"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"hu"	"rakétavető"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"hu"	"gránátvető"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"hu"	"tapadóbomba-vető"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"hu"	"lángszóró"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"hu"	"pisztoly"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"hu"	"revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"hu"	"gyógypuska"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"hu"	"átlátsz-óra"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"hu"	"Az Életerő-Emelő"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"hu"	"A Lovatlan Fejetlen Lovas Fejvevője"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"hu"	"A Lugerszerűség"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -496,6 +592,10 @@
 	{
 		"hu"	"A Jóvágású"
 	}
+	"TF_COZYCAMPER"
+	{
+		"hu"	"A Kényelmes Kempingező"
+	}
 	"TF_BALLBUSTER"
 	{
 		"hu"	"A Csomagolós Gyilkos"
@@ -551,5 +651,93 @@
 	"TF_BLACKROSE"
 	{
 		"hu"	"A Fekete Rózsa"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"hu"	"A Kacatvető"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"hu"	"Mentesítő"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"hu"	"Építő PDA"
+	}
+	"TF_LOLLICHOP"
+	{
+		"hu"	"A Szelőke"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"hu"	"Az Odapörkölő"
+	}
+	"TF_RAINBLOWER"
+	{
+		"hu"	"A Szivármány"
+	}
+	"TF_PRO_SMG"
+	{
+		"hu"	"A Karbantartó Karabély"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"hu"	"A Bérgyilkos Bemelegítője"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"hu"	"Babaarc Beütője"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"hu"	"Szépfiús Zsebpisztoly"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"hu"	"A Menekülési Terv"
+	}
+	"TF_SD_SAPPER"
+	{
+		"hu"	"A Vörös Propaganda"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"hu"	"A Huo-Long Bemelegítő"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"hu"	"A Repülő Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"hu"	"A Neon Megsemmisítő"
+	}
+	"TF_SD_SAPPER"
+	{
+		"hu"	"A Vörös Propaganda"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"hu"	"A Huo-Long Bemelegítő"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"hu"	"A Repülő Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"hu"	"A Neon Megsemmisítő"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"hu"	"Az Eltérítő"
+	}
+	"TF_CSGO_AWP"
+	{
+		"hu"	"Az AWPró Előny"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"hu"	"A Robo-Szendvics"
 	}
 }

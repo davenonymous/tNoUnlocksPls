@@ -156,6 +156,98 @@
 	{
 		"cz"	"Vita-Saw"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"cz"	"Bat"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"cz"	"Bottle"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"cz"	"Fire Axe"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"cz"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"cz"	"Knife"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"cz"	"Fists"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"cz"	"Shovel"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"cz"	"Wrench"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"cz"	"Bonesaw"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"cz"	"Shotgun"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"cz"	"Scattergun"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"cz"	"Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"cz"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"cz"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"cz"	"Syringe Gun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"cz"	"Rocket Launcher"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"cz"	"Grenade Launcher"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"cz"	"Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"cz"	"Flame Thrower"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"cz"	"Pistol"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"cz"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"cz"	"Medi Gun"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"cz"	"Invis Watch"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"cz"	"Powerjack"
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"cz"	"Horseless Headless Horsemann's Headtaker"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"cz"	"Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -555,5 +651,313 @@
 	"TF_BLACKROSE"
 	{
 		"cz"	"Black Rose"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"cz"	"Beggar's Bazooka"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"cz"	"Sapper"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"cz"	"Construction PDA"
+	}
+	"TF_LOLLICHOP"
+	{
+		"cz"	"Lollichop"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"cz"	"Scorch Shot"
+	}
+	"TF_RAINBLOWER"
+	{
+		"cz"	"Rainblower"
+	}
+	"TF_PRO_SMG"
+	{
+		"cz"	"Cleaner's Carbine"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"cz"	"Hitman's Heatmaker"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"cz"	"Baby Face's Blaster"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"cz"	"Pretty Boy's Pocket Pistol"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"cz"	"Escape Plan"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Minigun"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Knife"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Medi Gun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Flame Thrower"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMLOOT"
+	{
+		"cz"	"Silver Botkiller Rocket Launcher"
+	}
+	"TF_WEAPON_SNIPERRIFLE_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Minigun"
+	}
+	"TF_WEAPON_KNIFE_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Knife"
+	}
+	"TF_WEAPON_WRENCH_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Medi Gun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Flame Thrower"
+	}
+	"TF_WEAPON_SCATTERGUN_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_ADVANCEDMVMRARELOOT"
+	{
+		"cz"	"Gold Botkiller Rocket Launcher"
+	}
+	"TF_SD_SAPPER"
+	{
+		"cz"	"Red-Tape Recorder"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"cz"	"Huo Long Heater"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"cz"	"Flying Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"cz"	"Neon Annihilator"
+	}
+	"TF_SD_SAPPER"
+	{
+		"cz"	"Red-Tape Recorder"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"cz"	"Huo Long Heater"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"cz"	"Flying Guillotine"
+	}
+	"TF_SD_SIGN"
+	{
+		"cz"	"Neon Annihilator"
+	}
+	"TF_MINIGUN_DEFLECTOR"
+	{
+		"cz"	"Deflector"
+	}
+	"TF_CSGO_AWP"
+	{
+		"cz"	"AWPer Hand"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"cz"	"Robo-Sandvich"
+	}
+	"TF_TW_STAFF"
+	{
+		"cz"	"Freedom Staff"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Minigun"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Knife"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Medi Gun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Flame Thrower"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMLOOT"
+	{
+		"cz"	"Rust Botkiller Rocket Launcher"
+	}
+	"TF_WEAPON_SNIPERRIFLE_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Minigun"
+	}
+	"TF_WEAPON_KNIFE_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Knife"
+	}
+	"TF_WEAPON_WRENCH_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Medi Gun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Flame Thrower"
+	}
+	"TF_WEAPON_SCATTERGUN_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_INTERMEDIATEMVMRARELOOT"
+	{
+		"cz"	"Blood Botkiller Rocket Launcher"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Minigun"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Knife"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Medi Gun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Flame Thrower"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMLOOT"
+	{
+		"cz"	"Carbonado Botkiller Rocket Launcher"
+	}
+	"TF_WEAPON_SNIPERRIFLE_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Sniper Rifle"
+	}
+	"TF_WEAPON_MINIGUN_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Minigun"
+	}
+	"TF_WEAPON_KNIFE_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Knife"
+	}
+	"TF_WEAPON_WRENCH_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Wrench"
+	}
+	"TF_WEAPON_MEDIGUN_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Medi Gun"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Stickybomb Launcher"
+	}
+	"TF_WEAPON_FLAMETHROWER_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Flame Thrower"
+	}
+	"TF_WEAPON_SCATTERGUN_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Scattergun"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_EXPERTMVMRARELOOT"
+	{
+		"cz"	"Diamond Botkiller Rocket Launcher"
 	}
 }

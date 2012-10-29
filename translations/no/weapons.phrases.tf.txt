@@ -2,27 +2,27 @@
 {
 	"TF_UNIQUE_ACHIEVEMENT_MEDIGUN1"
 	{
-		"no"	"Kritzkrieg"
+		"no"	"The Kritzkrieg"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SYRINGEGUN1"
 	{
-		"no"	"Blodsuger"
+		"no"	"The Blutsauger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BONESAW1"
 	{
-		"no"	"Ubersag"
+		"no"	"The Ubersaw"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FIREAXE1"
 	{
-		"no"	"Brannøkser"
+		"no"	"The Axtinguisher"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAREGUN"
 	{
-		"no"	"Signalpistol"
+		"no"	"The Flare Gun"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FLAMETHROWER"
 	{
-		"no"	"Ryggbrenner"
+		"no"	"The Backburner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_MINIGUN"
 	{
@@ -30,19 +30,19 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LUNCHBOX"
 	{
-		"no"	"Smørbrød"
+		"no"	"The Sandvich"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FISTS"
 	{
-		"no"	"Krigerske, Grusomme Boksehansker"
+		"no"	"The Killing Gloves of Boxing"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_BAT"
 	{
-		"no"	"Sandmann"
+		"no"	"The Sandman"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SCATTERGUN_DOUBLE"
 	{
-		"no"	"Naturkraften"
+		"no"	"The Force-A-Nature"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ENERGYDRINK"
 	{
@@ -50,11 +50,11 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_COMPOUNDBOW"
 	{
-		"no"	"Jeger"
+		"no"	"The Huntsman"
 	}
 	"TF_UNIQUE_BACKSTAB_SHIELD"
 	{
-		"no"	"Villsvinrygg"
+		"no"	"The Razorback"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_JAR"
 	{
@@ -62,43 +62,43 @@
 	}
 	"TF_UNIQUE_ACHIEVEMENT_FEIGNWATCH"
 	{
-		"no"	"Dobbeltgjenger"
+		"no"	"The Dead Ringer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_CLOAKWATCH"
 	{
-		"no"	"Snikmorder"
+		"no"	"The Cloak and Dagger"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_REVOLVER"
 	{
-		"no"	"Ambassadør"
+		"no"	"The Ambassador"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_ROCKETLAUNCHER"
 	{
-		"no"	"Fulltreffer"
+		"no"	"The Direct Hit"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_PICKAXE"
 	{
-		"no"	"Utjevner"
+		"no"	"The Equalizer"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SOLDIERBUFF"
 	{
-		"no"	"Motivasjonsbanner"
+		"no"	"The Buff Banner"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_STICKYLAUNCHER"
 	{
-		"no"	"Skotsk motstand"
+		"no"	"The Scottish Resistance"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SHIELD"
 	{
-		"no"	"Stormangrepskjold"
+		"no"	"The Chargin' Targe"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_SWORD"
 	{
-		"no"	"Øyelander"
+		"no"	"The Eyelander"
 	}
 	"TF_UNIQUE_BLAST_BOOTS"
 	{
-		"no"	"Kanonbåter"
+		"no"	"The Gunboats"
 	}
 	"TF_UNIQUE_ACHIEVEMENT_LASER_POINTER"
 	{
@@ -106,15 +106,15 @@
 	}
 	"TF_UNIQUE_SLEDGEHAMMER"
 	{
-		"no"	"Husknuser"
+		"no"	"The Homewrecker"
 	}
 	"TF_UNIQUE_MAKESHIFTCLUB"
 	{
-		"no"	"Smertetog"
+		"no"	"The Pain Train"
 	}
 	"TF_UNIQUE_LUNCHBOX_CHOCOLATE"
 	{
-		"no"	"Dalokohs-bar"
+		"no"	"The Dalokohs Bar"
 	}
 	"TF_TTG_MAXGUN"
 	{
@@ -122,7 +122,7 @@
 	}
 	"TF_TTG_SAMREVOLVER"
 	{
-		"no"	"Stordrap"
+		"no"	"The Big Kill"
 	}
 	"TF_UNIQUE_ENERGYDRINK_CRITCOLA"
 	{
@@ -143,6 +143,98 @@
 	"TF_UNIQUE_BATTLESAW"
 	{
 		"no"	"Vita-sag"
+	}
+	"TF_WEAPON_BAT"
+	{
+		"no"	"Balltre"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"no"	"Flaske"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"no"	"Brannøks"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"no"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"no"	"Kniv"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"no"	"Knyttnever"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"no"	"Spade"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"no"	"Skiftenøkkel"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"no"	"Sag"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"no"	"Hagle"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"no"	"Avsagd hagle"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"no"	"Snikskytterrifle"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"no"	"Minigun"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"no"	"SMG"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"no"	"Sprøytepistol"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"no"	"Rakettutskyter"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"no"	"Granatkaster"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"no"	"Klisterbombekaster"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"no"	"Flammekaster"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"no"	"Pistol"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"no"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"no"	"Førstehjelpspistol"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"no"	"Usynlighetsklokke"
 	}
 	"TF_THEPOWERJACK"
 	{
@@ -212,6 +304,10 @@
 	{
 		"no"	"Den hesteløse hodeløse hestemannens hodetaker"
 	}
+	"TF_TTG_MAXGUN"
+	{
+		"no"	"Lugermorph"
+	}
 	"TF_TTG_WATCH"
 	{
 		"no"	"Entusiastens urverk"
@@ -246,7 +342,7 @@
 	}
 	"TF_GATLINGGUN"
 	{
-		"no"	"Messingbeist"
+		"no"	"Messingbeistet"
 	}
 	"TF_CANDYCANE"
 	{
@@ -348,6 +444,10 @@
 	{
 		"no"	"Rettskaffen bison"
 	}
+	"TF_MANTREADS"
+	{
+		"no"	"Mannstøvler"
+	}
 	"TF_MAILBOX"
 	{
 		"no"	"Posthamreren"
@@ -372,6 +472,10 @@
 	{
 		"no"	"Kortslutningen"
 	}
+	"TF_UNARMEDCOMBAT"
+	{
+		"no"	"Uarmert kamp"
+	}
 	"TF_APOCOFISTS"
 	{
 		"no"	"Apoko-never"
@@ -380,6 +484,10 @@
 	{
 		"no"	"Eureka effekten"
 	}
+	"TF_THIRDDEGREE"
+	{
+		"no"	"Tredjegraden"
+	}
 	"TF_MANMELTER"
 	{
 		"no"	"Mannsmelteren"
@@ -387,5 +495,105 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"no"	"Skotsk håndhilsen"
+	}
+	"TF_WEAPON_MINIGUN_FESTIVE2011"
+	{
+		"no"	"Festlig Minigun"
+	}
+	"TF_MASCULINEMITTENS"
+	{
+		"no"	"Vinterlige vintervanter"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER_FESTIVE2011"
+	{
+		"no"	"Festlig Rakettutskyter"
+	}
+	"TF_WEAPON_FLAMETHROWER_FESTIVE2011"
+	{
+		"no"	"Festlig Flammekaster"
+	}
+	"TF_WEAPON_BAT_FESTIVE2011"
+	{
+		"no"	"Festlig Balltre"
+	}
+	"TF_WEAPON_STICKYBOMBLAUNCHER_FESTIVE2011"
+	{
+		"no"	"Festlig Klistrebombeutskyter"
+	}
+	"TF_WEAPON_WRENCH_FESTIVE2011"
+	{
+		"no"	"Festlig Skiftenøkkel"
+	}
+	"TF_WEAPON_MEDIGUN_FESTIVE2011"
+	{
+		"no"	"Festlig Førstehjelpspistol"
+	}
+	"TF_WEAPON_SNIPERRIFLE_FESTIVE2011"
+	{
+		"no"	"Festlig Snikskytterrifle"
+	}
+	"TF_WEAPON_KNIFE_FESTIVE2011"
+	{
+		"no"	"Festlig Kniv"
+	}
+	"TF_WEAPON_SCATTERGUN_FESTIVE2011"
+	{
+		"no"	"Festlig Avsagd hagle"
+	}
+	"TF_DS_DUMPSTERDEVICE"
+	{
+		"no"	"Bomsens Bazooka"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"no"	"Konstruksjons-PDA"
+	}
+	"TF_SCORCHSHOT"
+	{
+		"no"	"Den Svidde Skyteren"
+	}
+	"TF_RAINBLOWER"
+	{
+		"no"	"Regnbueblåseren"
+	}
+	"TF_PRO_SMG"
+	{
+		"no"	"Vaktmesteren"
+	}
+	"TF_PRO_SNIPERRIFLE"
+	{
+		"no"	"Leiemorderens Lykketreffer"
+	}
+	"TF_WEAPON_PEP_SCATTERGUN"
+	{
+		"no"	"Bankraneren"
+	}
+	"TF_WEAPON_PEP_PISTOL"
+	{
+		"no"	"Kjeltringens Colt"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"no"	"Rømningsplanen"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"no"	"Huo-Longs ild-maker"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"no"	"Den flyvende giljotinen"
+	}
+	"TF_SD_MINIGUN"
+	{
+		"no"	"Huo-Longs ild-maker"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"no"	"Den flyvende giljotinen"
+	}
+	"TF_TW_STAFF"
+	{
+		"no"	"The Freedom Staff"
 	}
 }

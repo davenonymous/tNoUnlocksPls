@@ -156,6 +156,98 @@
 	{
 		"da"	"Vita-saven"
 	}
+	"TF_WEAPON_BAT"
+	{
+		"da"	"Bat"
+	}
+	"TF_WEAPON_BOTTLE"
+	{
+		"da"	"Flaske"
+	}
+	"TF_WEAPON_FIREAXE"
+	{
+		"da"	"Brandøkse"
+	}
+	"TF_WEAPON_CLUB"
+	{
+		"da"	"Kukri"
+	}
+	"TF_WEAPON_KNIFE"
+	{
+		"da"	"Kniv"
+	}
+	"TF_WEAPON_FISTS"
+	{
+		"da"	"Næver"
+	}
+	"TF_WEAPON_SHOVEL"
+	{
+		"da"	"Skovl"
+	}
+	"TF_WEAPON_WRENCH"
+	{
+		"da"	"Skruenøgle"
+	}
+	"TF_WEAPON_BONESAW"
+	{
+		"da"	"Knoglesav"
+	}
+	"TF_WEAPON_SHOTGUN"
+	{
+		"da"	"Haglgevær"
+	}
+	"TF_WEAPON_SCATTERGUN"
+	{
+		"da"	"Haglspreder"
+	}
+	"TF_WEAPON_SNIPERRIFLE"
+	{
+		"da"	"Snigskytteriffel"
+	}
+	"TF_WEAPON_MINIGUN"
+	{
+		"da"	"Rullekanon"
+	}
+	"TF_WEAPON_SMG"
+	{
+		"da"	"Maskinpistol"
+	}
+	"TF_WEAPON_SYRINGEGUN"
+	{
+		"da"	"Injektionssprøjtepistol"
+	}
+	"TF_WEAPON_ROCKETLAUNCHER"
+	{
+		"da"	"Raketstyr"
+	}
+	"TF_WEAPON_GRENADELAUNCHER"
+	{
+		"da"	"Granatkaster"
+	}
+	"TF_WEAPON_PIPEBOMBLAUNCHER"
+	{
+		"da"	"Klæbebombekaster"
+	}
+	"TF_WEAPON_FLAMETHROWER"
+	{
+		"da"	"Flammekaster"
+	}
+	"TF_WEAPON_PISTOL"
+	{
+		"da"	"Pistol"
+	}
+	"TF_WEAPON_REVOLVER"
+	{
+		"da"	"Revolver"
+	}
+	"TF_WEAPON_MEDIGUN"
+	{
+		"da"	"Medi-gevær"
+	}
+	"TF_WEAPON_WATCH"
+	{
+		"da"	"Usynlighedsur"
+	}
 	"TF_THEPOWERJACK"
 	{
 		"da"	"Donhammeren"
@@ -182,7 +274,7 @@
 	}
 	"TF_ETERNALREWARD"
 	{
-		"da"	"Din Endelige Belønning"
+		"da"	"Din Evige Belønning"
 	}
 	"TF_THEBATTALIONSBACKUP"
 	{
@@ -223,6 +315,10 @@
 	"TF_HALLOWEENBOSS_AXE"
 	{
 		"da"	"Den Hesteløse Hovedløse Hestemands Hovedtager"
+	}
+	"TF_TTG_MAXGUN"
+	{
+		"da"	"Lugermorph"
 	}
 	"TF_TTG_WATCH"
 	{
@@ -458,7 +554,7 @@
 	}
 	"TF_VOODOOPIN"
 	{
-		"da"	"Voodo-prikket"
+		"da"	"Voodoo-prikket"
 	}
 	"TF_APOCOFISTS"
 	{
@@ -491,6 +587,10 @@
 	"TF_SCOTTISHHANDSHAKE"
 	{
 		"da"	"Det Skotske Håndtryk"
+	}
+	"TF_COZYCAMPER"
+	{
+		"da"	"Den Bekvemte Campist"
 	}
 	"TF_BALLBUSTER"
 	{
@@ -547,5 +647,33 @@
 	"TF_BLACKROSE"
 	{
 		"da"	"Den Sorte Rose"
+	}
+	"TF_WEAPON_SPY_SAPPER"
+	{
+		"da"	"Sapper"
+	}
+	"TF_WEAPON_PDA_ENGINEER_BUILDER"
+	{
+		"da"	"Konstruktions-PDA"
+	}
+	"TF_UNIQUE_PICKAXE_ESCAPEPLAN"
+	{
+		"da"	"Flugtplanen"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"da"	"Den Flyvende Guillotine"
+	}
+	"TF_SD_CLEAVER"
+	{
+		"da"	"Den Flyvende Guillotine"
+	}
+	"TF_CSGO_AWP"
+	{
+		"da"	"AWPer-hånden"
+	}
+	"TF_ROBOT_SANDVICH"
+	{
+		"da"	"Robo-sandvichen"
 	}
 }
