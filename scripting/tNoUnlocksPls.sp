@@ -148,18 +148,35 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 	if(hSlotMap != INVALID_HANDLE)return;
 	if(hWeapons != INVALID_HANDLE)return;
 
-
 	new Handle:hKvItems = CreateKeyValues("");
 	if (!FileToKeyValues(hKvItems, PATH_ITEMS_GAME)) {
 		SetFailState("Could not parse items_game.txt. Something is seriously wrong!");
 		return;
 	}
 
-	hSlotMap = CreateTrie();
-	hWeapons = CreateArray(4);
+	// Load Defaults
+	new Handle:hTrieDefaults = CreateTrie();
+	KvJumpToKey(hKvItems, "items");
+	if(KvJumpToKey(hKvItems, "default")) {
+		// Default key exists
+		new String:sItemSlot[16];
+		KvGetString(hKvItems, "item_slot", sItemSlot, sizeof(sItemSlot));
 
+		new String:sItemClass[16];
+		KvGetString(hKvItems, "item_class", sItemClass, sizeof(sItemClass));
+
+		new String:sItemName[128];
+		KvGetString(hKvItems, "item_name", sItemName, sizeof(sItemName));
+
+		SetTrieString(hTrieDefaults, "item_slot", sItemSlot);
+		SetTrieString(hTrieDefaults, "item_class", sItemClass);
+		SetTrieString(hTrieDefaults, "item_name", sItemName);
+	}
+
+
+	// Load prefabs
+	new Handle:hTriePrefabs = CreateTrie();
 	new Handle:hArrayPrefabs = CreateArray(64);
-	new Handle:hTriePrefab = CreateTrie();
 	KvRewind(hKvItems);
 	if(KvJumpToKey(hKvItems, "prefabs")) {
 		// There is a prefabs section
@@ -169,106 +186,96 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 			decl String:sPFName[64];
 			KvGetSectionName(hKvItems, sPFName, sizeof(sPFName));
 
-			new Handle:hTriePrefabItem = CreateTrie();
+			new Handle:hKvPrefab = CreateKeyValues(sPFName);
+			KvCopySubkeys(hKvItems, hKvPrefab);
 
-			new String:sItemSlot[16];
-			KvGetString(hKvItems, "item_slot", sItemSlot, sizeof(sItemSlot), "");
-			SetTrieString(hTriePrefabItem, "item_slot", sItemSlot);
-
-			new String:sItemClass[16];
-			KvGetString(hKvItems, "item_class", sItemClass, sizeof(sItemClass), "");
-			SetTrieString(hTriePrefabItem, "item_class", sItemClass);
-
-			SetTrieValue(hTriePrefab, sPFName, hTriePrefabItem);
+			SetTrieValue(hTriePrefabs, sPFName, hKvPrefab);
 			PushArrayString(hArrayPrefabs, sPFName);
 		} while (KvGotoNextKey(hKvItems, false));
 	}
 
-	new String:sDefaultSlot[16] = "melee";
-	new String:sDefaultName[128] = "#TF_Default_ItemDef";
-	new String:sDefaultClass[16] = "tf_wearable";
-	KvRewind(hKvItems);
-	KvJumpToKey(hKvItems, "items");
-	if(KvJumpToKey(hKvItems, "default")) {
-		KvGetString(hKvItems, "item_slot", sDefaultSlot, sizeof(sDefaultSlot));
-		KvGetString(hKvItems, "item_name", sDefaultName, sizeof(sDefaultName));
-		KvGetString(hKvItems, "item_class", sDefaultClass, sizeof(sDefaultClass));
-	}
 
+	// Iterate over all weapons and store them
+	hSlotMap = CreateTrie();
+	hWeapons = CreateArray(4);
 
 	KvRewind(hKvItems);
 	KvJumpToKey(hKvItems, "items");
 	KvGotoFirstSubKey(hKvItems, false);
-
 	new String:sIndex[8];
 	do {
 		KvGetSectionName(hKvItems, sIndex, sizeof(sIndex));
 
-		//Skip item with id 'default'
-		if(StrEqual(sIndex, "default"))continue;
+		//Skip default weapons
+		new iIndex = StringToInt(sIndex);
+		if(iIndex  < 31)continue;
+		if(iIndex == 735)continue;
 
-		new iItemDefinitionIndex = StringToInt(sIndex);
-		if(iItemDefinitionIndex < 31)continue;			// Skip default weapons
-		if(iItemDefinitionIndex == 735)continue;			// The sapper is a default weapon as well
+		// Get basic information about the item: Defaults < Prefabs < Values
+		new String:sItemSlot[16];
+		new String:sItemClass[16];
+		new String:sItemName[128];
+		new String:sName[128];
 
-		// Get the english name for the item
-		new String:sEng[128];
-		KvGetString(hKvItems, "name", sEng, sizeof(sEng), "");
+		// Default values first
+		GetTrieString(hTrieDefaults, "item_slot", sItemSlot, sizeof(sItemSlot));
+		GetTrieString(hTrieDefaults, "item_class", sItemClass, sizeof(sItemClass));
+		GetTrieString(hTrieDefaults, "item_name", sItemName, sizeof(sItemName));
 
-		// Skip upgradeable weapons
-		if(strncmp(sEng, "Upgradeable ", 12) == 0)continue;
+		// Then overwrite the original kv structure with values from their prefab(s)
+		new String:sPrefabSlot[64];
+		KvGetString(hKvItems, "prefab", sPrefabSlot, sizeof(sPrefabSlot), "");
+		while(strlen(sPrefabSlot) > 0) {
+			KvSetString(hKvItems, "prefab", "");
+			new String:sPrefabBuffers[8][64];
+			new iPrefabsUsed = ExplodeString(sPrefabSlot, " ", sPrefabBuffers, 8, 64);
 
-		// Get the prefab for the item
-		new String:sPrefab[64];
-		KvGetString(hKvItems, "prefab", sPrefab, sizeof(sPrefab), "");
+			for(new iPrefabIdx = 0; iPrefabIdx < iPrefabsUsed; iPrefabIdx++) {
+				new Handle:hKvPrefab = INVALID_HANDLE;
+				if(GetTrieValue(hTriePrefabs, sPrefabBuffers[iPrefabIdx], hKvPrefab) && hKvPrefab != INVALID_HANDLE) {
+					KvCopySubkeysSafe_Iterate(hKvPrefab, hKvItems, true, true);
+				}
+			}
 
-		new Handle:hTriePrefabItem = INVALID_HANDLE;
-		if(strlen(sPrefab) > 0) {
-			GetTrieValue(hTriePrefab, sPrefab, hTriePrefabItem);
+			KvGetString(hKvItems, "prefab", sPrefabSlot, sizeof(sPrefabSlot), "");
 		}
 
-		// Initialize with the default slot
-		new String:sItemSlot[16];
-		strcopy(sItemSlot, sizeof(sItemSlot), sDefaultSlot);
-
-		// Overwrite if a prefab is set
-		if(hTriePrefabItem != INVALID_HANDLE)GetTrieString(hTriePrefabItem, "item_slot", sItemSlot, sizeof(sItemSlot));
-
-		// Overwrite if set directly
+		// Then read from the original kv structure, these are already overwritten with prefab values
 		KvGetString(hKvItems, "item_slot", sItemSlot, sizeof(sItemSlot), sItemSlot);
-
-		// Get the weapon slot, skip otherwise.
-		new iWeaponSlot = IsWeaponSlot(sItemSlot);
-		if(iWeaponSlot == -1)continue;
-
-		// Get the item_class, use the same procedure as for the item_slot
-		new String:sItemClass[16];
-		strcopy(sItemClass, sizeof(sItemClass), sDefaultClass);
-		if(hTriePrefabItem != INVALID_HANDLE)GetTrieString(hTriePrefabItem, "item_class", sItemClass, sizeof(sItemClass));
 		KvGetString(hKvItems, "item_class", sItemClass, sizeof(sItemClass), sItemClass);
-		if(IsUnrelatedItemClass(sItemClass))continue;
 
-
-		new String:sItemName[128];
-		strcopy(sItemName, sizeof(sItemName), sDefaultName);
+		// Load the translateable name, trim and upper-case it.
 		KvGetString(hKvItems, "item_name", sItemName, sizeof(sItemName), sItemName);
 		strcopy(sItemName, sizeof(sItemName), sItemName[1]);
 		StrToUpper(sItemName, sItemName, sizeof(sItemName));
+
+		// Always use the name from the KeyValues
+		KvGetString(hKvItems, "name", sName, sizeof(sName));
+
+		// Skip upgradeable weapons
+		if(strncmp(sName, "Upgradeable ", 12) == 0)continue;
+
+		// Skip all items that are no weapons
+		if(IsUnrelatedItemClass(sItemClass))
+			continue;
+
+		new iWeaponSlot = IsWeaponSlot(sItemSlot);
+		if(iWeaponSlot == -1)continue;
 
 		new Handle:hItemTrie = CreateTrie();
 		SetTrieValue(hItemTrie, "item_slot", iWeaponSlot);
 		SetTrieString(hItemTrie, "item_class", sItemClass);
 		SetTrieString(hItemTrie, "item_name", sItemName);
-		SetTrieString(hItemTrie, "name", sEng);
+		SetTrieString(hItemTrie, "name", sName);
 		SetTrieValue(hItemTrie, "translatable", FindStringInArray(g_hTranslatable, sItemName) != -1);
 
 		PushArrayCell(hWeapons, StringToInt(sIndex));
 		SetTrieValue(hSlotMap, sIndex, hItemTrie);
 	} while (KvGotoNextKey(hKvItems, false));
 
-
-	CloseTrieHandlesByArray(hTriePrefab, hArrayPrefabs);
+	RecursiveCloseKeyValuesByArray(hArrayPrefabs, hTriePrefabs);
 	CloseHandle(hKvItems);
+	CloseHandle(hTrieDefaults);
 }
 
 public LoadWeaponConfig() {
@@ -288,6 +295,12 @@ public LoadWeaponConfig() {
 
 		new Handle:hTrieItem = INVALID_HANDLE;
 		GetTrieValue(g_hSlotMap, sIDI, hTrieItem);
+
+		if(hTrieItem == INVALID_HANDLE) {
+			LogMessage("Item at index '%s' is not a weapon. Removing from config...", sIDI);
+			continue;
+		}
+
 		SetTrieValue(hTrieItem, "toggled", iState);
 
 		if(iState != 0)iToggledCount++;
@@ -520,6 +533,56 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max) 
 /////////////////
 //H E L P E R S//
 /////////////////
+KvCopySubkeysSafe_Iterate(Handle:hOrigin, Handle:hDest, bool:bReplace=true, bool:bFirst=true) {
+do {
+		new String:sSection[255];
+		KvGetSectionName(hOrigin, sSection, sizeof(sSection));
+
+		new String:sValue[255];
+		KvGetString(hOrigin, "", sValue, sizeof(sValue));
+
+		new bool:bIsSubSection = ((KvNodesInStack(hOrigin) == 0) || (KvGetDataType(hOrigin, "") == KvData_None && KvNodesInStack(hOrigin) > 0));
+
+		if(!bIsSubSection) {
+			new bool:bExists = !(KvGetNum(hDest, sSection, -1337) == -1337);
+			if(!bExists || (bReplace && bExists)) {
+				KvSetString(hDest, sSection, sValue);
+			}
+		} else {
+			if (KvGotoFirstSubKey(hOrigin, false)) {
+				if(bFirst) {
+					KvCopySubkeysSafe_Iterate(hOrigin, hDest, bReplace, false);
+				} else {
+					KvJumpToKey(hDest, sSection, true);
+					KvCopySubkeysSafe_Iterate(hOrigin, hDest, bReplace, false);
+					KvGoBack(hDest);
+				}
+
+				KvGoBack(hOrigin);
+			}
+		}
+
+    } while (KvGotoNextKey(hOrigin, false));
+}
+
+public RecursiveCloseKeyValuesByArray(Handle:hArray, Handle:hTrie) {
+	for(new iPos = 0; iPos < GetArraySize(hArray); iPos++) {
+		new String:sKey[64];
+		GetArrayString(hArray, iPos, sKey, sizeof(sKey));
+
+		RecursiveCloseHandleAtomic(hTrie, sKey);
+	}
+
+	CloseHandle(hArray);
+	CloseHandle(hTrie);
+}
+
+public RecursiveCloseHandleAtomic(Handle:hTrie, const String:sEntry[64]) {
+	new Handle:hResultPart = INVALID_HANDLE;
+	GetTrieValue(hTrie, sEntry, hResultPart);
+	CloseHandle(hResultPart);
+}
+
 public ToggleItem(iItemDefinitionIndex) {
 	new Handle:hTrieItem = GetItemTrie(iItemDefinitionIndex);
 	if(hTrieItem != INVALID_HANDLE) {
