@@ -176,7 +176,7 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 
 	// Load prefabs
 	new Handle:hTriePrefabs = CreateTrie();
-	new Handle:hArrayPrefabs = CreateArray(64);
+	new Handle:hArrayPrefabs = CreateArray(128);
 	KvRewind(hKvItems);
 	if(KvJumpToKey(hKvItems, "prefabs")) {
 		// There is a prefabs section
@@ -737,10 +737,10 @@ public bool:GetDefaultWeaponForClass(TFClassType:xClass, iSlot, String:sOutput[]
 		}
 		case TFClass_Spy: {
 			switch(iSlot) {
-				case 1: { Format(sOutput, maxlen, "tf_weapon_revolver"); return true; }
+				case 0: { Format(sOutput, maxlen, "tf_weapon_revolver"); return true; }
+				case 1: { Format(sOutput, maxlen, "tf_weapon_builder"); return true; }
 				case 2: { Format(sOutput, maxlen, "tf_weapon_knife"); return true; }
-				case 4: { Format(sOutput, maxlen, "tf_weapon_invis"); return true; }
-				case 0: { Format(sOutput, maxlen, "tf_weapon_builder"); return true; }
+				case 4: { Format(sOutput, maxlen, "tf_weapon_invis"); return true; }				
 			}
 		}
 		case TFClass_Engineer: {
@@ -810,10 +810,10 @@ public GetDefaultIDIForClass(TFClassType:xClass, iSlot) {
 		}
 		case TFClass_Spy: {
 			switch(iSlot) {
-				case 1: { return 24; }
+				case 0: { return 24; }
+				case 1: { return 735; }
 				case 2: { return 4; }
-				case 4: { return 30; }
-				case 0: { return 735; }
+				case 4: { return 30; }				
 			}
 		}
 		case TFClass_Engineer: {
