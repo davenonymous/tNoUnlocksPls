@@ -7,7 +7,7 @@
 #define UPDATE_URL    			"http://updates.thrawn.de/tNoUnlocksPls/package.tNoUnlocksPls.cfg"
 #define PATH_ITEMS_GAME			"scripts/items/items_game.txt"
 
-#define VERSION			"0.4.7"
+#define VERSION			"0.4.8"
 
 new bool:g_bAnnounce;
 new bool:g_bEnabled;
@@ -233,7 +233,10 @@ public GetWeaponSlotMap(&Handle:hSlotMap, &Handle:hWeapons) {
 			for(new iPrefabIdx = 0; iPrefabIdx < iPrefabsUsed; iPrefabIdx++) {
 				new Handle:hKvPrefab = INVALID_HANDLE;
 				if(GetTrieValue(hTriePrefabs, sPrefabBuffers[iPrefabIdx], hKvPrefab) && hKvPrefab != INVALID_HANDLE) {
-					KvCopySubkeysSafe_Iterate(hKvPrefab, hKvItems, true, true);
+					// No, don't replace values by default, obviously keep the value
+					// that was mentioned first. But: that function will still replace
+					// entries with key 'prefab'.
+					KvCopySubkeysSafe_Iterate(hKvPrefab, hKvItems, false, true);
 				}
 			}
 
@@ -544,8 +547,11 @@ do {
 		new bool:bIsSubSection = ((KvNodesInStack(hOrigin) == 0) || (KvGetDataType(hOrigin, "") == KvData_None && KvNodesInStack(hOrigin) > 0));
 
 		if(!bIsSubSection) {
-			new bool:bExists = !(KvGetNum(hDest, sSection, -1337) == -1337);
-			if(!bExists || (bReplace && bExists)) {
+			new bool:bExists = !(KvGetDataType(hDest, sSection) == KvData_None);
+
+			// Always overwrite the prefab section, so we actually dive deeper into
+			// the keyvalues tree.
+			if(!bExists || (bExists && bReplace) || StrEqual(sSection, "prefab")) {
 				KvSetString(hDest, sSection, sValue);
 			}
 		} else {
